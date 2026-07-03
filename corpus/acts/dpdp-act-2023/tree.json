@@ -1,0 +1,312 @@
+[
+  {
+    "node_id": "DPDP-2023",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": null,
+    "node_type": "root",
+    "label": "Digital Personal Data Protection Act, 2023",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-I",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023",
+    "node_type": "chapter",
+    "label": "Chapter I — PRELIMINARY",
+    "text_content": "PRELIMINARY",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-I/S-2",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-I",
+    "node_type": "section",
+    "label": "Section 2 — In this Act, unless the context otherwise requires,—",
+    "text_content": "Definitions.\n(a) “Appellate Tribunal” means the Telecom Disputes Settlement and Appellate\nTribunal established under section 14 of the Telecom Regulatory Authority of India\nAct, 1997; 24 of 1997.\n(b) “automated” means any digital process capable of operating automatically\nin response to instructions given or otherwise for the purpose of processing data;\n(c) “Board” means the Data Protection Board of India established by the Central\nGovernment under section 18;\n(d) “certain legitimate uses” means the uses referred to in section 7;\n(e) “Chairperson” means the Chairperson of the Board;\n(f) “child” means an individual who has not completed the age of eighteen\nyears;\n(g) “Consent Manager” means a person registered with the Board, who acts as\na single point of contact to enable a Data Principal to give, manage, review and\nwithdraw her consent through an accessible, transparent and interoperable platform;\n(h) “data” means a representation of information, facts, concepts, opinions or\ninstructi",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-I/S-2/SS-2",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-I/S-2",
+    "node_type": "subsection",
+    "label": "Section 2(2)",
+    "text_content": "of section 10;\n(m) “digital office” means an office that adopts an online mechanism wherein\nthe proceedings, from receipt of intimation or complaint or reference or directions or\nappeal, as the case may be, to the disposal thereof, are conducted in onl",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-I/S-3",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-I",
+    "node_type": "section",
+    "label": "Section 3 — Subject to the provisions of this Act, it shall— Application",
+    "text_content": "of Act.\n(a) apply to the processing of digital personal data within the territory of India\nwhere the personal data is collected––\n(i) in digital form; or\n(ii) in non-digital form and digitised subsequently;\n(b) also apply to processing of digital personal data outside the territory of\nIndia, if such processing is in connection with any activity related to offering of\ngoods or services to Data Principals within the territory of India;\n4 THE GAZETTE OF INDIA EXTRAORDINARY [PART II—\n(c) not apply to—\n(i) personal data processed by an individual for any personal or domestic\npurpose; and\n(ii) personal data that is made or caused to be made publicly available\nby—\n(A) the Data Principal to whom such personal data relates; or\n(B) any other person who is under an obligation under any law for\nthe time being in force in India to make such personal data publicly\navailable.\nIllustration.\nX, an individual, while blogging her views, has publicly made available her personal\ndata on social media. In su",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-II",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023",
+    "node_type": "chapter",
+    "label": "Chapter II — OBLIGATIONS OF DATA FIDUCIARY",
+    "text_content": "OBLIGATIONS OF DATA FIDUCIARY",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-III",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023",
+    "node_type": "chapter",
+    "label": "Chapter III — RIGHTS AND DUTIES OF DATA PRINCIPAL",
+    "text_content": "RIGHTS AND DUTIES OF DATA PRINCIPAL",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-III/S-15",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-III",
+    "node_type": "section",
+    "label": "Section 15 — A Data Principal shall perform the following duties, namely:—",
+    "text_content": "Principal.\n(a) comply with the provisions of all applicable laws for the time being in force\nwhile exercising rights under the provisions of this Act;\n(b) to ensure not to impersonate another person while providing her personal\ndata for a specified purpose;\n(c) to ensure not to suppress any material information while providing her\npersonal data for any document, unique identifier, proof of identity or proof of address\nissued by the State or any of its instrumentalities;\n(d) to ensure not to register a false or frivolous grievance or complaint with a\nData Fiduciary or the Board; and\n(e) to furnish only such information as is verifiably authentic, while exercising\nthe right to correction or erasure under the provisions of this Act or the rules made\nthereunder.\nSEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY 11",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IV",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023",
+    "node_type": "chapter",
+    "label": "Chapter IV — SPECIAL PROVISIONS",
+    "text_content": "SPECIAL PROVISIONS",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-V",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023",
+    "node_type": "chapter",
+    "label": "Chapter V — DATA PROTECTION BOARD OF INDIA",
+    "text_content": "DATA PROTECTION BOARD OF INDIA",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-V/S-26",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-V",
+    "node_type": "section",
+    "label": "Section 26 — The Chairperson shall exercise the following powers, namely:—",
+    "text_content": "Chairperson.\n(a) general superintendence and giving direction in respect of all administrative\nmatters of the Board;\n(b) authorise any officer of the Board to scrutinise any intimation, complaint,\nreference or correspondence addressed to the Board; and\n(c) authorise performance of any of the functions of the Board and conduct any\nof its proceedings, by an individual Member or groups of Members and to allocate\nproceedings among them.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-VI",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023",
+    "node_type": "chapter",
+    "label": "Chapter VI — POWERS, FUNCTIONS AND PROCEDURE TO BE FOLLOWED BY BOARD",
+    "text_content": "POWERS, FUNCTIONS AND PROCEDURE TO BE FOLLOWED BY BOARD",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-VII",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023",
+    "node_type": "chapter",
+    "label": "Chapter VII — APPEAL AND ALTERNATE DISPUTE RESOLUTION",
+    "text_content": "APPEAL AND ALTERNATE DISPUTE RESOLUTION",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-VIII",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023",
+    "node_type": "chapter",
+    "label": "Chapter VIII — PENALTIES AND ADJUDICATION",
+    "text_content": "PENALTIES AND ADJUDICATION",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023",
+    "node_type": "chapter",
+    "label": "Chapter IX — MISCELLANEOUS",
+    "text_content": "MISCELLANEOUS",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-39",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX",
+    "node_type": "section",
+    "label": "Section 39 — No civil court shall have the jurisdiction to entertain any suit or proceeding in",
+    "text_content": "jurisdiction. respect of any matter for which the Board is empowered under the provisions of this Act\nand no injunction shall be granted by any court or other authority in respect of any action\ntaken or to be taken in pursuance of any power under the provisions of this Act.\nPower to 40. (1) The Central Government may, by notification, and subject to the condition of\nmake rules. previous publication, make rules not inconsistent with the provisions of this Act, to carry\nout the purposes of this Act.\n(2) In particular and without prejudice to the generality of the foregoing power, such\nrules may provide for all or any of the following matters, namely:—\n(a) the manner in which the notice given by the Data Fiduciary to a Data Principal\nshall inform her, under sub-section (1) of section 5;\n(b) the manner in which the notice given by the Data Fiduciary to a Data Principal\nshall inform her, under sub-section (2) of section 5;\n(c) the manner of accountability and the obligations of Consent Mana",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-39/SS-1",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX/S-39",
+    "node_type": "subsection",
+    "label": "Section 39(1)",
+    "text_content": "The Central Government may, by notification, and subject to the condition of\nmake rules. previous publication, make rules not inconsistent with the provisions of this Act, to carry\nout the purposes of this Act.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-39/SS-2",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX/S-39",
+    "node_type": "subsection",
+    "label": "Section 39(2)",
+    "text_content": "In particular and without prejudice to the generality of the foregoing power, such\nrules may provide for all or any of the following matters, namely:—\n(a) the manner in which the notice given by the Data Fiduciary to a Data Principal\nshall inform her, under sub-section",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-39/SS-8",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX/S-39",
+    "node_type": "subsection",
+    "label": "Section 39(8)",
+    "text_content": "of section 6;\n(d) the manner of registration of Consent Manager and the conditions relating\nthereto, under sub-section",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-39/SS-9",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX/S-39",
+    "node_type": "subsection",
+    "label": "Section 39(9)",
+    "text_content": "of section 6;\n(e) the subsidy, benefit, service, certificate, licence or permit for the provision or\nissuance of which, personal data may be processed under clause (b) of section 7;\n(f) the form and manner of intimation of personal data breach to the Board under\nsub-section",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-39/SS-6",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX/S-39",
+    "node_type": "subsection",
+    "label": "Section 39(6)",
+    "text_content": "of section 8;\n(g) the time period for the specified purpose to be deemed as no longer being\nserved, under sub-section",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-39/SS-4",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX/S-39",
+    "node_type": "subsection",
+    "label": "Section 39(4)",
+    "text_content": "of section 9;\n(k) the other matters comprising the process of Data Protecti",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-1",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX",
+    "node_type": "section",
+    "label": "Section 1 — Breach in observing the obligation of Data Fiduciary to May extend to two",
+    "text_content": "take reasonable security safeguards to prevent personal hundred and fifty\ndata breach under sub-section (5) of section 8. crore rupees.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-1/SS-5",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX/S-1",
+    "node_type": "subsection",
+    "label": "Section 1(5)",
+    "text_content": "of section 8. crore rupees.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-2",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX",
+    "node_type": "section",
+    "label": "Section 2 — Breach in observing the obligation to give the Board or May extend to two",
+    "text_content": "affected Data Principal notice of a personal data breach hundred crore\nunder sub-section (6) of section 8. rupees.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-2/SS-6",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX/S-2",
+    "node_type": "subsection",
+    "label": "Section 2(6)",
+    "text_content": "of section 8. rupees.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-3",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX",
+    "node_type": "section",
+    "label": "Section 3 — Breach in observance of additional obligations in relation May extend to two",
+    "text_content": "to children under section 9. hundred crore\nrupees.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-4",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX",
+    "node_type": "section",
+    "label": "Section 4 — Breach in observance of additional obligations of May extend to one",
+    "text_content": "Significant Data Fiduciary under section 10. hundred and fifty\ncrore rupees.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-5",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX",
+    "node_type": "section",
+    "label": "Section 5 — Breach in observance of the duties under section 15. May extend to ten",
+    "text_content": "thousand rupees.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-6",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX",
+    "node_type": "section",
+    "label": "Section 6 — Breach of any term of voluntary undertaking accepted by Up to the extent",
+    "text_content": "the Board under section 32. applicable for the\nbreach in respect\nof which the\nproceedings under\nsection 28 were\ninstituted.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  },
+  {
+    "node_id": "DPDP-2023/CH-IX/S-7",
+    "snapshot_id": "DPDP-2023_v2023_2026-06-12",
+    "parent_id": "DPDP-2023/CH-IX",
+    "node_type": "section",
+    "label": "Section 7 — Breach of any other provision of this Act or the rules May extend to fifty",
+    "text_content": "made thereunder. crore rupees.\n————\nDR. REETA VASISHTA,\nSecretary to the Govt. of India.\nUPLOADED BY THE MANAGER, GOVERNMENT OF INDIA PRESS, MINTO ROAD, NEW DELHI–110002\nAND PUBLISHED BY THE CONTROLLER OF PUBLICATIONS, DELHI–110054.\nMGIPMRND—288GI—11-08-2023.",
+    "status": "active",
+    "effective_from": "2023-08-11"
+  }
+]

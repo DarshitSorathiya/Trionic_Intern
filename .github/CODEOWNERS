@@ -1,0 +1,39 @@
+# CODEOWNERS — auto-suggested reviewers per path.
+#
+# On GitHub Free, CODEOWNERS does NOT enforce required reviewers.
+# It still surfaces suggested reviewers and can be used by the
+# auto-assign workflow. Honour the team mapping anyway.
+
+# Root / cross-cutting → repo managers
+*                       @Trionic-Interns/repo-managers
+
+# Frontend
+/apps/web/              @Trionic-Interns/team-frontend
+
+# Backend (API routes inside Next.js + db package)
+/apps/web/app/api/      @Trionic-Interns/team-backend
+/packages/db/           @Trionic-Interns/team-backend
+
+# Agents
+/packages/agents/       @Trionic-Interns/team-agents
+
+# PageIndex & corpus
+/packages/pageindex/    @Trionic-Interns/team-pageindex
+/corpus/                @Trionic-Interns/team-pageindex
+
+# Indic / translation
+/packages/translation/  @Trionic-Interns/team-indic
+
+# Evals & telemetry
+/packages/evals/        @Trionic-Interns/team-evals
+
+# Infra / DevOps
+/infra/                 @Trionic-Interns/team-devops
+/.github/workflows/     @Trionic-Interns/team-devops
+
+# Docs / brief
+/docs/                  @Trionic-Interns/repo-managers
+/PROJECT_BRIEF.md       @Trionic-Interns/repo-managers
+/CONTRIBUTING.md        @Trionic-Interns/repo-managers
+
+# Reports — each intern owns their own folder; no auto-assignment needed

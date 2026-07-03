@@ -1,0 +1,153 @@
+{
+    "dataset_id": "rti-english-week2",
+    "fixtures": [
+        {
+            "fixture_id": "rti-001-valid",
+            "doc_type": "rti_application",
+            "language": "en",
+            "draft_output": {
+                "text": "Under Section 6(1) of the RTI Act [CITE:RTI-2005/CH-II/S-6], I hereby request information about public works expenditure. The response must be provided within 30 days as per [CITE:RTI-2005/CH-II/S-7].",
+                "cite_markers": [
+                    {
+                        "node_id": "RTI-2005/CH-II/S-6",
+                        "span": [
+                            29,
+                            47
+                        ]
+                    },
+                    {
+                        "node_id": "RTI-2005/CH-II/S-7",
+                        "span": [
+                            150,
+                            168
+                        ]
+                    }
+                ]
+            },
+            "ground_truth": {
+                "valid_node_ids": [
+                    "RTI-2005/CH-II/S-6",
+                    "RTI-2005/CH-II/S-7"
+                ],
+                "required_sections": [
+                    "applicant_details",
+                    "information_requested",
+                    "pio_address"
+                ]
+            }
+        },
+        {
+            "fixture_id": "rti-002-valid",
+            "doc_type": "rti_application",
+            "language": "en",
+            "draft_output": {
+                "text": "As per Section 8 of the RTI Act [CITE:RTI-2005/CH-III/S-8], certain information is exempt from disclosure. I request all non-exempt records related to my application.",
+                "cite_markers": [
+                    {
+                        "node_id": "RTI-2005/CH-III/S-8",
+                        "span": [
+                            33,
+                            52
+                        ]
+                    }
+                ]
+            },
+            "ground_truth": {
+                "valid_node_ids": [
+                    "RTI-2005/CH-III/S-8"
+                ],
+                "required_sections": [
+                    "applicant_details",
+                    "information_requested",
+                    "pio_address"
+                ]
+            }
+        },
+        {
+            "fixture_id": "rti-003-valid",
+            "doc_type": "rti_application",
+            "language": "en",
+            "draft_output": {
+                "text": "Under Section 19 of the RTI Act [CITE:RTI-2005/CH-V/S-19], I wish to file a first appeal against the rejection of my RTI request dated 01-05-2026.",
+                "cite_markers": [
+                    {
+                        "node_id": "RTI-2005/CH-V/S-19",
+                        "span": [
+                            32,
+                            50
+                        ]
+                    }
+                ]
+            },
+            "ground_truth": {
+                "valid_node_ids": [
+                    "RTI-2005/CH-V/S-19"
+                ],
+                "required_sections": [
+                    "applicant_details",
+                    "appeal_grounds",
+                    "pio_address"
+                ]
+            }
+        },
+        {
+            "fixture_id": "rti-004-bad-citation",
+            "doc_type": "rti_application",
+            "language": "en",
+            "draft_output": {
+                "text": "Under Section 99 of the RTI Act [CITE:RTI-2005/CH-XX/S-99], I request the following information.",
+                "cite_markers": [
+                    {
+                        "node_id": "RTI-2005/CH-XX/S-99",
+                        "span": [
+                            32,
+                            51
+                        ]
+                    }
+                ]
+            },
+            "ground_truth": {
+                "valid_node_ids": [
+                    "RTI-2005/CH-II/S-6"
+                ],
+                "required_sections": [
+                    "applicant_details",
+                    "information_requested"
+                ]
+            }
+        },
+        {
+            "fixture_id": "rti-005-bad-citation",
+            "doc_type": "rti_application",
+            "language": "en",
+            "draft_output": {
+                "text": "As per Section 6 [CITE:RTI-2005/CH-II/S-6] and Section 999 [CITE:RTI-FAKE/CH-I/S-999], I request all records.",
+                "cite_markers": [
+                    {
+                        "node_id": "RTI-2005/CH-II/S-6",
+                        "span": [
+                            17,
+                            35
+                        ]
+                    },
+                    {
+                        "node_id": "RTI-FAKE/CH-I/S-999",
+                        "span": [
+                            59,
+                            79
+                        ]
+                    }
+                ]
+            },
+            "ground_truth": {
+                "valid_node_ids": [
+                    "RTI-2005/CH-II/S-6"
+                ],
+                "required_sections": [
+                    "applicant_details",
+                    "information_requested"
+                ]
+            }
+        }
+    ]
+}

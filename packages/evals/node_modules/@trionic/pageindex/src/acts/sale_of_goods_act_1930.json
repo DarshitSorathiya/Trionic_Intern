@@ -1,0 +1,824 @@
+{
+  "act": {
+    "id": "SOGA_1930",
+    "short_title": "Sale of Goods Act, 1930",
+    "long_title": "An Act to define and amend the law relating to sale of goods",
+    "enactment_year": 1930,
+    "amended_years": [1963],
+    "india_code_url": "https://www.indiacode.nic.in/handle/123456789/2330",
+    "total_sections": 66,
+    "note": "Carved out from Contract Act 1872 (ss. 76–123 repealed in ICA). SOGA 1930 is therefore a lex specialis — Contract Act applies for everything not specifically covered here.",
+    "parts": [
+      {
+        "id": "CHAP_I",
+        "title": "Chapter I — Preliminary",
+        "sections": ["1", "2"]
+      },
+      {
+        "id": "CHAP_II",
+        "title": "Chapter II — Formation of the Contract",
+        "sections": ["4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "id": "CHAP_III",
+        "title": "Chapter III — Effects of the Contract",
+        "sections": ["11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26"]
+      },
+      {
+        "id": "CHAP_IV",
+        "title": "Chapter IV — Performance of the Contract",
+        "sections": ["31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"]
+      },
+      {
+        "id": "CHAP_V",
+        "title": "Chapter V — Rights of Unpaid Seller Against the Goods",
+        "sections": ["45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56"]
+      },
+      {
+        "id": "CHAP_VI",
+        "title": "Chapter VI — Suits for Breach of the Contract",
+        "sections": ["57", "58", "59", "60", "61", "62"]
+      },
+      {
+        "id": "CHAP_VII",
+        "title": "Chapter VII — Miscellaneous",
+        "sections": ["63", "64", "65", "66"]
+      }
+    ],
+    "nodes": [
+      {
+        "id": "SOGA_1930_S1",
+        "section": "1",
+        "title": "Short title and commencement",
+        "chapter": "CHAP_I",
+        "summary": "Act may be called the Sale of Goods Act, 1930. Extends to whole of India.",
+        "keywords": ["title", "commencement", "extent"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S2",
+        "section": "2",
+        "title": "Definitions",
+        "chapter": "CHAP_I",
+        "summary": "Defines: 'buyer', 'seller', 'goods', 'future goods', 'specific goods', 'existing goods', 'document of title to goods', 'delivery', 'insolvent', 'mercantile agent', 'property', 'quality of goods'.",
+        "keywords": ["buyer", "seller", "goods", "future goods", "specific goods", "delivery", "document of title"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S2",
+            "reason": "General definitions in Contract Act apply where SOGA does not define a term",
+            "type": "supplementary"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S4",
+        "section": "4",
+        "title": "Sale and agreement to sell",
+        "chapter": "CHAP_II",
+        "summary": "Contract of sale = seller transfers or agrees to transfer property in goods to buyer for a price. Where property transferred immediately = sale; where future or subject to conditions = agreement to sell.",
+        "keywords": ["sale", "agreement to sell", "property", "transfer", "price", "distinction"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S10",
+            "reason": "Contract of sale must satisfy requirements of valid contract under Contract Act §10",
+            "type": "prerequisite"
+          }
+        ],
+        "parent": null,
+        "children": ["SOGA_1930_S5", "SOGA_1930_S6"]
+      },
+      {
+        "id": "SOGA_1930_S5",
+        "section": "5",
+        "title": "How contract of sale is made",
+        "chapter": "CHAP_II",
+        "summary": "Contract of sale may be: (a) absolute or conditional; (b) oral or written or partly both; (c) express or implied. No form required.",
+        "keywords": ["formation", "oral", "written", "absolute", "conditional", "implied"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S9",
+            "reason": "Express and implied promises — formation principles from Contract Act apply",
+            "type": "principle_import"
+          }
+        ],
+        "parent": "SOGA_1930_S4",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S6",
+        "section": "6",
+        "title": "Existing or future goods",
+        "chapter": "CHAP_II",
+        "summary": "Goods that are in existence at time of contract = existing goods. Goods to be manufactured or acquired after = future goods. Contract for future goods = agreement to sell only, not sale.",
+        "keywords": ["existing goods", "future goods", "contingent goods", "crops"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S4",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S7",
+        "section": "7",
+        "title": "Goods perishing before making of contract",
+        "chapter": "CHAP_II",
+        "summary": "Where parties contract for sale of specific goods but goods have perished without seller's knowledge, contract is void.",
+        "keywords": ["perishing", "specific goods", "void", "unknown", "pre-contract"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S20",
+            "reason": "Void contract on mutual mistake as to existence of subject matter — same principle in Contract Act §20",
+            "type": "principle_alignment"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S8",
+        "section": "8",
+        "title": "Goods perishing before sale but after agreement to sell",
+        "chapter": "CHAP_II",
+        "summary": "Where agreement to sell specific goods and goods subsequently perish without fault of either party, agreement is avoided (frustrated).",
+        "keywords": ["perishing after agreement", "frustrated contract", "specific goods", "without fault"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S56",
+            "reason": "Frustration of contract under §56 Contract Act — §8 SOGA is a specific application of the same doctrine for goods",
+            "type": "lex_specialis"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S9",
+        "section": "9",
+        "title": "Ascertainment of price",
+        "chapter": "CHAP_II",
+        "summary": "Price may be: (a) fixed by contract; (b) left to be fixed by third party valuer; (c) determined by course of dealing between parties.",
+        "keywords": ["price", "ascertainment", "valuer", "course of dealing"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S10",
+        "section": "10",
+        "title": "Agreement to sell at valuation",
+        "chapter": "CHAP_II",
+        "summary": "Where price to be fixed by third party and that party fails to fix price, agreement is avoided. If goods delivered and buyer retains them, he must pay a reasonable price.",
+        "keywords": ["valuation", "third party", "avoided", "reasonable price"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S11",
+        "section": "11",
+        "title": "Stipulations as to time",
+        "chapter": "CHAP_III",
+        "summary": "Stipulations as to time of payment are not conditions of contract of sale unless parties so intend. Stipulations as to time of delivery — whether condition depends on terms of contract.",
+        "keywords": ["time of payment", "time of delivery", "condition", "stipulation"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S55",
+            "reason": "Time as essence of contract — §55 Contract Act; §11 SOGA creates special rule for payment timings in sale",
+            "type": "lex_specialis"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S12",
+        "section": "12",
+        "title": "Condition and warranty",
+        "chapter": "CHAP_III",
+        "summary": "Condition = stipulation essential to the main purpose of contract, breach entitles repudiation. Warranty = collateral stipulation, breach gives right to damages only, not repudiation.",
+        "keywords": ["condition", "warranty", "breach", "repudiation", "collateral"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S39",
+            "reason": "Repudiation of contract on breach of condition — right to treat contract as discharged per §39 Contract Act",
+            "type": "remedy_link"
+          }
+        ],
+        "parent": null,
+        "children": ["SOGA_1930_S13", "SOGA_1930_S14", "SOGA_1930_S15", "SOGA_1930_S16", "SOGA_1930_S17"]
+      },
+      {
+        "id": "SOGA_1930_S13",
+        "section": "13",
+        "title": "When condition to be treated as warranty",
+        "chapter": "CHAP_III",
+        "summary": "Buyer may treat breach of condition as breach of warranty when: (a) waived; (b) treated as warranty; (c) where contract not severable and buyer has accepted goods or part of them.",
+        "keywords": ["waiver", "accepted goods", "non-severable", "condition treated as warranty"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S12",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S14",
+        "section": "14",
+        "title": "Implied undertakings as to title etc.",
+        "chapter": "CHAP_III",
+        "summary": "In every contract of sale: (a) implied condition seller has right to sell; (b) implied warranty buyer will have quiet possession; (c) implied warranty goods are free from encumbrance.",
+        "keywords": ["implied condition", "right to sell", "quiet possession", "encumbrance", "title"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S12",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S15",
+        "section": "15",
+        "title": "Sale by description",
+        "chapter": "CHAP_III",
+        "summary": "Where there is a sale by description, implied condition that goods shall correspond with description. If sale is by sample and description — goods must correspond with both.",
+        "keywords": ["sale by description", "implied condition", "correspond", "description"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S12",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S16",
+        "section": "16",
+        "title": "Implied conditions as to quality or fitness",
+        "chapter": "CHAP_III",
+        "summary": "No implied condition as to quality or fitness for any particular purpose EXCEPT: (a) buyer discloses purpose and relies on seller's skill/judgment; (b) merchant seller — goods must be of merchantable quality. Proviso: defects reasonably discoverable on examination.",
+        "keywords": ["merchantable quality", "fitness for purpose", "disclosed purpose", "skill and judgment", "implied condition"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S17",
+            "reason": "Active concealment of defect = fraud under §17 Contract Act — seller may be liable beyond §16 SOGA",
+            "type": "liability_overlap"
+          }
+        ],
+        "parent": "SOGA_1930_S12",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S17",
+        "section": "17",
+        "title": "Sale by sample",
+        "chapter": "CHAP_III",
+        "summary": "In sale by sample: (a) bulk must correspond with sample; (b) buyer must have opportunity to compare; (c) goods must be free from defect rendering them unmerchantable not apparent on reasonable examination.",
+        "keywords": ["sale by sample", "bulk", "correspond", "latent defect", "merchantable"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S12",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S18",
+        "section": "18",
+        "title": "Goods must be ascertained",
+        "chapter": "CHAP_III",
+        "summary": "Where there is a contract for unascertained goods, no property in goods passes to buyer until goods are ascertained.",
+        "keywords": ["unascertained goods", "property", "passes", "ascertainment"],
+        "cross_links": [],
+        "parent": null,
+        "children": ["SOGA_1930_S19", "SOGA_1930_S20", "SOGA_1930_S21", "SOGA_1930_S22", "SOGA_1930_S23", "SOGA_1930_S24"]
+      },
+      {
+        "id": "SOGA_1930_S19",
+        "section": "19",
+        "title": "Property passes when intended to pass",
+        "chapter": "CHAP_III",
+        "summary": "Property in specific or ascertained goods passes to buyer at time parties intend it to pass. Intent inferred from terms, conduct, circumstances.",
+        "keywords": ["property passes", "intention", "specific goods", "ascertained goods"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S18",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S20",
+        "section": "20",
+        "title": "Specific goods in a deliverable state",
+        "chapter": "CHAP_III",
+        "summary": "In unconditional contract for specific goods in deliverable state, property passes when contract made, even if payment or delivery deferred.",
+        "keywords": ["specific goods", "deliverable state", "unconditional", "property passes"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S18",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S21",
+        "section": "21",
+        "title": "Specific goods to be put in deliverable state",
+        "chapter": "CHAP_III",
+        "summary": "Where seller must do something to specific goods to put them in deliverable state, property doesn't pass until that thing is done and buyer has notice.",
+        "keywords": ["deliverable state", "seller's duty", "notice", "condition precedent"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S18",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S22",
+        "section": "22",
+        "title": "Specific goods in deliverable state when seller has to do anything thereto",
+        "chapter": "CHAP_III",
+        "summary": "Where goods are in deliverable state but seller has to weigh, measure or test them to ascertain the price, property does not pass until that act is done and buyer has notice.",
+        "keywords": ["weigh", "measure", "test", "ascertain price", "notice", "property"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S18",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S23",
+        "section": "23",
+        "title": "Sale of unascertained goods and appropriation",
+        "chapter": "CHAP_III",
+        "summary": "For unascertained or future goods sold by description, property passes when goods conforming to description are unconditionally appropriated to contract by either party with other's assent.",
+        "keywords": ["unascertained goods", "appropriation", "unconditional", "assent", "future goods"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S18",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S24",
+        "section": "24",
+        "title": "Goods sent on approval or 'on sale or return'",
+        "chapter": "CHAP_III",
+        "summary": "Where goods delivered on approval or sale-or-return: property passes when buyer signifies approval, or acts adopting transaction, or retains goods beyond reasonable time.",
+        "keywords": ["on approval", "sale or return", "adoption", "reasonable time", "property passing"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S18",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S25",
+        "section": "25",
+        "title": "Reservation of right of disposal",
+        "chapter": "CHAP_III",
+        "summary": "Where seller reserves right of disposal until certain conditions fulfilled, property doesn't pass until conditions fulfilled even if goods delivered to buyer/carrier.",
+        "keywords": ["retention of title", "right of disposal", "condition", "bill of lading"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S26",
+        "section": "26",
+        "title": "Risk prima facie passes with property",
+        "chapter": "CHAP_III",
+        "summary": "Unless otherwise agreed, goods remain at seller's risk until property passes to buyer; after that, at buyer's risk — whether delivered or not.",
+        "keywords": ["risk", "property", "passes with property", "seller's risk", "buyer's risk"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S31",
+        "section": "31",
+        "title": "Duties of seller and buyer",
+        "chapter": "CHAP_IV",
+        "summary": "Primary duty of seller is to deliver goods; primary duty of buyer is to accept and pay for goods in accordance with terms of contract.",
+        "keywords": ["duty to deliver", "duty to accept", "duty to pay", "primary duty"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S37",
+            "reason": "Obligations of parties to perform their respective duties — general principles from Contract Act §37",
+            "type": "principle_import"
+          }
+        ],
+        "parent": null,
+        "children": ["SOGA_1930_S32", "SOGA_1930_S33"]
+      },
+      {
+        "id": "SOGA_1930_S32",
+        "section": "32",
+        "title": "Payment and delivery are concurrent conditions",
+        "chapter": "CHAP_IV",
+        "summary": "Payment and delivery are concurrent conditions — seller must be ready and willing to deliver in exchange for price, and buyer ready and willing to pay for delivery.",
+        "keywords": ["concurrent conditions", "simultaneous", "ready and willing", "payment", "delivery"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S51",
+            "reason": "Concurrent conditions of performance — §51 Contract Act provides for simultaneous performance of reciprocal promises",
+            "type": "principle_alignment"
+          }
+        ],
+        "parent": "SOGA_1930_S31",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S33",
+        "section": "33",
+        "title": "Delivery",
+        "chapter": "CHAP_IV",
+        "summary": "Delivery = voluntary transfer of possession. May be actual, constructive or symbolic.",
+        "keywords": ["delivery", "actual delivery", "constructive delivery", "symbolic delivery", "possession"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S31",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S34",
+        "section": "34",
+        "title": "Effect of part delivery",
+        "chapter": "CHAP_IV",
+        "summary": "Delivery of part of goods in progress of delivery of whole = delivery of whole. Delivery of part as separate transaction does not operate as delivery of remainder.",
+        "keywords": ["part delivery", "progress of delivery", "separate transaction"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S35",
+        "section": "35",
+        "title": "Buyer to apply for delivery",
+        "chapter": "CHAP_IV",
+        "summary": "Apart from contract, seller not bound to deliver until buyer applies for it.",
+        "keywords": ["apply for delivery", "buyer's initiative", "not bound"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S36",
+        "section": "36",
+        "title": "Rules as to delivery",
+        "chapter": "CHAP_IV",
+        "summary": "Place, time, and other rules for delivery: (1) at seller's place of business unless agreed otherwise; (2) seller to put goods in deliverable state; (3) demand or tender at reasonable hour; (4) expense of delivery on seller, of putting into deliverable state on buyer's request — by agreement.",
+        "keywords": ["place of delivery", "time of delivery", "reasonable hour", "expense", "sub-rules"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S37",
+        "section": "37",
+        "title": "Delivery of wrong quantity",
+        "chapter": "CHAP_IV",
+        "summary": "If seller delivers less — buyer may reject or accept what delivered at contract rate. If more — buyer may reject all, accept contracted quantity, or accept all at contract rate. If mixed — may reject or accept goods as contracted.",
+        "keywords": ["wrong quantity", "short delivery", "excess delivery", "mixed goods", "rejection"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S38",
+        "section": "38",
+        "title": "Instalment deliveries",
+        "chapter": "CHAP_IV",
+        "summary": "Buyer not bound to accept delivery in instalments unless agreed. Where instalment contract, breach of one instalment: depends on terms and circumstances whether whole contract is repudiated.",
+        "keywords": ["instalment delivery", "severable contract", "breach of instalment", "repudiation"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S39",
+            "reason": "Anticipatory repudiation and breach of instalment — right to treat contract as discharged per Contract Act §39",
+            "type": "remedy_link"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S39",
+        "section": "39",
+        "title": "Delivery to carrier or wharfinger",
+        "chapter": "CHAP_IV",
+        "summary": "Delivery to carrier for transmission to buyer = delivery to buyer. Seller must make reasonable contract with carrier; otherwise buyer may refuse to treat delivery to carrier as delivery to himself.",
+        "keywords": ["carrier", "wharfinger", "transit", "delivery to carrier", "reasonable contract"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S40",
+        "section": "40",
+        "title": "Risk where goods are delivered at distant place",
+        "chapter": "CHAP_IV",
+        "summary": "Where seller agrees to deliver goods at his own risk at a place other than where sold, buyer assumes risk of deterioration incidental to transit.",
+        "keywords": ["transit risk", "distant place", "deterioration", "seller's risk on delivery"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S41",
+        "section": "41",
+        "title": "Buyer's right of examining goods",
+        "chapter": "CHAP_IV",
+        "summary": "Buyer not deemed to have accepted goods until reasonable opportunity to examine them for conformity with contract is given.",
+        "keywords": ["right to examine", "reasonable opportunity", "acceptance", "conformity"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S42",
+        "section": "42",
+        "title": "Acceptance",
+        "chapter": "CHAP_IV",
+        "summary": "Buyer is deemed to have accepted goods when: (a) intimates acceptance; (b) does act inconsistent with seller's ownership; (c) retains goods beyond reasonable time without rejection.",
+        "keywords": ["acceptance", "inconsistent act", "reasonable time", "retention", "rejection"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S43",
+        "section": "43",
+        "title": "Buyer not bound to return rejected goods",
+        "chapter": "CHAP_IV",
+        "summary": "Buyer who has properly rejected goods is not bound to return them; it is sufficient to intimate that he refuses to accept.",
+        "keywords": ["rejection", "not bound to return", "intimation", "notice of rejection"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S44",
+        "section": "44",
+        "title": "Liability of buyer for neglecting or refusing delivery",
+        "chapter": "CHAP_IV",
+        "summary": "When seller ready and willing to deliver and buyer refuses to take delivery, buyer liable for reasonable charges for care and custody of goods.",
+        "keywords": ["refusal to take delivery", "custody charges", "liability", "ready and willing"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S45",
+        "section": "45",
+        "title": "Unpaid seller defined",
+        "chapter": "CHAP_V",
+        "summary": "Seller is unpaid when: (a) whole price has not been paid or tendered; (b) bill of exchange or negotiable instrument given but has been dishonoured.",
+        "keywords": ["unpaid seller", "whole price", "dishonoured", "negotiable instrument"],
+        "cross_links": [],
+        "parent": null,
+        "children": ["SOGA_1930_S46", "SOGA_1930_S47", "SOGA_1930_S48"]
+      },
+      {
+        "id": "SOGA_1930_S46",
+        "section": "46",
+        "title": "Unpaid seller's rights",
+        "chapter": "CHAP_V",
+        "summary": "Unpaid seller has: (1) lien on goods while in possession; (2) right of stoppage in transit after parting with possession; (3) right of resale.",
+        "keywords": ["lien", "stoppage in transit", "right of resale", "unpaid seller", "rights"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S45",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S47",
+        "section": "47",
+        "title": "Seller's lien",
+        "chapter": "CHAP_V",
+        "summary": "Unpaid seller in possession may retain goods until payment when: (a) no credit terms; (b) credit terms have expired; (c) buyer becomes insolvent.",
+        "keywords": ["lien", "retention", "insolvent buyer", "credit terms", "possession"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S45",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S48",
+        "section": "48",
+        "title": "Part delivery",
+        "chapter": "CHAP_V",
+        "summary": "Where part of goods delivered, seller may exercise lien on remainder unless circumstances show intention to waive lien.",
+        "keywords": ["part delivery", "lien on remainder", "waiver of lien"],
+        "cross_links": [],
+        "parent": "SOGA_1930_S45",
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S49",
+        "section": "49",
+        "title": "Termination of lien",
+        "chapter": "CHAP_V",
+        "summary": "Seller's lien lost when: (a) goods delivered to carrier without reservation of right of disposal; (b) buyer/agent lawfully obtains possession; (c) waiver.",
+        "keywords": ["termination of lien", "delivery to carrier", "waiver", "lawful possession"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S50",
+        "section": "50",
+        "title": "Right of stoppage in transit",
+        "chapter": "CHAP_V",
+        "summary": "Where buyer becomes insolvent and goods are in transit, unpaid seller may resume possession of goods in transit and retain until payment.",
+        "keywords": ["stoppage in transit", "insolvent", "resume possession", "carrier"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S54",
+        "section": "54",
+        "title": "Sale not generally rescinded by lien or stoppage in transit",
+        "chapter": "CHAP_V",
+        "summary": "Exercise of lien or stoppage in transit does not rescind contract of sale; seller may still sue for price.",
+        "keywords": ["lien", "stoppage in transit", "rescission", "sue for price"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Seller's right to sue for price or damages — principles of Contract Act §73 apply",
+            "type": "remedy_link"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S55",
+        "section": "55",
+        "title": "Seller's right of resale",
+        "chapter": "CHAP_V",
+        "summary": "Unpaid seller may resell goods where: (a) goods are perishable; (b) seller gives notice of intention to resell and buyer does not pay within reasonable time; (c) seller expressly reserved right of resale.",
+        "keywords": ["resale right", "perishable goods", "notice", "express reservation", "unpaid seller"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S57",
+        "section": "57",
+        "title": "Damages for non-delivery",
+        "chapter": "CHAP_VI",
+        "summary": "Where seller wrongfully neglects or refuses to deliver goods, buyer may sue for damages for non-delivery. Damages = estimated loss directly and naturally resulting from breach.",
+        "keywords": ["non-delivery", "damages", "wrongful refusal", "breach", "market price"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Damages principle = §73 Contract Act — loss directly and naturally resulting from breach at time of breach",
+            "type": "principle_alignment"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S58",
+        "section": "58",
+        "title": "Specific performance",
+        "chapter": "CHAP_VI",
+        "summary": "In any suit for breach of contract to deliver specific or ascertained goods, court may direct specific performance.",
+        "keywords": ["specific performance", "specific goods", "ascertained goods", "court direction"],
+        "cross_links": [
+          {
+            "target_act": "SRA_1963",
+            "target_section": "SRA_1963_S10",
+            "reason": "Specific performance under SOGA §58 is governed and enforced by SRA 1963 §10 onwards",
+            "type": "enforcement_via"
+          },
+          {
+            "target_act": "SRA_1963",
+            "target_section": "SRA_1963_S14",
+            "reason": "SRA §14 lists contracts not specifically enforceable — goods with adequate money substitute may be excluded",
+            "type": "constraint_link"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S59",
+        "section": "59",
+        "title": "Remedy for breach of warranty",
+        "chapter": "CHAP_VI",
+        "summary": "For breach of warranty buyer may: (a) set up breach in diminution of price; (b) sue for damages for breach of warranty. Buyer cannot reject goods solely on breach of warranty after acceptance.",
+        "keywords": ["breach of warranty", "diminution of price", "damages", "set off", "accepted goods"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Damages for breach of warranty quantified by Contract Act §73 principles",
+            "type": "quantification_link"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S60",
+        "section": "60",
+        "title": "Repudiation of contract before due date",
+        "chapter": "CHAP_VI",
+        "summary": "Where either party repudiates contract before date of performance, other party may treat contract as subsisting and wait, or treat breach as already committed and sue.",
+        "keywords": ["anticipatory breach", "repudiation before due date", "await performance", "sue immediately"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S39",
+            "reason": "Anticipatory breach (repudiation) — §39 Contract Act is the parent doctrine; §60 SOGA applies it to sale of goods",
+            "type": "lex_specialis"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S61",
+        "section": "61",
+        "title": "Interest by way of damages and special damages",
+        "chapter": "CHAP_VI",
+        "summary": "Court may award interest at such rate as it thinks fit. Special or remote damages may be awarded in circumstances contemplated by parties at time of contract.",
+        "keywords": ["interest", "special damages", "remote damages", "Hadley v Baxendale", "contemplation"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Special damages only if in reasonable contemplation — mirrors remoteness rule in §73 Contract Act (Hadley v Baxendale test)",
+            "type": "principle_alignment"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S62",
+        "section": "62",
+        "title": "Exclusion of implied terms and conditions",
+        "chapter": "CHAP_VI",
+        "summary": "Implied terms, conditions and warranties may be negatived or varied by express agreement, or by course of dealing, or by usage of trade.",
+        "keywords": ["exclusion clause", "implied terms", "express agreement", "course of dealing", "usage of trade"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S23",
+            "reason": "Exclusion of statutory implied terms cannot be used to achieve an unlawful object — §23 Contract Act",
+            "type": "limit_on_exclusion"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S63",
+        "section": "63",
+        "title": "Reasonable time a question of fact",
+        "chapter": "CHAP_VII",
+        "summary": "Where reference is made to reasonable time in this Act, what is reasonable time is a question of fact.",
+        "keywords": ["reasonable time", "question of fact"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S64",
+        "section": "64",
+        "title": "Auction sales",
+        "chapter": "CHAP_VII",
+        "summary": "In sale by auction: (a) goods may be sold in lots; (b) completed by fall of hammer; (c) right to bid may be reserved; (d) seller or auctioneer may not bid in auction without disclosed reserve.",
+        "keywords": ["auction", "fall of hammer", "lots", "reserve price", "bid"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S65",
+        "section": "65",
+        "title": "Liability of principal when agent exceeds authority",
+        "chapter": "CHAP_VII",
+        "summary": "Where agent is entrusted with goods and pledges same as security beyond authority, pledge valid only to extent of agent's authority.",
+        "keywords": ["agent", "pledge", "authority", "principal liability", "excess authority"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S182",
+            "reason": "Agent's authority — Contract Act §§182–238 govern; §65 SOGA applies in sale of goods context",
+            "type": "lex_specialis"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SOGA_1930_S66",
+        "section": "66",
+        "title": "Repeal of enactments",
+        "chapter": "CHAP_VII",
+        "summary": "Repeals sections 76–123 of the Indian Contract Act, 1872 which previously governed sale of goods.",
+        "keywords": ["repeal", "Indian Contract Act 1872", "sections 76-123"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S76",
+            "reason": "SOGA 1930 replaced ICA §§76-123 — this is the formal legislative severance provision",
+            "type": "historical_repeal"
+          }
+        ],
+        "parent": null,
+        "children": []
+      }
+    ]
+  }
+}

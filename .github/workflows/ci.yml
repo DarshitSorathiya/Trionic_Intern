@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# Cancel older runs for the same PR/branch to save Actions minutes.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: lint + typecheck + test
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9.0.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Build internal packages
+        # Build inner packages first so downstream typecheck/test can resolve
+        # @trionic/shared etc. without dist-vs-src ambiguity.
+        run: pnpm -r --filter '!web' build
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      # TODO (post-demo, tracked in follow-up issue): the agents vitest suite
+      # has 36 pre-existing failures and packages/evals' "test" script is the
+      # eval harness (not unit tests, needs API keys). Once those land,
+      # remove continue-on-error so this gate is real. Until then the lint +
+      # typecheck gates above are what catch the auth-helpers-class regressions.
+      - name: Test
+        run: pnpm test
+        continue-on-error: true

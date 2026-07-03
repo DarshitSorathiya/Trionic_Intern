@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "types": ["node"],
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "rootDir": "..",
+    "paths": {
+      "@trionic/shared": ["../shared/src/index.ts"],
+      "@trionic/shared/*": ["../shared/src/*"],
+      "@trionic/pageindex": ["../pageindex/src/agnoTool.ts"],
+      "@trionic/pageindex/*": ["../pageindex/src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

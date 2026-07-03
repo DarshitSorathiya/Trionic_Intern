@@ -1,0 +1,124 @@
+{
+  "dataset_id": "rti-hallucination-completeness-week2",
+  "fixtures": [
+    {
+      "fixture_id": "rti-hc-001-perfect",
+      "doc_type": "rti_application",
+      "language": "en",
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer (PIO),\nDepartment of Urban Development, Delhi.\n\nSubject: Request for information under Section 6(1) of the RTI Act, 2005 [CITE:RTI-2005/CH-II/S-6].\n\nParticulars of Information Sought:\nPlease provide copies of sanction letters for the public park construction in Sector 15.\n\nDeclaration:\nI declare that I am a citizen of India [CITE:RTI-2005/CH-II/S-6]. I have paid the application fee of Rs. 10 via Indian Postal Order No. 12345 as per Section 6(1) [CITE:RTI-2005/CH-II/S-6].\n\nApplicant Details:\nKaushal Vora, Civil Lines, Delhi.",
+        "cite_markers": [
+          {
+            "node_id": "RTI-2005/CH-II/S-6",
+            "span": [99, 131]
+          },
+          {
+            "node_id": "RTI-2005/CH-II/S-6",
+            "span": [363, 395]
+          },
+          {
+            "node_id": "RTI-2005/CH-II/S-6",
+            "span": [486, 518]
+          }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": [
+          "RTI-2005/CH-II/S-6"
+        ],
+        "required_sections": [
+          "address",
+          "subject",
+          "sections_sought",
+          "declaration"
+        ]
+      }
+    },
+    {
+      "fixture_id": "rti-hc-002-missing-declaration",
+      "doc_type": "rti_application",
+      "language": "en",
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer (PIO),\nDepartment of Urban Development, Delhi.\n\nSubject: Request for information under Section 6(1) of the RTI Act, 2005 [CITE:RTI-2005/CH-II/S-6].\n\nParticulars of Information Sought:\nPlease provide copies of sanction letters for the public park construction in Sector 15.\n\nApplicant Details:\nKaushal Vora, Civil Lines, Delhi.",
+        "cite_markers": [
+          {
+            "node_id": "RTI-2005/CH-II/S-6",
+            "span": [99, 131]
+          }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": [
+          "RTI-2005/CH-II/S-6"
+        ],
+        "required_sections": [
+          "address",
+          "subject",
+          "sections_sought",
+          "declaration"
+        ]
+      }
+    },
+    {
+      "fixture_id": "rti-hc-003-missing-address-and-subject",
+      "doc_type": "rti_application",
+      "language": "en",
+      "draft_output": {
+        "text": "Particulars of Information Sought:\nPlease provide copies of sanction letters for the public park construction in Sector 15.\n\nDeclaration:\nI declare that I am a citizen of India. I have paid the application fee of Rs. 10 via Indian Postal Order No. 12345.",
+        "cite_markers": []
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": [
+          "address",
+          "subject",
+          "sections_sought",
+          "declaration"
+        ]
+      }
+    },
+    {
+      "fixture_id": "rti-hc-004-uncited-hallucinations",
+      "doc_type": "rti_application",
+      "language": "en",
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nMunicipal Corporation of Delhi.\n\nSubject: RTI Request.\n\nParticulars of Information Sought:\nI want the survey report of Sector 15. Note that the public authority is required to provide this within 30 days of receipt, failing which penalties under Section 20 of the RTI Act will apply.\n\nDeclaration:\nI am an Indian citizen.",
+        "cite_markers": []
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": [
+          "address",
+          "subject",
+          "sections_sought",
+          "declaration"
+        ]
+      }
+    },
+    {
+      "fixture_id": "rti-hc-005-partially-cited",
+      "doc_type": "rti_application",
+      "language": "en",
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nMunicipal Corporation of Delhi.\n\nSubject: RTI Request under Section 6(1) [CITE:RTI-2005/CH-II/S-6].\n\nParticulars of Information Sought:\nProvide the details of land acquisition. As per Section 7(1) of the Act, you must respond within 30 days.\n\nDeclaration:\nI enclose the Rs 10 fee.",
+        "cite_markers": [
+          {
+            "node_id": "RTI-2005/CH-II/S-6",
+            "span": [85, 117]
+          }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": [
+          "RTI-2005/CH-II/S-6"
+        ],
+        "required_sections": [
+          "address",
+          "subject",
+          "sections_sought",
+          "declaration"
+        ]
+      }
+    }
+  ]
+}

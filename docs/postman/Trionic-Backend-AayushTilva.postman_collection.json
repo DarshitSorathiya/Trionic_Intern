@@ -1,0 +1,647 @@
+{
+  "info": {
+    "name": "Trionic Adalat — Backend API (Aayush Tilva W1-W4)",
+    "_postman_id": "trionic-backend-aayush-w4",
+    "description": "Tests for all API routes implemented by Aayush Tilva (Team B — Backend).\n\n**SETUP BEFORE TESTING:**\n1. Start dev server: `pnpm --filter web dev` in the project root\n2. Open http://localhost:3000/auth/sign-in in your browser\n3. Sign in with your Supabase account\n4. Open DevTools → Application → Cookies → copy the `sb-*-auth-token` cookie value\n5. Paste it into the collection variable `AUTH_COOKIE`\n\n**Base URL:** http://localhost:3000",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "BASE_URL", "value": "http://localhost:3000", "type": "string" },
+    { "key": "AUTH_COOKIE", "value": "PASTE_YOUR_SESSION_COOKIE_HERE", "type": "string" },
+    { "key": "DOCUMENT_ID", "value": "", "type": "string", "description": "Set this after running POST /api/documents" },
+    { "key": "SUPABASE_URL", "value": "https://zawdoeusvkldgrigfbow.supabase.co", "type": "string" },
+    { "key": "SUPABASE_ANON_KEY", "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inphd2RvZXVzdmtsZGdyaWdmYm93Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk5NTA1NTksImV4cCI6MjA5NTUyNjU1OX0.6gWNB2dvQsc5QVjYHkcDkcumkF314enpxlqk-4mX3cI", "type": "string" }
+  ],
+  "item": [
+    {
+      "name": "0. Auth — Sign In (get session token)",
+      "item": [
+        {
+          "name": "Sign In with Email+Password",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const json = pm.response.json();",
+                  "if (json.access_token) {",
+                  "  pm.collectionVariables.set('ACCESS_TOKEN', json.access_token);",
+                  "  console.log('Access token saved. Now set AUTH_COOKIE in collection vars.');",
+                  "}",
+                  "pm.test('Sign-in returns 200', () => pm.response.to.have.status(200));",
+                  "pm.test('access_token present', () => pm.expect(json.access_token).to.be.a('string'));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "apikey", "value": "{{SUPABASE_ANON_KEY}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"YOUR_EMAIL@example.com\",\n  \"password\": \"YOUR_PASSWORD\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{SUPABASE_URL}}/auth/v1/token?grant_type=password",
+              "host": ["{{SUPABASE_URL}}"],
+              "path": ["auth", "v1", "token"],
+              "query": [{ "key": "grant_type", "value": "password" }]
+            },
+            "description": "Direct Supabase Auth sign-in. Replace email/password. The access_token is saved automatically into collection vars."
+          }
+        }
+      ]
+    },
+    {
+      "name": "1. Documents — LIST",
+      "item": [
+        {
+          "name": "GET /api/documents (all)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', () => pm.response.to.have.status(200));",
+                  "const json = pm.response.json();",
+                  "pm.test('Has documents array', () => pm.expect(json.documents).to.be.an('array'));",
+                  "pm.test('Has next_cursor field', () => pm.expect(json).to.have.property('next_cursor'));",
+                  "console.log('Documents found:', json.documents.length);",
+                  "if (json.documents.length > 0) {",
+                  "  pm.collectionVariables.set('DOCUMENT_ID', json.documents[0].id);",
+                  "  console.log('DOCUMENT_ID set to:', json.documents[0].id);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Cookie", "value": "{{AUTH_COOKIE}}" }],
+            "url": {
+              "raw": "{{BASE_URL}}/api/documents",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "documents"]
+            }
+          }
+        },
+        {
+          "name": "GET /api/documents?status=draft",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', () => pm.response.to.have.status(200));",
+                  "const json = pm.response.json();",
+                  "pm.test('All docs have status draft', () => {",
+                  "  json.documents.forEach(d => pm.expect(d.status).to.equal('draft'));",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Cookie", "value": "{{AUTH_COOKIE}}" }],
+            "url": {
+              "raw": "{{BASE_URL}}/api/documents?status=draft&limit=10",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "documents"],
+              "query": [
+                { "key": "status", "value": "draft" },
+                { "key": "limit", "value": "10" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/documents — 401 (no auth)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Returns 401 without auth', () => pm.response.to.have.status(401));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/documents",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "documents"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Documents — CREATE",
+      "item": [
+        {
+          "name": "POST /api/documents (create RTI draft)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 201', () => pm.response.to.have.status(201));",
+                  "const json = pm.response.json();",
+                  "pm.test('Returns document_id', () => pm.expect(json.document_id).to.be.a('string'));",
+                  "pm.collectionVariables.set('DOCUMENT_ID', json.document_id);",
+                  "console.log('Created doc ID:', json.document_id);"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Cookie", "value": "{{AUTH_COOKIE}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"doc_type\": \"rti_application\",\n  \"language\": \"en\",\n  \"intake_text\": \"I want to file an RTI to get information about road construction work in my area.\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{BASE_URL}}/api/documents",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "documents"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Versioning — PATCH + GET versions",
+      "item": [
+        {
+          "name": "PATCH /api/documents/:id — Edit 1 (v1)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', () => pm.response.to.have.status(200));",
+                  "const json = pm.response.json();",
+                  "pm.test('version_num is 1', () => pm.expect(json.version_num).to.equal(1));",
+                  "pm.test('Has id', () => pm.expect(json.id).to.be.a('string'));",
+                  "pm.test('Has body_markdown', () => pm.expect(json.body_markdown).to.be.a('string'));",
+                  "pm.test('citations is empty array', () => pm.expect(json.citations).to.deep.equal([]));",
+                  "console.log('Version created:', json.version_num, 'id:', json.id);"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Cookie", "value": "{{AUTH_COOKIE}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"body_markdown\": \"# RTI Application\\n\\nTo,\\nThe Public Information Officer\\n\\nSub: Request for information under RTI Act 2005\\n\\nI wish to obtain the following information...\",\n  \"change_note\": \"Initial draft\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{BASE_URL}}/api/documents/{{DOCUMENT_ID}}",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "documents", "{{DOCUMENT_ID}}"]
+            }
+          }
+        },
+        {
+          "name": "PATCH /api/documents/:id — Edit 2 (v2)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', () => pm.response.to.have.status(200));",
+                  "const json = pm.response.json();",
+                  "pm.test('version_num is 2', () => pm.expect(json.version_num).to.equal(2));",
+                  "console.log('Version created:', json.version_num);"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Cookie", "value": "{{AUTH_COOKIE}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"body_markdown\": \"# RTI Application (Revised)\\n\\nTo,\\nThe Public Information Officer\\nMunicipal Corporation\\n\\nSub: Request for information under RTI Act 2005\\n\\n**Information Sought:**\\n1. Details of road construction contract\\n2. Amount sanctioned and disbursed\",\n  \"change_note\": \"Added specific information points\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{BASE_URL}}/api/documents/{{DOCUMENT_ID}}",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "documents", "{{DOCUMENT_ID}}"]
+            }
+          }
+        },
+        {
+          "name": "PATCH /api/documents/:id — Edit 3 (v3 — demo gate)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', () => pm.response.to.have.status(200));",
+                  "const json = pm.response.json();",
+                  "pm.test('version_num is 3 (demo gate passed)', () => pm.expect(json.version_num).to.equal(3));",
+                  "console.log('Demo gate: 3 edits → version_num:', json.version_num, '✅');"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Cookie", "value": "{{AUTH_COOKIE}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"body_markdown\": \"# RTI Application (Final)\\n\\nTo,\\nThe Public Information Officer\\nMunicipal Corporation, Ward 5\\n\\nSub: Request for information under RTI Act 2005 regarding road construction\\n\\n**Information Sought:**\\n1. Full details of road construction contract No. MC/2025/789\\n2. Total amount sanctioned, disbursed, and balance\\n3. Name of contractor and completion deadline\\n\\nI request the above information within 30 days as per Section 7 of RTI Act.\",\n  \"change_note\": \"Final version with full contract details\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{BASE_URL}}/api/documents/{{DOCUMENT_ID}}",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "documents", "{{DOCUMENT_ID}}"]
+            }
+          }
+        },
+        {
+          "name": "GET /api/documents/:id/versions (should return 3 rows)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', () => pm.response.to.have.status(200));",
+                  "const json = pm.response.json();",
+                  "pm.test('Has versions array', () => pm.expect(json.versions).to.be.an('array'));",
+                  "pm.test('Demo gate: exactly 3 versions', () => pm.expect(json.versions.length).to.equal(3));",
+                  "pm.test('Versions in ascending order', () => {",
+                  "  pm.expect(json.versions[0].version_num).to.equal(1);",
+                  "  pm.expect(json.versions[1].version_num).to.equal(2);",
+                  "  pm.expect(json.versions[2].version_num).to.equal(3);",
+                  "});",
+                  "pm.test('Each version has citations array', () => {",
+                  "  json.versions.forEach(v => pm.expect(v.citations).to.be.an('array'));",
+                  "});",
+                  "console.log('✅ DEMO GATE PASSED: 3 edits → 3 versions in order');"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Cookie", "value": "{{AUTH_COOKIE}}" }],
+            "url": {
+              "raw": "{{BASE_URL}}/api/documents/{{DOCUMENT_ID}}/versions",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "documents", "{{DOCUMENT_ID}}", "versions"]
+            }
+          }
+        },
+        {
+          "name": "PATCH — 400 missing body_markdown",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Returns 400 for missing body_markdown', () => pm.response.to.have.status(400));",
+                  "const json = pm.response.json();",
+                  "pm.test('Error code is bad_request', () => pm.expect(json.error).to.equal('bad_request'));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Cookie", "value": "{{AUTH_COOKIE}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"No body_markdown provided\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{BASE_URL}}/api/documents/{{DOCUMENT_ID}}",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "documents", "{{DOCUMENT_ID}}"]
+            }
+          }
+        },
+        {
+          "name": "PATCH — 404 for non-existent doc",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Returns 404 for unknown doc', () => pm.response.to.have.status(404));",
+                  "const json = pm.response.json();",
+                  "pm.test('Error code is not_found', () => pm.expect(json.error).to.equal('not_found'));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Cookie", "value": "{{AUTH_COOKIE}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"body_markdown\": \"This document does not exist\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{BASE_URL}}/api/documents/00000000-0000-0000-0000-000000000000",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "documents", "00000000-0000-0000-0000-000000000000"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. Audit Log — GET /api/audit/:id",
+      "item": [
+        {
+          "name": "GET /api/audit/:document_id (returns traces, PII redacted)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', () => pm.response.to.have.status(200));",
+                  "const json = pm.response.json();",
+                  "pm.test('Has traces array', () => pm.expect(json.traces).to.be.an('array'));",
+                  "console.log('Traces found:', json.traces.length);",
+                  "// Verify PII redaction is working",
+                  "json.traces.forEach((t, i) => {",
+                  "  if (t.error_message) {",
+                  "    pm.test(`Trace ${i} error_message has no raw email`, () => {",
+                  "      pm.expect(t.error_message).to.not.match(/[a-z0-9._%+\\-]+@[a-z0-9.\\-]+\\.[a-z]{2,}/i);",
+                  "    });",
+                  "    pm.test(`Trace ${i} error_message has no 10-digit phone`, () => {",
+                  "      pm.expect(t.error_message).to.not.match(/[6-9]\\d{9}/);",
+                  "    });",
+                  "  }",
+                  "});",
+                  "// Verify shape matches @trionic/shared AgentTrace",
+                  "json.traces.forEach((t, i) => {",
+                  "  pm.test(`Trace ${i} has required fields`, () => {",
+                  "    pm.expect(t.agent).to.be.a('string');",
+                  "    pm.expect(t.model).to.be.a('string');",
+                  "    pm.expect(t.tokens_in).to.be.a('number');",
+                  "    pm.expect(t.tokens_out).to.be.a('number');",
+                  "    pm.expect(t.status).to.be.oneOf(['ok', 'error', 'rejected']);",
+                  "  });",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Cookie", "value": "{{AUTH_COOKIE}}" }],
+            "url": {
+              "raw": "{{BASE_URL}}/api/audit/{{DOCUMENT_ID}}",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "audit", "{{DOCUMENT_ID}}"]
+            }
+          }
+        },
+        {
+          "name": "GET /api/audit — 401 no auth",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Returns 401 without auth', () => pm.response.to.have.status(401));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/audit/{{DOCUMENT_ID}}",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "audit", "{{DOCUMENT_ID}}"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "5. Admin — Audit Export CSV",
+      "item": [
+        {
+          "name": "GET /api/admin/audit-export (admin only — expect 403 for normal user)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "// Normal users get 403; admin users get CSV download",
+                  "pm.test('Returns 403 or 200', () => {",
+                  "  pm.expect(pm.response.code).to.be.oneOf([200, 403]);",
+                  "});",
+                  "if (pm.response.code === 200) {",
+                  "  pm.test('Content-Type is text/csv', () => {",
+                  "    pm.expect(pm.response.headers.get('Content-Type')).to.include('text/csv');",
+                  "  });",
+                  "  pm.test('Content-Disposition has attachment', () => {",
+                  "    pm.expect(pm.response.headers.get('Content-Disposition')).to.include('attachment');",
+                  "  });",
+                  "  console.log('CSV preview (first 200 chars):', pm.response.text().slice(0, 200));",
+                  "} else {",
+                  "  console.log('403 expected for non-admin user — correct behaviour');",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Cookie", "value": "{{AUTH_COOKIE}}" }],
+            "url": {
+              "raw": "{{BASE_URL}}/api/admin/audit-export?from=2026-06-01T00:00:00Z&to=2026-06-10T23:59:59Z",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "admin", "audit-export"],
+              "query": [
+                { "key": "from", "value": "2026-06-01T00:00:00Z" },
+                { "key": "to", "value": "2026-06-10T23:59:59Z" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/admin/audit-export — 400 missing params",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Returns 400 for missing params', () => {",
+                  "  pm.expect(pm.response.code).to.be.oneOf([400, 403]);",
+                  "});"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Cookie", "value": "{{AUTH_COOKIE}}" }],
+            "url": {
+              "raw": "{{BASE_URL}}/api/admin/audit-export",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "admin", "audit-export"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "6. User Profile — GET / PATCH / DELETE",
+      "item": [
+        {
+          "name": "GET /api/users/me",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', () => pm.response.to.have.status(200));",
+                  "const json = pm.response.json();",
+                  "pm.test('Has user id', () => pm.expect(json.id).to.be.a('string'));",
+                  "pm.test('Has email', () => pm.expect(json.email).to.be.a('string'));",
+                  "console.log('User:', json.email, '| id:', json.id);"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Cookie", "value": "{{AUTH_COOKIE}}" }],
+            "url": {
+              "raw": "{{BASE_URL}}/api/users/me",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "users", "me"]
+            }
+          }
+        },
+        {
+          "name": "PATCH /api/users/me (update display_name)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Status 200', () => pm.response.to.have.status(200));",
+                  "const json = pm.response.json();",
+                  "console.log('Updated user:', json);"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Cookie", "value": "{{AUTH_COOKIE}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"display_name\": \"Aayush Tilva\",\n  \"default_language\": \"en\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{BASE_URL}}/api/users/me",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "users", "me"]
+            }
+          }
+        },
+        {
+          "name": "DELETE /api/users/me — 400 missing confirm",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test('Returns 400 without confirm:true', () => pm.response.to.have.status(400));",
+                  "const json = pm.response.json();",
+                  "pm.test('Error is bad_request', () => pm.expect(json.error).to.equal('bad_request'));"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "DELETE",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" },
+              { "key": "Cookie", "value": "{{AUTH_COOKIE}}" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{BASE_URL}}/api/users/me",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "users", "me"]
+            },
+            "description": "⚠️ DO NOT run the actual DELETE with confirm:true unless you want to soft-delete your test account."
+          }
+        }
+      ]
+    }
+  ]
+}

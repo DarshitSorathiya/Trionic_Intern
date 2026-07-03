@@ -1,0 +1,75 @@
+{
+  "dataset_id": "rti-completeness-set",
+  "fixtures": [
+    {
+      "fixture_id": "rti-comp-001-perfect",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer, Dept of Revenue.\n\nSubject: Request for information.\n\nInformation Sought:\n1. Survey report for Plot No. 12.\n\nApplicant Details: John Doe, 22 Rajpur Road.\n\nDeclaration: I am a citizen of India. Fee of Rs. 10 paid via IPO.\n\nSignature: John Doe\nDate: 01-06-2026",
+        "cite_markers": []
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-comp-002-missing-fee",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer, Dept of Revenue.\n\nSubject: Request for information.\n\nInformation Sought:\n1. Survey report for Plot No. 12.\n\nApplicant Details: John Doe, 22 Rajpur Road.",
+        "cite_markers": []
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-comp-003-missing-pio",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [],
+      "draft_output": {
+        "text": "Subject: Request for information.\n\nInformation Sought:\n1. Survey report for Plot No. 12.\n\nDeclaration: I am a citizen of India. Fee of Rs. 10 paid via IPO.\n\nSignature: John Doe\nDate: 01-06-2026",
+        "cite_markers": []
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-comp-004-missing-info-sought",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer, Dept of Revenue.\n\nSubject: Request for information.\n\nDeclaration: I am a citizen of India. Fee of Rs. 10 paid via IPO.\n\nSignature: John Doe\nDate: 01-06-2026",
+        "cite_markers": []
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-comp-005-all-sections",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [],
+      "draft_output": {
+        "text": "Sent to: The CPIO, Revenue Dept.\n\nSubject: Land records request.\n\nInformation Sought: Survey details for Plot No. 45.\n\nMy name is John Doe, residing at 22 Rajpur Road.\n\nDeclaration: I am an Indian citizen. Fee of Rs. 10 enclosed via postal order.\n\nYours sincerely,\nJohn Doe\nDate: 01-06-2026",
+        "cite_markers": []
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    }
+  ]
+}

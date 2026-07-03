@@ -1,0 +1,1162 @@
+[
+  {
+    "node_id": "CPA-2019",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": null,
+    "node_type": "root",
+    "label": "Consumer Protection Act, 2019",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-I",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019",
+    "node_type": "chapter",
+    "label": "Chapter I — Preliminary",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-II",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019",
+    "node_type": "chapter",
+    "label": "Chapter II — Consumer Protection Councils",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019",
+    "node_type": "chapter",
+    "label": "Chapter III — Central Consumer Protection Authority",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019",
+    "node_type": "chapter",
+    "label": "Chapter IV — Consumer Disputes Redressal Commission",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-V",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019",
+    "node_type": "chapter",
+    "label": "Chapter V — Mediation",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VI",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019",
+    "node_type": "chapter",
+    "label": "Chapter VI — Product Liability",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VII",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019",
+    "node_type": "chapter",
+    "label": "Chapter VII — Offences and Penalties",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019",
+    "node_type": "chapter",
+    "label": "Chapter VIII — Miscellaneous",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-I/S-1",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-I",
+    "node_type": "section",
+    "label": "Section 1 — Short title, extent, commencement and application",
+    "text_content": "Short title, extent, commencement and application.—(1) This Act may be called the Consumer\nProtection Act, 2019.\n(2) It extends to the whole of India except the State of Jammu and Kashmir.\n(3) It shall come into force on such date1 as the Central Government may, by notification, appoint and\ndifferent dates may be appointed for different States and for different provisions of this Act and any\nreference in any such provision to the commencement of this Act shall be construed as a reference to the\ncoming into force of that provision.\n(4) Save as otherwise expressly provided by the Central Government, by notification, this Act shall\napply to all goods and services.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-I/S-2",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-I",
+    "node_type": "section",
+    "label": "Section 2 — Definitions",
+    "text_content": "Definitions.—In this Act, unless the context otherwise requires,—\n(1) \"advertisement\" means any audio or visual publicity, representation, endorsement or\npronouncement made by means of light, sound, smoke, gas, print, electronic media, internet or\nwebsite and includes any notice, circular, label, wrapper, invoice or such other documents;\n(2) \"appropriate laboratory\" means a laboratory or an organisation—\n(i) recognised by the Central Government; or\n(ii) recognised by a State Government, subject to such guidelines as may be issued by the\nCentral Government in this behalf; or\n(iii) established by or under any law for the time being in force, which is maintained,\nfinanced or aided by the Central Government or a State Government for carrying out analysis or\ntest of any goods with a view to determining whether such goods suffer from any defect;\n(3) \"branch office\" means—\n(i) any office or place of work described as a branch by the establishment; or\n(ii) any establishment carrying on either the same or substantially the same activity carried on\nby the head office of the establishment;\n(4) \"Central Authority\" means the Central Consumer Protection Authority established under\nsection 10;\n(5) \"complainant\" means—\n(i) a consumer; or\n(ii) any voluntary consumer association registered under any law for the time being in force; or",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-II/S-3",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-II",
+    "node_type": "section",
+    "label": "Section 3 — Central Consumer Protection Council",
+    "text_content": "Central Consumer Protection Council.—(1) The Central Government shall, by notification,\nestablish with effect from such date as it may specify in that notification, the Central Consumer Protection\nCouncil to be known as the Central Council.\n(2) The Central Council shall be an advisory council and consist of the following members,\nnamely:—\n(a) the Minister-in-charge of the Department of Consumer Affairs in the Central Government,\nwho shall be the Chairperson; and\n(b) such number of other official or non-official members representing such interests as may be\nprescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-II/S-4",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-II",
+    "node_type": "section",
+    "label": "Section 4 — Procedure for meetings of Central Council",
+    "text_content": "Procedure for meetings of Central Council.—(1) The Central Council shall meet as and when\nnecessary, but at least one meeting of the Council shall be held every year.\n(2) The Central Council shall meet at such time and place as the Chairperson may think fit and shall\nobserve such procedure in regard to the transaction of its business as may be prescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-II/S-5",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-II",
+    "node_type": "section",
+    "label": "Section 5 — Objects of Central Council",
+    "text_content": "Objects of Central Council.—The objects of the Central Council shall be to render advice on\npromotion and protection of the consumers' rights under this Act.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-II/S-6",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-II",
+    "node_type": "section",
+    "label": "Section 6 — State Consumer Protection Councils",
+    "text_content": "State Consumer Protection Councils.—(1) Every State Government shall, by notification,\nestablish with effect from such date as it may specify in such notification, a State Consumer Protection\nCouncil for such State to be known as the State Council.\n(2) The State Council shall be an advisory council and consist of the following members, namely:—\n(a) the Minister-in-charge of Consumer Affairs in the State Government who shall be the\nChairperson;\n(b) such number of other official or non-official members representing such interests as may be\nprescribed;\n(c) such number of other official or non-official members, not exceeding ten, as may be\nnominated by the Central Government.\n(3) The State Council shall meet as and when necessary but not less than two meetings shall be held\nevery year.\n(4) The State Council shall meet at such time and place as the Chairperson may think fit and shall\nobserve such procedure in regard to the transaction of its business, as may be prescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-II/S-7",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-II",
+    "node_type": "section",
+    "label": "Section 7 — Objects of State Council",
+    "text_content": "Objects of State Council.—The objects of every State Council shall be to render advice on\npromotion and protection of consumer rights under this Act within the State.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-II/S-8",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-II",
+    "node_type": "section",
+    "label": "Section 8 — District Consumer Protection Council",
+    "text_content": "District Consumer Protection Council.—(1) The State Government shall, by notification,\nestablish for every District with effect from such date as it may specify in such notification, a District\nConsumer Protection Council to be known as the District Council.\n(2) The District Council shall be an advisory council and consist of the following members,\nnamely:—\n(a) the Collector of the district (by whatever name called), who shall be the Chairperson; and\n12\n(b) such number of other official and non-official members representing such interests as may be\nprescribed.\n(3) The District Council shall meet as and when necessary but not less than two meetings shall be\nheld every year.\n(4) The District Council shall meet at such time and place within the district as the Chairperson may\nthink fit and shall observe such procedure in regard to the transaction of its business as may be prescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-II/S-9",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-II",
+    "node_type": "section",
+    "label": "Section 9 — Objects of District Council",
+    "text_content": "Objects of District Council.—The objects of every District Council shall be to render advice on\npromotion and protection of consumer rights under this Act within the district.\nCHAPTER III\nCENRAL CONSUMER PROTECTION AUTHORITY",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-10",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 10 — Establishment of Central Consumer Protection Authority",
+    "text_content": "Establishment of Central Consumer Protection Authority.—(1) The Central Government\nshall, by notification, establish with effect from such date as it may specify in that notification, a Central\nConsumer Protection Authority to be known as the Central Authority to regulate matters relating to\nviolation of rights of consumers, unfair trade practices and false or misleading advertisements which are\nprejudicial to the interests of public and consumers and to promote, protect and enforce the rights of\nconsumers as a class.\n(2) The Central Authority shall consist of a Chief Commissioner and such number of other\nCommissioners as may be prescribed, to be appointed by the Central Government to exercise the powers\nand discharge the functions under this Act.\n(3) The headquarters of the Central Authority shall be at such place in the National Capital Region of\nDelhi, and it shall have regional and other offices in any other place in India as the Central Government\nmay decide.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-11",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 11 — Qualifications, method of recruitment, etc., of Chief Commissioner and Commissioners",
+    "text_content": "Qualifications, method of recruitment, etc., of Chief Commissioner and Commissioners.—\nThe Central Government may, by notification, make rules to provide for the qualifications for\nappointment, method of recruitment, procedure for appointment, term of office, salaries and allowances,\nresignation, removal and other terms and conditions of the service of the Chief Commissioner and\nCommissioners of the Central Authority.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-12",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 12 — Vacancy, etc., not to invalidate proceedings of Central Authority",
+    "text_content": "Vacancy, etc., not to invalidate proceedings of Central Authority.—No act or proceeding of\nthe Central Authority shall be invalid merely by reason of—\n(a) any vacancy in, or any defect in the constitution of, the Central Authority; or\n(b) any defect in the appointment of a person acting as the Chief Commissioner or as a\nCommissioner; or\n(c) any irregularity in the procedure of the Central Authority not affecting the merits of the case.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-13",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 13 — Appointment of officers, experts, professionals and other employees of Central Authority",
+    "text_content": "Appointment of officers, experts, professionals and other employees of Central Authority.—\n(1) The Central Government shall provide the Central Authority such number of officers and other\nemployees as it considers necessary for the efficient performance of its functions under this Act.\n(2) The salaries and allowances payable to, and the other terms and conditions of service of, the\nofficers and other employees of the Central Authority appointed under this Act shall be such as may be\nprescribed.\n(3) The Central Authority may engage, in accordance with the procedure specified by regulations,\nsuch number of experts and professionals of integrity and ability, who have special knowledge and\nexperience in the areas of consumer rights and welfare, consumer policy, law, medicine, food safety,\nhealth, engineering, product safety, commerce, economics, public affairs or administration, as it deems\nnecessary to assist it in the discharge of its functions under this Act.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-14",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 14 — Procedure of Central Authority. —(1) The Central Authority shall regulate the procedure for",
+    "text_content": "Procedure of Central Authority. —(1) The Central Authority shall regulate the procedure for\ntransaction of its business and allocation of its business amongst the Chief Commissioner and\nCommissioners as may be specified by regulations.\n13\n(2) The Chief Commissioner shall have the powers of general superintendence, direction and control\nin respect of all administrative matters of the Central Authority:\nProvided that the Chief Commissioner may delegate such of his powers relating to administrative\nmatters of the Central Authority, as he may think fit, to any Commissioner (including Commissioner of a\nregional office) or any other officer of the Central Authority.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-15",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 15 — Investigation Wing",
+    "text_content": "Investigation Wing.—(1) The Central Authority shall have an Investigation Wing headed by a\nDirector-General for the purpose of conducting inquiry or investigation under this Act as may be directed\nby the Central Authority.\n(2) The Central Government may appoint a Director-General and such number of Additional\nDirector-General, Director, Joint Director, Deputy Director and Assistant Director, from amongst persons\nwho have experience in investigation and possess such qualifications, in such manner, as may be\nprescribed.\n(3) Every Additional Director-General, Director, Joint Director, Deputy Director and Assistant\nDirector shall exercise his powers, and discharge his functions, subject to the general control, supervision\nand direction of the Director-General.\n(4) The Director-General may delegate all or any of his powers to the Additional Director-General or\nDirector, Joint Director or Deputy Director or Assistant Director, as the case may be, while conducting\ninquiries or investigations under this Act.\n(5) The inquiries or the investigations made by the Director-General shall be submitted to the Central\nAuthority in such form, in such manner and within such time, as may be specified by regulations.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-16",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 16 — Power of District Collector",
+    "text_content": "Power of District Collector.—The District Collector (by whatever name called) may, on a\ncomplaint or on a reference made to him by the Central Authority or the Commissioner of a regional\noffice, inquire into or investigate complaints regarding violation of rights of consumers as a class, on\nmatters relating to violations of consumer rights, unfair trade practices and false or misleading\nadvertisements, within his jurisdiction and submit his report to the Central Authority or to the\nCommissioner of a regional office, as the case may be.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-17",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 17 — Complaints to authorities",
+    "text_content": "Complaints to authorities.—A complaint relating to violation of consumer rights or unfair trade\npractices or false or misleading advertisements which are prejudicial to the interests of consumers as a\nclass, may be forwarded either in writing or in electronic mode, to any one of the authorities, namely, the\nDistrict Collector or the Commissioner of regional office or the Central Authority.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-18",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 18 — Powers and functions of Central Authority",
+    "text_content": "Powers and functions of Central Authority.—(1) The Central Authority shall—\n(a) protect, promote and enforce the rights of consumers as a class, and prevent violation of\nconsumers rights under this Act;\n(b) prevent unfair trade practices and ensure that no person engages himself in unfair trade\npractices;\n(c) ensure that no false or misleading advertisement is made of any goods or services which\ncontravenes the provisions of this Act or the rules or regulations made thereunder;\n(d) ensure that no person takes part in the publication of any advertisement which is false or\nmisleading.\n(2) Without prejudice to the generality of the provisions contained in sub-section (1), the Central\nAuthority may, for any of the purposes aforesaid,--\n(a) inquire or cause an inquiry or investigation to be made into violations of consumer rights or\nunfair trade practices, either suo motu or on a complaint received or on the directions from the Central\nGovernment;\n(b) file complaints before the District Commission, the State Commission or the National\nCommission, as the case may be, under this Act;\n14\n(c) intervene in any proceedings before the District Commission or the State Commission or the\nNational Commission, as the case may be, in respect of any allegation of violation of consumer rights\nor unfair trade practices;\n(d) review the matters relating to, and the factors inhibiting enjoyment of, consumer rights,\nincluding safeguards provided for the protection of consumers under any other law for the time being\nin force and recommend appropriate remedial measures for their effective implementation;\n(e) recommend adoption of international covenants and best international practices on consumer\nrights to ensure effective enforcement of consumer rights;\n(f) undertake and promote research in the field of consumer rights;\n(g) spread and promote awareness on consumer rights;\n(h) encourage non-Governmental organisations and other institutions working in the field of\nconsumer rights to co-operate and work with consumer protection agencies;\n(i) mandate the use of unique and universal goods identifiers in such goods, as may be necessary,\nto prevent unfair trade practices and to protect consumers' interest;\n(j) issue safety notices to alert consumers against dangerous or hazardous or unsafe goods or\nservices;\n(k) advise the Ministries and Departments of the Central and State Governments on consumer\nwelfare measures;\n(l) issue necessary guidelines to prevent unfair trade practices and protect consumers' interest.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-19",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 19 — Power of Central Authority to refer matter for investigation or to other Regulator",
+    "text_content": "Power of Central Authority to refer matter for investigation or to other Regulator.—(1) The\nCentral Authority may, after receiving any information or complaint or directions from the Central\nGovernment or of its own motion, conduct or cause to be conducted a preliminary inquiry as to whether\nthere exists a prima facie case of violation of consumer rights or any unfair trade practice or any false or\nmisleading advertisement, by any person, which is prejudicial to the public interest or to the interests of\nconsumers and if it is satisfied that there exists a prima facie case, it shall cause investigation to be made\nby the Director-General or by the District Collector.\n(2) Where, after preliminary inquiry, the Central Authority is of the opinion that the matter is to be\ndealt with by a Regulator established under any other law for the time being in force, it may refer such\nmatter to the concerned Regulator along with its report.\n(3) For the purposes of investigation under sub-section (1), the Central Authority, the Director\nGeneral or the District Collector may call upon a person referred to in sub-section (1) and also direct him\nto produce any document or record in his possession.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-20",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 20 — Power of Central Authority to recall goods, etc",
+    "text_content": "Power of Central Authority to recall goods, etc.—Where the Central Authority is satisfied on\nthe basis of investigation that there is sufficient evidence to show violation of consumer rights or unfair\ntrade practice by a person, it may pass such order as may be necessary, including—\n(a) recalling of goods or withdrawal of services which are dangerous, hazardous or unsafe;\n(b) reimbursement of the prices of goods or services so recalled to purchasers of such goods or\nservices; and\n(c) discontinuation of practices which are unfair and prejudicial to consumers' interest:\nProvided that the Central Authority shall give the person an opportunity of being heard before passing\nan order under this section.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-21",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 21 — Power of Central Authority to issue directions and penalties against false or misleading",
+    "text_content": "Power of Central Authority to issue directions and penalties against false or misleading\nadvertisements.—(1) Where the Central Authority is satisfied after investigation that any advertisement\nis false or misleading and is prejudicial to the interest of any consumer or is in contravention of consumer\nrights, it may, by order, issue directions to the concerned trader or manufacturer or endorser or advertiser\n15\nor publisher, as the case may be, to discontinue such advertisement or to modify the same in such manner\nand within such time as may be specified in that order.\n(2) Notwithstanding the order passed under sub-section (1), if the Central Authority is of the opinion\nthat it is necessary to impose a penalty in respect of such false or misleading advertisement, by a\nmanufacturer or an endorser, it may, by order, impose on manufacturer or endorser a penalty which may\nextend to ten lakh rupees:\nProvided that the Central Authority may, for every subsequent contravention by a manufacturer or\nendorser, impose a penalty, which may extend to fifty lakh rupees.\n(3) Notwithstanding any order under sub-sections (1) and (2), where the Central Authority deems it\nnecessary, it may, by order, prohibit the endorser of a false or misleading advertisement from making\nendorsement of any product or service for a period which may extend to one year:\nProvided that the Central Authority may, for every subsequent contravention, prohibit such endorser\nfrom making endorsement in respect of any product or service for a period which may extend to three\nyears.\n(4) Where the Central Authority is satisfied after investigation that any person is found to publish, or\nis a party to the publication of, a misleading advertisement, it may impose on such person a penalty which\nmay extend to ten lakh rupees.\n(5) No endorser shall be liable to a penalty under sub-sections (2) and (3) if he has exercised due\ndiligence to verify the veracity of the claims made in the advertisement regarding the product or service\nbeing endorsed by him.\n(6) No person shall be liable to such penalty if he proves that he had published or arranged for the\npublication of such advertisement in the ordinary course of his business:\nProvided that no such defence shall be available to such person if he had previous knowledge of the\norder passed by the Central Authority for withdrawal or modification of such advertisement.\n(7) While determining the penalty under this section, regard shall be had to the following, namely: —\n(a) the population and the area impacted or affected by such offence;\n(b) the frequency and duration of such offence;\n(c) the vulnerability of the class of persons likely to be adversely affected by such offence; and\n(d) the gross revenue from the sales effected by virtue of such offence.\n(8) The Central Authority shall give the person an opportunity of being heard before an order under\nthis section is passed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-22",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 22 — Search and seizure",
+    "text_content": "Search and seizure.—(1) For the purpose of conducting an investigation after preliminary\ninquiry under sub-section (1) of section 19, the Director-General or any other officer authorised by him in\nthis behalf, or the District Collector, as the case may be, may, if he has any reason to believe that any\nperson has violated any consumer rights or committed unfair trade practice or causes any false or\nmisleading advertisement to be made, shall,--\n(a) enter at any reasonable time into any such premises and search for any document or record or\narticle or any other form of evidence and seize such document, record, article or such evidence;\n(b) make a note or an inventory of such record or article; or\n(c) require any person to produce any record, register or other document or article.\n(2) The provisions of the Code of Criminal Procedure, 1973 (2 of 1974), relating to search and seizure\nshall apply, as far as may be, for search and seizure under this Act.\n(3) Every document, record or article seized under clause (a) of sub-section (1) or produced under\nclause (c) of that sub-section shall be returned to the person, from whom they were seized or who\nproduced the same, within a period of twenty days of the date of such seizure or production, as the case\n16\nmay be, after copies thereof or extracts therefrom certified by that person, in such manner as may be\nprescribed, have been taken.\n(4) Where any article seized under sub-section (1) are subject to speedy or natural decay, the\nDirector-General or such other officer may dispose of the article in such manner as may be prescribed.\n(5) In the case of articles other than the articles referred to in sub-section (4), provisions contained in\nclause (c) of sub-section (2) of section 38 shall mutatis mutandis apply in relation to analysis or tests.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-23",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 23 — Designation of any statutory authority or body to function as Central Authority",
+    "text_content": "Designation of any statutory authority or body to function as Central Authority.—The\nCentral Government may, if it considers necessary, by notification, designate any statutory authority or\nbody to exercise the powers and perform the functions of the Central Authority referred to in section 10.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-24",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 24 — Appeal",
+    "text_content": "Appeal.—A person aggrieved by any order passed by the Central Authority under sections 20 and\n21 may file an appeal to the National Commission within a period of thirty days from the date of receipt\nof such order.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-25",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 25 — Grants by Central Government",
+    "text_content": "Grants by Central Government.—The Central Government may, after due appropriation made\nby Parliament by law in this behalf, make to the Central Authority grants of such sums of money as that\nGovernment may think fit for being utilised for the purposes of this Act.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-26",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 26 — Accounts and audit",
+    "text_content": "Accounts and audit.—(1) The Central Authority shall maintain proper accounts and other\nrelevant records and prepare an annual statement of accounts in such form and manner as may be\nprescribed in consultation with the Comptroller and Auditor-General of India.\n(2) The accounts of the Central Authority shall be audited by the Comptroller and Auditor-General of\nIndia at such intervals as may be specified by him and any expenditure incurred in connection with such\naudit shall be payable by the Central Authority to the Comptroller and Auditor-General of India.\n(3) The Comptroller and Auditor-General of India or any other person appointed by him in\nconnection with the audit of the accounts of the Central Authority shall have the same rights, privileges\nand authority in connection with such audit as the Comptroller and Auditor-General of India generally\nhas, in connection with the audit of the Government accounts and, in particular, shall have the right to\ndemand the production of books, accounts, connected vouchers and other documents and papers and to\ninspect any of the offices of the Central Authority.\n(4) The accounts of the Central Authority as certified by the Comptroller and Auditor-General of\nIndia or any other person appointed by him in this behalf together with the audit report thereon shall be\nforwarded annually to the Central Government which shall cause the same to be laid before each House\nof Parliament.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-III/S-27",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-III",
+    "node_type": "section",
+    "label": "Section 27 — Furnishing of annual reports, etc",
+    "text_content": "Furnishing of annual reports, etc.—(1) The Central Authority shall prepare once in every year,\nin such form, manner and at such time as may be prescribed, an annual report giving full account of its\nactivities during the previous year and such other reports and returns, as may be directed, and copies of\nsuch report and returns shall be forwarded to the Central Government.\n(2) A copy of the annual report received under sub-section (1) shall be laid, as soon as may be after it\nis received, before each House of Parliament.\nCHAPTER IV\nCONSUMER DISPUTER REDRESSAL COMMISSION",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-28",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 28 — Establishment of District Consumer Disputes Redressal Commission",
+    "text_content": "Establishment of District Consumer Disputes Redressal Commission.—(1) The State\nGovernment shall, by notification, establish a District Consumer Disputes Redressal Commission, to be\nknown as the District Commission, in each district of the State:\nProvided that the State Government may, if it deems fit, establish more than one District Commission\nin a district.\n(2) Each District Commission shall consist of—\n(a) a President; and\n17\n(b) not less than two and not more than such number of members as may be prescribed, in\nconsultation with the Central Government.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-29",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 29 — Qualifications, etc., of President and members of District Commission",
+    "text_content": "Qualifications, etc., of President and members of District Commission.—The Central\nGovernment may, by notification, make rules to provide for the qualifications, method of recruitment,\nprocedure for appointment, term of office, resignation and removal of the President and members of the\nDistrict Commission.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-30",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 30 — Salaries, allowances and other terms and conditions of service of President and members of",
+    "text_content": "Salaries, allowances and other terms and conditions of service of President and members of\nDistrict Commission.—The State Government may, by notification, make rules to provide for salaries\nand allowances and other terms and conditions of service of the President, and members of the District\nCommission.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-31",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 31 — Transitional provision",
+    "text_content": "Transitional provision.—Any person appointed as President or, as the case may be, a member of\nthe District Commission immediately before the commencement of this Act shall hold office as such as\nPresident or, as the case may be, as member till the completion of his term for which he has been\nappointed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-32",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 32 — Vacancy in office of member of District Commission",
+    "text_content": "Vacancy in office of member of District Commission.—If, at any time, there is a vacancy in the\noffice of the President or member of a District Commission, the State Government may, by notification,\ndirect—\n(a) any other District Commission specified in that notification to exercise the jurisdiction in\nrespect of that district also; or\n(b) the President or a member of any other District Commission specified in that notification to\nexercise the powers and discharge the functions of the President or member of that District\nCommission also.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-33",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 33 — Officers and other employees of District Commission",
+    "text_content": "Officers and other employees of District Commission.—(1) The State Government shall\nprovide the District Commission with such officers and other employees as may be required to assist the\nDistrict Commission in the discharge of its functions.\n(2) The officers and other employees of the District Commission shall discharge their functions under\nthe general superintendence of the President of the District Commission.\n(3) The salaries and allowances payable to, and the other terms and conditions of service of, the\nofficers and other employees of the District Commission shall be such as may be prescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-34",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 34 — Jurisdiction of District Commission",
+    "text_content": "Jurisdiction of District Commission.—(1) Subject to the other provisions of this Act, the\nDistrict Commission shall have jurisdiction to entertain complaints where the value of the goods or\nservices paid as consideration does not exceed one crore rupees:\nProvided that where the Central Government deems it necessary so to do, it may prescribe such other\nvalue, as it deems fit.\n(2) A complaint shall be instituted in a District Commission within the local limits of whose\njurisdiction,—\n(a) the opposite party or each of the opposite parties, where there are more than one, at the time\nof the institution of the complaint, ordinarily resides or carries on business or has a branch office or\npersonally works for gain; or\n(b) any of the opposite parties, where there are more than one, at the time of the institution of the\ncomplaint, actually and voluntarily resides, or carries on business or has a branch office, or personally\nworks for gain, provided that in such case the permission of the District Commission is given; or\n(c) the cause of action, wholly or in part, arises; or\n(d) the complainant resides or personally works for gain.\n18\n(3) The District Commission shall ordinarily function in the district headquarters and may perform its\nfunctions at such other place in the district, as the State Government may, in consultation with the State\nCommission, notify in the Official Gazette from time to time.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-35",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 35 — Manner in which complaint shall be made",
+    "text_content": "Manner in which complaint shall be made.—(1) A complaint, in relation to any goods sold or\ndelivered or agreed to be sold or delivered or any service provided or agreed to be provided, may be filed\nwith a District Commission by—\n(a) the consumer,—\n(i) to whom such goods are sold or delivered or agreed to be sold or delivered or such service\nis provided or agreed to be provided; or\n(ii) who alleges unfair trade practice in respect of such goods or service;\n(b) any recognised consumer association, whether the consumer to whom such goods are sold or\ndelivered or agreed to be sold or delivered or such service is provided or agreed to be provided, or\nwho alleges unfair trade practice in respect of such goods or service, is a member of such association\nor not;\n(c) one or more consumers, where there are numerous consumers having the same interest, with\nthe permission of the District Commission, on behalf of, or for the benefit of, all consumers so\ninterested; or\n(d) the Central Government, the Central Authority or the State Government, as the case may be:\nProvided that the complaint under this sub-section may be filed electronically in such manner as may\nbe prescribed.\nExplanation.—For the purposes of this sub-section, \"recognised consumer association\" means any\nvoluntary consumer association registered under any law for the time being in force.\n(2) Every complaint filed under sub-section (1) shall be accompanied with such fee and payable in\nsuch manner, including electronic form, as may be prescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-36",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 36 — Proceedings before District Commission",
+    "text_content": "Proceedings before District Commission.—(1) Every proceeding before the District\nCommission shall be conducted by the President of that Commission and atleast one member thereof,\nsitting together:\nProvided that where a member, for any reason, is unable to conduct a proceeding till it is completed,\nthe President and the other member shall continue the proceeding from the stage at which it was last heard\nby the previous member.\n(2) On receipt of a complaint made under section 35, the District Commission may, by order, admit\nthe complaint for being proceeded with or reject the same:\nProvided that a complaint shall not be rejected under this section unless an opportunity of being heard\nhas been given to the complainant:\nProvided further that the admissibility of the complaint shall ordinarily be decided within twenty-one\ndays from the date on which the complaint was filed.\n(3) Where the District Commission does not decide the issue of admissibility of the complaint within\nthe period so specified, it shall be deemed to have been admitted.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-37",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 37 — Reference to mediation",
+    "text_content": "Reference to mediation.—(1) At the first hearing of the complaint after its admission, or at any\nlater stage, if it appears to the District Commission that there exists elements of a settlement which may\nbe acceptable to the parties, except in such cases as may be prescribed, it may direct the parties to give in\nwriting, within five days, consent to have their dispute settled by mediation in accordance with the\nprovisions of Chapter V.\n(2) Where the parties agree for settlement by mediation and give their consent in writing, the District\nCommission shall, within five days of receipt of such consent, refer the matter for mediation, and in such\ncase, the provisions of Chapter V, relating to mediation, shall apply.\n19",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-38",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 38 — Procedure on admission of complaint",
+    "text_content": "Procedure on admission of complaint.—(1) The District Commission shall, on admission of a\ncomplaint, or in respect of cases referred for mediation on failure of settlement by mediation, proceed\nwith such complaint.\n(2) Where the complaint relates to any goods, the District Commission shall,—\n(a) refer a copy of the admitted complaint, within twenty-one days from the date of its admission\nto the opposite party mentioned in the complaint directing him to give his version of the case within a\nperiod of thirty days or such extended period not exceeding fifteen days as may be granted by it;\n(b) if the opposite party on receipt of a complaint referred to him under clause (a) denies or\ndisputes the allegations contained in the complaint, or omits or fails to take any action to represent his\ncase within the time given by the District Commission, proceed to settle the consumer dispute in the\nmanner specified in clauses (c) to (g);\n(c) if the complaint alleges a defect in the goods which cannot be determined without proper\nanalysis or test of the goods, obtain a sample of the goods from the complainant, seal it and\nauthenticate it in the manner as may be prescribed and refer the sample so sealed to the appropriate\nlaboratory along with a direction that such laboratory to make an analysis or test, whichever may be\nnecessary, with a view to finding out whether such goods suffer from any defect alleged in the\ncomplaint or from any other defect and to report its findings thereon to the District Commission\nwithin a period of forty-five days of the receipt of the reference or within such extended period as\nmay be granted by it;\n(d) before any sample of the goods is referred to any appropriate laboratory under clause (c),\nrequire the complainant to deposit to the credit of the Commission such fees as may be specified, for\npayment to the appropriate laboratory for carrying out the necessary analysis or test in relation to the\ngoods in question;\n(e) remit the amount deposited to its credit under clause (d) to the appropriate laboratory to enable\nit to carry out the analysis or test mentioned in clause (c) and on receipt of the report from the\nappropriate laboratory, it shall forward a copy of the report along with such remarks as it may feel\nappropriate to the opposite party;\n(f) if any of the parties disputes the correctness of the findings of the appropriate laboratory, or\ndisputes the correctness of the methods of analysis or test adopted by the appropriate laboratory,\nrequire the opposite party or the complainant to submit in writing his objections with regard to the\nreport made by the appropriate laboratory;\n(g) give a reasonable opportunity to the complainant as well as the opposite party of being heard\nas to the correctness or otherwise of the report made by the appropriate laboratory and also as to the\nobjection made in relation thereto under clause (f) and issue an appropriate order under section 39.\n(3) The District Commission shall, if the complaint admitted by it under sub-section (2) of section 36\nrelates to goods in respect of which the procedure specified in sub-section (2) cannot be followed, or if\nthe complaint relates to any services,—\n(a) refer a copy of such complaint to the opposite party directing him to give his version of the\ncase within a period of thirty days or such extended period not exceeding fifteen days as may be\ngranted by the District Commission;\n(b) if the opposite party, on receipt of a copy of the complaint, referred to him under clause (a)\ndenies or disputes the allegations contained in the complaint, or omits or fails to take any action to\nrepresent his case within the time given by the District Commission, it shall proceed to settle the\nconsumer dispute—\n(i) on the basis of evidence brought to its notice by the complainant and the opposite party, if\nthe opposite party denies or disputes the allegations contained in the complaint, or\n(ii) ex parte on the basis of evidence brought to its notice by the complainant, where the\nopposite party omits or fails to take any action to represent his case within the time given by the\nCommission;\n20\n(c) decide the complaint on merits if the complainant fails to appear on the date of hearing.\n(4) For the purposes of sub-sections (2) and (3), the District Commission may, by order, require an\nelectronic service provider to provide such information, documents or records, as may be specified in that\norder.\n(5) No proceedings complying with the procedure laid down in [sub-sections (2) and (3)] shall be\ncalled in question in any court on the ground that the principles of natural justice have not been complied\nwith.\n(6) Every complaint shall be heard by the District Commission on the basis of affidavit and\ndocumentary evidence placed on record:\nProvided that where an application is made for hearing or for examination of parties in person or\nthrough video conferencing, the District Commission may, on sufficient cause being shown, and after\nrecording its reasons in writing, allow the same.\n(7) Every complaint shall be disposed of as expeditiously as possible and endeavour shall be made to\ndecide the complaint within a period of three months from the date of receipt of notice by opposite party\nwhere the complaint does not require analysis or testing of commodities and within five months if it\nrequires analysis or testing of commodities:\nProvided that no adjournment shall ordinarily be granted by the District Commission unless sufficient\ncause is shown and the reasons for grant of adjournment have been recorded in writing by the\nCommission:\nProvided further that the District Commission shall make such orders as to the costs occasioned by\nthe adjournment as may be specified by regulations:\nProvided also that in the event of a complaint being disposed of after the period so specified, the\nDistrict Commission shall record in writing, the reasons for the same at the time of disposing of the said\ncomplaint.\n(8) Where during the pendency of any proceeding before the District Commission, if it appears\nnecessary, it may pass such interim order as is just and proper in the facts and circumstances of the case.\n(9) For the purposes of this section, the District Commission shall have the same powers as are vested\nin a civil court under the Code of Civil Procedure, 1908 (5 of 1908) while trying a suit in respect of the\nfollowing matters, namely:—\n(a) the summoning and enforcing the attendance of any defendant or witness and examining the\nwitness on oath;\n(b) requiring the discovery and production of any document or other material object as evidence;\n(c) receiving of evidence on affidavits;\n(d) the requisitioning of the report of the concerned analysis or test from the appropriate\nlaboratory or from any other relevant source;\n(e) issuing of commissions for the examination of any witness, or document; and\n(f) any other matter which may be prescribed by the Central Government.\n(10) Every proceeding before the District Commission shall be deemed to be a judicial proceeding\nwithin the meaning of section 193 and 228 of the Indian Penal Code (45 of 1860), and the District\nCommission shall be deemed to be a criminal court for the purposes of section 195 and Chapter XXVI of\nthe Code of Criminal Procedure, 1973 (2 of 1974).\n(11) Where the complainant is a consumer referred to in sub-clause (v) of clause (5) of section 2, the\nprovisions of Order I Rule 8 of the First Schedule to the Code of Civil Procedure, 1908 (5 of 1908) shall\napply subject to the modification that every reference therein to a suit or decree shall be construed as a\nreference to a complaint or the order of the District Commission thereon.\n21\n(12) In the event of death of a complainant who is a consumer or of the opposite party against whom\nthe complaint has been filed, the provisions of Order XXII of the First Schedule to the Code of Civil\nProcedure, 1908 (5 of 1908) shall apply subject to the modification that every reference therein to the\nplaintiff and the defendant shall be construed as reference to a complainant or the opposite party, as the\ncase may be.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-39",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 39 — Findings of District Commission",
+    "text_content": "Findings of District Commission.—(1) Where the District Commission is satisfied that the\ngoods complained against suffer from any of the defects specified in the complaint or that any of the\nallegations contained in the complaint about the services or any unfair trade practices, or claims for\ncompensation under product liability are proved, it shall issue an order to the opposite party directing him\nto do one or more of the following, namely:—\n(a) to remove the defect pointed out by the appropriate laboratory from the goods in question;\n(b) to replace the goods with new goods of similar description which shall be free from any\ndefect;\n(c) to return to the complainant the price, or, as the case may be, the charges paid by the\ncomplainant along with such interest on such price or charges as may be decided;\n(d) to pay such amount as may be awarded by it as compensation to the consumer for any loss or\ninjury suffered by the consumer due to the negligence of the opposite party:\nProvided that the District Commission shall have the power to grant punitive damages in such\ncircumstances as it deems fit;\n(e) to pay such amount as may be awarded by it as compensation in a product liability action\nunder Chapter VI;\n(f) to remove the defects in goods or deficiencies in the services in question;\n(g) to discontinue the unfair trade practice or restrictive trade practice and not to repeat them;\n(h) not to offer the hazardous or unsafe goods for sale;\n(i) to withdraw the hazardous goods from being offered for sale;\n(j) to cease manufacture of hazardous goods and to desist from offering services which are\nhazardous in nature;\n(k) to pay such sum as may be determined by it, if it is of the opinion that loss or injury has been\nsuffered by a large number of consumers who are not identifiable conveniently:\nProvided that the minimum amount of sum so payable shall not be less than twenty-five per cent.\nof the value of such defective goods sold or service provided, as the case may be, to such consumers;\n(l) to issue corrective advertisement to neutralise the effect of misleading advertisement at the\ncost of the opposite party responsible for issuing such misleading advertisement;\n(m) to provide for adequate costs to parties; and\n(n) to cease and desist from issuing any misleading advertisement.\n(2) Any amount obtained under sub-section (1) shall be credited to such fund and utilised in such\nmanner as may be prescribed.\n(3) In any proceeding conducted by the President and a member and if they differ on any point or\npoints, they shall state the point or points on which they differ and refer the same to another member for\nhearing on such point or points and the opinion of the majority shall be the order of the District\nCommission:\nProvided that the other member shall give his opinion on such point or points referred to him within a\nperiod of one month from the date of such reference.\n(4) Every order made by the District Commission under sub-section (1) shall be signed by the\nPresident and the member who conducted the proceeding:\n22\nProvided that where the order is made as per majority opinion under sub-section (3), such order shall\nalso be signed by the other member.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-40",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 40 — Review by District Commission in certain cases",
+    "text_content": "Review by District Commission in certain cases.—The District Commission shall have the\npower to review any of the order passed by it if there is an error apparent on the face of the record, either\nof its own motion or on an application made by any of the parties within thirty days of such order.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-41",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 41 — Appeal against order of District Commission",
+    "text_content": "Appeal against order of District Commission.—Any person aggrieved by an order made by the\nDistrict Commission may prefer an appeal against such order to the State Commission on the grounds of\nfacts or law within a period of forty-five days from the date of the order, in such form and manner, as may\nbe prescribed:\nProvided that the State Commission may entertain an appeal after the expiry of the said period of\nforty-five days, if it is satisfied that there was sufficient cause for not filing it within that period:\nProvided further that no appeal by a person, who is required to pay any amount in terms of an order of\nthe District Commission, shall be entertained by the State Commission unless the appellant has deposited\nfifty per cent. of that amount in the manner as may be prescribed:\nProvided also that no appeal shall lie from any order passed under sub-section (1) of section 81 by the\nDistrict Commission pursuant to a settlement by mediation under section 80.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-42",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 42 — Establishment of State Consumer Disputes Redressal Commission",
+    "text_content": "Establishment of State Consumer Disputes Redressal Commission.—(1) The State\nGovernment shall, by notification, establish a State Consumer Disputes Redressal Commission, to be\nknown as the State Commission, in the State.\n(2) The State Commission shall ordinarily function at the State capital and perform its functions at\nsuch other places as the State Government may in consultation with the State Commission notify in the\nOfficial Gazette:\nProvided that the State Government may, by notification, establish regional benches of the State\nCommission, at such places, as it deems fit.\n(3) Each State Commission shall consist of—\n(a) a President; and\n(b) not less than four or not more than such number of members as may be prescribed in\nconsultation with the Central Government.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-43",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 43 — Qualifications, etc., of President and members of State Commission",
+    "text_content": "Qualifications, etc., of President and members of State Commission.—The Central\nGovernment may, by notification, make rules to provide for the qualification for appointment, method of\nrecruitment, procedure of appointment, term of office, resignation and removal of the President and\nmembers of the State Commission.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-44",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 44 — Salaries, allowances and other terms and conditions of service of President and members of",
+    "text_content": "Salaries, allowances and other terms and conditions of service of President and members of\nState Commission.—The State Government may, by notification, make rules to provide for salaries and\nallowances and other terms and conditions of service of the President and members of the State\nCommission.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-45",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 45 — Transitional provision",
+    "text_content": "Transitional provision.—Any person appointed as President or, as the case may be, a member of\nthe State Commission immediately before the commencement of this Act shall hold office as such, as\nPresident or member, as the case may be, till the completion of his term.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-46",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 46 — Officers and employees of State Commission",
+    "text_content": "Officers and employees of State Commission.—(1) The State Government shall determine the\nnature and categories of the officers and other employees required to assist the State Commission in the\ndischarge of its functions and provide the Commission with such officers and other employees as it may\nthink fit.\n(2) The officers and other employees of the State Commission shall discharge their functions under\nthe general superintendence of the President.\n(3) The salaries and allowances payable to and the other terms and conditions of service of, the\nofficers and other employees of the State Commission shall be such as may be prescribed.\n23",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-47",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 47 — Jurisdiction of State Commission",
+    "text_content": "Jurisdiction of State Commission.—(1) Subject to the other provisions of this Act, the State\nCommission shall have jurisdiction—\n(a) to entertain—\n(i) complaints where the value of the goods or services paid as consideration, exceeds rupees\none crore, but does not exceed rupees ten crore:\nProvided that where the Central Government deems it necessary so to do, it may prescribe\nsuch other value, as it deems fit;\n(ii) complaints against unfair contracts, where the value of goods or services paid as\nconsideration does not exceed ten crore rupees;\n(iii) appeals against the orders of any District Commission within the State; and\n(b) to call for the records and pass appropriate orders in any consumer dispute which is pending\nbefore or has been decided by any District Commission within the State, where it appears to the State\nCommission that such District Commission has exercised a jurisdiction not vested in it by law, or has\nfailed to exercise a jurisdiction so vested or has acted in exercise of its jurisdiction illegally or with\nmaterial irregularity.\n(2) The jurisdiction, powers and authority of the State Commission may be exercised by Benches\nthereof, and a Bench may be constituted by the President with one or more members as the President may\ndeem fit:\nProvided that the senior-most member shall preside over the Bench.\n(3) Where the members of a Bench differ in opinion on any point, the points shall be decided\naccording to the opinion of the majority, if there is a majority, but if the members are equally divided,\nthey shall state the point or points on which they differ, and make a reference to the President who shall\neither hear the point or points himself or refer the case for hearing on such point or points by one or more\nof the other members and such point or points shall be decided according to the opinion of the majority of\nthe members who have heard the case, including those who first heard it:\nProvided that the President or the other members, as the case may be, shall give opinion on the point\nor points so referred within a period of one month from the date of such reference.\n(4) A complaint shall be instituted in a State Commission within the limits of whose jurisdiction,--\n(a) the opposite party or each of the opposite parties, where there are more than one, at the time\nof the institution of the complaint, ordinarily resides or carries on business or has a branch office or\npersonally works for gain; or\n(b) any of the opposite parties, where there are more than one, at the time of the institution of\nthe complaint, actually and voluntarily resides, or carries on business or has a branch office or\npersonally works for gain, provided in such case, the permission of the State Commission is given;\nor\n(c) the cause of action, wholly or in part, arises; or\n(d) the complainant resides or personally works for gain.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-48",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 48 — Transfer of cases",
+    "text_content": "Transfer of cases.—On the application of the complainant or of its own motion, the State\nCommission may, at any stage of the proceeding, transfer any complaint pending before a District\nCommission to another District Commission within the State if the interest of justice so requires.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-49",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 49 — Procedure applicable to State Commission",
+    "text_content": "Procedure applicable to State Commission.—(1) The provisions relating to complaints under\nsections 35, 36, 37, 38 and 39 shall, with such modifications as may be necessary, be applicable to the\ndisposal of complaints by the State Commission.\n(2) Without prejudice to the provisions of sub-section (1), the State Commission may also declare any\nterms of contract, which is unfair to any consumer, to be null and void.\n24",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-50",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 50 — Review by State Commission in certain cases",
+    "text_content": "Review by State Commission in certain cases.—The State Commission shall have the power to\nreview any of the order passed by it if there is an error apparent on the face of the record, either of its own\nmotion or on an application made by any of the parties within thirty days of such order.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-51",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 51 — Appeal to National Commission",
+    "text_content": "Appeal to National Commission.—(1) Any person aggrieved by an order made by the State\nCommission in exercise of its powers conferred by sub-clause (i) or (ii) of clause (a) of sub-section (1) of\nsection 47 may prefer an appeal against such order to the National Commission within a period of thirty\ndays from the date of the order in such form and manner as may be prescribed:\nProvided that the National Commission shall not entertain the appeal after the expiry of the said\nperiod of thirty days unless it is satisfied that there was sufficient cause for not filing it within that period:\nProvided further that no appeal by a person, who is required to pay any amount in terms of an order of\nthe State Commission, shall be entertained by the National Commission unless the appellant has\ndeposited fifty per cent. of that amount in the manner as may be prescribed.\n(2) Save as otherwise expressly provided under this Act or by any other law for the time being in\nforce, an appeal shall lie to the National Commission from any order passed in appeal by any State\nCommission, if the National Commission is satisfied that the case involves a substantial question of law.\n(3) In an appeal involving a question of law, the memorandum of appeal shall precisely state the\nsubstantial question of law involved in the appeal.\n(4) Where the National Commission is satisfied that a substantial question of law is involved in any\ncase, it shall formulate that question and hear the appeal on that question:\nProvided that nothing in this sub-section shall be deemed to take away or abridge the power of the\nNational Commission to hear, for reasons to be recorded in writing, the appeal on any other substantial\nquestion of law, if it is satisfied that the case involves such question of law.\n(5) An appeal may lie to the National Commission under this section from an order passed ex parte\nby the State Commission.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-52",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 52 — Hearing of appeal",
+    "text_content": "Hearing of appeal.—An appeal filed before the State Commission or the National Commission,\nas the case may be, shall be heard as expeditiously as possible and every endeavour shall be made to\ndispose of the appeal within a period of ninety days from the date of its admission:\nProvided that no adjournment shall ordinarily be granted by the State Commission or the National\nCommission, as the case may be, unless sufficient cause is shown and the reasons for grant of\nadjournment have been recorded in writing by such Commission:\nProvided further that the State Commission or the National Commission, as the case may be, shall\nmake such orders as to the costs occasioned by the adjournment, as may be specified by regulations:\nProvided also that in the event of an appeal being disposed of after the period so specified, the State\nCommission or the National Commission, as the case may be, shall record in writing the reasons for the\nsame at the time of disposing of the said appeal.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-53",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 53 — Establishment of National Consumer Disputes Redressal Commission",
+    "text_content": "Establishment of National Consumer Disputes Redressal Commission.—(1) The Central\nGovernment shall, by notification, establish a National Consumer Disputes Redressal Commission, to be\nknown as the National Commission.\n(2) The National Commission shall ordinarily function at the National Capital Region and perform its\nfunctions at such other places as the Central Government may in consultation with the National\nCommission notify in the Official Gazette:\nProvided that the Central Government may, by notification, establish regional Benches of the\nNational Commission, at such places, as it deems fit.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-54",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 54 — Composition of National Commission",
+    "text_content": "Composition of National Commission.—The National Commission shall consist of—\n(a) a President; and\n(b) not less than four and not more than such number of members as may be prescribed.\n25",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-55",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 55 — Qualifications, etc., of President and members of National Commission",
+    "text_content": "Qualifications, etc., of President and members of National Commission.—(1) The Central\nGovernment may, by notification, make rules to provide for qualifications, appointment, term of office,\nsalaries and allowances, resignation, removal and other terms and conditions of service of the President\nand members of the National Commission:\nProvided that the President and members of the National Commission shall hold office for such term\nas specified in the rules made by the Central Government but not exceeding five years from the date on\nwhich he enters upon his office and shall be eligible for re-appointment:\nProvided further that no President or members shall hold office as such after he has attained such age\nas specified in the rules made by the Central Government which shall not exceed,—\n(a) in the case of the President, the age of seventy years;\n(b) in the case of any other member, the age of sixty-seven years.\n(2) Neither the salary and allowances nor the other terms and conditions of service of President and\nmembers of the National Commission shall be varied to his disadvantage after his appointment.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-56",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 56 — Transitional provision",
+    "text_content": "Transitional provision.—The President and every other member appointed immediately before\nthe commencement of section 177 of the Finance Act, 2017 (7 of 2017) shall continue to be governed by\nthe provisions of the Consumer Protection Act, 1986 (68 of 1986) and the rules made there under as if\nthis Act had not come into force.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-57",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 57 — Other officers and employees of National Commission",
+    "text_content": "Other officers and employees of National Commission.—(1) The Central Government shall\nprovide, in consultation with the President of the National Commission, such number of officers and other\nemployees to assist the National Commission in the discharge of its functions as it may think fit.\n(2) The officers and other employees of the National Commission shall discharge their functions\nunder the general superintendence of the President of the National Commission.\n(3) The salaries and allowances payable to, and the other terms and conditions of service of, the\nofficers and other employees of the National Commission shall be such as may be prescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-58",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 58 — Jurisdiction of National Commission",
+    "text_content": "Jurisdiction of National Commission.—(1) Subject to the other provisions of this Act, the\nNational Commission shall have jurisdiction—\n(a) to entertain—\n(i) complaints where the value of the goods or services paid as consideration exceeds rupees\nten crore:\nProvided that where the Central Government deems it necessary so to do, it may prescribe\nsuch other value, as it deems fit;\n(ii) complaints against unfair contracts, where the value of goods or services paid as\nconsideration exceeds ten crore rupees;\n(iii) appeals against the orders of any State Commission;\n(iv) appeals against the orders of the Central Authority; and\n(b) to call for the records and pass appropriate orders in any consumer dispute which is pending\nbefore or has been decided by any State Commission where it appears to the National Commission\nthat such State Commission has exercised a jurisdiction not vested in it by law, or has failed to\nexercise a jurisdiction so vested, or has acted in the exercise of its jurisdiction illegally or with\nmaterial irregularity.\n(2) The jurisdiction, powers and authority of the National Commission may be exercised by Benches\nthereof and a Bench may be constituted by the President with one or more members as he may deem fit:\nProvided that the senior-most member of the Bench shall preside over the Bench.\n(3) Where the members of a Bench differ in opinion on any point, the points shall be decided\naccording to the opinion of the majority, if there is a majority, but if the members are equally divided,\n26\nthey shall state the point or points on which they differ, and make a reference to the President who shall\neither hear the point or points himself or refer the case for hearing on such point or points by one or more\nof the other members and such point or points shall be decided according to the opinion of the majority of\nthe members who have heard the case, including those who first heard it:\nProvided that the President or the other member, as the case may be, shall give opinion on the point or\npoints so referred within a period of two months from the date of such reference.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-59",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 59 — Procedure applicable to National Commission",
+    "text_content": "Procedure applicable to National Commission.—(1) The provisions relating to complaints\nunder sections 35, 36, 37, 38 and 39 shall, with such modifications as may be considered necessary, be\napplicable to the disposal of complaints by the National Commission.\n(2) Without prejudice to sub-section (1), the National Commission may also declare any terms of\ncontract, which is unfair to any consumer to be null and void.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-60",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 60 — Review by National Commission in certain cases",
+    "text_content": "Review by National Commission in certain cases.—The National Commission shall have the\npower to review any of the order passed by it if there is an error apparent on the face of the record, either\nof its own motion or on an application made by any of the parties within thirty days of such order.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-61",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 61 — Power to set aside ex parte orders",
+    "text_content": "Power to set aside ex parte orders.—Where an order is passed by the National Commission ex\nparte, the aggrieved party may make an application to the Commission for setting aside such order.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-62",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 62 — Transfer of cases",
+    "text_content": "Transfer of cases.—On the application of the complainant or of its own motion, the National\nCommission may, at any stage of the proceeding, in the interest of justice, transfer any complaint pending\nbefore the District Commission of one State to a District Commission of another State or before one State\nCommission to another State Commission.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-63",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 63 — Vacancy in office of President of National Commission",
+    "text_content": "Vacancy in office of President of National Commission.—When the office of President of the\nNational Commission is vacant or a person occupying such office is, by reason of absence or otherwise,\nunable to perform the duties of his office, these shall be performed by the senior-most member of the\nNational Commission:\nProvided that where a retired Judge of a High Court or a person who has been a Judicial Member is a\nmember of the National Commission, such member or where the number of such members is more than\none, the senior-most person amongst such members, shall preside over the National Commission in the\nabsence of President of that Commission.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-64",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 64 — Vacancies or defects in appointment not to invalidate orders",
+    "text_content": "Vacancies or defects in appointment not to invalidate orders.—No act or proceeding of the\nDistrict Commission, the State Commission or the National Commission shall be invalid by reason only\nof the existence of any vacancy amongst its members or any defect in the constitution thereof.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-65",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 65 — Service of notice, etc",
+    "text_content": "Service of notice, etc.—(1) All notices, required by this Act to be served, shall be served by\ndelivering or transmitting a copy thereof by registered post acknowledgment due addressed to opposite\nparty against whom complaint is made or to the complainant by speed post or by such courier service,\napproved by the District Commission, the State Commission or the National Commission, as the case\nmay be, or by any other mode of transmission of documents including electronic means.\n(2) Without prejudice to the provisions contained in sub-section (1), the notice required by this Act\nmay be served on an electronic service provider at the address provided by it on the electronic platform\nfrom where it provides its services as such and for this purpose, the electronic service provider shall\ndesignate a nodal officer to accept and process such notices.\n(3) When an acknowledgment or any other receipt purporting to be signed by the opposite party or his\nagent or, as the case may be, by the complainant is received by the District Commission, the State\nCommission or the National Commission, as the case may be, or postal article containing the notice is\nreceived back by such District Commission, State Commission or the National Commission, with an\nendorsement purporting to have been made by a postal employee or by any person authorised by the\ncourier service to the effect that the opposite party or his agent or complainant had refused to take\ndelivery of the postal article containing the notice or had refused to accept the notice by any other means\nspecified in sub-section (1) when tendered or transmitted to him, the District Commission or the State\n27\nCommission or the National Commission, as the case may be, shall declare that the notice has been duly\nserved on the opposite party or to the complainant, as the case may be:\nProvided that where the notice was properly addressed, pre-paid and duly sent by registered post\nacknowledgment due, a declaration referred to in this sub-section shall be made notwithstanding the fact\nthat the acknowledgment has been lost or misplaced, or for any other reason, has not been received by the\nDistrict Commission, the State Commission or the National Commission, as the case may be, within\nthirty days from the date of issue of notice.\n(4) All notices required to be served on an opposite party or to complainant, as the case may be, shall\nbe deemed to be sufficiently served, if addressed in the case of the opposite party, to the place where\nbusiness or profession is carried on, and in case of the complainant, the place where such person actually\nand voluntarily resides.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-66",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 66 — Experts to assist National Commission or State Commission",
+    "text_content": "Experts to assist National Commission or State Commission.—Where the National\nCommission or the State Commission, as the case may be, on an application by a complainant or\notherwise, is of the opinion that it involves the larger interest of consumers, it may direct any individual\nor organisation or expert to assist the National Commission or the State Commission, as the case may be.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-67",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 67 — Appeal against order of National Commission",
+    "text_content": "Appeal against order of National Commission.—Any person, aggrieved by an order made by\nthe National Commission in exercise of its powers conferred by sub-clause (i) or (ii) of clause (a) of\nsub-section (1) of section 58, may prefer an appeal against such order to the Supreme Court within a\nperiod of thirty days from the date of the order:\nProvided that the Supreme Court may entertain an appeal after the expiry of the said period of thirty\ndays if it is satisfied that there was sufficient cause for not filing it within that period:\nProvided further that no appeal by a person who is required to pay any amount in terms of an order of\nthe National Commission shall be entertained by the Supreme Court unless that person has deposited fifty\nper cent. of that amount in the manner as may be prescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-68",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 68 — Finality of orders",
+    "text_content": "Finality of orders.—Every order of a District Commission or the State Commission or the\nNational Commission, as the case may be, shall, if no appeal has been preferred against such order under\nthe provisions of this Act, be final.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-69",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 69 — Limitation period",
+    "text_content": "Limitation period.—(1) The District Commission, the State Commission or the National\nCommission shall not admit a complaint unless it is filed within two years from the date on which the\ncause of action has arisen.\n(2) Notwithstanding anything contained in sub-section (1), a complaint may be entertained after the\nperiod specified in sub-section (1), if the complainant satisfies the District Commission, the State\nCommission or the National Commission, as the case may be, that he had sufficient cause for not filing\nthe complaint within such period:\nProvided that no such complaint shall be entertained unless the District Commission or the State\nCommission or the National Commission, as the case may be, records its reasons for condoning such\ndelay.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-70",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 70 — Administrative control",
+    "text_content": "Administrative control.—(1) The National Commission shall have the authority to lay down\nsuch adequate standards in consultation with the Central Government from time to time, for better\nprotection of the interests of consumers and for that purpose, shall have administrative control over all the\nState Commissions in the following matters, namely:—\n(a) monitoring performance of the State Commissions in terms of their disposal by calling for\nperiodical returns regarding the institution, disposal and pendency of cases;\n(b) investigating into any allegations against the President and members of a State Commission\nand submitting inquiry report to the State Government concerned along with copy endorsed to the\nCentral Government for necessary action;\n28\n(c) issuance of instructions regarding adoption of uniform procedure in the hearing of matters,\nprior service of copies of documents produced by one party to the opposite parties, furnishing of\nenglish translation of judgments written in any language, speedy grant of copies of documents;\n(d) overseeing the functioning of the State Commission or the District Commission either by way\nof inspection or by any other means, as the National Commission may like to order from time to time,\nto ensure that the objects and purposes of the Act are best served and the standards set by the National\nCommission are implemented without interfering with their quasi-judicial freedom.\n(2) There shall be a monitoring cell to be constituted by the President of the National Commission to\noversee the functioning of the State Commissions from the administrative point of view.\n(3) The State Commission shall have administrative control over all the District Commissions within\nits jurisdiction in all matters referred to in sub-section (1).\n(4) The National Commission and the State Commissions shall furnish to the Central Government\nperiodically or as and when required, any information including the pendency of cases in such form and\nmanner as may be prescribed.\n(5) The State Commission shall furnish, periodically or as and when required to the State Government\nany information including pendency of cases in such form and manner as may be prescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-71",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 71 — Enforcement of orders of District Commission, State Commission and National",
+    "text_content": "Enforcement of orders of District Commission, State Commission and National\nCommission.—Every order made by a District Commission, State Commission or the National\nCommission shall be enforced by it in the same manner as if it were a decree made by a Court in a suit\nbefore it and the provisions of Order XXI of the First Schedule to the Code of Civil Procedure, 1908 (5 of\n1908) shall, as far as may be, applicable, subject to the modification that every reference therein to the\ndecree shall be construed as reference to the order made under this Act.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-72",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 72 — Penalty for non-compliance of order",
+    "text_content": "Penalty for non-compliance of order.—(1) Whoever fails to comply with any order made by the\nDistrict Commission or the State Commission or the National Commission, as the case may be, shall be\npunishable with imprisonment for a term which shall not be less than one month, but which may extend to\nthree years, or with fine, which shall not be less than twenty-five thousand rupees, but which may extend\nto one lakh rupees, or with both.\n(2) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), the\nDistrict Commission, the State Commission or the National Commission, as the case may be, shall have\nthe power of a Judicial Magistrate of first class for the trial of offences under sub-section (1), and on\nconferment of such powers, the District Commission or the State Commission or the National\nCommission, as the case may be, shall be deemed to be a Judicial Magistrate of first class for the\npurposes of the Code of Criminal Procedure, 1973.\n(3) Save as otherwise provided, the offences under sub-section (1) shall be tried summarily by the\nDistrict Commission or the State Commission or the National Commission, as the case may be.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-IV/S-73",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-IV",
+    "node_type": "section",
+    "label": "Section 73 — Appeal against order passed under section 72",
+    "text_content": "Appeal against order passed under section 72.—(1) Notwithstanding anything contained in the\nCode of Criminal Procedure, 1973 (2 of 1974), where an order is passed under sub-section (1) of section\n72, an appeal shall lie, both on facts and on law from—\n(a) the order made by the District Commission to the State Commission;\n(b) the order made by the State Commission to the National Commission; and\n(c) the order made by the National Commission to the Supreme Court.\n(2) Except as provided in sub-section (1), no appeal shall lie before any court, from any order of a\nDistrict Commission or a State Commission or the National Commission, as the case may be.\n(3) Every appeal under this section shall be preferred within a period of thirty days from the date of\norder of a District Commission or a State Commission or the National Commission, as the case may be:\n29\nProvided that the State Commission or the National Commission or the Supreme Court, as the case\nmay be, may entertain an appeal after the expiry of the said period of thirty days, if it is satisfied that the\nappellant had sufficient cause for not preferring the appeal within the said period of thirty days.\nCHAPTER V\nMEDIATION",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-V/S-74",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-V",
+    "node_type": "section",
+    "label": "Section 74 — Establishment of consumer mediation cell",
+    "text_content": "Establishment of consumer mediation cell.—(1) The State Government shall establish, by\nnotification, a consumer mediation cell to be attached to each of the District Commissions and the State\nCommissions of that State.\n(2) The Central Government shall establish, by notification, a consumer mediation cell to be attached\nto the National Commission and each of the regional Benches.\n(3) A consumer mediation cell shall consist of such persons as may be prescribed.\n(4) Every consumer mediation cell shall maintain—\n(a) a list of empanelled mediators;\n(b) a list of cases handled by the cell;\n(c) record of proceeding; and\n(d) any other information as may be specified by regulations.\n(5) Every consumer mediation cell shall submit a quarterly report to the District Commission, State\nCommission or the National Commission to which it is attached, in the manner specified by regulations.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-V/S-75",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-V",
+    "node_type": "section",
+    "label": "Section 75 — Empanelment of mediators",
+    "text_content": "Empanelment of mediators.—(1) For the purpose of mediation, the National Commission or the\nState Commission or the District Commission, as the case may be, shall prepare a panel of the mediators\nto be maintained by the consumer mediation cell attached to it, on the recommendation of a selection\ncommittee consisting of the President and a member of that Commission.\n(2) The qualifications and experience required for empanelment as mediator, the procedure for\nempanelment, the manner of training empanelled mediators, the fee payable to empanelled mediator, the\nterms and conditions for empanelment, the code of conduct for empanelled mediators, the grounds on\nwhich, and the manner in which, empanelled mediators shall be removed or empanelment shall be\ncancelled and other matters relating thereto, shall be such as may be specified by regulations.\n(3) The panel of mediators prepared under sub-section (1) shall be valid for a period of five years, and\nthe empanelled mediators shall be eligible to be considered for re-empanelment for another term, subject\nto such conditions as may be specified by regulations.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-V/S-76",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-V",
+    "node_type": "section",
+    "label": "Section 76 — Nomination of mediators from panel",
+    "text_content": "Nomination of mediators from panel.—The District Commission, the State Commission or the\nNational Commission shall, while nominating any person from the panel of mediators referred to in\nsection 75, consider his suitability for resolving the consumer dispute involved.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-V/S-77",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-V",
+    "node_type": "section",
+    "label": "Section 77 — Duty of mediator to disclose certain facts",
+    "text_content": "Duty of mediator to disclose certain facts.—It shall be the duty of the mediator to disclose—\n(a) any personal, professional or financial interest in the outcome of the consumer dispute;\n(b) the circumstances which may give rise to a justifiable doubt as to his independence or\nimpartiality; and\n(c) such other facts as may be specified by regulations.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-V/S-78",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-V",
+    "node_type": "section",
+    "label": "Section 78 — Replacement of mediator in certain cases",
+    "text_content": "Replacement of mediator in certain cases.—Where the District Commission or the State\nCommission or the National Commission, as the case may be, is satisfied, on the information furnished by\nthe mediator or on the information received from any other person including parties to the complaint and\nafter hearing the mediator, it shall replace such mediator by another mediator.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-V/S-79",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-V",
+    "node_type": "section",
+    "label": "Section 79 — Procedure for mediation",
+    "text_content": "Procedure for mediation.—(1) The mediation shall be held in the consumer mediation cell\nattached to the District Commission, the State Commission or the National Commission, as the case may\nbe.\n30\n(2) Where a consumer dispute is referred for mediation by the District Commission or the State\nCommission or the National Commission, as the case may be, the mediator nominated by such\nCommission shall have regard to the rights and obligations of the parties, the usages of trade, if any, the\ncircumstances giving rise to the consumer dispute and such other relevant factors, as he may deem\nnecessary and shall be guided by the principles of natural justice while carrying out mediation.\n(3) The mediator so nominated shall conduct mediation within such time and in such manner as may\nbe specified by regulations.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-V/S-80",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-V",
+    "node_type": "section",
+    "label": "Section 80 — Settlement through mediation",
+    "text_content": "Settlement through mediation.—(1) Pursuant to mediation, if an agreement is reached between\nthe parties with respect to all of the issues involved in the consumer dispute or with respect to only some\nof the issues, the terms of such agreement shall be reduced to writing accordingly, and signed by the\nparties to such dispute or their authorised representatives.\n(2) The mediator shall prepare a settlement report of the settlement and forward the signed agreement\nalong with such report to the concerned Commission.\n(3) Where no agreement is reached between the parties within the specified time or the mediator is of\nthe opinion that settlement is not possible, he shall prepare his report accordingly and submit the same to\nthe concerned Commission.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-V/S-81",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-V",
+    "node_type": "section",
+    "label": "Section 81 — Recording settlement and passing of order",
+    "text_content": "Recording settlement and passing of order.—(1) The District Commission or the State\nCommission or the National Commission, as the case may be, shall, within seven days of the receipt of\nthe settlement report, pass suitable order recording such settlement of consumer dispute and dispose of the\nmatter accordingly.\n(2) Where the consumer dispute is settled only in part, the District Commission or the State\nCommission or the National Commission, as the case may be, shall record settlement of the issues which\nhave been so settled and continue to hear other issues involved in such consumer dispute.\n(3) Where the consumer dispute could not be settled by mediation, the District Commission or the\nState Commission or the National Commission, as the case may be, shall continue to hear all the issues\ninvolved in such consumer dispute.\nCHAPTER VI\nPRODUCT LIABILITY",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VI/S-82",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VI",
+    "node_type": "section",
+    "label": "Section 82 — Application of Chapter",
+    "text_content": "Application of Chapter.—This Chapter shall apply to every claim for compensation under a\nproduct liability action by a complainant for any harm caused by a defective product manufactured by a\nproduct manufacturer or serviced by a product service provider or sold by a product seller.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VI/S-83",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VI",
+    "node_type": "section",
+    "label": "Section 83 — Product liability action",
+    "text_content": "Product liability action.—A product liability action may be brought by a complainant against a\nproduct manufacturer or a product service provider or a product seller, as the case may be, for any harm\ncaused to him on account of a defective product.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VI/S-84",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VI",
+    "node_type": "section",
+    "label": "Section 84 — Liability of product manufacturer",
+    "text_content": "Liability of product manufacturer.—(1) A product manufacturer shall be liable in a product\nliability action, if—\n(a) the product contains a manufacturing defect; or\n(b) the product is defective in design; or\n(c) there is a deviation from manufacturing specifications; or\n(d) the product does not conform to the express warranty; or\n(e) the product fails to contain adequate instructions of correct usage to prevent any harm or any\nwarning regarding improper or incorrect usage.\n(2) A product manufacturer shall be liable in a product liability action even if he proves that he was\nnot negligent or fraudulent in making the express warranty of a product.\n31",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VI/S-85",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VI",
+    "node_type": "section",
+    "label": "Section 85 — Liability of product service provider",
+    "text_content": "Liability of product service provider.—A product service provider shall be liable in a product\nliability action, if—\n(a) the service provided by him was faulty or imperfect or deficient or inadequate in quality, nature or\nmanner of performance which is required to be provided by or under any law for the time being in force,\nor pursuant to any contract or otherwise; or\n(b) there was an act of omission or commission or negligence or conscious withholding any\ninformation which caused harm; or\n(c) the service provider did not issue adequate instructions or warnings to prevent any harm; or\n(d) the service did not conform to express warranty or the terms and conditions of the contract.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VI/S-86",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VI",
+    "node_type": "section",
+    "label": "Section 86 — Liability of product sellers",
+    "text_content": "Liability of product sellers.—A product seller who is not a product manufacturer shall be liable\nin a product liability action, if—\n(a) he has exercised substantial control over the designing, testing, manufacturing, packaging or\nlabelling of a product that caused harm; or\n(b) he has altered or modified the product and such alteration or modification was the substantial\nfactor in causing the harm; or\n(c) he has made an express warranty of a product independent of any express warranty made by a\nmanufacturer and such product failed to conform to the express warranty made by the product seller\nwhich caused the harm; or\n(d) the product has been sold by him and the identity of product manufacturer of such product is\nnot known, or if known, the service of notice or process or warrant cannot be effected on him or he is\nnot subject to the law which is in force in India or the order, if any, passed or to be passed cannot be\nenforced against him; or\n(e) he failed to exercise reasonable care in assembling, inspecting or maintaining such product or\nhe did not pass on the warnings or instructions of the product manufacturer regarding the dangers\ninvolved or proper usage of the product while selling such product and such failure was the proximate\ncause of the harm.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VI/S-87",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VI",
+    "node_type": "section",
+    "label": "Section 87 — Exceptions to product liability action",
+    "text_content": "Exceptions to product liability action.—(1) A product liability action cannot be brought against\nthe product seller if, at the time of harm, the product was misused, altered, or modified.\n(2) In any product liability action based on the failure to provide adequate warnings or instructions,\nthe product manufacturer shall not be liable, if—\n(a) the product was purchased by an employer for use at the workplace and the product\nmanufacturer had provided warnings or instructions to such employer;\n(b) the product was sold as a component or material to be used in another product and necessary\nwarnings or instructions were given by the product manufacturer to the purchaser of such component\nor material, but the harm was caused to the complainant by use of the end product in which such\ncomponent or material was used;\n(c) the product was one which was legally meant to be used or dispensed only by or under the\nsupervision of an expert or a class of experts and the product manufacturer had employed reasonable\nmeans to give the warnings or instructions for usage of such product to such expert or class of\nexperts; or\n(d) the complainant, while using such product, was under the influence of alcohol or any\nprescription drug which had not been prescribed by a medical practitioner.\n(3) A product manufacturer shall not be liable for failure to instruct or warn about a danger which is\nobvious or commonly known to the user or consumer of such product or which, such user or consumer,\nought to have known, taking into account the characteristics of such product.\n32\nCHAPTER VII\nOFFENCES AND PENALTIES",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VII/S-88",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VII",
+    "node_type": "section",
+    "label": "Section 88 — Penalty for non-compliance of direction of Central Authority",
+    "text_content": "Penalty for non-compliance of direction of Central Authority.—Whoever, fails to comply\nwith any direction of the Central Authority under sections 20 and 21, shall be punished with\nimprisonment for a term which may extend to six months or with fine which may extend to twenty lakh\nrupees, or with both.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VII/S-89",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VII",
+    "node_type": "section",
+    "label": "Section 89 — Punishment for false or misleading advertisement",
+    "text_content": "Punishment for false or misleading advertisement.—Any manufacturer or service provider\nwho causes a false or misleading advertisement to be made which is prejudicial to the interest of\nconsumers shall be punished with imprisonment for a term which may extend to two years and with fine\nwhich may extend to ten lakh rupees; and for every subsequent offence, be punished with imprisonment\nfor a term which may extend to five years and with fine which may extend to fifty lakh rupees.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VII/S-90",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VII",
+    "node_type": "section",
+    "label": "Section 90 — Punishment for manufacturing for sale or storing, selling or distributing or importing",
+    "text_content": "Punishment for manufacturing for sale or storing, selling or distributing or importing\nproducts containing adulterant.—(1) Whoever, by himself or by any other person on his behalf,\nmanufactures for sale or stores or sells or distributes or imports any product containing an adulterant shall\nbe punished, if such act—\n(a) does not result in any injury to the consumer, with imprisonment for a term which may extend\nto six months and with fine which may extend to one lakh rupees;\n(b) causing injury not amounting to grievous hurt to the consumer, with imprisonment for a term\nwhich may extend to one year and with fine which may extend to three lakh rupees;\n(c) causing injury resulting in grievous hurt to the consumer, with imprisonment for a term which\nmay extend to seven years and with fine which may extend to five lakh rupees; and\n(d) results in the death of a consumer, with imprisonment for a term which shall not be less than\nseven years, but which may extend to imprisonment for life and with fine which shall not be less than\nten lakh rupees.\n(2) The offences under clauses (c) and (d) of sub-section (1) shall be cognizable and non-bailable.\n(3) Notwithstanding the punishment under sub-section (1), the court may, in case of first conviction,\nsuspend any licence issued to the person referred to in that sub-section, under any law for the time being\nin force, for a period up to two years, and in case of second or subsequent conviction, cancel the licence.\nExplanation.—For the purposes of this section,—\n(a) \"adulterant\" means any material including extraneous matter which is employed or used for\nmaking a product unsafe;\n(b) \"grievous hurt\" shall have the same meaning as assigned to it in section 320 of the Indian\nPenal Code (45 of 1860).",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VII/S-91",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VII",
+    "node_type": "section",
+    "label": "Section 91 — Punishment for manufacturing for sale or for storing or selling or distributing or importing",
+    "text_content": "Punishment for manufacturing for sale or for storing or selling or distributing or importing\nspurious goods.—(1) Whoever, by himself or by any other person on his behalf, manufactures for sale or\nstores or sells or distributes or imports any spurious goods shall be punished, if such act—\n(a) causing injury not amounting to grievous hurt to the consumer, with imprisonment for a term\nwhich may extend to one year and with fine which may extend to three lakh rupees;\n(b) causing injury resulting in grievous hurt to the consumer, with imprisonment for a term which\nmay extend to seven years and with fine which may extend to five lakh rupees;\n(c) results in the death of a consumer, with imprisonment for a term which shall not be less than\nseven years, but may extend to imprisonment for life and with fine which shall not be less than ten\nlakh rupees.\n(2) The offences under clauses (b) and (c) of sub-section (1) shall be cognizable and non-bailable.\n(3) Notwithstanding the punishment under sub-section (1), the court may, in case of first\nconviction, suspend any licence issued to the person referred to in that sub-section, under any law for\n33\nthe time being in force, for a period up to two years, and in case of second or subsequent conviction,\ncancel the licence.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VII/S-92",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VII",
+    "node_type": "section",
+    "label": "Section 92 — Cognizance of offence by court",
+    "text_content": "Cognizance of offence by court.—No cognizance shall be taken by a competent court of any\noffence under sections 88 and 89 except on a complaint filed by the Central Authority or any officer\nauthorised by it in this behalf.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VII/S-93",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VII",
+    "node_type": "section",
+    "label": "Section 93 — Vexatious search",
+    "text_content": "Vexatious search.—The Director General or any other officer, exercising powers under section\n22, who knows that there are no reasonable grounds for so doing, and yet—\n(a) searches, or causes to be searched any premises; or\n(b) seizes any record, register or other document or article, shall, for every such offence, be punished\nwith imprisonment for a term which may extend to one year, or with fine which may extend to ten\nthousand rupees or with both.\nCHAPTER VIII\nMISCELLANEOUS",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-94",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 94 — Measures to prevent unfair trade practices in e-commerce, direct selling, etc",
+    "text_content": "Measures to prevent unfair trade practices in e-commerce, direct selling, etc.—For the\npurposes of preventing unfair trade practices in e-commerce, direct selling and also to protect the interest\nand rights of consumers, the Central Government may take such measures in the manner as may be\nprescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-95",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 95 — Presidents, members, Chief Commissioner, Commissioner and certain officers to be public",
+    "text_content": "Presidents, members, Chief Commissioner, Commissioner and certain officers to be public\nservants.—The Presidents and members of the District Commission, the State Commission and the\nNational Commission, and officers and other employees thereof, the Chief Commissioner and the\nCommissioner of the Central Authority, the Director General, the Additional Director General, the\nDirector, the Joint Director, the Deputy Director and the Assistant Director and all other officers and\nemployees of the Central Authority and other persons performing any duty under this Act, while acting or\npurporting to act in pursuance of any of the provisions of this Act, shall be deemed to be public servants\nwithin the meaning of section 21 of the Indian Penal Code (45 of 1860).",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-96",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 96 — Compounding of offences",
+    "text_content": "Compounding of offences.—(1) Any offence punishable under sections 88 and 89, may, either\nbefore or after the institution of the prosecution, be compounded, on payment of such amount as may be\nprescribed:\nProvided that no compounding of such offence shall be made without the leave of the court before\nwhich a complaint has been filed under section 92:\nProvided further that such sum shall not, in any case, exceed the maximum amount of the fine, which\nmay be imposed under this Act for the offence so compounded.\n(2) The Central Authority or any officer as may be specially authorised by him in this behalf, may\ncompound offences under sub-section (1).\n(3) Nothing in sub-section (1) shall apply to person who commits the same or similar offence, within\na period of three years from the date on which the first offence, committed by him, was compounded.\nExplanation.—For the purposes of this sub-section, any second or subsequent offence committed after\nthe expiry of a period of three years from the date on which the offence was previously compounded,\nshall be deemed to be a first offence.\n(4) Where an offence has been compounded under sub-section (1), no proceeding or further\nproceeding, as the case may be, shall be taken against the offender in respect of the offence so\ncompounded.\n(5) The acceptance of the sum of money for compounding an offence in accordance with sub-section\n(1) by the Central Authority or an officer of the Central Authority empowered in this behalf shall be\ndeemed to amount to an acquittal within the meaning of the Code of Criminal Procedure, 1973 (2 of\n1974).\n34",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-97",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 97 — Manner of crediting penalty",
+    "text_content": "Manner of crediting penalty.—The penalty collected under section 21 and the amount collected\nunder section 96 shall be credited to such fund as may be prescribed.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-98",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 98 — Protection of action taken in good faith",
+    "text_content": "Protection of action taken in good faith.—No suit, prosecution or other legal proceeding shall\nlie against the Presidents and members of the District Commission, the State Commission and the\nNational Commission, the Chief Commissioner, the Commissioner, any officer or employee and other\nperson performing any duty under this Act, for any act which is in good faith done or intended to be done\nin pursuance of this Act or under any rule or order made thereunder.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-99",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 99 — Power to give directions by Central Government",
+    "text_content": "Power to give directions by Central Government.—(1) Without prejudice to the foregoing\nprovisions of this Act, the Central Authority, shall, in exercise of its powers or the performance of its\nfunctions under this Act, be bound by such directions on questions of policy, as the Central Government\nmay give in writing to it from time to time:\nProvided that the Central Authority shall, as far as practicable, be given an opportunity to express its\nviews before any direction is given under this sub-section.\n(2) The decision of the Central Government whether a question is one of policy or not shall be final.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-100",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 100 — Act not in derogation of any other law",
+    "text_content": "Act not in derogation of any other law.—The provisions of this Act shall be in addition to and\nnot in derogation of the provisions of any other law for the time being in force.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-101",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 101 — Power of Central Government to make rules",
+    "text_content": "Power of Central Government to make rules.—(1) The Central Government may, by\nnotification, make rules for carrying out any of the provisions contained in this Act.\n(2) Without prejudice to the generality of the foregoing power, such rules may provide for, —\n(a) the other class or classes of persons including public utility entities under clause (19) of\nsection 2;\n(b) the contest, lottery, game of chance or skill which are to be exempted under item (b) of sub-\nclause (iii) of clause (47) of section 2;\n(c) the manner of issuing bill or cash memo or receipt for goods sold or services rendered under\nsub-clause (vii) of clause (47) of section 2;\n(d) the number of other official or non-official members of the Central Council under clause (b)\nof sub-section (2) of section 3;\n(e) the time and place of meeting of Central Council and the procedure for the transaction of its\nbusiness under sub-section (2) of section 4;\n(f) the number of Commissioners in the Central Authority under sub-section (2) of section 10;\n(g) the qualifications for appointment, method of recruitment, procedure of appointment, term of\noffice, salaries and allowances, resignation, removal and other terms and conditions of service of the\nChief Commissioner and other Commissioners of the Central Authority under section 11;\n(h) the salaries and allowances payable to, and the other terms and conditions of service of, the\nofficers and other employees of the Central Authority under sub-section (2) of section 13;\n(i) the qualifications for appointment of Director General, Additional Director General, Director,\nJoint Director, Deputy Director and Assistant Director and the manner of appointment under sub-\nsection (2) of section 15;\n(j) the manner of taking copies or extracts of document, record or article seized or produced\nbefore returning to the person under sub-section (3) of section 22;\n(k) the officer and the manner of disposing of articles which are subject to speedy or natural\ndecay under sub-section (4) of section 22;\n(l) the form and manner for preparing annual statement of accounts by the Central Authority in\nconsultation with the Comptroller and Auditor-General of India under sub-section (1) of section 26;\n35\n(m) the form in which, and the time within which, an annual report, other reports and returns may\nbe prepared by the Central Authority under sub-section (1) of section 27;\n(n) the qualifications for appointment, method of recruitment, procedure for appointment, term of\noffice, resignation and removal of President and members of the District Commission under section\n29;\n(o) the other value of goods and services in respect of which the District Commission shall have\njurisdiction to entertain complaints under proviso to sub-section (1) of section 34;\n(p) the manner of electronically filing complaint under the proviso to sub-section (1) of section\n35;\n(q) the fee, electronic form and the manner of payment of fee for filing complaint under\nsub-section (2) of section 35;\n(r) the cases which may not be referred for settlement by mediation under sub-section (1) of\nsection 37;\n(s) the manner of authentication of goods sampled in case of the National Commission under\nclause (c) of sub-section (2) of section 38;\n(t) any other matter which may be prescribed under clause (f) of sub-section (9) of section 38;\n(u) the fund where the amount obtained may be credited and the manner of utilisation of such\namount under sub-section (2) of section 39;\n(v) the form and the manner in which appeal may be preferred to the State Commission under\nsection 41;\n(w) the qualifications for appointment, method of recruitment, procedure for appointment, term of\noffice, resignation and removal of the President and members of the State Commission under section\n43;\n(x) the other value of goods and services in respect of which the State Commission shall have\njurisdiction under the proviso to sub-clause (i) of clause (a) of sub-section (1) of section 47;\n(y) the form and manner of filing appeal to the National Commission, and the manner of\ndepositing fifty per cent. of the amount before filing appeal, under sub-section (1) of section 51;\n(z) the number of members of the National Commission under clause (b) of section 54;\n(za) the qualifications, appointment, term of office, salaries and allowances, resignation, removal\nand other terms and conditions of service of the President and members of the National Commission\nunder sub-section (1) of section 55;\n(zb) the salaries and allowances payable to, and other terms and conditions of service of, the\nofficers and other employees of the National Commission under sub-section (3) of section 57;\n(zc) the other value of goods and services in respect of which the National Commission shall have\njurisdiction under the proviso to sub-clause (i) of clause (a) of sub-section (1) of section 58;\n(zd) the manner of depositing fifty per cent. of the amount under the second proviso to section 67;\n(ze) the form in which the National Commission and the State Commission shall furnish\ninformation to the Central Government under sub-section (4) of section 70;\n(zf) the persons in the consumer mediation cell under sub-section (3) of section 74;\n(zg) the measures to be taken by the Central Government to prevent unfair trade practices in\ne-commerce, direct selling under section 94;\n(zh) the amount for compounding offences under sub-section (1) of section 96;\n(zi) the fund to which the penalty and amount collected shall be credited under section 97; and\n36\n(zj) any other matter which is to be, or may be, prescribed, or in respect of which provisions are to\nbe, or may be, made by rules",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-102",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 102 — Power of State Government to make rules",
+    "text_content": "Power of State Government to make rules.—(1) The State Governments may, by\nnotification, make rules for carrying out the provisions of this Act:\nProvided that the Central Government may, frame model rules in respect of all or any of the\nmatters with respect to which the State Government may make rules under this section, and where\nany such model rules have been framed in respect of any such matter, they shall apply to the State\nuntil the rules in respect of that matter is made by the State Government and while making any such\nrules, so far as is practicable, they shall conform to such model rules.\n(2) In particular, and without prejudice to the generality of the foregoing power, such rules may\nprovide for all or any of the following matters, namely:—\n(a) the other class or classes of persons including public utility entities under clause (19) of\nsection 2;\n(b) the contest, lottery, game of chance or skill which are to be exempted under item (b) of\nsub-clause (iii) of clause (47) of section 2;\n(c) the number of other official or non-official members of the State Council under\nclause (b) of sub-section (2) of section 6;\n(d) the time and place of meeting of the State Council and the procedure for the transaction\nof its business under sub-section (4) of section 6;\n(e) the number of other official and non-official members of District Council under clause\n(b) of sub-section (2) of section 8;\n(f) the time and place of meeting of the District Council and procedure for the transaction of\nits business under sub-section (4) of section 8;\n(g) the number of members of the District Commission under clause (b) of sub-section (2) of\nsection 28;\n(h) the salaries and allowances payable to, and other terms and conditions of service of, the\nPresident and members of the District Commission under section 30;\n(i) the salaries and allowances payable to, and other terms and conditions of service of, the\nofficers and other employees of the District Commission under sub-section (3) of section 33;\n(j) the manner of authentication of goods sampled by the State Commission and the District\nCommission under clause (c) of sub-section (2) of section 38;\n(k) the manner of depositing fifty per cent. of the amount before filing appeal under second\nproviso to section 41;\n(l) the number of members of the State Commission under sub-section (3) of section 42;\n(m) the salaries and allowances payable to, and other terms and conditions of service of, the\nPresident and members of the State Commission under section 44;\n(n) the salaries and allowances payable to, and other terms and conditions of service of, the\nofficers and other employees of the State Commission under sub-section (3) of section 46;\n(o) the form in which the State Commission shall furnish information to the State\nGovernment under sub-section (5) of section 70;\n(p) the persons in the consumer mediation cell under sub-section (3) of section 74;\n(q) any other matter which is to be, or may be prescribed, or in respect of which provisions\nare to be, or may be, made by rules.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-103",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 103 — Power of National Commission to make regulations",
+    "text_content": "Power of National Commission to make regulations.—(1) The National Commission may,\nwith the previous approval of the Central Government, by notification, make regulations not inconsistent\n37\nwith this Act to provide for all matters for which provision is necessary or expedient for the purpose of\ngiving effect to the provisions of this Act.\n(2) In particular, and without prejudice to the generality of the foregoing power, such regulations may\nmake provisions for—\n(a) the costs for adjournment to be imposed by the District Commission under the second\nproviso to sub-section (7) of section 38;\n(b) the costs for adjournment to be imposed by the State Commission or the National\nCommission, as the case may be, under the second proviso to section 52;\n(c) the maintenance of any other information by the consumer mediation cell under\nsub-section (4) of section 74;\n(d) the manner of submission of quarterly report by consumer mediation cell to the District\nCommission, the State Commission or the National Commission under sub-section (5) of\nsection 74;\n(e) the qualifications and experience required for empanelment as mediator, the procedure for\nempanelment, the manner of training empanelled mediators, the fee payable to empanelled\nmediator, the terms and conditions for empanelment, the code of conduct for empanelled mediators,\nthe grounds on which, and the manner in which, empanelled mediators shall be removed or\nempanelment shall be cancelled and the other matters relating thereto under sub-section (2) of\nsection 75;\n(f) the conditions for re-empanelment of mediators for another term under sub-section (3) of\nsection 75;\n(g) the other facts to be disclosed by mediators under clause (c) of section 77;\n(h) the time within which, and the manner in which, mediation may be conducted under\nsub-section (3) of section 79; and\n(i) such other matter for which provision is to be, or may be, made by regulation.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-104",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 104 — Power of Central Authority to make regulations",
+    "text_content": "Power of Central Authority to make regulations.—(1) The Central Authority may, with the\nprevious approval of the Central Government, by notification, make regulations not inconsistent with this\nAct, for the purpose of giving effect to the provisions of this Act.\n(2) In particular, and without prejudice to the generality of the foregoing power, such regulations may\nprovide for all or any of the following matters, namely:—\n(a) the procedure for engaging experts and professionals and the number of such experts and\nprofessionals under sub-section (3) of section 13;\n(b) the procedure for transaction of business and the allocation of business of the Chief\nCommissioner and Commissioner under sub-section (1) of section 14;\n(c) the form, manner and time within which, inquiries or investigation made by the\nDirector-General shall be submitted to the Central Authority under sub-section (5) of section 15;\nand\n(d) such other matter for which provision is to be, or may be, made by regulation.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-105",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 105 — Rules and regulations to be laid before each House of Parliament",
+    "text_content": "Rules and regulations to be laid before each House of Parliament.—(1) Every rule and every\nregulation made under this Act shall be laid, as soon as may be after it is made, before each House of\nParliament, while it is in session, for a total period of thirty days which may be comprised in one session\nor in two or more successive sessions, and if, before the expiry of the session immediately following the\nsession or the successive sessions aforesaid, both Houses agree in making any modification in the rule or\nregulation or both Houses agree that the rule or regulation shall thereafter have effect only in such\nmodified form or be of no effect, as the case may be; so, however, that any such modification or\nannulment shall be without prejudice to the validity of anything previously done under that rule or\nregulation.\n38\n(2) Every rule made by a State Government under this Act shall be laid as soon as may be after it is\nmade, before the State Legislature.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-106",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 106 — Power to Remove Difficulties",
+    "text_content": "Power to Remove Difficulties.—If any difficulty arises in giving effect to the provisions of this\nAct, the Central Government may, by order in the Official Gazette, make such provisions not inconsistent\nwith the provisions of this Act as appear to it to be necessary or expedient for removing the difficulty:\nProvided that no such order shall be made after the expiry of a period of two years from the\ncommencement of this Act.",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  },
+  {
+    "node_id": "CPA-2019/CH-VIII/S-107",
+    "snapshot_id": "CPA-2019_v2019_2026-06-03",
+    "parent_id": "CPA-2019/CH-VIII",
+    "node_type": "section",
+    "label": "Section 107 — Repeal and savings",
+    "text_content": "Repeal and savings.—(1) The Consumer Protection Act, 1986 (68 of 1986) is hereby repealed.\n(2) Notwithstanding such repeal, anything done or any action taken or purported to have been done or\ntaken under the Act hereby repealed shall, in so far as it is not inconsistent with the provisions of this Act,\nbe deemed to have been done or taken under the corresponding provisions of this Act.\n(3) The mention of particular matters in sub-section (2) shall not be held to prejudice or affect the\ngeneral application of section 6 of the General Clauses Act, 1897 (10 of 1897) with regard to the effect of\nrepeal.\n39",
+    "status": "active",
+    "effective_from": "2019-08-09"
+  }
+]

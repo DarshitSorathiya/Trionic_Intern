@@ -1,0 +1,1384 @@
+[
+  {
+    "node_id": "ITA-2000",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": null,
+    "node_type": "root",
+    "label": "Information Technology Act, 2000",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-I",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter I — Preliminary",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-II",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter II — Digital Signature and Electronic Signature",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter III — Electronic Governance",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IV",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter IV — Attribution, Acknowledgement and Despatch",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-V",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter V — Secure Electronic Records and Signatures",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter VI — Regulation of Certifying Authorities",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VII",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter VII — Electronic Signature Certificates",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VIII",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter VIII — Duties of Subscribers",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IX",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter IX — Penalties, Compensation and Adjudication",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter X — The Appellate Tribunal",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter XI — Offences",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XII",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter XII — Intermediaries (safe harbour)",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIIA",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter XIIA — Examiner of Electronic Evidence",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000",
+    "node_type": "chapter",
+    "label": "Chapter XIII — Miscellaneous",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-II/S-3",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-II",
+    "node_type": "section",
+    "label": "Section 3 — Ins. by Act 10 of 2009, s. 4, ibid. (w.e.f. 27-10-2009).",
+    "text_content": "Ins. by Act 10 of 2009, s. 4, ibid. (w.e.f. 27-10-2009).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III/S-4",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-III",
+    "node_type": "section",
+    "label": "Section 4 — Subs. by s. 4, ibid., for clause (j) (w.e.f. 27-10-2009).",
+    "text_content": "Subs. by s. 4, ibid., for clause (j) (w.e.f. 27-10-2009).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III/S-5",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-III",
+    "node_type": "section",
+    "label": "Section 5 — Clause (n) omitted by Act 7 of 2017, s.169 (w.e.f. 26-5-2017).",
+    "text_content": "Clause (n) omitted by Act 7 of 2017, s.169 (w.e.f. 26-5-2017).\n6\n(nb) ―cyber security‖ means protecting information, equipment, devices, computer, computer\nresource, communication device and information stored therein from unauthorised access, use,\ndisclosure, disruption, modification or destruction;]\n(o) ―data‖ means a representation of information, knowledge, facts, concepts or instructions\nwhich are being prepared or have been prepared in a formalised manner, and is intended to be\nprocessed, is being processed or has been processed in a computer system or computer network, and\nmay be in any form (including computer printouts magnetic or optical storage media, punched cards,\npunched tapes) or stored internally in the memory of the computer;\n(p) ―digital signature‖ means authentication of any electronic record by a subscriber by means of\nan electronic method or procedure in accordance with the provisions of section 3;\n(q) ―Digital Signature Certificate‖ means a Digital Signature Certificate issued under sub-section\n(4) of section 35;\n(r) ―electronic form‖ with reference to information, means any information generated, sent,\nreceived or stored in media, magnetic, optical, computer memory, micro film, computer generated\nmicro fiche or similar device;\n(s) ―Electronic Gazette‖ means the Official Gazette published in the electronic form;\n(t) ―electronic record‖ means data, record or data generated, image or sound stored, received or\nsent in an electronic form or micro film or computer generated micro fiche;\n1[(ta) ―electronic signature‖ means authentication of any electronic record by a subscriber by\nmeans of the electronic technique specified in the Second Schedule and includes digital signature;\n(tb) ―Electronic Signature Certificate‖ means an Electronic Signature Certificate issued under\nsection 35 and includes Digital Signature Certificate;]\n(u) ―function‖, in relation to a computer, includes logic, control, arithmetical process, deletion,\nstorage and retrieval and communication or telecommunication from or within a computer;\n1[(ua) Indian Computer Emergency Response Team‖ means an agency established under sub-\nsection (1) of Section 70B;]\n(v) ―information‖ includes 2[data, message, text,] images, sound, voice, codes, computer\nprogrammes, software and data bases or micro film or computer generated micro fiche;\n3[(w) ―intermediary‖, with respect to any particular electronic records, means any person who on\nbehalf of another person receives, stores or transmits that record or provides any service with respect\nto that record and includes telecom service providers, network service providers, internet service\nproviders, web-hosting service providers, search engines, online payment sites, online-auction sites,\nonline-market places and cyber cafes;]\n(x) ―key pair‖, in an asymmetric crypto system, means a private key and its mathematically\nrelated public key, which are so related that the public key can verify a digital signature created by the\nprivate key;\n(y) ―law‖ includes any Act of Parliament or of a State Legislature, Ordinances promulgated by the\nPresident or a Governor, as the case may be, Regulations made by the President under article 240,\nBills enacted as President's Act under sub-clause (a) of clause (1) of article 357 of the Constitution\nand includes rules, regulations, bye-laws and orders issued or made thereunder;\n(z) ―licence‖ means a licence granted to a Certifying Authority under section 24;\n(za) ―originator‖ means a person who sends, generates, stores or transmits any electronic message\nor causes any electronic message to be sent, generated, stored or transmitted to any other person but\ndoes not include an intermediary;\n(zb) ―prescribed‖ means prescribed by rules made under this Act;\n(zc) ―private key‖ means the key of a key pair used to create a digital signature;",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-II/S-3A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-II",
+    "node_type": "section",
+    "label": "Section 3A — Electronic signature",
+    "text_content": "Electronic signature.—(1) Notwithstanding anything contained in section 3, but subject to the\nprovisions of sub-section (2), a subscriber may authenticate any electronic record by such electronic\nsignature or electronic authentication technique which—\n(a) is considered reliable; and\n(b) may be specified in the Second Schedule.\n(2) For the purposes of this section any electronic signature or electronic authentication technique\nshall be considered reliable if—",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III/S-6",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-III",
+    "node_type": "section",
+    "label": "Section 6 — Use of electronic records and 1[electronic signatures] in Government and its agencies.–(1)",
+    "text_content": "Use of electronic records and 1[electronic signatures] in Government and its agencies.–(1)\nWhere any law provides for—\n(a) the filing of any form, application or any other document with any office, authority, body or\nagency owned or controlled by the appropriate Government in a particular manner;\n(b) the issue or grant of any licence, permit, sanction or approval by whatever name called in a\nparticular manner;\n(c) the receipt or payment of money in a particular manner,\nthen, notwithstanding anything contained in any other law for the time being in force, such requirement\nshall be deemed to have been satisfied if such filing, issue, grant, receipt or payment, as the case may be,\nis effected by means of such electronic form as may be prescribed by the appropriate Government.\n(2) The appropriate Government may, for the purposes of sub-section (1), by rules, prescribe—\n(a) the manner and format in which such electronic records shall be filed, created or issued;",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III/S-6A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-III",
+    "node_type": "section",
+    "label": "Section 6A — Delivery of services by service provider",
+    "text_content": "Delivery of services by service provider.—(1) The appropriate Government may, for the\npurposes of this Chapter and for efficient delivery of services to the public through electronic means\nauthorise, by order, any service provider to set up, maintain and upgrade the computerised facilities and\nperform such other services as it may specify, by notification in the Official Gazette.\nExplanation.—For the purposes of this section, service provider so authorised includes any\nindividual, private agency, private company, partnership firm, sole proprietor firm or any such other body\nor agency which has been granted permission by the appropriate Government to offer services through\nelectronic means in accordance with the policy governing such service sector.\n(2) The appropriate Government may also authorise any service provider authorised under\nsub-section (1) to collect, retain and appropriate such service charges, as may be prescribed by the\nappropriate Government for the purpose of providing such services, from the person availing such\nservice.\n(3) Subject to the provisions of sub-section (2), the appropriate Government may authorise the service\nproviders to collect, retain and appropriate service charges under this section notwithstanding the fact that\nthere is no express provision under the Act, rule, regulation or notification under which the service is\nprovided to collect, retain and appropriate e-service charges by the service providers.\n(4) The appropriate Government shall, by notification in the Official Gazette, specify the scale of\nservice charges which may be charged and collected by the service providers under this section:\nProvided that the appropriate Government may specify different scale of service charges for different\ntypes of services.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III/S-7",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-III",
+    "node_type": "section",
+    "label": "Section 7 — Retention of electronic records",
+    "text_content": "Retention of electronic records.—(1) Where any law provides that documents, records or\ninformation shall be retained for any specific period, then, that requirement shall be deemed to have been\nsatisfied if such documents, records or information are retained in the electronic form, if—\n(a) the information contained therein remains accessible so as to be usable for a subsequent\nreference;\n(b) the electronic record is retained in the format in which it was originally generated, sent or\nreceived or in a format which can be demonstrated to represent accurately the information originally\ngenerated, sent or received;\n(c) the details which will facilitate the identification of the origin, destination, date and time of\ndespatch or receipt of such electronic record are available in the electronic record:\nProvided that this clause does not apply to any information which is automatically generated\nsolely for the purpose of enabling an electronic record to be despatched or received.\n(2) Nothing in this section shall apply to any law that expressly provides for the retention of\ndocuments, records or information in the form of electronic records.\n2",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III/S-7A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-III",
+    "node_type": "section",
+    "label": "Section 7A — Audit of documents, etc., maintained in electronic form",
+    "text_content": "Audit of documents, etc., maintained in electronic form.—Where in any law for the time\nbeing in force, there is a provision for audit of documents, records or information, that provision shall also\nbe applicable for audit of documents, records or information processed and maintained in the electronic\nform.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III/S-8",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-III",
+    "node_type": "section",
+    "label": "Section 8 — Publication of rule, regulation, etc., in Electronic Gazette",
+    "text_content": "Publication of rule, regulation, etc., in Electronic Gazette.—Where any law provides that any\nrule, regulation, order, bye-law, notification or any other matter shall be published in the Official Gazette,\nthen, such requirement shall be deemed to have been satisfied if such rule, regulation, order, bye-law,\nnotification or any other matter is published in the Official Gazette or Electronic Gazette:\nProvided that where any rule, regulation, order, by-law, notification or any other matter is published\nin the Official Gazette or Electronic Gazette, the date of publication shall be deemed to be the date of the\nGazette which was first published in any form.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III/S-9",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-III",
+    "node_type": "section",
+    "label": "Section 9 — Sections 6, 7 and 8 not to confer right to insist document should be accepted in electronic",
+    "text_content": "Sections 6, 7 and 8 not to confer right to insist document should be accepted in electronic\nform.—Nothing contained in sections 6, 7 and 8 shall confer a right upon any person to insist that any",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III/S-10",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-III",
+    "node_type": "section",
+    "label": "Section 10 — Power to make rules by Central Government in respect of 1[electronic signature]",
+    "text_content": "Power to make rules by Central Government in respect of 1[electronic signature].—The\nCentral Government may, for the purposes of this Act, by rules, prescribe—\n(a) the type of 1[electronic signature];\n(b) the manner and format in which the 1[electronic signature] shall be affixed;\n(c) the manner or procedure which facilitates identification of the person affixing the 1[electronic\nsignature];\n(d) control processes and procedures to ensure adequate integrity, security and confidentiality of\nelectronic records or payments; and\n(e) any other matter which is necessary to give legal effect to 1[electronic signatures].\n2",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-III/S-10A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-III",
+    "node_type": "section",
+    "label": "Section 10A — Validity of contracts formed through electronic means",
+    "text_content": "Validity of contracts formed through electronic means.—Where in a contract formation,\nthe communication of proposals, the acceptance of proposals, the revocation of proposals and\nacceptances, as the case may be, are expressed in electronic form or by means of an electronic records,\nsuch contract shall not be deemed to be unenforceable solely on the ground that such electronic form or\nmeans was used for that purpose.]\nCHAPTER IV\nATTRIBUTION, ACKNOWLEDGMENT AND DESPATCH OF ELECTRONIC RECORDS",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IV/S-11",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-IV",
+    "node_type": "section",
+    "label": "Section 11 — Attribution of electronic records",
+    "text_content": "Attribution of electronic records.—An electronic record shall be attributed to the originator—\n(a) if it was sent by the originator himself;\n(b) by a person who had the authority to act on behalf of the originator in respect of that\nelectronic record; or\n(c) by an information system programmed by or on behalf of the originator to operate\nautomatically.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IV/S-12",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-IV",
+    "node_type": "section",
+    "label": "Section 12 — Acknowledgment of receipt",
+    "text_content": "Acknowledgment of receipt.—(1) Where the originator has not 3[stipulated] that the\nacknowledgment of receipt of electronic record be given in a particular form or by a particular method, an\nacknowledgment may be given by—\n(a) any communication by the addressee, automated or otherwise; or\n(b) any conduct of the addressee, sufficient to indicate to the originator that the electronic record\nhas been received.\n(2) Where the originator has stipulated that the electronic record shall be binding only on receipt of an\nacknowledgment of such electronic record by him, then unless acknowledgment has been so received, the\nelectronic record shall he deemed to have been never sent by the originator.\n(3) Where the originator has not stipulated that the electronic record shall be binding only on receipt\nof such acknowledgment, and the acknowledgment has not been received by the originator within the\ntime specified or agreed or, if no time has been specified or agreed to within a reasonable time, then the\noriginator may give notice to the addressee stating that no acknowledgment has been received by him and\nspecifying a reasonable time by which the acknowledgment must be received by him and if no\nacknowledgment is received within the aforesaid time limit he may after giving notice to the addressee,\ntreat the electronic record as though it has never been sent.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IV/S-13",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-IV",
+    "node_type": "section",
+    "label": "Section 13 — Time and place of despatch and receipt of electronic record",
+    "text_content": "Time and place of despatch and receipt of electronic record.—(1) Save as otherwise agreed to\nbetween the originator and the addressee, the despatch of an electronic record occurs when it enters a\ncomputer resource outside the control of the originator.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-V/S-14",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-V",
+    "node_type": "section",
+    "label": "Section 14 — Secure electronic record",
+    "text_content": "Secure electronic record.—Where any security procedure has been applied to an electronic\nrecord at a specific point of time, then such record shall he deemed to be a secure electronic record from\nsuch point of time to the time of verification.\n2",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-V/S-15",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-V",
+    "node_type": "section",
+    "label": "Section 15 — Secure electronic signature",
+    "text_content": "Secure electronic signature.—An electronic signature shall be deemed to be a secure electronic\nsignature if—\n(i) the signature creation data, at the time of affixing signature, was under the exclusive control of\nsignatory and no other person; and\n(ii) the signature creation data was stored and affixed in such exclusive manner as may be\nprescribed.\nExplanation.–In case of digital signature, the ―signature creation data‖ means the private key of the\nsubscriber.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-V/S-16",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-V",
+    "node_type": "section",
+    "label": "Section 16 — Security procedures and practices",
+    "text_content": "Security procedures and practices.—The Central Government may, for the purposes of sections\n14 and 15, prescribe the security procedures and practices:\nProvided that in prescribing such security procedures and practices, the Central Government shall\nhave regard to the commercial circumstances, nature of transactions and such other related factors as it\nmay consider appropriate.]\nCHAPTER VI\nREGULATION OF CERTIFYING AUTHORITIES",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-17",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 17 — Appointment of Controller and other officers",
+    "text_content": "Appointment of Controller and other officers.—(1) The Central Government may, by\nnotification in the Official Gazette, appoint a Controller of Certifying Authorities for the purposes of this\nAct and may also by the same or subsequent notification appoint such number of Deputy Controllers\n3[, Assistant Controllers, other officers and employees] as it deems fit.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-18",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 18 — Functions of Controller",
+    "text_content": "Functions of Controller.—The Controller may perform all or any of the following functions,\nnamely:–\n(a) exercising supervision over the activities of the Certifying Authorities;\n(b) certifying public keys of the Certifying Authorities;\n(c) laying down the standards to be maintained by the Certifying Authorities;\n(d) specifying the qualifications and experience which employees of the Certifying Authority\nshould possess;\n(e) specifying the conditions subject to which the Certifying Authorities shall conduct their\nbusiness;\n(f) specifying the contents of written, printed or visual materials and advertisements that may be\ndistributed or used in respect of a 2[electronic signature] Certificate and the public key;\n(g) specifying the form and content of a 2[electronic signature] Certificate and the key;\n(h) specifying the form and manner in which accounts shall be maintained by the Certifying\nAuthorities;\n(i) specifying the terms and conditions subject to which auditors may be appointed and the\nremuneration to be paid to them;\n(j) facilitating the establishment of any electronic system by a Certifying Authority either solely\nor jointly with other Certifying Authorities and regulation of such systems;\n(k) specifying the manner in which the Certifying Authorities shall conduct their dealings with the\nsubscribers;\n(l) resolving any conflict of interests between the Certifying Authorities and the subscribers;\n(m) laying down the duties of the Certifying Authorities;\n(n) maintaining a data base containing the disclosure record of every Certifying Authority\ncontaining such particulars as may be specified by regulations, which shall be accessible to public.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-19",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 19 — Recognition of foreign Certifying Authorities",
+    "text_content": "Recognition of foreign Certifying Authorities.—(1) Subject to such conditions and restrictions\nas may be specified by regulations, the Controller may with the previous approval of the Central\nGovernment, and by notification in the Official Gazette, recognise any foreign Certifying Authority as a\nCertifying Authority for the purposes of this Act.\n(2) Where any Certifying Authority is recognised under sub-section (1), the 2[electronic signature]\nCertificate issued by such Certifying Authority shall be valid for the purposes of this Act.\n(3) The Controller may, if he is satisfied that any Certifying Authority has contravened any of the\nconditions and restrictions subject to which it was granted recognition under sub-section (1) he may, for\nreasons to be recorded in writing, by notification in the Official Gazette, revoke such recognition.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-20",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 20 — Controller to act as repository.] Omitted by the Information Technology (Amendment) Act,",
+    "text_content": "Controller to act as repository.] Omitted by the Information Technology (Amendment) Act,\n2008 (10 of 2009), s. 13 (w.e.f. 27-10-2009).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-21",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 21 — Licence to issue 1[electronic signature] Certificates",
+    "text_content": "Licence to issue 1[electronic signature] Certificates.—(1) Subject to the provisions of\nsub-section (2), any person may make an application, to the Controller, for a licence to issue 1[electronic\nsignature] Certificates.\n(2) No licence shall be issued under sub-section (1), unless the applicant fulfils such requirements\nwith respect to qualification, expertise, manpower, financial resources and other infrastructure facilities,\nwhich are necessary to issue 1[electronic signature] Certificates as may be prescribed by the Central\nGovernment.\n(3) A licence granted under this section shall—\n(a) be valid for such period as may be prescribed by the Central Government;\n(b) not be transferable or heritable;\n(c) be subject to such terms and conditions as may be specified by the regulations.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-22",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 22 — Application for licence",
+    "text_content": "Application for licence.—(1) Every application for issue of a licence shall be in such form as\nmay be prescribed by the Central Government.\n(2) Every application for issue of a licence shall be accompanied by—\n(a) a certification practice statement;\n(b) a statement including the procedures with respect to identification of the applicant;\n(c) payment of such fees, not exceeding twenty-five thousand rupees as may be prescribed by the\nCentral Government;\n(d) such other documents, as may be prescribed by the Central Government.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-23",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 23 — Renewal of licence",
+    "text_content": "Renewal of licence.—An application for renewal of a licence shall be—\n(a) in such form;\n(b) accompanied by such fees, not exceeding five thousand rupees, as may be prescribed by the\nCentral Government and shall be made not less than forty-five days before the date of expiry of the\nperiod of validity of the licence.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-24",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 24 — Procedure for grant or rejection of licence",
+    "text_content": "Procedure for grant or rejection of licence.—The Controller may, on receipt of an application\nunder sub-section (1) of section 21, after considering the documents accompanying the application and\nsuch other factors, as he deems fit, grant the licence or reject the application:\nProvided that no application shall be rejected under this section unless the applicant has been given a\nreasonable opportunity of presenting his case.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-25",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 25 — Suspension of licence",
+    "text_content": "Suspension of licence.—(1) The Controller may, if he is satisfied after making such inquiry, as\nhe may think fit, that a Certifying Authority has—\n(a) made a statement in, or in relation to, the application for the issue or renewal of the licence,\nwhich is incorrect or false in material particulars;\n(b) failed to comply with the terms and conditions subject to which the licence was granted;\n2[(c) failed to maintain the procedures and standards specified in section 30;]\n(d) contravened any provisions of this Act, rule, regulation or order made thereunder,\nrevoke the licence:\nProvided that no licence shall be revoked unless the Certifying Authority has been given a reasonable\nopportunity of showing cause against the proposed revocation.\n(2) The Controller may, if he has reasonable cause to believe that there is any ground for revoking a\nlicence under sub-section (1), by order suspend such licence pending the completion of any enquiry\nordered by him:",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-26",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 26 — Notice of suspension or revocation of licence",
+    "text_content": "Notice of suspension or revocation of licence.—(1) Where the licence of the Certifying\nAuthority is suspended or revoked, the Controller shall publish notice of such suspension or revocation,\nas the case may be, in the data base maintained by him.\n(2) Where one or more repositories are specified, the Controller shall publish notices of such\nsuspension or revocation, as the case may be, in all such repositories:\nProvided that the data base containing the notice of such suspension or revocation, as the case may\nbe, shall be made available through a web site which shall be accessible round the clock:\nProvided further that the Controller may, if he considers necessary, publicise the contents of data base\nin such electronic or other media, as he may consider appropriate.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-27",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 27 — Power to delegate",
+    "text_content": "Power to delegate.—The Controller may, in writing, authorise the Deputy Controller, Assistant\nController or any officer to exercise any of the powers of the Controller under this Chapter.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-28",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 28 — Power to investigate contraventions",
+    "text_content": "Power to investigate contraventions.—(1) The Controller or any officer authorised by him in\nthis behalf shall take up for investigation any contravention of the provisions of this Act, rules or\nregulations made thereunder.\n(2) The Controller or any officer authorised by him in this behalf shall exercise the like powers which\nare conferred on Income-tax authorities under Chapter XIII of the Income-tax Act, 1961 (43 of 1961), and\nshall exercise such powers, subject to such limitations laid down under that Act.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-29",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 29 — Access to computers and data",
+    "text_content": "Access to computers and data.—(1) Without prejudice to the provisions of sub-section (1) of\nsection 69, the Controller or any person authorised by him shall, if he has reasonable cause to suspect that\n2[any contravention of the provisions of this Chapter] has been committed, have access to any computer\nsystem, any apparatus, data or any other material connected with such system, for the purpose of\nsearching or causing a search to be made for obtaining any information or data contained in or available\nto such computer system.\n(2) For the purposes of sub-section (1), the Controller or any person authorised by him may, by order,\ndirect any person in charge of, or otherwise concerned with the operation of, the computer system, data\napparatus or material, to provide him with such reasonable technical and other assistance as he may\nconsider necessary.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-30",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 30 — Certifying Authority to follow certain procedures",
+    "text_content": "Certifying Authority to follow certain procedures.—Every Certifying Authority shall,—\n(a) make use of hardware, software and procedures that are secure from intrusion and misuse;\n(b) provide a reasonable level of reliability in its services which are reasonably suited to the\nperformance of intended functions;\n(c) adhere to security procedures to ensure that the secrecy and privacy of the 1[electronic\nsignatures] are assured; 3***\n4[(ca) be the repository of all electronic signature Certificates issued under this Act;\n(cb) publish information regarding its practices, electronic signature Certificates and current\nstatus of such certificates; and ]\n(d) observe such other standards as may be specified by regulations.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-31",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 31 — Certifying Authority to ensure compliance of the Act, etc",
+    "text_content": "Certifying Authority to ensure compliance of the Act, etc.—Every Certifying Authority shall\nensure that every person employed or otherwise engaged by it complies, in the course of his employment\nor engagement, with the provisions of this Act, rules, regulations and orders made thereunder.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-32",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 32 — Display of licence",
+    "text_content": "Display of licence.—Every Certifying Authority shall display its licence at a conspicuous place\nof the premises in which it carries on its business.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-33",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 33 — Surrender of licence",
+    "text_content": "Surrender of licence.—(1) Every Certifying Authority whose licence is suspended or revoked\nshall immediately after such suspension or revocation, surrender the licence to the Controller.\n(2) Where any Certifying Authority fails to surrender a licence under sub-section (1), the person in\nwhose favour a licence is issued, shall be guilty of an offence and shall be punished with imprisonment\nwhich may extend up to six months or a fine which may extend up to ten thousand rupees or with both.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VI/S-34",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VI",
+    "node_type": "section",
+    "label": "Section 34 — Disclosure.–(1) Every Certifying Authority shall disclose in the manner specified by",
+    "text_content": "Disclosure.–(1) Every Certifying Authority shall disclose in the manner specified by\nregulations—\n(a) its 1[electronic signature] Certificate 2***;\n(b) any certification practice statement relevant thereto;\n(c) notice of the revocation or suspension of its Certifying Authority certificate, if any; and\n(d) any other fact that materially and adversely affects either the reliability of a 1[electronic signature]\nCertificate, which that Authority has issued, or the Authority's ability to perform its services.\n(2) Where in the opinion of the Certifying Authority any event has occurred or any situation has\narisen which may materially and adversely affect the integrity of its computer system or the conditions\nsubject to which a 1[electronic signature] Certificate was granted, then, the Certifying Authority shall–\n(a) use reasonable efforts to notify any person who is likely to be affected by that occurrence; or\n(b) act in accordance with the procedure specified in its certification practice statement to deal\nwith such event or situation.\nCHAPTERVII\n1[ELECTRONIC SIGNATURE] CERTIFICATES",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VII/S-35",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VII",
+    "node_type": "section",
+    "label": "Section 35 — Certifying authority to issue 1[electronic signature] Certificate",
+    "text_content": "Certifying authority to issue 1[electronic signature] Certificate.—(1) Any person may make an\napplication to the Certifying Authority for the issue of a 1[electronic signature] Certificate in such form as\nmay be prescribed by the Central Government.\n(2) Every such application shall be accompanied by such fee not exceeding twenty-five thousand\nrupees as may be prescribed by the Central Government, to be paid to the Certifying Authority:\nProvided that while prescribing fees under sub-section (2) different fees may be prescribed for\ndifferent classes of applicants.\n(3) Every such application shall be accompanied by a certification practice statement or where there is\nno such statement, a statement containing such particulars, as may be specified by regulations.\n(4) On receipt of an application under sub-section (1), the Certifying Authority may, after\nconsideration of the certification practice statement or the other statement under sub-section (3) and after\nmaking such enquiries as it may deem fit, grant the 1[electronic signature] Certificate or for reasons to be\nrecorded in writing, reject the application:\n3* * * * *\n4[Provided] that no application shall be rejected unless the applicant has been given a reasonable\nopportunity of showing cause against the proposed rejection.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VII/S-36",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VII",
+    "node_type": "section",
+    "label": "Section 36 — Representations upon issuance of Digital Signature Certificate",
+    "text_content": "Representations upon issuance of Digital Signature Certificate.—A Certifying Authority\nwhile issuing a Digital Signature Certificate shall certify that—\n(a) it has complied with the provisions of this Act and the rules and regulations made thereunder;\n(b) it has published the Digital Signature Certificate or otherwise made it available to such person\nrelying on it and the subscriber has accepted it;",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VII/S-37",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VII",
+    "node_type": "section",
+    "label": "Section 37 — Suspension of Digital Signature Certificate.–(1) Subject to the provisions of sub-section (2), the",
+    "text_content": "Suspension of Digital Signature Certificate.–(1) Subject to the provisions of sub-section (2), the\nCertifying Authority which has issued a Digital Signature Certificate may suspend such Digital Signature\nCertificate,–\n(a) on receipt of a request to that effect from–\n(i) the subscriber listed in the Digital Signature Certificate; or\n(ii) any person duly authorised to act on behalf of that subscriber;\n(b) if it is of opinion that the Digital Signature Certificate should be suspended in public interest.\n(2) A Digital Signature Certificate shall not be suspended for a period exceeding fifteen days unless\nthe subscriber has been given an opportunity of being heard in the matter.\n(3) On suspension of a Digital Signature Certificate under this section, the Certifying Authority shall\ncommunicate the same to the subscriber.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VII/S-38",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VII",
+    "node_type": "section",
+    "label": "Section 38 — Revocation of Digital Signature Certificate.–(1) A Certifying Authority may revoke a Digital",
+    "text_content": "Revocation of Digital Signature Certificate.–(1) A Certifying Authority may revoke a Digital\nSignature Certificate issued by it–\n(a) where the subscriber or any other person authorised by him makes a request to that effect; or\n(b) upon the death of the subscriber; or\n(c) upon the dissolution of the firm or winding up of the company where the subscriber is a firm\nor a company.\n(2) Subject to the provisions of sub-section (3) and without prejudice to the provisions of\nsub-section (1), a Certifying Authority may revoke a Digital Signature Certificate which has been issued\nby it at any time, if it is of opinion that–\n(a) a material fact represented in the Digital Signature Certificate is false or has been concealed;\n(b) a requirement for issuance of the Digital Signature Certificate was not satisfied;\n(c) the Certifying Authority's private key or security system was compromised in a manner\nmaterially affecting the Digital Signature Certificate's reliability;\n(d) the subscriber has been declared insolvent or dead or where a subscriber is a firm or a\ncompany, which has been dissolved, wound-up or otherwise ceased to exist.\n(3) A Digital Signature Certificate shall not be revoked unless the subscriber has been given an\nopportunity of being heard in the matter.\n(4) On revocation of a Digital Signature Certificate under this section, the Certifying Authority shall\ncommunicate the same to the subscriber.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VII/S-39",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VII",
+    "node_type": "section",
+    "label": "Section 39 — Notice of suspension or revocation.–(1) Where a Digital Signature Certificate is suspended or",
+    "text_content": "Notice of suspension or revocation.–(1) Where a Digital Signature Certificate is suspended or\nrevoked under section 37 or section 38, the Certifying Authority shall publish a notice of such suspension\nor revocation, as the case may be, in the repository specified in the Digital Signature Certificate for\npublication of such notice.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VIII/S-40",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VIII",
+    "node_type": "section",
+    "label": "Section 40 — Generating key pair.–Where any Digital Signature Certificate the public key of which",
+    "text_content": "Generating key pair.–Where any Digital Signature Certificate the public key of which\ncorresponds to the private key of that subscriber which is to be listed in the Digital Signature Certificate\nhas been accepted by a subscriber, 1*** the subscriber shall generate 2[that key] pair by applying the\nsecurity procedure.\n3",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VIII/S-40A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VIII",
+    "node_type": "section",
+    "label": "Section 40A — Duties of subscriber of Electronic Signature Certificate.–In respect of Electronic Signature",
+    "text_content": "Duties of subscriber of Electronic Signature Certificate.–In respect of Electronic Signature\nCertificate the subscriber shall perform such duties as may be prescribed.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VIII/S-41",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VIII",
+    "node_type": "section",
+    "label": "Section 41 — Acceptance of Digital Signature Certificate.–(1) A subscriber shall be deemed to have accepted",
+    "text_content": "Acceptance of Digital Signature Certificate.–(1) A subscriber shall be deemed to have accepted\na Digital Signature Certificate if he publishes or authorises the publication of a Digital Signature\nCertificate–\n(a) to one or more persons;\n(b) in a repository; or\notherwise demonstrates his approval of the Digital Signature Certificate in any manner.\n(2) By accepting a Digital Signature Certificate the subscriber certifies to all who reasonably rely on\nthe information contained in the Digital Signature Certificate that–\n(a) the subscriber holds the private key corresponding to the public key listed in the Digital\nSignature Certificate and is entitled to hold the same;\n(b) all representations made by the subscriber to the Certifying Authority and all material relevant\nto the information contained in the Digital Signature Certificate are true;\n(c) all information in the Digital Signature Certificate that is within the knowledge of the\nsubscriber is true.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-VIII/S-42",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-VIII",
+    "node_type": "section",
+    "label": "Section 42 — Control of private key.–(1) Every subscriber shall exercise reasonable care to retain control of",
+    "text_content": "Control of private key.–(1) Every subscriber shall exercise reasonable care to retain control of\nthe private key corresponding to the public key listed in his Digital Signature Certificate and take all steps\nto prevent its disclosure 4***.\n(2) If the private key corresponding to the public key listed in the Digital Signature Certificate has\nbeen compromised, then, the subscriber shall communicate the same without any delay to the Certifying\nAuthority in such manner as may be specified by the regulations.\nExplanation.–For the removal of doubts, it is hereby declared that the subscriber shall be liable till he\nhas informed the Certifying Authority that the private key has been compromised.\nCHAPTER IX\n5[PENALTIES, COMPENSATION AND ADJUDICATION",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IX/S-43",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-IX",
+    "node_type": "section",
+    "label": "Section 43 — 6[Penalty and compensation] for damage to computer, computer system, etc.–If any person",
+    "text_content": "6[Penalty and compensation] for damage to computer, computer system, etc.–If any person\nwithout permission of the owner or any other person who is in charge of a computer, computer system or\ncomputer network,–\n(a) accesses or secures access to such computer, computer system or computer network\n7[or computer resource];",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IX/S-43A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-IX",
+    "node_type": "section",
+    "label": "Section 43A — Compensation for failure to protect data.–Where a body corporate, possessing, dealing or",
+    "text_content": "Compensation for failure to protect data.–Where a body corporate, possessing, dealing or\nhandling any sensitive personal data or information in a computer resource which it owns, controls or\noperates, is negligent in implementing and maintaining reasonable security practices and procedures and\nthereby causes wrongful loss or wrongful gain to any person, such body corporate shall be liable to pay\ndamages by way of compensation to the person so affected.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IX/S-44",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-IX",
+    "node_type": "section",
+    "label": "Section 44 — Penalty for failure to furnish information, return, etc.–If any person who is required under this",
+    "text_content": "Penalty for failure to furnish information, return, etc.–If any person who is required under this\nAct or any rules or regulations made thereunder to–\n(a) furnish any document, return or report to the Controller or the Certifying Authority fails to\nfurnish the same, he shall be liable to a penalty not exceeding one lakh and fifty thousand rupees for\neach such failure;\n(b) file any return or furnish any information, books or other documents within the time specified\ntherefor in the regulations fails to file return or furnish the same within the time specified therefor in\nthe regulations, he shall be liable to a penalty not exceeding five thousand rupees for every day during\nwhich such failure continues;\n(c) maintain books of account or records, fails to maintain the same, he shall be liable to a penalty\nnot exceeding ten thousand rupees for every day during which the failure continues.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IX/S-45",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-IX",
+    "node_type": "section",
+    "label": "Section 45 — Residuary penalty.–Whoever contravenes any rules or regulations made under this Act, for the",
+    "text_content": "Residuary penalty.–Whoever contravenes any rules or regulations made under this Act, for the\ncontravention of which no penalty has been separately provided, shall be liable to pay a compensation not\nexceeding twenty-five thousand rupees to the person affected by such contravention or a penalty not\nexceeding twenty-five thousand rupees.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IX/S-46",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-IX",
+    "node_type": "section",
+    "label": "Section 46 — Power to adjudicate.–(1) For the purpose of adjudging under this Chapter whether any person",
+    "text_content": "Power to adjudicate.–(1) For the purpose of adjudging under this Chapter whether any person\nhas committed a contravention of any of the provisions of this Act or of any rule, regulation, 1[direction or\norder made thereunder which renders him liable to pay penalty or compensation,] the Central Government\nshall, subject to the provisions of sub-section (3), appoint any officer not below the rank of a Director to\nthe Government of India or an equivalent officer of a State Government to be an adjudicating officer for\nholding an inquiry in the manner prescribed by the Central Government.\n2[(1A) The adjudicating officer appointed under sub-section (1) shall exercise jurisdiction to\nadjudicate matters in which the claim for injury or damage does not exceed rupees five crore:\nProvided that the jurisdiction in respect of the claim for injury or damage exceeding rupees five\ncrores shall vest with the competent court.]\n(2) The adjudicating officer shall, after giving the person referred to in sub-section (1) a reasonable\nopportunity for making representation in the matter and if, on such inquiry, he is satisfied that the person\nhas committed the contravention, he may impose such penalty or award such compensation as he thinks\nfit in accordance with the provisions of that section.\n(3) No person shall be appointed as an adjudicating officer unless he possesses such experience in the\nfield of Information Technology and legal or judicial experience as may be prescribed by the Central\nGovernment.\n(4) Where more than one adjudicating officers are appointed, the Central Government shall specify by\norder the matters and places with respect to which such officers shall exercise their jurisdiction.\n(5) Every adjudicating officer shall have the powers of a civil court which are conferred on the\n―Appellate Tribunal‖ under sub-section (2) of section 58, and–",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-IX/S-47",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-IX",
+    "node_type": "section",
+    "label": "Section 47 — Factors to be taken into account by the adjudicating officer.–While adjudging the quantum of",
+    "text_content": "Factors to be taken into account by the adjudicating officer.–While adjudging the quantum of\ncompensation under this Chapter, the adjudicating officer shall have due regard to the following factors,\nnamely:–\n(a) the amount of gain of unfair advantage, wherever quantifiable, made as a result of the default;\n(b) the amount of loss caused to any person as a result of the default;\n(c) the repetitive nature of the default.\nCHAPTER X\nTHE 2[APPELLATE TRIBUNAL",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-48",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 48 — 3[Appellate Tribunal].–4[(1) The Telecom Disputes Settlement and Appellate Tribunal",
+    "text_content": "3[Appellate Tribunal].–4[(1) The Telecom Disputes Settlement and Appellate Tribunal\nestablished under section 14 of the Telecom Regulatory Authority of India Act, 1997 (24 of 1997), shall,\non and from the commencement of Part XIV of Chapter VI of the Finance Act, 2017 (7 of 2017), be the\nAppellate Tribunal for the purposes of this Act and the said Appellate Tribunal shall exercise the\njurisdiction, powers and authority conferred on it by or under this Act.]\n(2) The Central Government 5[shall specify, by notification] the matters and places in relation to\nwhich the 2[Appellate Tribunal] may exercise jurisdiction.\n6",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-49",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 49 — Composition of Cyber Appellate Tribunal.] Omitted by the Finance Act, 2017 (7 of 2017),",
+    "text_content": "Composition of Cyber Appellate Tribunal.] Omitted by the Finance Act, 2017 (7 of 2017),\ns. 169 (w.e.f. 26-5-2017).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-50",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 50 — Qualifications for appointment as Chairperson and Members of Cyber Appellate",
+    "text_content": "Qualifications for appointment as Chairperson and Members of Cyber Appellate\nTribunal.] Omitted by s. 169, ibid. (w.e.f. 26-5-2017).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-51",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 51 — Term of office, conditions of service, etc., of Chairperson and Members.] Omitted by s. 169,",
+    "text_content": "Term of office, conditions of service, etc., of Chairperson and Members.] Omitted by s. 169,\nibid. (w.e.f. 26-5-2017).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-52",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 52 — Salary, allowances and other terms and conditions of service of Chairperson and",
+    "text_content": "Salary, allowances and other terms and conditions of service of Chairperson and\nMembers.] Omitted by s. 169, ibid. (w.e.f. 26-5-2017).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-52A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 52A — Powers of superintendence, direction, etc.] Omitted by s. 169, ibid. (w.e.f. 26-5-2017).",
+    "text_content": "Powers of superintendence, direction, etc.] Omitted by s. 169, ibid. (w.e.f. 26-5-2017).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-52B",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 52B — Distribution of business among Benches.] Omitted by s. 169, ibid. (w.e.f. 26-5-2017).",
+    "text_content": "Distribution of business among Benches.] Omitted by s. 169, ibid. (w.e.f. 26-5-2017).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-52C",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 52C — Power of Chairperson to transfer cases.] Omitted by s. 169, ibid. (w.e.f. 26-5-2017).",
+    "text_content": "Power of Chairperson to transfer cases.] Omitted by s. 169, ibid. (w.e.f. 26-5-2017).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-52D",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 52D — Decision by majority.–If the Members of a Bench consisting of two Members differ in opinion",
+    "text_content": "Decision by majority.–If the Members of a Bench consisting of two Members differ in opinion\non any point, they shall state the point or points on which they differ, and make a reference to the\nChairperson of the 2[Appellate Tribunal] who shall hear the point or points himself and such point or\npoints shall be decided according to the opinion of the majority of the Members who have heard the case,\nincluding those who first heard it.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-53",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 53 — Filling up of vacancies.] Omitted by the Finance Act, 2017 (7 of 2017), s. 169",
+    "text_content": "Filling up of vacancies.] Omitted by the Finance Act, 2017 (7 of 2017), s. 169\n(w.e.f. 26-5-2017).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-54",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 54 — Resignation and removal.] Omitted by s. 169, ibid. (w.e.f. 26-5-2017).",
+    "text_content": "Resignation and removal.] Omitted by s. 169, ibid. (w.e.f. 26-5-2017).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-55",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 55 — Orders constituting Appellate Tribunal to be final and not to invalidate its proceedings.–No",
+    "text_content": "Orders constituting Appellate Tribunal to be final and not to invalidate its proceedings.–No\norder of the Central Government appointing any person as the 7[Chairperson or the Member] of a\n2[Appellate Tribunal] shall be called in question in any manner and no act or proceeding before a",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-56",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 56 — Staff of the Cyber Appellate Tribunal.] Omitted by the Finance Act, 2017 (7 of 2017), s. 169",
+    "text_content": "Staff of the Cyber Appellate Tribunal.] Omitted by the Finance Act, 2017 (7 of 2017), s. 169\n(w.e.f. 26-5-2017).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-57",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 57 — Appeal to 1[Appellate Tribunal].–(1) Save as provided in sub-section (2), any person aggrieved",
+    "text_content": "Appeal to 1[Appellate Tribunal].–(1) Save as provided in sub-section (2), any person aggrieved\nby an order made by controller or an adjudicating officer under this Act may prefer an appeal to a\n1[Appellate Tribunal] having jurisdiction in the matter.\n(2) No appeal shall lie to the 1[Appellate Tribunal] from an order made by an adjudicating officer\nwith the consent of the parties.\n(3) Every appeal under sub-section (1) shall be filed within a period of forty-five days from the date\non which a copy of the order made by the Controller or the adjudicating officer is received by the person\naggrieved and it shall be in such form and be accompanied by such fee as may be prescribed:\nProvided that the 1[Appellate Tribunal] may entertain an appeal after the expiry of the said period of\nforty-five days if it is satisfied that there was sufficient cause for not filing it within that period.\n(4) On receipt of an appeal under sub-section (1), the 1[Appellate Tribunal] may, after giving the\nparties to the appeal, an opportunity of being heard, pass such orders thereon as it thinks fit, confirming,\nmodifying or setting aside the order appealed against.\n(5) The 1[Appellate Tribunal] shall send a copy of every order made by it to the parties to the appeal\nand to the concerned Controller or adjudicating officer.\n(6) The appeal filed before the 1[Appellate Tribunal] under sub-section (1) shall be dealt with by it as\nexpeditiously as possible and endeavour shall be made by it to dispose of the appeal finally within six\nmonths from the date of receipt of the appeal.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-58",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 58 — Procedure and powers of the Appellate Tribunal].–(1) The 1[Appellate Tribunal] shall not be",
+    "text_content": "Procedure and powers of the Appellate Tribunal].–(1) The 1[Appellate Tribunal] shall not be\nbound by the procedure laid down by the Code of Civil Procedure, 1908 (5 of 1908) but shall be guided\nby the principles of natural justice and, subject to the other provisions of this Act and of any rules, the\n1[Appellate Tribunal] shall have powers to regulate its own procedure including the place at which it shall\nhave its sittings.\n(2) The 1[Appellate Tribunal] shall have, for the purposes of discharging its functions under this Act,\nthe same powers as are vested in a civil court under the Code of Civil Procedure, 1908 (5 of 1908), while\ntrying a suit, in respect of the following matters, namely:–\n(a) summoning and enforcing the attendance of any person and examining him on oath;\n(b) requiring the discovery and production of documents or other electronic records;\n(c) receiving evidence on affidavits;\n(d) issuing commissions for the examination of witnesses or documents;\n(e) reviewing its decisions;\n(f) dismissing an application for default or deciding it ex parte;\n(g) any other matter which may be prescribed.\n(3) Every proceeding before the 1[Appellate Tribunal] shall be deemed to be a judicial proceeding\nwithin the meaning of sections 193 and 228, and for the purposes of section 196 of the Indian Penal Code\n(45 of 1860) and the 1[Appellate Tribunal] shall be deemed to be a civil court for the purposes of section\n195 and Chapter XXVI of the Code of Criminal Procedure, 1973 (2 of 1974).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-59",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 59 — Right to legal representation.–The appellant may either appear in person or authorise one or",
+    "text_content": "Right to legal representation.–The appellant may either appear in person or authorise one or\nmore legal practitioners or any of its officers to present his or its case before the 1[Appellate Tribunal].",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-60",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 60 — Limitation.–The provisions of the Limitation Act, 1963 (36 of 1963), shall, as far as may be,",
+    "text_content": "Limitation.–The provisions of the Limitation Act, 1963 (36 of 1963), shall, as far as may be,\napply to an appeal made to the 1[Appellate Tribunal].",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-61",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 61 — Civil court not to have jurisdiction.–No court shall have jurisdiction to entertain any suit or",
+    "text_content": "Civil court not to have jurisdiction.–No court shall have jurisdiction to entertain any suit or\nproceeding in respect of any matter which an adjudicating officer appointed under this Act or the\n1[Appellate Tribunal] constituted under this Act is empowered by or under this Act to determine and no\ninjunction shall be granted by any court or other authority in respect of any action taken or to be taken in\npursuance of any power conferred by or under this Act.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-62",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 62 — Appeal to High Court.–Any person aggrieved by any decision or order of the 1[Appellate",
+    "text_content": "Appeal to High Court.–Any person aggrieved by any decision or order of the 1[Appellate\nTribunal] may file an appeal to the High Court within sixty days from the date of communication of the\ndecision or order of the 1[Appellate Tribunal] to him on any question of fact or law arising out of such\norder:\nProvided that the High Court may, if it is satisfied that the appellant was prevented by sufficient cause\nfrom filing the appeal within the said period, allow it to be filed within a further period not exceeding\nsixty days.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-63",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 63 — Compounding of contraventions.–(1) Any contravention under this 2[Act] may, either before or",
+    "text_content": "Compounding of contraventions.–(1) Any contravention under this 2[Act] may, either before or\nafter the institution of adjudication proceedings, be compounded by the Controller or such other officer as\nmay be specially authorised by him in this behalf or by the adjudicating officer, as the case may be,\nsubject to such conditions as the Controller or such other officer or the adjudicating officer may specify:\nProvided that such sum shall not, in any case, exceed the maximum amount of the penalty which may\nbe imposed under this Act for the contravention so compounded.\n(2) Nothing in sub-section (1) shall apply to a person who commits the same or similar contravention\nwithin a period of three years from the date on which the first contravention, committed by him, was\ncompounded.\nExplanation.–For the purposes of this sub-section, any second or subsequent contravention\ncommitted after the expiry of a period of three years from the date on which the contravention was\npreviously compounded shall be deemed to be a first contravention.\n(3) Where any contravention has been compounded under sub-section (1), no proceeding or further\nproceeding, as the case may be, shall be taken against the person guilty of such contravention in respect of\nthe contravention so compounded.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-X/S-64",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-X",
+    "node_type": "section",
+    "label": "Section 64 — Recovery of 3[penalty or compensation].–A 4[penalty imposed or compensation awarded] under",
+    "text_content": "Recovery of 3[penalty or compensation].–A 4[penalty imposed or compensation awarded] under\nthis Act, if it is not paid, shall he recovered as an arrear of land revenue and the licence or the 5[electronic\nsignature] Certificate, as the case may be, shall be suspended till the penalty is paid.\nCHAPTER XI\nOFFENCES",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-65",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 65 — Tampering with computer source documents.–Whoever knowingly or intentionally conceals,",
+    "text_content": "Tampering with computer source documents.–Whoever knowingly or intentionally conceals,\ndestroys or alters or intentionally or knowingly causes another to conceal, destroy, or alter any computer\nsource code used for a computer, computer programme, computer system or computer network, when the\ncomputer source code is required to be kept or maintained by law for the time being in force, shall be\npunishable with imprisonment up to three years, or with fine which may extend up to two lakh rupees, or\nwith both.\nExplanation.–For the purposes of this section, ―computer source code‖ means the listing of\nprogrammes, computer commands, design and layout and programme analysis of computer resource in\nany form.\n6",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-66",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 66 — Computer related offences.–If any person, dishonestly or fraudulently, does any act referred to",
+    "text_content": "Computer related offences.–If any person, dishonestly or fraudulently, does any act referred to\nin section 43, he shall be punishable with imprisonment for a term which may extend to three years or\nwith fine which may extend to five lakh rupees or with both.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-66A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 66A — Punishment for sending offensive messages through communication service, etc.–Any",
+    "text_content": "Punishment for sending offensive messages through communication service, etc.–Any\nperson who sends, by means of a computer resource or a communication device,–\n(a) any information that is grossly offensive or has menacing character; or\n(b) any information which he knows to be false, but for the purpose of causing annoyance,\ninconvenience, danger, obstruction, insult, injury, criminal intimidation, enmity, hatred or ill will,\npersistently by making use of such computer resource or a communication device;\n(c) any electronic mail or electronic mail message for the purpose of causing annoyance or\ninconvenience or to deceive or to mislead the addressee or recipient about the origin of such\nmessages,\nshall be punishable with imprisonment for a term which may extend to three years and with fine.\nExplanation.–For the purposes of this section, terms ―electronic mail‖ and ―electronic mail message‖\nmeans a message or information created or transmitted or received on a computer, computer system,\ncomputer resource or communication device including attachments in text, image, audio, video and any\nother electronic record, which may be transmitted with the message.",
+    "status": "struck_down",
+    "effective_from": "2000-10-17",
+    "struck_down_by": "Shreya Singhal v. Union of India, AIR 2015 SC 1523",
+    "effective_until": "2015-03-24"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-66B",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 66B — Punishment for dishonestly receiving stolen computer resource or communication",
+    "text_content": "Punishment for dishonestly receiving stolen computer resource or communication\ndevice.–Whoever dishonestly receive or retains any stolen computer resource or communication device\nknowing or having reason to believe the same to be stolen computer resource or communication device,\nshall be punished with imprisonment of either description for a term which may extend to three years or\nwith fine which may extend to rupees one lakh or with both.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-66C",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 66C — Punishment for identity theft.–Whoever, fraudulently or dishonestly make use of the",
+    "text_content": "Punishment for identity theft.–Whoever, fraudulently or dishonestly make use of the\nelectronic signature, password or any other unique identification feature of any other person, shall be\npunished with imprisonment of either description for a term which may extend to three years and shall\nalso be liable to fine which may extend to rupees one lakh.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-66D",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 66D — Punishment for cheating by personation by using computer resource.–Whoever, by means of",
+    "text_content": "Punishment for cheating by personation by using computer resource.–Whoever, by means of\nany communication device or computer resource cheats by personation, shall be punished with\nimprisonment of either description for a term which may extend to three years and shall also be liable to\nfine which may extend to one lakh rupees.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-66E",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 66E — Punishment for violation of privacy.–Whoever, intentionally or knowingly captures, publishes",
+    "text_content": "Punishment for violation of privacy.–Whoever, intentionally or knowingly captures, publishes\nor transmits the image of a private area of any person without his or her consent, under circumstances\nviolating the privacy of that person, shall be punished with imprisonment which may extend to three years\nor with fine not exceeding two lakh rupees, or with both.\nExplanation.–For the purposes of this section–\n(a) ―transmit‖ means to electronically send a visual image with the intent that it be viewed by a\nperson or persons;\n(b) ―capture‖, with respect to an image, means to videotape, photograph, film or record by any\nmeans;\n(c) ―private area‖ means the naked or undergarment clad genitals, public area, buttocks or female\nbreast:\n(d) ―publishes‖ means reproduction in the printed or electronic form and making it available for\npublic;",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-66F",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 66F — Punishment for cyber terrorism.–(1) Whoever,–",
+    "text_content": "Punishment for cyber terrorism.–(1) Whoever,–\n(A) with intent to threaten the unity, integrity, security or sovereignty of India or to strike terror in\nthe people or any section of the people by–\n(i) denying or cause the denial of access to any person authorised to access computer\nresource; or\n(ii) attempting to penetrate or access a computer resource without authorisation or exceeding\nauthorised access; or\n(iii) introducing or causing to introduce any computer contaminant,\nand by means of such conduct causes or is likely to cause death or injuries to persons or damage to or\ndestruction of property or disrupts or knowing that it is likely to cause damage or disruption of supplies or\nservices essential to the life of the community or adversely affect the critical information infrastructure\nspecified under section 70; or\n(B) knowingly or intentionally penetrates or accesses a computer resource without authorisation or\nexceeding authorised access, and by means of such conduct obtains access to information, data or\ncomputer data base that is restricted for reasons of the security of the State or foreign relations; or any\nrestricted information, data or computer data base, with reasons to believe that such information, data\nor computer data base so obtained may be used to cause or likely to cause injury to the interests of the\nsovereignty and integrity of India, the security of the State, friendly relations with foreign States,\npublic order, decency or morality, or in relation to contempt of court, defamation or incitement to an\noffence, or to the advantage of any foreign nation, group of individuals or otherwise,\ncommits the offence of cyber terrorism.\n(2) Whoever commits or conspires to commit cyber terrorism shall be punishable with imprisonment\nwhich may extend to imprisonment for life.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-67",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 67 — Punishment for publishing or transmitting obscene material in electronic form.–Whoever",
+    "text_content": "Punishment for publishing or transmitting obscene material in electronic form.–Whoever\npublishes or transmits or causes to be published or transmitted in the electronic form, any material which\nis lascivious or appeals to the prurient interest or if its effect is such as to tend to deprave and corrupt\npersons who are likely, having regard to all relevant circumstances, to read, see or hear the matter\ncontained or embodied in it, shall be punished on first conviction with imprisonment of either description\nfor a term which may extend to three years and with fine which may extend to five lakh rupees and in the\nevent of second or subsequent conviction with imprisonment of either description for a term which may\nextend to five years and also with fine which may extend to ten lakh rupees.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-67A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 67A — Punishment for publishing or transmitting of material containing sexually explicit act, etc.,",
+    "text_content": "Punishment for publishing or transmitting of material containing sexually explicit act, etc.,\nin electronic form.–Whoever publishes or transmits or causes to be published or transmitted in the\nelectronic form any material which contains sexually explicit act or conduct shall be punished on first\nconviction with imprisonment of either description for a term which may extend to five years and with\nfine which may extend to ten lakh rupees and in the event of second or subsequent conviction with\nimprisonment of either description for a term which may extend to seven years and also with fine which\nmay extend to ten lakh rupees.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-67B",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 67B — Punishment for publishing or transmitting of material depicting children in sexually",
+    "text_content": "Punishment for publishing or transmitting of material depicting children in sexually\nexplicit act, etc., in electronic form.–Whoever,–\n(a) publishes or transmits or causes to be published or transmitted material in any electronic form\nwhich depicts children engaged in sexually explicit act or conduct; or\n(b) creates text or digital images, collects, seeks, browses, downloads, advertises, promotes,\nexchanges or distributes material in any electronic form depicting children in obscene or indecent or\nsexually explicit manner; or\n25\n(c) cultivates, entices or induces children to online relationship with one or more children for and\non sexually explicit act or in a manner that may offend a reasonable adult on the computer resource; or\n(d) facilitates abusing children online, or\n(e) records in any electronic form own abuse or that of others pertaining to sexually explicit act\nwith children,\nshall be punished on first conviction with imprisonment of either description for a term which may extend\nto five years and with fine which may extend to ten lakh rupees and in the event of second or subsequent\nconviction with imprisonment of either description for a term which may extend to seven years and also\nwith fine which may extend to ten lakh rupees:\nProvided that provisions of section 67, section 67A and this section does not extend to any book,\npamphlet, paper, writing, drawing, painting representation or figure in electronic form–\n(i) the publication of which is proved to be justified as being for the public good on the ground\nthat such book, pamphlet, paper, writing, drawing, painting representation or figure is the interest\nof science, literature, art or learning or other objects of general concern; or\n(ii) which is kept or used for bona fide heritage or religious purposes.\nExplanation–For the purposes of this section, ―children‖ means a person who has not completed the\nage of 18 years.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-67C",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 67C — Preservation and retention of information by intermediaries.–(1) Intermediary shall preserve",
+    "text_content": "Preservation and retention of information by intermediaries.–(1) Intermediary shall preserve\nand retain such information as may be specified for such duration and in such manner and format as the\nCentral Government may prescribe.\n(2) any intermediary who intentionally or knowingly contravenes the provisions of sub-section (1)\nshall be punished with an imprisonment for a term which may extend to three years and also be liable to\nfine.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-68",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 68 — Power of Controller to give directions.–(1) The Controller may, by order, direct a Certifying",
+    "text_content": "Power of Controller to give directions.–(1) The Controller may, by order, direct a Certifying\nAuthority or any employee of such Authority to take such measures or cease carrying on such activities as\nspecified in the order if those are necessary to ensure compliance with the provisions of this Act, rules or\nany regulations made thereunder.\n1[(2) Any person who intentionally or knowingly fails to comply with any order under sub-section (1)\nshall be guilty of an offence and shall be liable on conviction to imprisonment for a term not exceeding\ntwo years or a fine not exceeding one lakh rupees or with both.]\n2",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-69",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 69 — Power to issue directions for interception or monitoring or decryption of any information",
+    "text_content": "Power to issue directions for interception or monitoring or decryption of any information\nthrough any computer resource.–(1) Where the Central Government or a State Government or any of\nits officers specially authorised by the Central Government or the State Government, as the case may be,\nin this behalf may, if satisfied that it is necessary or expedient so to do, in the interest of the sovereignty\nor integrity of India, defence of India, security of the State, friendly relations with foreign States or public\norder or for preventing incitement to the commission of any cognizable offence relating to above or for\ninvestigation of any offence, it may subject to the provisions of sub-section (2), for reasons to be recorded\nin writing, by order, direct any agency of the appropriate Government to intercept, monitor or decrypt or\ncause to be intercepted or monitored or decrypted any information generated, transmitted, received or\nstored in any computer resource.\n(2) The procedure and safeguards subject to which such interception or monitoring or decryption may\nbe carried out, shall be such as may be prescribed.\n(3) The subscriber or intermediary or any person in-charge of the computer resource shall, when called\nupon by any agency referred to in sub-section (1), extend all facilities and technical assistance to–\n(a) provide access to or secure access to the computer resource generating, transmitting, receiving\nor storing such information; or\n(b) intercept, monitor, or decrypt the information, as the case may be; or\n(c) provide information stored in computer resource.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-69A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 69A — Power to issue directions for blocking for public access of any information through any",
+    "text_content": "Power to issue directions for blocking for public access of any information through any\ncomputer resource.–(1) Where the Central Government or any of its officers specially authorised by it in\nthis behalf is satisfied that it is necessary or expedient so to do, in the interest of sovereignty and integrity\nof India, defence of India, security of the State, friendly relations with foreign States or public order or for\npreventing incitement to the commission of any cognizable offence relating to above, it may subject to the\nprovisions of sub-section (2), for reasons to be recorded in writing, by order, direct any agency of the\nGovernment or intermediary to block for access by the public or cause to be blocked for access by the\npublic any information generated, transmitted, received, stored or hosted in any computer resource.\n(2) The procedure and safeguards subject to which such blocking for access by the public may be\ncarried out, shall be such as may be prescribed.\n(3) The intermediary who fails to comply with the direction issued under sub-section (1) shall be\npunished with an imprisonment for a term which may extend to seven years and also be liable to fine.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-69B",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 69B — Power to authorise to monitor and collect traffic data or information through any",
+    "text_content": "Power to authorise to monitor and collect traffic data or information through any\ncomputer resource for cyber security.–(1) The Central Government may, to enhance cyber security and\nfor identification, analysis and prevention of intrusion or spread of computer contaminant in the country,\nby notification in the Official Gazette, authorise any agency of the Government to monitor and collect\ntraffic data or information generated, transmitted, received or stored in any computer resource.\n(2) The intermediary or any person in-charge or the computer resource shall, when called upon by the\nagency which has been authorised under sub-section (1), provide technical assistance and extend all\nfacilities to such agency to enable online access or to secure and provide online access to the computer\nresource generating, transmitting, receiving or storing such traffic data or information.\n(3) The procedure and safeguards for monitoring and collecting traffic data or information, shall be\nsuch as may be prescribed.\n(4) Any intermediary who intentionally or knowingly contravenes the provisions of sub-section (2)\nshall be punished with an imprisonment for a term which any extend to three years and shall also be liable\nto fine.\nExplanation.–For the purposes of this section,–\n(i) ―computer contaminant‖ shall have the meaning assigned to it in section 43;\n(ii) ―traffic data‖ means any data identifying or purporting to identify any person, computer\nsystem or computer network or location to or from which the communication is or may be\ntransmitted and includes communications origin, destination, route, time, data, size, duration or\ntype of underlying service and any other information.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-70",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 70 — Protected system.–1[(1) The appropriate Government may, by notification in the Official Gazette,",
+    "text_content": "Protected system.–1[(1) The appropriate Government may, by notification in the Official Gazette,\ndeclare any computer resource which directly or indirectly affects the facility of Critical Information\nInfrastructure, to be a protected system.\nExplanation.–For the purposes of this section, ―Critical Information Infrastructure‖ means the\ncomputer resource, the incapacitation or destruction of which, shall have debilitating impact on national\nsecurity, economy, public health or safety.]\n(2) The appropriate Government may, by order in writing, authorise the persons who are authorised to\naccess protected systems notified under sub-section (1).\n(3) Any person who secures access or attempts to secure access to a protected system in contravention\nof the provisions of this section shall be punished with imprisonment of either description for a term\nwhich may extend to ten years and shall also be liable to fine.\n2[(4) The Central Government shall prescribe the information security practices and procedures for\nsuch protected system.]\n3",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-70A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 70A — National nodal agency.–(1) The Central Government may, by notification published in the",
+    "text_content": "National nodal agency.–(1) The Central Government may, by notification published in the\nOfficial Gazette, designate any organisation of the Government as the national nodal agency in respect of\nCritical Information Infrastructure Protection.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-70B",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 70B — Indian Computer Emergency Response Team to serve as national agency for incident",
+    "text_content": "Indian Computer Emergency Response Team to serve as national agency for incident\nresponse.–(1) The Central Government shall, by notification in the Official Gazette, appoint an agency of\nthe Government to be called the Indian Computer Emergency Response Team.\n(2) The Central Government shall provide the agency referred to in sub-section (1) with a Director\nGeneral and such other officers and employees as may be prescribed.\n(3) The salary and allowances and terms and conditions of the Director-General and other officers and\nemployees shall be such as may be prescribed.\n(4) The Indian Computer Emergency Response Team shall serve as the national agency for\nperforming the following functions in the area of cyber security,–\n(a) collection, analysis and dissemination of information on cyber incidents;\n(b) forecast and alerts of cyber security incidents;\n(c) emergency measures for handling cyber security incidents;\n(d) coordination of cyber incidents response activities;\n(e) issue guidelines, advisories, vulnerability notes and white papers relating to information\nsecurity practices, procedures, preventation, response and reporting of cyber incidents;\n(f) such other functions relating to cyber security as may be prescribed.\n(5) The manner of performing functions and duties of the agency referred to in sub-section (1) shall be\nsuch as may be prescribed.\n(6) For carrying out the provisions of sub-section (4), the agency referred to in sub-section (1) may\ncall for information and give direction to the service providers, intermediaries, data centres, body\ncorporate and any other person.\n(7) Any service provider, intermediaries, data centres, body corporate or person who fails to provide\nthe information called for or comply with the direction under sub-section (6), shall be punishable with\nimprisonment for a term which may extend to one year or with fine which may extend to one lakh rupees\nor with both.\n(8) No court shall take cognizance of any offence under this section, except on a complaint made by an\nofficer authorised in this behalf by the agency referred to in sub-section (1).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-71",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 71 — Penalty for misrepresentation.–Whoever makes any misrepresentation to, or suppresses any",
+    "text_content": "Penalty for misrepresentation.–Whoever makes any misrepresentation to, or suppresses any\nmaterial fact from the Controller or the Certifying Authority for obtaining any licence or 1[electronic\nsignature] Certificate, as the case may be, shall be punished with imprisonment for a term which may\nextend to two years, or with fine which may extend to one lakh rupees, or with both.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-72",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 72 — Penalty for Breach of confidentiality and privacy.–Save as otherwise provided in this Act or",
+    "text_content": "Penalty for Breach of confidentiality and privacy.–Save as otherwise provided in this Act or\nany other law for the time being in force, if any person who, in pursuance of any of the powers conferred\nunder this Act, rules or regulations made thereunder, has secured access to any electronic record, book,\nregister, correspondence, information, document or other material without the consent of the person\nconcerned discloses such electronic record, book, register, correspondence, information, document or\nother material to any other person shall be punished with imprisonment for a term which may extend to\ntwo years, or with fine which may extend to one lakh rupees, or with both.\n2",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-72A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 72A — Punishment for disclosure of information in breach of lawful contract.–Save as otherwise",
+    "text_content": "Punishment for disclosure of information in breach of lawful contract.–Save as otherwise\nprovided in this Act or any other law for the time being in force, any person including an intermediary\nwho, while providing services under the terms of lawful contract, has secured access to any material\ncontaining personal information about another person, with the intent to cause or knowing that he is likely",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-73",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 73 — Penalty for publishing 1[electronic signature] Certificate false in certain particulars.–(1) No",
+    "text_content": "Penalty for publishing 1[electronic signature] Certificate false in certain particulars.–(1) No\nperson shall publish a 1[electronic signature] Certificate or otherwise make it available to any other person\nwith the knowledge that–\n(a) the Certifying Authority listed in the certificate has not issued it; or\n(b) the subscriber listed in the certificate has not accepted it; or\n(c) the certificate has been revoked or suspended,\nunless such publication is for the purpose of verifying a 1[electronic signature] created prior to such\nsuspension or revocation.\n(2) Any person who contravenes the provisions of sub-section (1) shall be punished with\nimprisonment for a term which may extend to two years, or with fine which may extend to one lakh\nrupees, or with both.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-74",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 74 — Publication for fraudulent purpose.–Whoever knowingly creates, publishes or otherwise makes",
+    "text_content": "Publication for fraudulent purpose.–Whoever knowingly creates, publishes or otherwise makes\navailable a 1[electronic signature] Certificate for any fraudulent or unlawful purpose shall be punished\nwith imprisonment for a term which may extend to two years, or with fine which may extend to one lakh\nrupees, or with both.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-75",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 75 — Act to apply for offence or contravention committed outside India.–(1) Subject to the",
+    "text_content": "Act to apply for offence or contravention committed outside India.–(1) Subject to the\nprovisions of sub-section (2), the provisions of this Act shall apply also to any offence or contravention\ncommitted outside India by any person irrespective of his nationality.\n(2) For the purposes of sub-section (1), this Act shall apply to an offence or contravention committed\noutside India by any person if the act or conduct constituting the offence or contravention involves a\ncomputer, computer system or computer network located in India.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-76",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 76 — Confiscation.–Any computer, computer system, floppies, compact disks, tape drives or any other",
+    "text_content": "Confiscation.–Any computer, computer system, floppies, compact disks, tape drives or any other\naccessories related thereto, in respect of which any provision of this Act, rules, orders or regulations made\nthereunder has been or is being contravened, shall be liable to confiscation:\nProvided that where it is established to the satisfaction of the court adjudicating the confiscation that\nthe person in whose possession, power or control of any such computer, computer system, floppies,\ncompact disks, tape drives or any other accessories relating thereto is found is not responsible for the\ncontravention of the provisions of this Act, rules, orders or regulations made thereunder, the court may,\ninstead of making an order for confiscation of such computer, computer system, floppies, compact disks,\ntape drives or any other accessories related thereto, make such other order authorised by this Act against\nthe person contravening of the provisions of this Act, rules, orders or regulations made thereunder as it\nmay think fit.\n1",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-77",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 77 — Compensation, penalties or confiscation not to interfere with other punishment.–No",
+    "text_content": "Compensation, penalties or confiscation not to interfere with other punishment.–No\ncompensation awarded, penalty imposed or confiscation made under this Act shall prevent the award of\ncompensation or imposition of any other penalty or punishment under any other law for the time being in\nforce.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-77A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 77A — Compounding of offences.–A court of competent jurisdiction may compound offences, other",
+    "text_content": "Compounding of offences.–A court of competent jurisdiction may compound offences, other\nthan offences for which the punishment for life or imprisonment for a term exceeding three years has\nbeen provided, under this Act:\nProvided that the court shall not compound such offence where the accused is, by reason of his\nprevious conviction, liable to either enhanced punishment or to a punishment of a different kind:\nProvided further that the court shall not compound any offence where such offence affects the socio\neconomic conditions of the country or has been committed against a child below the age of 18 years or a\nwoman.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-77B",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 77B — Offences with three years imprisonment to be bailable.–Notwithstanding anything contained",
+    "text_content": "Offences with three years imprisonment to be bailable.–Notwithstanding anything contained\nin the Code of Criminal Procedure, 1973 (2 of 1974), the offence punishable with imprisonment of three\nyears and above shall be cognizable and the offence punishable with imprisonment of three years shall be\nbailable.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XI/S-78",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XI",
+    "node_type": "section",
+    "label": "Section 78 — Power to investigate offences.–Notwithstanding anything contained in the Code of Criminal",
+    "text_content": "Power to investigate offences.–Notwithstanding anything contained in the Code of Criminal\nProcedure, 1973 (2 of 1974), a police officer not below the rank of 1[Inspector] shall investigate any\noffence under this Act.\n2[CHAPTER XII\nINTERMEDIARIES NOT TO BE LIABLE IN CERTAIN CASES",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XII/S-79",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XII",
+    "node_type": "section",
+    "label": "Section 79 — Exemption from liability of intermediary in certain cases.–(1) Notwithstanding anything",
+    "text_content": "Exemption from liability of intermediary in certain cases.–(1) Notwithstanding anything\ncontained in any law for the time being in force but subject to the provisions of sub-sections (2) and (3),\nan intermediary shall not be liable for any third party information, data, or communication link made\navailable or hosted by him.\n(2) The provisions of sub-section (1) shall apply if–\n(a) the function of the intermediary is limited to providing access to a communication system over\nwhich information made available by third parties is transmitted or temporarily stored or hosted; or\n(b) the intermediary does not–\n(i) initiate the transmission,\n(ii) select the receiver of the transmission, and\n(iii) select or modify the information contained in the transmission;\n(c) the intermediary observes due diligence while discharging his duties under this Act and also\nobserves such other guidelines as the Central Government may prescribe in this behalf.\n(3) The provisions of sub-section (1) shall not apply if–\n(a) the intermediary has conspired or abetted or aided or induced, whether by threats or promise or\notherwise in the commission of the unlawful act;\n(b) upon receiving actual knowledge, or on being notified by the appropriate Government or its\nagency that any information, data or communication link residing in or connected to a computer\nresource controlled by the intermediary is being used to commit the unlawful act, the intermediary\nfails to expeditiously remove or disable access to that material on that resource without vitiating the\nevidence in any manner.\nExplanation.–For the purposes of this section, the expression ―third party information‖ means any\ninformation dealt with by an intermediary in his capacity as an intermediary.\nCHAPTER XIIA\nEXAMINER OF ELECTRONIC EVIDENCE",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIIA/S-79A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIIA",
+    "node_type": "section",
+    "label": "Section 79A — Central Government to notify Examiner of Electronic Evidence.–The Central Government",
+    "text_content": "Central Government to notify Examiner of Electronic Evidence.–The Central Government\nmay, for the purposes of providing expert opinion on electronic form evidence before any court or other\nauthority specify, by notification in the Official Gazette, any Department, body or agency of the Central\nGovernment or a State Government as an Examiner of Electronic Evidence.\nExplanation.–For the purposes of this section, ―electronic form evidence‖ means any information of\nprobative value that is either stored or transmitted in electronic form and includes computer evidence,\ndigital audio, digital video, cell phones, digital fax machines.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-80",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 80 — Power of police officer and other officers to enter, search, etc.–(1) Notwithstanding anything",
+    "text_content": "Power of police officer and other officers to enter, search, etc.–(1) Notwithstanding anything\ncontained in the Code of Criminal Procedure, 1973 (2 of 1974), any police officer, not below the rank of a\n1[Inspector], or any other officer of the Central Government or a State Government authorised by the\nCentral Government in this behalf may enter any public place and search and arrest without warrant any\nperson found therein who is reasonably suspected of having committed or of committing or of being\nabout to commit any offence under this Act.\nExplanation.–For the purposes of this sub-section, the expression ―public place‖ includes any public\nconveyance, any hotel, any shop or any other place intended for use by, or accessible to the public.\n(2) Where any person is arrested under sub-section (1) by an officer other than a police officer, such\nofficer shall, without unnecessary delay, take or send the person arrested before a magistrate having\njurisdiction in the case or before the officer-in-charge of a police station.\n(3) The provisions of the Code of Criminal Procedure, 1973 (2 of 1974) shall, subject to the provisions\nof this section, apply, so far as may be, in relation to any entry, search or arrest, made under this section.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-81",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 81 — Act to have overriding effect.–The provisions of this Act shall have effect notwithstanding",
+    "text_content": "Act to have overriding effect.–The provisions of this Act shall have effect notwithstanding\nanything inconsistent therewith contained in any other law for the time being in force.\n2[Provided that nothing contained in this Act shall restrict any person from exercising any right\nconferred under the Copyright Act, 1957 (14 of 1957) or the Patents Act, 1970 (39 of 1970).]\n3",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-81A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 81A — Application of the Act to electronic cheque and truncated cheque.–(1) The provisions of",
+    "text_content": "Application of the Act to electronic cheque and truncated cheque.–(1) The provisions of\nthis Act, for the time being in force, shall apply to, or in relation to, electronic cheques and the truncated\ncheques subject to such modifications and amendments as may be necessary for carrying out the purposes\nof the Negotiable Instruments Act, 1881 (26 of 1881) by the Central Government, in consultation with the\nReserve Bank of India, by notification in the Official Gazette.\n(2) Every notification made by the Central Government under sub-section (1) shall be laid, as soon as\nmay be after it is made, before each House of Parliament, while it is in session, for a total period of thirty\ndays which may be comprised in one session or in two or more successive sessions, and if, before the\nexpiry of the session immediately following the session or the successive sessions aforesaid, both Houses\nagree in making any modification in the notification or both Houses agree that the notification should not\nbe made, the notification shall thereafter have effect only in such modified form or be of no effect, as the\ncase may be; so, however, that any such modification or annulment shall be without prejudice to the\nvalidity of anything previously done under that notification.\nExplanation.–For the purposes of this Act, the expressions ―electronic cheque‖ and ―truncated cheque‖\nshall have the same meaning as assigned to them in section 6 of the Negotiable Instruments Act, 1881 (26\nof 1881).]\n4",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-82",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 82 — Controller, Deputy Controller and Assistant Controller to be public servants.–The",
+    "text_content": "Controller, Deputy Controller and Assistant Controller to be public servants.–The\nController, the Deputy Controller and the Assistant Controllers shall be deemed to be public servants\nwithin the meaning of section 21 of the Indian Penal Code (45 of 1860).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-83",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 83 — Power to give directions.–The Central Government may give directions to any State Government",
+    "text_content": "Power to give directions.–The Central Government may give directions to any State Government\nas to the carrying into execution in the State of any of the provisions of this Act or of any rule, regulation\nor order made thereunder.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-84",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 84 — Protection of action taken in good faith.–No suit, prosecution or other legal proceeding shall lie",
+    "text_content": "Protection of action taken in good faith.–No suit, prosecution or other legal proceeding shall lie\nagainst the Central Government, the State Government, the Controller or any person acting on behalf of\nhim, 5[and adjudicating officers] for anything which is in good faith done or intended to be done in\npursuance of this Act or any rule, regulation or order made thereunder.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-84A",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 84A — Modes or methods for encryption.–The Central Government may, for secure use of the",
+    "text_content": "Modes or methods for encryption.–The Central Government may, for secure use of the\nelectronic medium and for promotion of e-governance and e-commerce, prescribe the modes or methods\nfor encryption.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-84B",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 84B — Punishment for abetment of offences.–Whoever abets any offence shall, if the act abetted is",
+    "text_content": "Punishment for abetment of offences.–Whoever abets any offence shall, if the act abetted is\ncommitted in consequence of the abetment, and no express provision is made by this Act for the\npunishment of such abetment, be punished with the punishment provided for the offence under this Act.\nExplanation.–An act or offence is said to be committed in consequence of abetment, when it is\ncommitted in consequence of the instigation, or in pursuance of the conspiracy, or with the aid which\nconstitutes the abetment.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-84C",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 84C — Punishment for attempt to commit offences.–Whoever attempts to commit an offence",
+    "text_content": "Punishment for attempt to commit offences.–Whoever attempts to commit an offence\npunishable by this Act or causes such an offence to be committed, and in such an attempt does any act\ntowards the commission of the offence, shall, where no express provision is made for the punishment of\nsuch attempt, be punished with imprisonment of any description provided for the offence, for a term\nwhich may extend to one-half of the longest term of imprisonment provided for that offence, or with such\nfine as is provided for the offence, or with both.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-85",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 85 — Offences by companies.–(1) Where a person committing a contravention of any of the provisions",
+    "text_content": "Offences by companies.–(1) Where a person committing a contravention of any of the provisions\nof this Act or of any rule, direction or order made thereunder is a company, every person who, at the time\nthe contravention was committed, was in charge of, and was responsible to, the company for the conduct\nof business of the company as well as the company, shall be guilty of the contravention and shall be liable\nto be proceeded against and punished accordingly:\nProvided that nothing contained in this sub-section shall render any such person liable to punishment if\nhe proves that the contravention took place without his knowledge or that he exercised all due diligence to\nprevent such contravention.\n(2) Notwithstanding anything contained in sub-section (1), where a contravention of any of the\nprovisions of this Act or of any rule, direction or order made thereunder has been committed by a\ncompany and it is proved that the contravention has taken place with the consent or connivance of, or is\nattributable to any neglect on the part of, any director, manager, secretary or other officer of the company,\nsuch director, manager, secretary or other officer shall also be deemed to be guilty of the contravention\nand shall be liable to be proceeded against and punished accordingly.\nExplanation.–For the purposes of this section,–\n(i) ―company‖ means any body corporate and includes a firm or other association of individuals;\nand\n(ii) ―director‖, in relation to a firm, means a partner in the firm.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-86",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 86 — Removal of difficulties.–(1) If any difficulty arises in giving effect to the provisions of this Act,",
+    "text_content": "Removal of difficulties.–(1) If any difficulty arises in giving effect to the provisions of this Act,\nthe Central Government may, by order published in the Official Gazette, make such provisions not\ninconsistent with the provisions of this Act as appear to it to be necessary or expedient for removing the\ndifficulty:\nProvided that no order shall be made under this section after the expiry of a period of two years from\nthe commencement of this Act.\n(2) Every order made under this section shall be laid, as soon as may be after it is made, before each\nHouse of Parliament.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-87",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 87 — Power of Central Government to make rules.–(1) The Central Government may, by notification",
+    "text_content": "Power of Central Government to make rules.–(1) The Central Government may, by notification\nin the Official Gazette and in the Electronic Gazette, make rules to carry out the provisions of this Act.\n(2) In particular, and without prejudice to the generality of the foregoing power, such rules may\nprovide for all or any of the following matters, namely:–\n2[(a) the conditions for considering reliability of electronic signature or electronic authentication\ntechnique under sub-section (2) of section 3A;",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-88",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 88 — Constitution of Advisory Committee.–(1) The Central Government shall, as soon as may be",
+    "text_content": "Constitution of Advisory Committee.–(1) The Central Government shall, as soon as may be\nafter the commencement of this Act, constitute a Committee called the Cyber Regulations Advisory\nCommittee.\n(2) The Cyber Regulations Advisory Committee shall consist of a Chairperson and such number of\nother official and non-official members representing the interests principally affected or having special\nknowledge of the subject-matter as the Central Government may deem fit.\n(3) The Cyber Regulations Advisory Committee shall advise–\n(a) the Central Government either generally as regards any rules or for any other purpose\nconnected with this Act;\n(b) the Controller in framing the regulations under this Act.\n(4) There shall be paid to the non-official members of such Committee such travelling and other\nallowances as the Central Government may fix.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-89",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 89 — Power of Controller to make regulations.–(1) The Controller may, after consultation with the",
+    "text_content": "Power of Controller to make regulations.–(1) The Controller may, after consultation with the\nCyber Regulations Advisory Committee and with the previous approval of the Central Government, by\nnotification in the Official Gazette, make regulations consistent with this Act and the rules made\nthereunder to carry out the purposes of this Act.\n(2) In particular, and without prejudice to the generality of the foregoing power, such regulations may\nprovide for all or any of the following matters, namely:–\n(a) the particulars relating to maintenance of data base containing the disclosure record of every\nCertifying Authority under clause 1[(n)] of section 18;\n(b) the conditions and restrictions subject to which the Controller may recognise any foreign\nCertifying Authority under sub-section (1) of section 19;\n(c) the terms and conditions subject to which a licence may be granted under clause (c) of\nsub-section (3) of section 21;\n(d) other standards to be observed by a Certifying Authority under clause (d) of section 30;\n(e) the manner in which the Certifying Authority shall disclose the matters specified in\nsub-section (1) of section 34;\n(f) the particulars of statement which shall accompany an application under sub-section (3) of\nsection 35.\n(g) the manner by which the subscriber shall communicate the compromise of private key to the\nCertifying Authority under sub-section (2) of section 42.\n(3) Every regulation made under this Act shall be laid, as soon as may be after it is made, before each\nHouse of Parliament, while it is in session, for a total period of thirty days which may be comprised in\none session or in two or more successive sessions, and if, before the expiry of the session immediately\nfollowing the session or the successive sessions aforesaid, both Houses agree in making any modification\nin the regulation or both Houses agree that the regulation should not be made, the regulation shall\nthereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that\nany such modification or annulment shall be without prejudice to the validity of anything previously done\nunder that regulation.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-90",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 90 — Power of State Government to make rules.–(1) The State Government may, by notification in",
+    "text_content": "Power of State Government to make rules.–(1) The State Government may, by notification in\nthe Official Gazette, make rules to carry out the provisions of this Act.\n(2) In particular, and without prejudice to the generality of the foregoing power, such rules may\nprovide for all or any of the following matters, namely:–\n(a) the electronic form in which filing, issue, grant, receipt or payment shall be effected under\nsub-section (1) of section 6;\n(b) for matters specified in sub-section (2) of section 6;\n2* * * * *\n(3) Every rule made by the State Government under this section shall be laid, as soon as may be after\nit is made, before each House of the State Legislature where it consists of two Houses, or where such\nLegislature consists of one House, before that House.",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-91",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 91 — Amendment of Act 45 of 1860.] Omitted by the Information Technology (Amendment) Act, 2008",
+    "text_content": "Amendment of Act 45 of 1860.] Omitted by the Information Technology (Amendment) Act, 2008\n(10 of 2009), s. 48 (w.e.f. 27-10-2009).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-92",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 92 — Amendment of Act 1 of 1872.] Omitted by s. 48, ibid. (w.e.f. 27-10-2009).",
+    "text_content": "Amendment of Act 1 of 1872.] Omitted by s. 48, ibid. (w.e.f. 27-10-2009).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-93",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 93 — Amendment of Act 18 of 1891.] Omitted by s. 48, ibid. (w.e.f. 27-10-2009).",
+    "text_content": "Amendment of Act 18 of 1891.] Omitted by s. 48, ibid. (w.e.f. 27-10-2009).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  },
+  {
+    "node_id": "ITA-2000/CH-XIII/S-94",
+    "snapshot_id": "ITA-2000_v2008_2026-06-03",
+    "parent_id": "ITA-2000/CH-XIII",
+    "node_type": "section",
+    "label": "Section 94 — Amendment of Act 2 of 1934.] Omitted by s. 48, ibid. (w.e.f. 27-10-2009).",
+    "text_content": "Amendment of Act 2 of 1934.] Omitted by s. 48, ibid. (w.e.f. 27-10-2009).",
+    "status": "active",
+    "effective_from": "2000-10-17"
+  }
+]

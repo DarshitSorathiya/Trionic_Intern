@@ -1,0 +1,63 @@
+{
+    "fixture_id": "rti-english-001",
+    "doc_type": "rti_application",
+    "language": "en",
+    "agent_traces": [
+        {
+            "agent": "drafter",
+            "model": "claude-sonnet-4-20250514",
+            "tokens_in": 1200,
+            "tokens_out": 800,
+            "cost_usd": 0.0048,
+            "latency_ms": 1340,
+            "cited_nodes": [
+                "RTI-2005/S-6/CL-1",
+                "RTI-2005/S-7/CL-1"
+            ],
+            "status": "ok"
+        },
+        {
+            "agent": "citator-gatekeeper",
+            "model": "claude-sonnet-4-20250514",
+            "tokens_in": 400,
+            "tokens_out": 120,
+            "cost_usd": 0.0012,
+            "latency_ms": 560,
+            "cited_nodes": [
+                "RTI-2005/S-6/CL-1",
+                "RTI-2005/S-7/CL-1"
+            ],
+            "status": "ok"
+        }
+    ],
+    "draft_output": {
+        "text": "Under Section 6(1) of the RTI Act [CITE:RTI-2005/S-6/CL-1], I hereby request the following information...",
+        "cite_markers": [
+            {
+                "node_id": "RTI-2005/S-6/CL-1",
+                "span": [
+                    6,
+                    42
+                ]
+            },
+            {
+                "node_id": "RTI-2005/S-7/CL-1",
+                "span": [
+                    180,
+                    210
+                ]
+            }
+        ]
+    },
+    "ground_truth": {
+        "valid_node_ids": [
+            "RTI-2005/S-6/CL-1",
+            "RTI-2005/S-7/CL-1"
+        ],
+        "required_sections": [
+            "applicant_details",
+            "information_requested",
+            "pio_address"
+        ]
+    }
+}

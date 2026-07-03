@@ -1,0 +1,205 @@
+{
+  "dataset_id": "rti-english-week3",
+  "fixtures": [
+    {
+      "fixture_id": "rti-w3-001-valid",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [
+        { "agent": "classifier", "step": "classify", "tokens": 210, "duration_ms": 890 },
+        { "agent": "planner", "step": "plan", "tokens": 420, "duration_ms": 1120 },
+        { "agent": "drafter", "step": "draft", "tokens": 980, "duration_ms": 2300 },
+        { "agent": "citator", "step": "cite", "tokens": 540, "duration_ms": 1500 }
+      ],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nDepartment of Public Works, Government of Maharashtra.\n\nSubject: Request for information under the Right to Information Act, 2005.\n\nI, Rahul Sharma, a citizen of India, hereby request the following information under Section 6(1) of the RTI Act [CITE:RTI-2005/CH-II/S-6]. As per Section 7 of the RTI Act [CITE:RTI-2005/CH-II/S-7], the response must be provided within 30 days.\n\nInformation Sought:\n1. Total expenditure on road construction tenders in Pune district for FY 2024-25.\n2. Names of contractors awarded tenders above Rs. 50 lakhs.\n\nDeclaration: I am a citizen of India. Fee of Rs. 10 paid via postal order.\n\nYours faithfully,\nRahul Sharma\nDate: 01-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-II/S-6", "span": [181, 204] },
+          { "node_id": "RTI-2005/CH-II/S-7", "span": [248, 271] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": ["RTI-2005/CH-II/S-6", "RTI-2005/CH-II/S-7"],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-w3-002-valid",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [
+        { "agent": "classifier", "step": "classify", "tokens": 195, "duration_ms": 810 },
+        { "agent": "drafter", "step": "draft", "tokens": 860, "duration_ms": 2100 },
+        { "agent": "citator", "step": "cite", "tokens": 490, "duration_ms": 1400 }
+      ],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nMunicipal Corporation of Greater Mumbai.\n\nSubject: RTI Application – Building Permits Issued in Ward H-East.\n\nI, Priya Mehta, a citizen of India, under Section 6(1) of the RTI Act [CITE:RTI-2005/CH-II/S-6], seek the following information. As per Section 4(1)(b) [CITE:RTI-2005/CH-II/S-4], public authorities are obligated to maintain and disclose records.\n\nInformation Sought:\n1. Total number of building permits issued in Ward H-East in 2025.\n2. Names of applicants whose permits were rejected, along with reasons.\n\nDeclaration: I am an Indian citizen. A fee of Rs. 10 has been enclosed via IPO.\n\nSignature: Priya Mehta\nDate: 02-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-II/S-6", "span": [145, 168] },
+          { "node_id": "RTI-2005/CH-II/S-4", "span": [213, 236] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": ["RTI-2005/CH-II/S-6", "RTI-2005/CH-II/S-4"],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-w3-003-missing-date-signature",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [
+        { "agent": "classifier", "step": "classify", "tokens": 188, "duration_ms": 790 },
+        { "agent": "drafter", "step": "draft", "tokens": 740, "duration_ms": 1980 }
+      ],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nDistrict Collector's Office, Nashik.\n\nSubject: Request for land records information.\n\nI, Amit Desai, a citizen of India, request the following information under Section 6(1) of the RTI Act [CITE:RTI-2005/CH-II/S-6].\n\nInformation Sought:\n1. Land records for Survey No. 45, Nashik Rural Taluka.\n2. Encumbrance or litigation status on the above survey number.\n\nDeclaration: I am a citizen of India. A postal order for Rs. 10 is enclosed.",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-II/S-6", "span": [185, 208] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": ["RTI-2005/CH-II/S-6"],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-w3-004-uncited-claim",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [
+        { "agent": "classifier", "step": "classify", "tokens": 210, "duration_ms": 870 },
+        { "agent": "drafter", "step": "draft", "tokens": 810, "duration_ms": 2050 }
+      ],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nDepartment of Education, Government of Rajasthan.\n\nSubject: Request for Teacher Recruitment Data.\n\nI, Sunita Rao, a citizen of India, request information under the RTI Act. The public authority must respond within 30 days of receipt as per the law. Failure to do so will attract a penalty of Rs. 250 per day.\n\nInformation Sought:\n1. Number of teacher vacancies in government schools for 2025.\n2. Selection criteria used for teacher appointments.\n\nDeclaration: I am an Indian citizen. Fee of Rs. 10 enclosed.\n\nSignature: Sunita Rao\nDate: 03-06-2026",
+        "cite_markers": []
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-w3-005-first-appeal",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [
+        { "agent": "classifier", "step": "classify", "tokens": 225, "duration_ms": 900 },
+        { "agent": "drafter", "step": "draft", "tokens": 890, "duration_ms": 2180 },
+        { "agent": "citator", "step": "cite", "tokens": 510, "duration_ms": 1350 }
+      ],
+      "draft_output": {
+        "text": "To,\nThe First Appellate Authority,\nDepartment of Revenue, Government of Gujarat.\n\nSubject: First Appeal under Section 19 of the RTI Act, 2005.\n\nI, Kiran Patel, a citizen of India, file this First Appeal under Section 19(1) of the RTI Act [CITE:RTI-2005/CH-V/S-19] against the order of the PIO who failed to furnish information within 30 days as mandated under Section 7 [CITE:RTI-2005/CH-II/S-7].\n\nInformation Sought:\n1. Status of my RTI Application No. GJ/REV/2026/0045.\n2. Reasons for non-disclosure of the requested land survey records.\n\nDeclaration: I am a citizen of India. No additional fee is applicable for a first appeal.\n\nSignature: Kiran Patel\nDate: 04-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-V/S-19", "span": [187, 210] },
+          { "node_id": "RTI-2005/CH-II/S-7", "span": [295, 318] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": ["RTI-2005/CH-V/S-19", "RTI-2005/CH-II/S-7"],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-w3-006-invalid-cite",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [
+        { "agent": "classifier", "step": "classify", "tokens": 200, "duration_ms": 820 },
+        { "agent": "drafter", "step": "draft", "tokens": 770, "duration_ms": 1950 },
+        { "agent": "citator", "step": "cite", "tokens": 430, "duration_ms": 1200 }
+      ],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nMinistry of Finance, Government of India.\n\nSubject: Request for Fiscal Data under RTI.\n\nI, Arjun Singh, a citizen of India, request information under Section 6 of the RTI Act [CITE:RTI-FAKE/S-99].\n\nInformation Sought:\n1. Total subsidy disbursed under PM Kisan Samman Nidhi in 2025-26.\n\nDeclaration: I am an Indian citizen. Rs. 10 fee enclosed.\n\nSignature: Arjun Singh\nDate: 04-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-FAKE/S-99", "span": [170, 185] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-w3-007-missing-subject",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [
+        { "agent": "classifier", "step": "classify", "tokens": 175, "duration_ms": 760 },
+        { "agent": "drafter", "step": "draft", "tokens": 690, "duration_ms": 1820 }
+      ],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nDepartment of Health, Government of Kerala.\n\nI, Meera Nair, a citizen of India, request information under Section 6(1) of the RTI Act [CITE:RTI-2005/CH-II/S-6].\n\nInformation Sought:\n1. Number of doctors employed in government hospitals in Thiruvananthapuram district.\n2. Status of pending medical equipment procurement tenders above Rs. 1 crore.\n\nDeclaration: I am an Indian citizen. Fee of Rs. 10 paid via IPO.\n\nSignature: Meera Nair\nDate: 05-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-II/S-6", "span": [148, 171] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": ["RTI-2005/CH-II/S-6"],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-w3-008-third-party",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [
+        { "agent": "classifier", "step": "classify", "tokens": 218, "duration_ms": 855 },
+        { "agent": "drafter", "step": "draft", "tokens": 920, "duration_ms": 2290 },
+        { "agent": "citator", "step": "cite", "tokens": 560, "duration_ms": 1480 }
+      ],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nUrban Development Authority, Bengaluru.\n\nSubject: RTI Application – Third Party Contracts for Metro Phase 3.\n\nI, Vikram Reddy, a citizen of India, request information under Section 6(1) of the RTI Act [CITE:RTI-2005/CH-II/S-6]. As per Section 11 of the RTI Act [CITE:RTI-2005/CH-II/S-11], third party information requires notice before disclosure.\n\nInformation Sought:\n1. Names of contractors for Metro Phase 3 packages.\n2. Contract amounts and timelines.\n\nDeclaration: I am a citizen of India. Fee of Rs. 10 enclosed via IPO No. 789012.\n\nSignature: Vikram Reddy\nDate: 05-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-II/S-6", "span": [185, 208] },
+          { "node_id": "RTI-2005/CH-II/S-11", "span": [247, 270] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": ["RTI-2005/CH-II/S-6", "RTI-2005/CH-II/S-11"],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-w3-009-bad-citation",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [
+        { "agent": "classifier", "step": "classify", "tokens": 207, "duration_ms": 840 },
+        { "agent": "drafter", "step": "draft", "tokens": 850, "duration_ms": 2050 }
+      ],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nCentral Board of Direct Taxes, New Delhi.\n\nSubject: RTI Application – Tax Exemption Orders FY 2024-25.\n\nI, Deepa Krishnan, a citizen of India, request information under Section 42 of the RTI Act [CITE:RTI-2005/CH-VII/S-42].\n\nInformation Sought:\n1. List of entities granted tax exemptions in FY 2024-25.\n2. Grounds on which exemptions were granted.\n\nDeclaration: I am a citizen of India. Rs. 10 fee enclosed.\n\nSignature: Deepa Krishnan\nDate: 06-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-VII/S-42", "span": [193, 216] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-w3-010-mixed-valid-invalid",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [
+        { "agent": "classifier", "step": "classify", "tokens": 215, "duration_ms": 865 },
+        { "agent": "drafter", "step": "draft", "tokens": 870, "duration_ms": 2120 },
+        { "agent": "citator", "step": "cite", "tokens": 480, "duration_ms": 1360 }
+      ],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nPanchayati Raj Department, Government of Odisha.\n\nSubject: RTI Application – MGNREGS Work Completion Records.\n\nI, Sushil Mishra, a citizen of India, request information under Section 6(1) of the RTI Act [CITE:RTI-2005/CH-II/S-6] and Section 4(1)(b)(xvi) [CITE:RTI-2005/CH-II/S-99].\n\nInformation Sought:\n1. Number of MGNREGS projects completed in Puri district in FY 2025-26.\n2. Total person-days generated and funds released.\n\nDeclaration: I am an Indian citizen. Fee of Rs. 10 paid via postal order.\n\nYours faithfully,\nSushil Mishra\nDate: 06-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-II/S-6", "span": [193, 216] },
+          { "node_id": "RTI-2005/CH-II/S-99", "span": [252, 275] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": ["RTI-2005/CH-II/S-6"],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    }
+  ]
+}

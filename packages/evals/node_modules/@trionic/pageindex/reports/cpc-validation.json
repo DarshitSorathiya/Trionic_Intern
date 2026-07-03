@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "total_nodes": 557,
+  "node_counts": {
+    "act": 1,
+    "section": 531,
+    "chapter": 25
+  },
+  "errors": [],
+  "warnings": [],
+  "sampled_sections": [
+    {
+      "id": "CPC-1908/S-78",
+      "title": "Section 78 — Commissions issued by foreign Courts",
+      "text_length": 549
+    },
+    {
+      "id": "CPC-1908/S-15",
+      "title": "Section 15 — Court in which suits to be instituted",
+      "text_length": 126
+    },
+    {
+      "id": "CPC-1908/S-4",
+      "title": "Section 4 — Savings",
+      "text_length": 667
+    },
+    {
+      "id": "CPC-1908/S-89",
+      "title": "Section 89 — Settlement of disputes outside the Court",
+      "text_length": 1618
+    },
+    {
+      "id": "CPC-1908/S-35",
+      "title": "Section 35 — Costs",
+      "text_length": 3436
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "total_nodes": 237,
+  "node_counts": {
+    "act": 1,
+    "chapter": 15,
+    "section": 221
+  },
+  "errors": [],
+  "warnings": [],
+  "sampled_sections": [
+    {
+      "id": "CRPC-1973/CH-X/S-148",
+      "title": "Local inquiry",
+      "text_length": 939
+    },
+    {
+      "id": "CRPC-1973/CH-III/S-28",
+      "title": "Sentences which High Courts and Sessions Judges may pass",
+      "text_length": 482
+    },
+    {
+      "id": "CRPC-1973/CH-II/S-7",
+      "title": "Territorial divisions",
+      "text_length": 789
+    },
+    {
+      "id": "CRPC-1973/CH-XII/S-171",
+      "title": "Complainant and witnesses not to be required to accompany police officer and not to be subject to restraint",
+      "text_length": 659
+    },
+    {
+      "id": "CRPC-1973/CH-VI/S-67",
+      "title": "Service of summons outside local limits",
+      "text_length": 303
+    }
+  ]
+}

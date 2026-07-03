@@ -1,0 +1,84 @@
+{
+  "dataset_id": "rti-hallucination-set",
+  "fixtures": [
+    {
+      "fixture_id": "rti-hall-001-perfect",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nDepartment of Revenue, Government of Maharashtra.\n\nSubject: Request for land acquisition details.\n\nI, Rahul Sharma, hereby request the land acquisition details of Sector 15 under Section 6(1) of the RTI Act [CITE:RTI-2005/CH-II/S-6]. The public authority must provide this information within 30 days of receipt [CITE:RTI-2005/CH-II/S-7].\n\nInformation Sought:\n1. Land acquisition records for Sector 15.\n\nDeclaration: I am a citizen of India. Fee of Rs. 10 enclosed.\n\nSignature: Rahul Sharma\nDate: 01-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-II/S-6", "span": [181, 204] },
+          { "node_id": "RTI-2005/CH-II/S-7", "span": [280, 303] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": ["RTI-2005/CH-II/S-6", "RTI-2005/CH-II/S-7"],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-hall-002-uncited-claim",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nDepartment of Revenue, Government of Maharashtra.\n\nSubject: Request for land acquisition details.\n\nI hereby request land acquisition details of Sector 15 under Section 6(1) of the RTI Act [CITE:RTI-2005/CH-II/S-6]. The public authority must provide this information within 30 days of receipt.\n\nInformation Sought:\n1. Land acquisition records for Sector 15.\n\nDeclaration: I am a citizen of India. Fee of Rs. 10 enclosed.\n\nSignature: Rahul Sharma\nDate: 01-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-II/S-6", "span": [181, 204] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": ["RTI-2005/CH-II/S-6", "RTI-2005/CH-II/S-7"],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-hall-003-invalid-cite",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nDepartment of Revenue, Government of Maharashtra.\n\nSubject: Request for land records.\n\nI hereby request land records under the RTI Act. The public authority must provide this information within 30 days of receipt [CITE:RTI-2005/FAKE/S-99].\n\nInformation Sought:\n1. Land records for Survey No. 45.\n\nDeclaration: I am a citizen of India. Fee of Rs. 10 enclosed.\n\nSignature: Rahul Sharma\nDate: 01-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/FAKE/S-99", "span": [220, 243] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-hall-004-all-uncited",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nDepartment of Education, Government of Rajasthan.\n\nSubject: Request for teacher vacancy data.\n\nI request information about teacher vacancies in government schools. The public authority must respond within 30 days of receipt as per law. Failure to do so will attract a penalty of Rs. 250 per day.\n\nInformation Sought:\n1. Number of teacher vacancies in 2025.\n\nDeclaration: I am a citizen of India. Fee of Rs. 10 enclosed.\n\nSignature: Sunita Rao\nDate: 03-06-2026",
+        "cite_markers": []
+      },
+      "ground_truth": {
+        "valid_node_ids": [],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    },
+    {
+      "fixture_id": "rti-hall-005-mixed",
+      "doc_type": "rti_application",
+      "language": "en",
+      "agent_traces": [],
+      "draft_output": {
+        "text": "To,\nThe Public Information Officer,\nDepartment of Finance, Government of India.\n\nSubject: Request for subsidy data.\n\nI hereby request this information under Section 6(1) of the RTI Act [CITE:RTI-2005/CH-II/S-6]. The public authority must provide this information within 30 days of receipt.\n\nInformation Sought:\n1. Total subsidy disbursed under PM Kisan in FY 2025-26.\n\nDeclaration: I am a citizen of India. Fee of Rs. 10 enclosed.\n\nSignature: Arjun Singh\nDate: 04-06-2026",
+        "cite_markers": [
+          { "node_id": "RTI-2005/CH-II/S-6", "span": [163, 186] }
+        ]
+      },
+      "ground_truth": {
+        "valid_node_ids": ["RTI-2005/CH-II/S-6"],
+        "required_sections": ["pio_address", "subject", "info_sought", "declaration", "date_signature"]
+      }
+    }
+  ]
+}

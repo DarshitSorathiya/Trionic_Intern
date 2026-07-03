@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Cohort chat
+    url: https://discord.gg/your-invite-here
+    about: For quick questions, async standups, and team chatter. Open an issue only for real work items.

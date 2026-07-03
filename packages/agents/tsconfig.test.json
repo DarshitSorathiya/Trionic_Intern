@@ -1,0 +1,25 @@
+{
+  /**
+   * tsconfig.test.json
+   * Owner: Jenil Sutariya (drafter) / Team C
+   *
+   * Extends the main tsconfig but INCLUDES test files.
+   * Used by VS Code's language server so it can resolve @trionic/shared
+   * path aliases when editing *.test.ts files (which the main tsconfig excludes).
+   *
+   * Also consumed by vitest via the vite config if one is added later.
+   */
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@trionic/shared": ["../shared/src/index.ts"],
+      "@trionic/shared/*": ["../shared/src/*"],
+      "@trionic/translation": ["../translation/src/index.ts"],
+      "@trionic/translation/*": ["../translation/src/*"],
+      "@trionic/pageindex": ["../pageindex/src/agnoTool.ts"],
+      "@trionic/pageindex/*": ["../pageindex/src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,113 @@
+{
+  "validation_date": "2026-06-12T19:12:00+05:30",
+  "validator_script": "packages/pageindex/scripts/validate-tree.mjs",
+  "results": [
+    {
+      "file": "packages/pageindex/data/whistleblower-protection-2014.json",
+      "act": "The Whistle Blowers Protection Act, 2014 (No. 17 of 2014)",
+      "source": "Gazette of India, Extraordinary, Part II, Section 1, dated 12th May 2014; cross-referenced with India Code (indiacode.nic.in)",
+      "total_nodes": 32,
+      "sections": 25,
+      "chapters": 6,
+      "errors": 0,
+      "status": "PASSED",
+      "schema_fields_verified": ["node_id", "title", "section_number", "text", "snapshot_id", "level", "parent_id", "retrieval_keywords"],
+      "spot_checks": [
+        {
+          "section": "S-1",
+          "title_expected": "Short title, extent and commencement.",
+          "title_actual": "Short title, extent and commencement.",
+          "text_starts_with": "Short title, extent and commencement.\n(1) This Act may be called the Whistle Blowers Protection Act, 2011.",
+          "match": true,
+          "source_verified": "Gazette of India, 12 May 2014"
+        },
+        {
+          "section": "S-3",
+          "title_expected": "Definitions.",
+          "title_actual": "Definitions.",
+          "text_contains_key_phrases": ["Competent Authority", "Central Vigilance Commission", "public servant", "disclosure", "victimisation"],
+          "match": true,
+          "source_verified": "India Code / PIB reference"
+        },
+        {
+          "section": "S-4",
+          "title_expected": "Public interest disclosure before Competent Authority.",
+          "title_actual": "Public interest disclosure before Competent Authority.",
+          "text_contains_key_phrases": ["Official Secrets Act, 1923", "electronic mail", "identity of the complainant"],
+          "match": true,
+          "source_verified": "India Code / PIB reference"
+        },
+        {
+          "section": "S-11",
+          "title_expected": "Provisions against victimisation.",
+          "title_actual": "Provisions against victimisation.",
+          "text_contains_key_phrases": ["No person shall be victimised", "suitable directions"],
+          "match": true,
+          "source_verified": "India Code / Indian Kanoon cross-reference"
+        },
+        {
+          "section": "S-14",
+          "title_expected": "Penalty for false or frivolous disclosure.",
+          "title_actual": "Penalty for false or frivolous disclosure.",
+          "text_contains_key_phrases": ["imprisonment", "two years", "thirty thousand rupees"],
+          "match": true,
+          "source_verified": "India Code"
+        }
+      ]
+    },
+    {
+      "file": "packages/pageindex/data/public-records-1993.json",
+      "act": "The Public Records Act, 1993 (No. 69 of 1993)",
+      "source": "India Code (indiacode.nic.in); National Archives of India (nationalarchives.nic.in)",
+      "total_nodes": 17,
+      "sections": 16,
+      "chapters": 0,
+      "errors": 0,
+      "status": "PASSED",
+      "schema_fields_verified": ["node_id", "title", "section_number", "text", "snapshot_id", "level", "parent_id", "retrieval_keywords"],
+      "schema_fix_applied": "Removed erroneous '.parent_id' key (was in original S-21); all nodes now use correct 'parent_id' key",
+      "spot_checks": [
+        {
+          "section": "S-1",
+          "title_expected": "Short title and commencement.",
+          "title_actual": "Short title and commencement.",
+          "text_starts_with": "Short title and commencement.\n(1) This Act may be called the Public Records Act, 1993.",
+          "match": true,
+          "source_verified": "India Code"
+        },
+        {
+          "section": "S-2",
+          "title_expected": "Definitions.",
+          "title_actual": "Definitions.",
+          "text_contains_key_phrases": ["Archival Advisory Board", "Director General", "public records", "records creating agency", "records officer"],
+          "match": true,
+          "source_verified": "India Code / indianemployees.com statutory reference"
+        },
+        {
+          "section": "S-4",
+          "title_expected": "Prohibition against taking of public records out of India.",
+          "title_actual": "Prohibition against taking of public records out of India.",
+          "text_contains_key_phrases": ["No person shall take", "prior approval of the Central Government"],
+          "match": true,
+          "source_verified": "India Code / National Archives"
+        },
+        {
+          "section": "S-9",
+          "title_expected": "Penalty.",
+          "title_actual": "Penalty.",
+          "text_contains_key_phrases": ["imprisonment", "five years", "ten thousand rupees"],
+          "match": true,
+          "source_verified": "India Code"
+        },
+        {
+          "section": "S-13",
+          "title_expected": "Archival Advisory Board.",
+          "title_actual": "Archival Advisory Board.",
+          "text_contains_key_phrases": ["Archival Advisory Board", "Chairperson", "Director General", "Member-Secretary"],
+          "match": true,
+          "source_verified": "India Code / National Archives"
+        }
+      ]
+    }
+  ]
+}

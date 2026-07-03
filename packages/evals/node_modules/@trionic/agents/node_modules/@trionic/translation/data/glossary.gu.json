@@ -1,0 +1,1065 @@
+[
+  {
+    "id": "gu-ica-1872-consideration",
+    "term_en": "consideration",
+    "term_indic": "પ્રતિફળ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-2",
+    "snapshot_id": "2026-06-08",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "approved",
+    "notes": "Use the contract-law sense, not everyday meaning."
+  },
+  {
+    "id": "gu-ica-1872-contract",
+    "term_en": "contract",
+    "term_indic": "કરાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-2",
+    "snapshot_id": "2026-06-08",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-agreement",
+    "term_en": "agreement",
+    "term_indic": "સમજૂતી",
+    "language": "gu",
+    "node_id": "ICA-1872/S-2",
+    "snapshot_id": "2026-06-08",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-proposal",
+    "term_en": "proposal",
+    "term_indic": "પ્રસ્તાવ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-2",
+    "snapshot_id": "2026-06-08",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-acceptance",
+    "term_en": "acceptance",
+    "term_indic": "સ્વીકાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-2",
+    "snapshot_id": "2026-06-08",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-breach",
+    "term_en": "breach",
+    "term_indic": "ઉલ્લંઘન",
+    "language": "gu",
+    "node_id": "ICA-1872/S-39",
+    "snapshot_id": "2026-06-08",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-damages",
+    "term_en": "damages",
+    "term_indic": "હાનિભરણ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-73",
+    "snapshot_id": "2026-06-08",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-general-compensation",
+    "term_en": "compensation",
+    "term_indic": "ક્ષતિપૂર્તિ",
+    "language": "gu",
+    "domain": "general",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-indemnity",
+    "term_en": "indemnity",
+    "term_indic": "ક્ષતિપૂર્તિ કરાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-124",
+    "snapshot_id": "2026-06-08",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-guarantee",
+    "term_en": "guarantee",
+    "term_indic": "બાંયધરી",
+    "language": "gu",
+    "node_id": "ICA-1872/S-126",
+    "snapshot_id": "2026-06-08",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-surety",
+    "term_en": "surety",
+    "term_indic": "જમાનતદાર",
+    "language": "gu",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-principal-debtor",
+    "term_en": "principal debtor",
+    "term_indic": "મુખ્ય રિણી",
+    "language": "gu",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-creditor",
+    "term_en": "creditor",
+    "term_indic": "લેતીદાર",
+    "language": "gu",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-agency",
+    "term_en": "agency",
+    "term_indic": "એજન્સી",
+    "language": "gu",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-ica-1872-agent",
+    "term_en": "agent",
+    "term_indic": "પ્રતિનિધિ",
+    "language": "gu",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-procedure-plaintiff",
+    "term_en": "plaintiff",
+    "term_indic": "વાદી",
+    "language": "gu",
+    "domain": "procedure",
+    "status": "approved"
+  },
+  {
+    "id": "gu-procedure-defendant",
+    "term_en": "defendant",
+    "term_indic": "પ્રતિવાદી",
+    "language": "gu",
+    "domain": "procedure",
+    "status": "approved"
+  },
+  {
+    "id": "gu-cpa-2019-complainant",
+    "term_en": "complainant",
+    "term_indic": "શિકાયતકર્તા",
+    "language": "gu",
+    "node_id": "CPA-2019/CH-I/S-2",
+    "snapshot_id": "2026-06-08",
+    "act_code": "CPA-2019",
+    "domain": "consumer",
+    "status": "approved"
+  },
+  {
+    "id": "gu-cpa-2019-opposite-party",
+    "term_en": "opposite party",
+    "term_indic": "વિપક્ષ પક્ષ",
+    "language": "gu",
+    "node_id": "CPA-2019/CH-I/S-2",
+    "snapshot_id": "2026-06-08",
+    "act_code": "CPA-2019",
+    "domain": "consumer",
+    "status": "approved"
+  },
+  {
+    "id": "gu-cpa-2019-consumer",
+    "term_en": "consumer",
+    "term_indic": "ઉપભોક્તા",
+    "language": "gu",
+    "node_id": "CPA-2019/CH-I/S-2",
+    "snapshot_id": "2026-06-08",
+    "act_code": "CPA-2019",
+    "domain": "consumer",
+    "status": "approved"
+  },
+  {
+    "id": "gu-cpa-2019-complaint",
+    "term_en": "complaint",
+    "term_indic": "શિકાયત",
+    "language": "gu",
+    "domain": "consumer",
+    "status": "approved"
+  },
+  {
+    "id": "gu-cpa-2019-deficiency",
+    "term_en": "deficiency",
+    "term_indic": "સેવામાં ખામી",
+    "language": "gu",
+    "domain": "consumer",
+    "status": "approved"
+  },
+  {
+    "id": "gu-cpa-2019-goods",
+    "term_en": "goods",
+    "term_indic": "વસ્તુઓ",
+    "language": "gu",
+    "domain": "consumer",
+    "status": "approved"
+  },
+  {
+    "id": "gu-cpa-2019-service",
+    "term_en": "service",
+    "term_indic": "સેવા",
+    "language": "gu",
+    "domain": "consumer",
+    "status": "approved"
+  },
+  {
+    "id": "gu-cpa-2019-unfair-trade-practice",
+    "term_en": "unfair trade practice",
+    "term_indic": "અન્યાયકારક વેપાર પ્રથા",
+    "language": "gu",
+    "domain": "consumer",
+    "status": "approved"
+  },
+  {
+    "id": "gu-cpa-2019-product-liability",
+    "term_en": "product liability",
+    "term_indic": "ઉત્પાદન જવાબદારી",
+    "language": "gu",
+    "domain": "consumer",
+    "status": "approved"
+  },
+  {
+    "id": "gu-procedure-jurisdiction",
+    "term_en": "jurisdiction",
+    "term_indic": "અધિકાર વિસ્તાર",
+    "language": "gu",
+    "domain": "procedure",
+    "status": "approved"
+  },
+  {
+    "id": "gu-rti-2005-public-authority",
+    "term_en": "public authority",
+    "term_indic": "જાહેર પ્રાધિકાર",
+    "language": "gu",
+    "node_id": "RTI-2005/S-2",
+    "snapshot_id": "2026-06-09",
+    "act_code": "RTI-2005",
+    "domain": "rti",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-rti-2005-information",
+    "term_en": "information",
+    "term_indic": "સૂचना",
+    "language": "gu",
+    "node_id": "RTI-2005/S-2",
+    "snapshot_id": "2026-06-09",
+    "act_code": "RTI-2005",
+    "domain": "rti",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-rti-2005-applicant",
+    "term_en": "applicant",
+    "term_indic": "આવેદક",
+    "language": "gu",
+    "node_id": "RTI-2005/S-6",
+    "snapshot_id": "2026-06-09",
+    "act_code": "RTI-2005",
+    "domain": "rti",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-rti-2005-appeal",
+    "term_en": "appeal",
+    "term_indic": "અપીલ",
+    "language": "gu",
+    "node_id": "RTI-2005/S-19",
+    "snapshot_id": "2026-06-09",
+    "act_code": "RTI-2005",
+    "domain": "rti",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-void-agreement",
+    "term_en": "void agreement",
+    "term_indic": "શૂન્ય કરાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-2",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-voidable-contract",
+    "term_en": "voidable contract",
+    "term_indic": "રદયોગ્ય કરાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-2",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-coercion",
+    "term_en": "coercion",
+    "term_indic": "બળજબરી",
+    "language": "gu",
+    "node_id": "ICA-1872/S-15",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-undue-influence",
+    "term_en": "undue influence",
+    "term_indic": "અન્યાયી પ્રભાવ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-16",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-fraud",
+    "term_en": "fraud",
+    "term_indic": "ઠગાઈ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-17",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-misrepresentation",
+    "term_en": "misrepresentation",
+    "term_indic": "ખોટી રજૂઆત",
+    "language": "gu",
+    "node_id": "ICA-1872/S-18",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-mistake",
+    "term_en": "mistake",
+    "term_indic": "ભૂલ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-20",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-performance",
+    "term_en": "performance",
+    "term_indic": "કાર્યનિર્વાહ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-37",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-novation",
+    "term_en": "novation",
+    "term_indic": "નવિકરણ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-62",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-bailment",
+    "term_en": "bailment",
+    "term_indic": "બેલમેન્ટ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-148",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-bailor",
+    "term_en": "bailor",
+    "term_indic": "બેલોર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-148",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-bailee",
+    "term_en": "bailee",
+    "term_indic": "બેલી",
+    "language": "gu",
+    "node_id": "ICA-1872/S-148",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-pledge",
+    "term_en": "pledge",
+    "term_indic": "ગિરવી",
+    "language": "gu",
+    "node_id": "ICA-1872/S-172",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-pawnor",
+    "term_en": "pawnor",
+    "term_indic": "ગિરવણારો",
+    "language": "gu",
+    "node_id": "ICA-1872/S-172",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-pawnee",
+    "term_en": "pawnee",
+    "term_indic": "ગિરવધારક",
+    "language": "gu",
+    "node_id": "ICA-1872/S-172",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-ratification",
+    "term_en": "ratification",
+    "term_indic": "મંજુરી",
+    "language": "gu",
+    "node_id": "ICA-1872/S-196",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-revocation",
+    "term_en": "revocation",
+    "term_indic": "પ્રતિસંહાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-5",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-contingent-contract",
+    "term_en": "contingent contract",
+    "term_indic": "શરતી કરાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-31",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-frustration",
+    "term_en": "frustration of contract",
+    "term_indic": "કરારની નિષ્ફળતા",
+    "language": "gu",
+    "node_id": "ICA-1872/S-56",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-sub-agent",
+    "term_en": "sub-agent",
+    "term_indic": "ઉપ-પ્રતિનિધિ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-191",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-offer",
+    "term_en": "offer",
+    "term_indic": "પ્રસ્તાવ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-2",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-free-consent",
+    "term_en": "free consent",
+    "term_indic": "સ્વતંત્ર મંજૂરી",
+    "language": "gu",
+    "node_id": "ICA-1872/S-14",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-lawful-object",
+    "term_en": "lawful object",
+    "term_indic": "કાયદેસર ઉદેશ્ય",
+    "language": "gu",
+    "node_id": "ICA-1872/S-23",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-public-policy",
+    "term_en": "public policy",
+    "term_indic": "જાહેર નીતિ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-23",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-restraint-of-trade",
+    "term_en": "restraint of trade",
+    "term_indic": "વેપારમાં અવરોધ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-27",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-wager",
+    "term_en": "wager",
+    "term_indic": "શરત",
+    "language": "gu",
+    "node_id": "ICA-1872/S-30",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-appropriation",
+    "term_en": "appropriation",
+    "term_indic": "વિનિયોગ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-59",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-quasi-contract",
+    "term_en": "quasi-contract",
+    "term_indic": "અર્ધ-કરાર",
+    "language": "gu",
+    "node_id": "ICA-1872/CH-V",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-quantum-meruit",
+    "term_en": "quantum meruit",
+    "term_indic": "ક્વાન્ટમ મેરુઇટ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-65",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-penalty",
+    "term_en": "penalty",
+    "term_indic": "દંડ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-74",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-liquidated-damages",
+    "term_en": "liquidated damages",
+    "term_indic": "નિર્ધારિત નુકસાન",
+    "language": "gu",
+    "node_id": "ICA-1872/S-74",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-continuing-guarantee",
+    "term_en": "continuing guarantee",
+    "term_indic": "નિરંતર ગેરંટી",
+    "language": "gu",
+    "node_id": "ICA-1872/S-129",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-revocation-of-guarantee",
+    "term_en": "revocation of guarantee",
+    "term_indic": "ગેરંટીનો પ્રતિસંહાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-130",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-co-surety",
+    "term_en": "co-surety",
+    "term_indic": "સહ-જમાનતદાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-146",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-lien",
+    "term_en": "lien",
+    "term_indic": "ગ્રહણાધિકાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-170",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-general-lien",
+    "term_en": "general lien",
+    "term_indic": "સામાન્ય ગ્રહણાધિકાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-171",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-substituted-agent",
+    "term_en": "substituted agent",
+    "term_indic": "સ્થાપિત પ્રતિનિધિ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-194",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-termination-of-agency",
+    "term_en": "termination of agency",
+    "term_indic": "એજન્સીની સમાપ્તિ",
+    "language": "gu",
+    "node_id": "ICA-1872/S-201",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-implied-authority",
+    "term_en": "implied authority",
+    "term_indic": "અનુમાનિત અધિકાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-187",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-ica-1872-express-authority",
+    "term_en": "express authority",
+    "term_indic": "સ્પષ્ટ અધિકાર",
+    "language": "gu",
+    "node_id": "ICA-1872/S-187",
+    "snapshot_id": "2026-06-09",
+    "act_code": "ICA-1872",
+    "domain": "contract",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-cpa-2019-e-commerce",
+    "term_en": "e-commerce",
+    "term_indic": "ઈ-કોમર્સ",
+    "language": "gu",
+    "node_id": "CPA-2019/CH-I/S-2",
+    "snapshot_id": "2026-06-09",
+    "act_code": "CPA-2019",
+    "domain": "consumer",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-cpa-2019-endorsement",
+    "term_en": "endorsement",
+    "term_indic": "પ્રમાણન",
+    "language": "gu",
+    "node_id": "CPA-2019/CH-I/S-2",
+    "snapshot_id": "2026-06-09",
+    "act_code": "CPA-2019",
+    "domain": "consumer",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-cpa-2019-misleading-advertisement",
+    "term_en": "misleading advertisement",
+    "term_indic": "ભ્રમક જાહેરાત",
+    "language": "gu",
+    "node_id": "CPA-2019/CH-I/S-2",
+    "snapshot_id": "2026-06-09",
+    "act_code": "CPA-2019",
+    "domain": "consumer",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-procedure-specific-performance",
+    "term_en": "specific performance",
+    "term_indic": "વિશિષ્ટ પૂર્ણતા",
+    "language": "gu",
+    "domain": "procedure",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-procedure-summons",
+    "term_en": "summons",
+    "term_indic": "સમન",
+    "language": "gu",
+    "domain": "procedure",
+    "status": "needs_review"
+  },
+  {
+    "id": "gu-contract-promise",
+    "term_en": "promise",
+    "term_indic": "વચન",
+    "language": "gu",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-contract-promisor",
+    "term_en": "promisor",
+    "term_indic": "વચન આપનાર",
+    "language": "gu",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-contract-promisee",
+    "term_en": "promisee",
+    "term_indic": "વચનગ્રાહી",
+    "language": "gu",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-contract-principal",
+    "term_en": "principal",
+    "term_indic": "મુખ્ય પક્ષ",
+    "language": "gu",
+    "domain": "contract",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-drawer",
+    "term_en": "drawer",
+    "term_indic": "ચેક લખનાર",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-drawee",
+    "term_en": "drawee",
+    "term_indic": "ચેક સ્વીકારનાર",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-payee",
+    "term_en": "payee",
+    "term_indic": "રકમ મેળવનાર",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-dishonour",
+    "term_en": "dishonour",
+    "term_indic": "અનાદર",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-demand-notice",
+    "term_en": "demand notice",
+    "term_indic": "માંગણી નોટિસ",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-account-closed",
+    "term_en": "account closed",
+    "term_indic": "ખાતું બંધ",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-insufficient-funds",
+    "term_en": "insufficient funds",
+    "term_indic": "અપૂરતું ભંડોળ",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-cheque",
+    "term_en": "cheque",
+    "term_indic": "ચેક",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-cheque-bounce",
+    "term_en": "cheque bounce",
+    "term_indic": "ચેક બાઉન્સ",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-legally-enforceable-debt",
+    "term_en": "legally enforceable debt",
+    "term_indic": "કાયદેસર રીતે વસૂલવાપાત્ર દેવું",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-holder",
+    "term_en": "holder",
+    "term_indic": "ધારક",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-holder-in-due-course",
+    "term_en": "holder in due course",
+    "term_indic": "યથાવિધિ ધારક",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-statutory-notice",
+    "term_en": "statutory notice",
+    "term_indic": "વૈધાનિક નોટિસ",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-cause-of-action",
+    "term_en": "cause of action",
+    "term_indic": "કાર્યવાહીનું કારણ",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-nia-1881-stop-payment",
+    "term_en": "stop payment",
+    "term_indic": "ચૂકવણી અટકાવવી",
+    "language": "gu",
+    "node_id": "NIA-1881/S-138",
+    "snapshot_id": "2026-06-16",
+    "act_code": "NIA-1881",
+    "domain": "negotiable-instruments",
+    "status": "approved"
+  },
+  {
+    "id": "gu-notice-dear-sir-madam",
+    "term_en": "Dear Sir/Madam",
+    "term_indic": "પ્રિય શ્રીમાન/શ્રીમતી",
+    "language": "gu",
+    "domain": "legal-notice",
+    "status": "approved"
+  },
+  {
+    "id": "gu-notice-to",
+    "term_en": "To,",
+    "term_indic": "પ્રતિ,",
+    "language": "gu",
+    "domain": "legal-notice",
+    "status": "approved"
+  },
+  {
+    "id": "gu-notice-respected-sir",
+    "term_en": "Respected Sir",
+    "term_indic": "આદરણીય સાહેબ",
+    "language": "gu",
+    "domain": "legal-notice",
+    "status": "approved"
+  },
+  {
+    "id": "gu-notice-notice-hereby-given",
+    "term_en": "Notice is hereby given",
+    "term_indic": "આથી નોટિસ આપવામાં આવે છે કે",
+    "language": "gu",
+    "domain": "legal-notice",
+    "status": "approved"
+  },
+  {
+    "id": "gu-notice-under-instructions",
+    "term_en": "Under the instructions of my client",
+    "term_indic": "મારા અસીલની સૂચના મુજબ",
+    "language": "gu",
+    "domain": "legal-notice",
+    "status": "approved"
+  },
+  {
+    "id": "gu-notice-yours-faithfully",
+    "term_en": "Yours faithfully",
+    "term_indic": "આપનો વિશ્વાસુ",
+    "language": "gu",
+    "domain": "legal-notice",
+    "status": "approved"
+  },
+  {
+    "id": "gu-notice-yours-sincerely",
+    "term_en": "Yours sincerely",
+    "term_indic": "આપનો સ્નેહાધીન",
+    "language": "gu",
+    "domain": "legal-notice",
+    "status": "approved"
+  },
+  {
+    "id": "gu-notice-for-and-on-behalf-of",
+    "term_en": "For and on behalf of",
+    "term_indic": "વતી અને માટે",
+    "language": "gu",
+    "domain": "legal-notice",
+    "status": "approved"
+  },
+  {
+    "id": "gu-notice-legal-counsel",
+    "term_en": "Legal Counsel",
+    "term_indic": "કાનૂની સલાહકાર",
+    "language": "gu",
+    "domain": "legal-notice",
+    "status": "approved"
+  },
+  {
+    "id": "gu-notice-advocate",
+    "term_en": "Advocate",
+    "term_indic": "વકીલ",
+    "language": "gu",
+    "domain": "legal-notice",
+    "status": "approved"
+  }
+]

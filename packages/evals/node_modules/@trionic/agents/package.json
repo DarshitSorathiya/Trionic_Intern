@@ -1,0 +1,38 @@
+{
+  "name": "@trionic/agents",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Agent orchestration layer — Agno + LLM Router",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "dev": "tsc --project tsconfig.json --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke": "pnpm --filter @trionic/shared --filter @trionic/pageindex --filter @trionic/translation build && tsc --project tsconfig.json && node dist/smoke.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "@google/generative-ai": "^0.21.0",
+    "openai": "^4.67.0",
+    "@trionic/shared": "workspace:*",
+    "@trionic/translation": "workspace:*",
+    "@trionic/pageindex": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0",
+    "dotenv": "^17.4.2",
+    "@types/node": "^22.0.0"
+  }
+}

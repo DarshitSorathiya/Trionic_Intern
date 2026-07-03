@@ -1,0 +1,310 @@
+{
+  "cross_link_registry": {
+    "version": "1.0.0",
+    "generated": "2026-06-11",
+    "description": "Master cross-reference table linking Specific Relief Act 1963, Sale of Goods Act 1930, and Indian Contract Act 1872",
+    "acts_indexed": [
+      { "id": "ICA_1872", "short": "Contract Act 1872", "nodes": 270 },
+      { "id": "SRA_1963", "short": "Specific Relief Act 1963", "nodes": 42 },
+      { "id": "SOGA_1930", "short": "Sale of Goods Act 1930", "nodes": 66 }
+    ],
+    "cross_links": [
+      {
+        "id": "CL_001",
+        "from": { "act": "SOGA_1930", "section": "4" },
+        "to": { "act": "ICA_1872", "section": "10" },
+        "type": "prerequisite",
+        "description": "Contract of sale must satisfy all elements of valid contract under Contract Act §10 (free consent, competent parties, lawful consideration, lawful object)",
+        "practical_note": "Checklist: before drafting any sale contract, verify §10 ICA requirements first"
+      },
+      {
+        "id": "CL_002",
+        "from": { "act": "SOGA_1930", "section": "7" },
+        "to": { "act": "ICA_1872", "section": "20" },
+        "type": "principle_alignment",
+        "description": "Goods perished before contract — both sections treat such a contract as void on grounds of mutual mistake as to existence of subject matter",
+        "practical_note": "In goods disputes, always check both §7 SOGA (specific rule) and §20 ICA (general rule)"
+      },
+      {
+        "id": "CL_003",
+        "from": { "act": "SOGA_1930", "section": "8" },
+        "to": { "act": "ICA_1872", "section": "56" },
+        "type": "lex_specialis",
+        "description": "Agreement to sell specific goods that subsequently perish = specific application of frustration doctrine in §56 ICA",
+        "practical_note": "§8 SOGA is lex specialis for goods; §56 ICA is the general frustration doctrine"
+      },
+      {
+        "id": "CL_004",
+        "from": { "act": "SOGA_1930", "section": "11" },
+        "to": { "act": "ICA_1872", "section": "55" },
+        "type": "lex_specialis",
+        "description": "Time of payment not a condition in sale contracts unless so intended (SOGA §11) vs §55 ICA where time may be essence",
+        "practical_note": "Critical distinction: §55 ICA makes time potentially of essence; §11 SOGA modifies this for payment in sale of goods"
+      },
+      {
+        "id": "CL_005",
+        "from": { "act": "SOGA_1930", "section": "12" },
+        "to": { "act": "ICA_1872", "section": "39" },
+        "type": "remedy_link",
+        "description": "Breach of condition in SOGA entitles buyer to repudiate — right to treat contract as discharged derives from §39 ICA",
+        "practical_note": "Pleadings: cite both SOGA §12 (conditions/warranties distinction) and ICA §39 (repudiation right)"
+      },
+      {
+        "id": "CL_006",
+        "from": { "act": "SOGA_1930", "section": "16" },
+        "to": { "act": "ICA_1872", "section": "17" },
+        "type": "liability_overlap",
+        "description": "Active concealment of defects in goods by seller = fraud under §17 ICA — creates additional liability beyond §16 SOGA implied fitness warranty",
+        "practical_note": "Consumer/buyer remedy: plead both §16 SOGA (warranty breach) + §17 ICA (fraud) where seller concealed defects"
+      },
+      {
+        "id": "CL_007",
+        "from": { "act": "SOGA_1930", "section": "32" },
+        "to": { "act": "ICA_1872", "section": "51" },
+        "type": "principle_alignment",
+        "description": "Concurrent conditions (payment vs delivery) in SOGA §32 mirrors §51 ICA on simultaneous performance of reciprocal promises",
+        "practical_note": "When party refuses concurrent performance — cite §51 ICA for general rule, §32 SOGA for goods-specific rule"
+      },
+      {
+        "id": "CL_008",
+        "from": { "act": "SOGA_1930", "section": "38" },
+        "to": { "act": "ICA_1872", "section": "39" },
+        "type": "remedy_link",
+        "description": "Breach of instalment delivery may allow whole contract repudiation under SOGA §38 — mechanism of repudiation is Contract Act §39",
+        "practical_note": "Instalment contracts: test severability under SOGA §38, then apply repudiation rules from ICA §39"
+      },
+      {
+        "id": "CL_009",
+        "from": { "act": "SOGA_1930", "section": "57" },
+        "to": { "act": "ICA_1872", "section": "73" },
+        "type": "principle_alignment",
+        "description": "Damages for non-delivery = loss directly and naturally resulting from breach. SOGA §57 and ICA §73 use identical standard",
+        "practical_note": "In damages pleadings, cite ICA §73 for principle + SOGA §57 for the specific cause of action in sale of goods"
+      },
+      {
+        "id": "CL_010",
+        "from": { "act": "SOGA_1930", "section": "58" },
+        "to": { "act": "SRA_1963", "section": "10" },
+        "type": "enforcement_via",
+        "description": "Specific performance of goods contract (SOGA §58) is enforced via machinery of Specific Relief Act — SRA §10 onwards",
+        "practical_note": "SOGA §58 is the cause of action; SRA §10 is the enforcement vehicle. Cite both in specific performance prayers"
+      },
+      {
+        "id": "CL_011",
+        "from": { "act": "SOGA_1930", "section": "58" },
+        "to": { "act": "SRA_1963", "section": "14" },
+        "type": "constraint_link",
+        "description": "SRA §14 may exclude specific performance where money damages adequate — courts must check before granting SOGA §58 relief",
+        "practical_note": "Defence argument: if goods easily available in market, SRA §14(a) bars specific performance under SOGA §58"
+      },
+      {
+        "id": "CL_012",
+        "from": { "act": "SOGA_1930", "section": "59" },
+        "to": { "act": "ICA_1872", "section": "73" },
+        "type": "quantification_link",
+        "description": "Damages for breach of warranty under SOGA §59 quantified per ICA §73 principles",
+        "practical_note": "Quantification step: measure diminution in value per §59 SOGA, assess per §73 ICA remoteness rule"
+      },
+      {
+        "id": "CL_013",
+        "from": { "act": "SOGA_1930", "section": "60" },
+        "to": { "act": "ICA_1872", "section": "39" },
+        "type": "lex_specialis",
+        "description": "Anticipatory breach in SOGA §60 is specific application of ICA §39 repudiation doctrine to sale of goods",
+        "practical_note": "Anticipatory repudiation in goods contract: SOGA §60 (right to sue immediately) + ICA §39 (general repudiation principle)"
+      },
+      {
+        "id": "CL_014",
+        "from": { "act": "SOGA_1930", "section": "61" },
+        "to": { "act": "ICA_1872", "section": "73" },
+        "type": "principle_alignment",
+        "description": "Special damages only if in reasonable contemplation of parties — SOGA §61 and ICA §73 both apply the Hadley v Baxendale remoteness test",
+        "practical_note": "Special damages claim in goods disputes: same two-limb Hadley test applies via both provisions"
+      },
+      {
+        "id": "CL_015",
+        "from": { "act": "SOGA_1930", "section": "62" },
+        "to": { "act": "ICA_1872", "section": "23" },
+        "type": "limit_on_exclusion",
+        "description": "Exclusion clauses in sale contracts (SOGA §62) cannot override §23 ICA — cannot use exclusion to achieve unlawful object",
+        "practical_note": "NDA/sale drafting: exclusion of implied terms valid per §62, but check against §23 ICA for unlawfulness"
+      },
+      {
+        "id": "CL_016",
+        "from": { "act": "SOGA_1930", "section": "65" },
+        "to": { "act": "ICA_1872", "section": "182" },
+        "type": "lex_specialis",
+        "description": "Agent's authority in sale of goods (SOGA §65) governed by Contract Act §§182-238 for general agency principles",
+        "practical_note": "Sale through agents: SOGA §65 for goods-specific rules + ICA §§182-238 for all other agency questions"
+      },
+      {
+        "id": "CL_017",
+        "from": { "act": "SOGA_1930", "section": "66" },
+        "to": { "act": "ICA_1872", "section": "76" },
+        "type": "historical_repeal",
+        "description": "SOGA 1930 repealed ICA §§76-123 — SOGA is the lex specialis for sale of goods carved out from Contract Act",
+        "practical_note": "Historical note: Contract Act §§76-123 are dead letters — SOGA 1930 governs sale of goods exclusively"
+      },
+      {
+        "id": "CL_018",
+        "from": { "act": "SRA_1963", "section": "10" },
+        "to": { "act": "ICA_1872", "section": "10" },
+        "type": "prerequisite",
+        "description": "Contract must be valid under ICA §10 before specific performance can be granted under SRA §10",
+        "practical_note": "Pre-condition checklist for SRA relief: first confirm valid contract under ICA §10"
+      },
+      {
+        "id": "CL_019",
+        "from": { "act": "SRA_1963", "section": "10" },
+        "to": { "act": "ICA_1872", "section": "73" },
+        "type": "alternative_remedy",
+        "description": "SRA §10 specific performance is granted when damages under ICA §73 are inadequate — courts always weigh both",
+        "practical_note": "Prayer drafting: seek specific performance under SRA §10 AND alternatively damages under ICA §73"
+      },
+      {
+        "id": "CL_020",
+        "from": { "act": "SRA_1963", "section": "14" },
+        "to": { "act": "ICA_1872", "section": "73" },
+        "type": "fallback_remedy",
+        "description": "When specific performance denied under SRA §14, damages under ICA §73 become the primary remedy",
+        "practical_note": "Always plead damages in the alternative when seeking specific performance"
+      },
+      {
+        "id": "CL_021",
+        "from": { "act": "SRA_1963", "section": "14" },
+        "to": { "act": "ICA_1872", "section": "56" },
+        "type": "doctrinal_overlap",
+        "description": "Determinable contracts excluded from SRA §14(e) overlap with frustrated contracts under ICA §56",
+        "practical_note": "If contract determinable at will, neither specific performance (SRA §14) nor obligations (ICA §56) may persist"
+      },
+      {
+        "id": "CL_022",
+        "from": { "act": "SRA_1963", "section": "16" },
+        "to": { "act": "ICA_1872", "section": "39" },
+        "type": "prerequisite_breach",
+        "description": "Plaintiff's own repudiation/breach under ICA §39 is a personal bar to specific performance under SRA §16",
+        "practical_note": "Defence: demonstrate plaintiff's anticipatory breach under ICA §39 to invoke personal bar in SRA §16"
+      },
+      {
+        "id": "CL_023",
+        "from": { "act": "SRA_1963", "section": "20" },
+        "to": { "act": "ICA_1872", "section": "73" },
+        "type": "cost_recovery_link",
+        "description": "Cost of substituted performance (SRA §20) recoverable as damages under ICA §73",
+        "practical_note": "Substituted performance notice (30 days) → incur cost → recover as damages per ICA §73"
+      },
+      {
+        "id": "CL_024",
+        "from": { "act": "SRA_1963", "section": "21" },
+        "to": { "act": "ICA_1872", "section": "73" },
+        "type": "damages_principle",
+        "description": "Compensation awarded under SRA §21 follows ICA §73 principles — party placed in position as if contract performed",
+        "practical_note": "SRA §21 compensation and ICA §73 damages use same expectation-interest measure"
+      },
+      {
+        "id": "CL_025",
+        "from": { "act": "SRA_1963", "section": "21" },
+        "to": { "act": "ICA_1872", "section": "74" },
+        "type": "alternative_remedy",
+        "description": "Liquidated damages under ICA §74 may also be awarded under SRA §21 in lieu of specific performance",
+        "practical_note": "If liquidated damages clause exists, it may displace ICA §73 assessment and be awarded under SRA §21"
+      },
+      {
+        "id": "CL_026",
+        "from": { "act": "SRA_1963", "section": "23" },
+        "to": { "act": "ICA_1872", "section": "74" },
+        "type": "clarificatory_link",
+        "description": "ICA §74 penalty/liquidated damages clause does not per se bar specific performance — SRA §23 clarifies this",
+        "practical_note": "Where contract has penalty clause per ICA §74, do not assume specific performance is barred — see SRA §23"
+      },
+      {
+        "id": "CL_027",
+        "from": { "act": "SRA_1963", "section": "24" },
+        "to": { "act": "ICA_1872", "section": "73" },
+        "type": "procedural_bar",
+        "description": "After dismissal of specific performance suit (SRA §24), fresh suit for ICA §73 damages for same breach is barred",
+        "practical_note": "Always plead ICA §73 damages as alternative relief in specific performance suit — cannot file separate later"
+      },
+      {
+        "id": "CL_028",
+        "from": { "act": "SRA_1963", "section": "26" },
+        "to": { "act": "ICA_1872", "section": "17" },
+        "type": "ground_link",
+        "description": "Fraud as defined in ICA §17 is a ground for rectification of instrument under SRA §26",
+        "practical_note": "Rectification suit: prove fraud per ICA §17 definition to trigger SRA §26 remedy"
+      },
+      {
+        "id": "CL_029",
+        "from": { "act": "SRA_1963", "section": "26" },
+        "to": { "act": "ICA_1872", "section": "20" },
+        "type": "ground_link",
+        "description": "Bilateral mistake under ICA §20 is also a ground for rectification under SRA §26",
+        "practical_note": "Rectification: ICA §20 (bilateral mistake) → SRA §26 (rectification) are the paired provisions"
+      },
+      {
+        "id": "CL_030",
+        "from": { "act": "SRA_1963", "section": "27" },
+        "to": { "act": "ICA_1872", "section": "19" },
+        "type": "ground_link",
+        "description": "Voidability under ICA §19 (coercion/fraud/misrepresentation) enables cancellation of instrument under SRA §27",
+        "practical_note": "Cancellation suit: show voidability per ICA §§19/19A, then seek cancellation under SRA §27"
+      },
+      {
+        "id": "CL_031",
+        "from": { "act": "SRA_1963", "section": "30" },
+        "to": { "act": "ICA_1872", "section": "65" },
+        "type": "principle_alignment",
+        "description": "Obligation to restore benefits on cancellation (SRA §30) mirrors ICA §65 — restore advantages under void/voidable contract",
+        "practical_note": "When cancellation ordered per SRA, restoration of benefits governed by ICA §65"
+      },
+      {
+        "id": "CL_032",
+        "from": { "act": "SRA_1963", "section": "38" },
+        "to": { "act": "ICA_1872", "section": "73" },
+        "type": "prerequisite",
+        "description": "Perpetual injunction (SRA §38) requires showing damages under ICA §73 would be inadequate",
+        "practical_note": "To get perpetual injunction, affirmatively argue ICA §73 damages are inadequate remedy"
+      },
+      {
+        "id": "CL_033",
+        "from": { "act": "SRA_1963", "section": "41" },
+        "to": { "act": "ICA_1872", "section": "27" },
+        "type": "bar_link",
+        "description": "Injunction to enforce contracts in restraint of trade (ICA §27) refused under SRA §41",
+        "practical_note": "Non-compete/restraint of trade clauses: cannot get injunction to enforce positive covenant per ICA §27 + SRA §41"
+      },
+      {
+        "id": "CL_034",
+        "from": { "act": "SRA_1963", "section": "42" },
+        "to": { "act": "ICA_1872", "section": "27" },
+        "type": "interplay",
+        "description": "SRA §42 allows injunction on negative covenant even where positive covenant is void under ICA §27 restraint of trade",
+        "practical_note": "NDA/employment: enforce negative (non-disclosure) covenant via SRA §42 injunction even if non-compete positive part void under ICA §27"
+      }
+    ],
+    "nda_relevance_summary": {
+      "key_sections_for_nda_drafter": [
+        {
+          "scenario": "Enforcement of confidentiality obligations (negative covenant)",
+          "acts_and_sections": ["SRA_1963 §42", "ICA_1872 §27"],
+          "note": "SRA §42 injunction available for breach of NDA negative covenant even if non-compete positive covenant void"
+        },
+        {
+          "scenario": "Specific performance of NDA obligations (e.g. delivery of licensed IP)",
+          "acts_and_sections": ["SRA_1963 §10", "SRA_1963 §14", "ICA_1872 §10"],
+          "note": "Post-2018, specific performance is a right not discretion — but personal obligations still excluded under §14"
+        },
+        {
+          "scenario": "Remedies on breach — damages calculation",
+          "acts_and_sections": ["ICA_1872 §73", "ICA_1872 §74", "SRA_1963 §21"],
+          "note": "NDA liquidated damages clause + SRA §21 compensation + ICA §73 loss — all may apply"
+        },
+        {
+          "scenario": "Injunction to prevent ongoing breach of NDA",
+          "acts_and_sections": ["SRA_1963 §38", "SRA_1963 §39"],
+          "note": "Perpetual or mandatory injunction; show ICA §73 damages inadequate for confidential information breach"
+        }
+      ]
+    }
+  }
+}

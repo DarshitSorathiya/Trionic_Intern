@@ -1,0 +1,946 @@
+[
+  {
+    "node_id": "IT-RULES-2021",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": null,
+    "node_type": "root",
+    "label": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+    "text_content": "",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-1",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 1 — Short Title and Commencement.—(1) These rules may be called the Information",
+    "text_content": "Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021.\n(2) They shall come into force on the date of their publication in the Official Gazette.",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 2 — Definitions.—(1) In these rules, unless the context otherwise requires,—",
+    "text_content": "(a) ‘access control mechanism’ means any measure, including a technical measure,\nthrough which access to online curated content may be restricted based on\nverification of the identity or age of a user;\n(b) ‘access services’ means any measure, including technical measure such as closed\ncaptioning, subtitles and audio descriptions, through which the accessibility of\nonline curated content may be improved for persons with disabilities;\n(c) ‘Act’ means the Information Technology Act, 2000 (21 of 2000);\n(d) ‘child’ means any person below the age of eighteen years;\n(e) ‘committee’ means the Inter-Departmental Committee constituted under rule 14;\n(f) ‘communication link’ means a connection between a hypertext or graphical\nelement, and one or more items in the same or different electronic document\nwherein upon clicking on a hyperlinked item, the user is automatically transferred\nto the other end of the hyperlink which can be another electronic record or another\nwebsite or application or graphi",
+    "status": "active",
+    "effective_from": "2021-02-25",
+    "cross_ref": "ITACT/CH-1/S-2"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (a)",
+    "text_content": "‘access control mechanism’ means any measure, including a technical measure,\nthrough which access to online curated content may be restricted based on\nverification of the identity or age of a user;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (b)",
+    "text_content": "‘access services’ means any measure, including technical measure such as closed\ncaptioning, subtitles and audio descriptions, through which the accessibility of\nonline curated content may be improved for persons with disabilities;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-C",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (c)",
+    "text_content": "‘Act’ means the Information Technology Act, 2000 (21 of 2000);",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-D",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (d)",
+    "text_content": "‘child’ means any person below the age of eighteen years;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-E",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (e)",
+    "text_content": "‘committee’ means the Inter-Departmental Committee constituted under rule 14;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-F",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (f)",
+    "text_content": "‘communication link’ means a connection between a hypertext or graphical\nelement, and one or more items in the same or different electronic document\nwherein upon clicking on a hyperlinked item, the user is automatically transferred\nto the other end of the hyperlink which can be another electronic record or another\nwebsite or application or graphical element;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-G",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (g)",
+    "text_content": "‘content’ means the electronic record defined in clause",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-T",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (t)",
+    "text_content": "of section 2 of the Act;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-H",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (h)",
+    "text_content": "‘content descriptor’ means the issues and concerns which are relevant to the\nclassification of any online curated content, including discrimination, depiction of\nillegal or harmful substances, imitable behaviour, nudity, language, sex, violence,\nfear, threat, horror and other such concerns as specified in the Schedule annexed to\nthe rules;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-I",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (i)",
+    "text_content": "‘digital media’ means digitized content that can be transmitted over the internet or\ncomputer networks and includes content received, stored, transmitted, edited or\nprocessed by-\n1 Vide G.S.R. 139(E), dated 25.2.2021, published in the Gazette of India, Extra., Pt. II, Sec. 3",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-II",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (ii)",
+    "text_content": "a publisher of news and current affairs content or a publisher of online\ncurated content;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-J",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (j)",
+    "text_content": "‘grievance’ includes any complaint, whether regarding any content, any duties of\nan intermediary or publisher under the Act, or other matters pertaining to the\ncomputer resource of an intermediary or publisher, as the case may be;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-K",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (k)",
+    "text_content": "‘Grievance Officer’ means an officer appointed by the intermediary or the 1[online\ngaming self-regulatory body or the] publisher, as the case may be, for the purposes\nof these rules;\n2[",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-KA",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (ka)",
+    "text_content": "‘Grievance Appellate Committee’ means a grievance appellate committee\nconstituted under rule 3A;]",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-L",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (l)",
+    "text_content": "‘Ministry’ means, for the purpose of Part II of these rules unless specified\notherwise, the Ministry of Electronics and Information Technology, Government\nof India, and for the purpose of Part III of these rules, the Ministry of Information\nand Broadcasting, Government of India;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-2/CL-M",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-2",
+    "node_type": "clause",
+    "label": "Rule 2, clause (m)",
+    "text_content": "‘news and current affairs content’ includes newly received or noteworthy content,\nincluding analysis, especially about recent events primarily of socio-political,\neconomic or cultural nature, made available over the internet or computer\nnetworks, and any digital media shall be news and current affairs content where",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 4 — Additional due diligence to be observed by significant social media intermediary 2[and",
+    "text_content": "online gaming intermediary].—(1) In addition to the due diligence observed under rule 3, a\nsignificant social media 3[intermediary, within three months from the date of notification of the\nthreshold under clause (v) of sub-rule (1) of rule 2, and an online gaming intermediary that\nenables the users to access any permissible online real money game, shall] observe the\nfollowing additional due diligence while discharging its duties, namely:—\n(a) appoint a Chief Compliance Officer who shall be responsible for ensuring\ncompliance with the Act and rules made thereunder and shall be liable in any\nproceedings relating to any relevant third-party information, data or\ncommunication link made available or hosted by that intermediary where he fails\nto ensure that such intermediary observes due diligence while discharging its duties\nunder the Act and rules made thereunder:\nProvided that no liability under the Act or rules made thereunder may\nbe imposed on such significant social media intermediary",
+    "status": "active",
+    "effective_from": "2021-02-25",
+    "cross_ref": "ITACT/CH-12/S-79"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4/CL-V",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4",
+    "node_type": "clause",
+    "label": "Rule 4, clause (v)",
+    "text_content": "of sub-rule (1) of rule 2, and an online gaming intermediary that\nenables the users to access any permissible online real money game, shall] observe the\nfollowing additional due diligence while discharging its duties, namely:—",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4",
+    "node_type": "clause",
+    "label": "Rule 4, clause (a)",
+    "text_content": "appoint a Chief Compliance Officer who shall be responsible for ensuring\ncompliance with the Act and rules made thereunder and shall be liable in any\nproceedings relating to any relevant third-party information, data or\ncommunication link made available or hosted by that intermediary where he fails\nto ensure that such intermediary observes due diligence while discharging its duties\nunder the Act and rules made thereunder:\nProvided that no liability under the Act or rules made thereunder may\nbe i",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4",
+    "node_type": "clause",
+    "label": "Rule 4, clause (b)",
+    "text_content": "appoint a nodal contact person for 24x7 coordination with law enforcement\nagencies and officers to ensure compliance to their orders or requisitions made in\naccordance with the provisions of law or rules made thereunder.\n6[Explanation.—In this clause, “nodal contact person” means the employee of—",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4/CL-I",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4",
+    "node_type": "clause",
+    "label": "Rule 4, clause (i)",
+    "text_content": "a significant social media intermediary, other than its Chief Compliance\nOfficer; or",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4/CL-II",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4",
+    "node_type": "clause",
+    "label": "Rule 4, clause (ii)",
+    "text_content": "an online gaming intermediary,\nwho is resident in India;]",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4/CL-C",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4",
+    "node_type": "clause",
+    "label": "Rule 4, clause (c)",
+    "text_content": "appoint a Resident Grievance Officer, who shall, subject to clause",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4/CL-D",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4",
+    "node_type": "clause",
+    "label": "Rule 4, clause (d)",
+    "text_content": "publish periodic compliance report every month mentioning the details of\ncomplaints received and action taken 2[thereon, and, in respect of a significant\ns",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 4B — Applicability of certain obligations after an initial period.—The obligations under rules",
+    "text_content": "3 and 4 shall not apply in relation to online games until the expiry of a period of three months\nfrom the date on which at least three online gaming self-regulatory bodies have been designated\nunder rule 4A:\nProvided that the Central Government may, at any time before the expiry of the said\nperiod of three months, by a notification in the Official Gazette, direct that the obligations\nunder rules 3 and 4 shall apply in relation to an online game from such date as may be specified\nin the notification.",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4C",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 4C — Obligations in relation to online game other than online real money game.—(1) If the",
+    "text_content": "Central Government considers it necessary so to do in the interest of the sovereignty and\nintegrity of India or security of the State or friendly relations with foreign States or public\norder, or preventing user harm, it may, by a notification in the Official Gazette, for reasons to\nbe recorded in writing,—\n(a) direct that an intermediary in respect of such online game, shall observe, mutatis\nmutandis, the obligations under sub-clauses (ix) and (x) of clause (b) of sub-rule\n(1) of rule 3and sub-rules (1), (5), (6), (7), (10) and clause (d) of sub-rule (11) of\nrule 4 as if it is a permissible online real money game; and\n(b) specify the period within which the online gaming intermediary which enables\naccess to such online game shall observe the obligations referred to in clause (a).\n(2) Where an online game is notified under sub-rule (1), the provisions of rule 4A shall apply\nas they apply to a permissible online real money game.\nExplanation.—In this rule, “user harm” means any effect wh",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4C/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4C",
+    "node_type": "clause",
+    "label": "Rule 4C, clause (a)",
+    "text_content": "direct that an intermediary in respect of such online game, shall observe, mutatis\nmutandis, the obligations under sub-clauses",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4C/CL-IX",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4C",
+    "node_type": "clause",
+    "label": "Rule 4C, clause (ix)",
+    "text_content": "and",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4C/CL-X",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4C",
+    "node_type": "clause",
+    "label": "Rule 4C, clause (x)",
+    "text_content": "of clause",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4C/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4C",
+    "node_type": "clause",
+    "label": "Rule 4C, clause (b)",
+    "text_content": "of sub-rule\n(1) of rule 3and sub-rules (1), (5), (6), (7), (10) and clause",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-4C/CL-D",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-4C",
+    "node_type": "clause",
+    "label": "Rule 4C, clause (d)",
+    "text_content": "of sub-rule (11) of\nrule 4 as if it is a permissible online real money game; and",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-5",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 5 — Additional due diligence to be observed by an intermediary in relation to news and",
+    "text_content": "current affairs content.—In addition to adherence to rules 3 and 4, as may be applicable, an\nintermediary shall publish, on an appropriate place on its website, mobile based application or\nboth, as the case may be, a clear and concise statement informing publishers of news and\ncurrent affairs content that in addition to the common terms of service for all users, such\npublishers shall furnish the details of their user accounts on the services of such intermediary\nto the Ministry as may be required under rule 18:\nProvided that an intermediary may provide such publishers who have provided\ninformation under rule 18 with a demonstrable and visible mark of verification as being\npublishers, which shall be visible to all users of the service.\nExplanation.—This rule relates only to news and current affairs content and shall be\nadministered by the Ministry of Information and Broadcasting.",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-6",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 6 — Notification of other intermediary.—(1) The Ministry may by order, for reasons to be",
+    "text_content": "recorded in writing, require any intermediary, which is not a significant social media\nintermediary, to comply with all or any of the obligations mentioned under rule 4, if the services\nof that intermediary permits the publication or transmission of information in a manner that\nmay create a material risk of harm to the sovereignty and integrity of India, security of the\nState, friendly relations with foreign States or public order.\n(2) The assessment of material risk of harm referred to in sub-rule (1) shall be made having\nregard to the nature of services of such intermediary, and if those services permit,—\n(a) interaction between users, notwithstanding, whether it is the primary purpose of that\nintermediary; and\n(b) the publication or transmission of information to a significant number of other users\nas would be likely to result in widespread dissemination of such information.\n(3) An order under this rule may be issued in relation to a specific part of the computer\nresources of any we",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-6/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-6",
+    "node_type": "clause",
+    "label": "Rule 6, clause (a)",
+    "text_content": "interaction between users, notwithstanding, whether it is the primary purpose of that\nintermediary; and",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-6/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-6",
+    "node_type": "clause",
+    "label": "Rule 6, clause (b)",
+    "text_content": "the publication or transmission of information to a significant number of other users\nas would be likely to result in widespread dissemination of such information.\n(3) An order under this rule may be issued in relation to a specific part of the computer\nresources of any website, mobile based application or both, as the case may be, if such specific\npart is in the nature of an intermediary:\nProvided that where such order is issued, an entity may be required to comply with all\nor any of the obliga",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-7",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 7 — Non-observance of Rules.—Where an intermediary fails to observe these rules, the",
+    "text_content": "provisions of sub-section (1) of section 79 of the Act shall not be applicable to such\nintermediary and the intermediary shall be liable for punishment under any law for the time\nbeing in force including the provisions of the Act and the Indian Penal Code.\nPART III\nCODE OF ETHICS AND PROCEDURE AND SAFEGUARDS IN RELATION TO\nDIGITALMEDIA",
+    "status": "active",
+    "effective_from": "2021-02-25",
+    "cross_ref": "ITACT/CH-9/S-43A"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-8",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 8 — Application of this Part.—(1) The rules made under this Part shall apply to the following",
+    "text_content": "persons or entities, namely:—\n(a) publishers of news and current affairs content;\n(b) publishers of online curated content; and\nshall be administered by the Ministry of Information and Broadcasting, Government of India,\nwhich shall be referred to in this Part as the “Ministry”:\nProvided that the rules made under this Part shall apply to intermediaries for the\npurposes of rules 15 and 16;\n(2) the rules made under this Part shall apply to the publishers, where,—\n(a) such publisher operates in the territory of India; or\n(b) such publisher conducts systematic business activity of making its content\navailable in India.\nExplanation.—For the purposes of this rule,—\n(a) a publisher shall be deemed to operate in the territory of India where such\npublisher has a physical presence in the territory of India;\n(b) “systematic activity” shall mean any structured or organised activity that involves\nan element of planning, method, continuity or persistence.\n(3) The rules made under this Part shall be i",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-8/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-8",
+    "node_type": "clause",
+    "label": "Rule 8, clause (a)",
+    "text_content": "publishers of news and current affairs content;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-8/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-8",
+    "node_type": "clause",
+    "label": "Rule 8, clause (b)",
+    "text_content": "publishers of online curated content; and\nshall be administered by the Ministry of Information and Broadcasting, Government of India,\nwhich shall be referred to in this Part as the “Ministry”:\nProvided that the rules made under this Part shall apply to intermediaries for the\npurposes of rules 15 and 16;\n(2) the rules made under this Part shall apply to the publishers, where,—",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-9",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 9 — Observance and adherence to the Code.—(1) A publisher referred to in rule 8 shall",
+    "text_content": "observe and adhere to the Code of Ethics laid down in the Appendix annexed to these rules.\n(2) Notwithstanding anything contained in these rules, a publisher referred to in rule 8 who\ncontravenes any law for the time being in force, shall also be liable for consequential action as\nprovided in such law which has so been contravened.\n(3) For ensuring observance and adherence to the Code of Ethics by publishers operating in the\nterritory of India, and for addressing the grievances made in relation to publishers under this\nPart, there shall be a three-tier structure as under—\n(a) Level I - Self-regulation by the publishers;\n(b) Level II – Self-regulation by the self-regulating bodies of the publishers;\n(c) Level III - Oversight mechanism by the Central Government.\nCHAPTER I\nGRIEVANCE REDRESSAL MECHANISM",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-9/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-9",
+    "node_type": "clause",
+    "label": "Rule 9, clause (a)",
+    "text_content": "Level I - Self-regulation by the publishers;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-9/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-9",
+    "node_type": "clause",
+    "label": "Rule 9, clause (b)",
+    "text_content": "Level II – Self-regulation by the self-regulating bodies of the publishers;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-9/CL-C",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-9",
+    "node_type": "clause",
+    "label": "Rule 9, clause (c)",
+    "text_content": "Level III - Oversight mechanism by the Central Government.\nCHAPTER I\nGRIEVANCE REDRESSAL MECHANISM",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-10",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 10 — Furnishing and processing of grievance.—(1) Any person having a grievance regarding",
+    "text_content": "content published by a publisher in relation to the Code of Ethics may furnish his grievance on\nthe grievance mechanism established by the publisher under rule 11.\n(2) The publisher shall generate and issue an acknowledgement of the grievance for the benefit\nof the complainant within twenty-four hours of it being furnished for information and record.\n(3) The manner of grievance redressal shall have the following arrangement–\n(a) the publisher shall address the grievance and inform the complainant of its decision\nwithin fifteen days of the registration of the grievance;\n(b) if the decision of the publisher is not communicated to the complainant within the\nstipulated fifteen days, the grievance shall be escalated to the level of the self–\nregulating body of which such publisher is a member.\n(c) where the complainant is not satisfied with the decision of the publisher, it may\nprefer to appeal to the self-regulating body of which such publisher is a member\nwithin fifteen days of receiving",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-10/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-10",
+    "node_type": "clause",
+    "label": "Rule 10, clause (a)",
+    "text_content": "the publisher shall address the grievance and inform the complainant of its decision\nwithin fifteen days of the registration of the grievance;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-10/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-10",
+    "node_type": "clause",
+    "label": "Rule 10, clause (b)",
+    "text_content": "if the decision of the publisher is not communicated to the complainant within the\nstipulated fifteen days, the grievance shall be escalated to the level of the self–\nregulating body of which such publisher is a member.",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-10/CL-C",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-10",
+    "node_type": "clause",
+    "label": "Rule 10, clause (c)",
+    "text_content": "where the complainant is not satisfied with the decision of the publisher, it may\nprefer to appeal to the self-regulating body of which such publisher is a member\nwithin fifteen days of receiving such a decision.",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-10/CL-D",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-10",
+    "node_type": "clause",
+    "label": "Rule 10, clause (d)",
+    "text_content": "the self-regulating body shall address the grievance referred to in clauses",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-10/CL-E",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-10",
+    "node_type": "clause",
+    "label": "Rule 10, clause (e)",
+    "text_content": "where the complainant is not satisfied with the decision of the self-regulating body,\nit may, within fifteen days of such decision, prefer an appeal to the Oversight\nMechanism referred to in rule 13 for resolution.\nCHAPTER II\nSELF REGULATING MECHANISM - LEVEL I",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-11",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 11 — Self-Regulating mechanism at Level I.—(1) The publisher shall be the Level I of the self-",
+    "text_content": "regulating mechanism.\n(2) A publisher shall—\n(a) establish a grievance redressal mechanism and shall appoint a Grievance Officer\nbased in India, who shall be responsible for the redressal of grievances received by\nhim;\n(b) display the contact details related to its grievance redressal mechanism and the\nname and contact details of its Grievance Officer at an appropriate place on its\nwebsite or interface, as the case may be;\n(c) ensure that the Grievance Officer takes a decision on every grievance received by\nit within fifteen days, and communicate the same to the complainant within the\nspecified time:\n(d) be a member of a self-regulating body as referred to in rule 12 and abide by its\nterms and conditions.\n(3) The Grievance Officer shall,—\n(a) be the contact point for receiving any grievance relating to Code of Ethics;\n(b) act as the nodal point for interaction with the complainant, the self-regulating body\nand the Ministry.\n(4) Online curated content shall be classified by the publishe",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-11/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-11",
+    "node_type": "clause",
+    "label": "Rule 11, clause (a)",
+    "text_content": "establish a grievance redressal mechanism and shall appoint a Grievance Officer\nbased in India, who shall be responsible for the redressal of grievances received by\nhim;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-11/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-11",
+    "node_type": "clause",
+    "label": "Rule 11, clause (b)",
+    "text_content": "display the contact details related to its grievance redressal mechanism and the\nname and contact details of its Grievance Officer at an appropriate place on its\nwebsite or interface, as the case may be;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-11/CL-C",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-11",
+    "node_type": "clause",
+    "label": "Rule 11, clause (c)",
+    "text_content": "ensure that the Grievance Officer takes a decision on every grievance received by\nit within fifteen days, and communicate the same to the complainant within the\nspecified time:",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-11/CL-D",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-11",
+    "node_type": "clause",
+    "label": "Rule 11, clause (d)",
+    "text_content": "be a member of a self-regulating body as referred to in rule 12 and abide by its\nterms and conditions.\n(3) The Grievance Officer shall,—",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-12",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 12 — Self-regulating body.—(1) There may be one or more self-regulatory bodies of publishers,",
+    "text_content": "being an independent body constituted by publishers or their associations.\n(2) The self-regulatory body referred to in sub-rule (1) shall be headed by a retired judge of the\nSupreme Court, a High Court, or an independent eminent person from the field of media,\nbroadcasting, entertainment, child rights, human rights or such other relevant field, and have\nother members, not exceeding six, being experts from the field of media, broadcasting,\nentertainment, child rights, human rights and such other relevant fields.\n(3) The self-regulating body shall, after its constitution in accordance with sub-rule (2), register\nitself with the Ministry within a period of thirty days from the date of notification of these\nrules, and where a self-regulating body is constituted after such period, within thirty days from\nthe date of its constitution:\nProvided that before grant of registration to the self-regulating body, the Ministry shall\nsatisfy itself that the self-regulating body has been constituted in",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-12/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-12",
+    "node_type": "clause",
+    "label": "Rule 12, clause (a)",
+    "text_content": "oversee and ensure the alignment and adherence by the publisher to the Code of\nEthics;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-12/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-12",
+    "node_type": "clause",
+    "label": "Rule 12, clause (b)",
+    "text_content": "provide guidance to publishers on various aspects of the Code of Ethics;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-12/CL-C",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-12",
+    "node_type": "clause",
+    "label": "Rule 12, clause (c)",
+    "text_content": "address grievances which have not been resolved by publishers within the specified\nperiod of fifteen days;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-12/CL-D",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-12",
+    "node_type": "clause",
+    "label": "Rule 12, clause (d)",
+    "text_content": "hear appeals filed by the complainant against the decision of publishers;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-12/CL-E",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-12",
+    "node_type": "clause",
+    "label": "Rule 12, clause (e)",
+    "text_content": "issue such guidance or advisories to such publishers as specified in sub-rule (5) for\nensuring compliance to the Code of Ethics.\n(5) The self-regulating body while disposing a grievance or an appeal referred to it in sub-rule\n(4) may issue following guidance or advisories to the publishers as under, namely:—",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-12/CL-I",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-12",
+    "node_type": "clause",
+    "label": "Rule 12, clause (i)",
+    "text_content": "reclassify ratings of relevant content;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-12/CL-II",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-12",
+    "node_type": "clause",
+    "label": "Rule 12, clause (ii)",
+    "text_content": "make appropriate modification in the content descriptor, age classification\nand access control measures;\n(iii) edit synopsis of relevant content; or",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-13",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 13 — Oversight mechanism.—(1) The Ministry shall co-ordinate and facilitate the adherence to",
+    "text_content": "the Code of Ethics by publishers and self regulating bodies, develop an Oversight Mechanism,\nand perform the following functions, namely:—\n(a) publish a charter for self regulating bodies, including Codes of Practices for such\nbodies;\n(b) establish an Inter-Departmental Committee for hearing grievances;\n(c) refer to the Inter-Departmental Committee grievances arising out of the decision of\nthe self-regulating body under rule 12, or where no decision has been taken by the\nself-regulating body within the specified time period, or such other complaints or\nreferences relating to violation of Code of Ethics as it may consider necessary;\n(d) issue appropriate guidance and advisories to publishers;\n(e) issue orders and directions to the publishers for maintenance and adherence to the\nCode of Ethics.\n(2) The Ministry shall appoint an officer of the Ministry not below the rank of a Joint Secretary\nto the Government of India, as the “Authorised Officer”, for the purposes of issuing directions\nun",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-13/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-13",
+    "node_type": "clause",
+    "label": "Rule 13, clause (a)",
+    "text_content": "publish a charter for self regulating bodies, including Codes of Practices for such\nbodies;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-13/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-13",
+    "node_type": "clause",
+    "label": "Rule 13, clause (b)",
+    "text_content": "establish an Inter-Departmental Committee for hearing grievances;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-13/CL-C",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-13",
+    "node_type": "clause",
+    "label": "Rule 13, clause (c)",
+    "text_content": "refer to the Inter-Departmental Committee grievances arising out of the decision of\nthe self-regulating body under rule 12, or where no decision has been taken by the\nself-regulating body within the specified time period, or such other complaints or\nreferences relating to violation of Code of Ethics as it may consider necessary;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-13/CL-D",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-13",
+    "node_type": "clause",
+    "label": "Rule 13, clause (d)",
+    "text_content": "issue appropriate guidance and advisories to publishers;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-13/CL-E",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-13",
+    "node_type": "clause",
+    "label": "Rule 13, clause (e)",
+    "text_content": "issue orders and directions to the publishers for maintenance and adherence to the\nCode of Ethics.\n(2) The Ministry shall appoint an officer of the Ministry not below the rank of a Joint Secretary\nto the Government of India, as the “Authorised Officer”, for the purposes of issuing directions\nunder rules 15 or 16, as the case may be.",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-14",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 14 — Inter-Departmental Committee.—(1) The Ministry shall constitute an Inter-",
+    "text_content": "Departmental Committee, called the Committee, consisting of representatives from the\nMinistry of Information and Broadcasting, Ministry of Women and Child Development,\nMinistry of Law and Justice, Ministry of Home Affairs, Ministry of Electronics and\nInformation Technology, Ministry of External Affairs, Ministry of Defence, and such other\nMinistries and Organisations, including domain experts, that it may decide to include in the\nCommittee:\nProvided that the Authorised Officer designated under sub-rule (2) of rule 13 shall be\nthe Chairperson of such Committee.\n(2) The Committee shall meet periodically and hear the following complaints regarding\nviolation or contravention of the Code of Ethics by the entities referred to in Rule 8—\n(a) arising out of the grievances in respect of the decisions taken at the Level I or\nII, including the cases where no such decision is taken within the time specified\nin the grievance redressal mechanism; or\n(b) referred to it by the Ministry.\n(3) Any compla",
+    "status": "active",
+    "effective_from": "2021-02-25",
+    "cross_ref": "ITACT/CH-12/S-79"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-14/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-14",
+    "node_type": "clause",
+    "label": "Rule 14, clause (a)",
+    "text_content": "arising out of the grievances in respect of the decisions taken at the Level I or\nII, including the cases where no such decision is taken within the time specified\nin the grievance redressal mechanism; or",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-14/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-14",
+    "node_type": "clause",
+    "label": "Rule 14, clause (b)",
+    "text_content": "referred to it by the Ministry.\n(3) Any complaint referred to the Committee, whether arising out of the grievances or referred\nto it by the Ministry, shall be in writing and may be sent either by mail or fax or by e-mail\nsigned with electronic signature of the authorised representative of the entity referring the\ngrievance, and the Committee shall ensure that such reference is assigned a number which is\nrecorded along with the date and time of its receipt.\n(4) The Ministry shall make all reasona",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-14/CL-C",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-14",
+    "node_type": "clause",
+    "label": "Rule 14, clause (c)",
+    "text_content": "requiring such entity to include a warning card or a disclaimer; or",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-14/CL-D",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-14",
+    "node_type": "clause",
+    "label": "Rule 14, clause (d)",
+    "text_content": "in case of online curated content, direct a publisher to—",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-14/CL-I",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-14",
+    "node_type": "clause",
+    "label": "Rule 14, clause (i)",
+    "text_content": "reclassify ratings of relevant content; or",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-14/CL-II",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-14",
+    "node_type": "clause",
+    "label": "Rule 14, clause (ii)",
+    "text_content": "edit synopsis of relevant content; or\n(iii) make appropriate modification in the content descriptor, age classification\nand parental or access control;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-14/CL-E",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-14",
+    "node_type": "clause",
+    "label": "Rule 14, clause (e)",
+    "text_content": "delete or modify content for preventing incitement to the commission of a\ncognisable offence relating to public order;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-14/CL-F",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-14",
+    "node_type": "clause",
+    "label": "Rule 14, clause (f)",
+    "text_content": "in case of content where the Committee is satisfied that there is a need for taking\naction in relation to the reasons enumerated in sub-section (1) of section 69A of the\nAct, it may recommend such action.\n(6) The Ministry may, after taking into consideration the recommendations of the Committee,\nissue appropriate orders and directions for compliance by the publisher:\nProvided that no such order shall be issued without the approval of the Secretary,\nMinistry of",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-15",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 15 — Procedure for issuing of direction.—(1) In respect of recommendations referred to in",
+    "text_content": "clauses (e) and (f) of sub-rule (5) of rule 14, the Authorised Officer shall place the matter for\nconsideration before the Secretary, Ministry of Information and Broadcasting for taking\nappropriate decision.\n(2) The Authorised Officer shall, on approval of the decision by the Secretary, Ministry of\nInformation and Broadcasting, direct the publisher, any agency of the Government or any\nintermediary, as the case may be to delete or modify or block the relevant content and\ninformation generated, transmitted, received, stored or hosted in their computer resource for\npublic access within the time limit specified in the direction:\nProvided that in case the recommendation of the Authorised Officer is not approved by\nthe Secretary, Ministry of Information and Broadcasting, the Authorised Officer shall convey\nthe same to the Committee.\n(3) A direction under this rule may be issued only in respect of a specific piece of content or\nan enumerated list of content, as the case may be, and shall not",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-15/CL-E",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-15",
+    "node_type": "clause",
+    "label": "Rule 15, clause (e)",
+    "text_content": "and",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-15/CL-F",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-15",
+    "node_type": "clause",
+    "label": "Rule 15, clause (f)",
+    "text_content": "of sub-rule (5) of rule 14, the Authorised Officer shall place the matter for\nconsideration before the Secretary, Ministry of Information and Broadcasting for taking\nappropriate decision.\n(2) The Authorised Officer shall, on approval of the decision by the Secretary, Ministry of\nInformation and Broadcasting, direct the publisher, any agency of the Government or any\nintermediary, as the case may be to delete or modify or block the relevant content and\ninformation generated, transmitted, received,",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-16",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 16 — Blocking of information in case of emergency.—(1) Notwithstanding anything contained",
+    "text_content": "in rules 14 and 15, the Authorised Officer, in any case of emergency nature, for which no delay\nis acceptable, shall examine the relevant content and consider whether it is within the grounds\nreferred to in sub-section (1) of section 69A of the Act and it is necessary or expedient and\njustifiable to block such information or part thereof and submit a specific recommendation in\nwriting to the Secretary, Ministry of Information and Broadcasting.\n(2) In case of emergency nature, the Secretary, Ministry of Information and Broadcasting may,\nif he is satisfied that it is necessary or expedient and justifiable for blocking for public access\nof any information or part thereof through any computer resource and after recording reasons\nin writing, as an interim measure issue such directions as he may consider necessary to such\nidentified or identifiable persons, publishers or intermediary in control of such computer\nresource hosting such information or part thereof without giving him an opportuni",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-17",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 17 — Review of directions issued.—(1) The Authorised Officer shall maintain complete records",
+    "text_content": "of the proceedings of the Committee, including any complaints referred to the Committee, and\nshall also maintain records of recommendations made by the Committee and any directions\nissued by the Authorised Officer.\n(2 )The Review Committee shall meet at least once in every two months and record its findings\nwhether the directions of blocking of content or information issued under these rules are in\naccordance with the provisions of sub-section (1) of section 69A of the Act and if it is of the\nopinion that the directions are not in accordance with the said provisions, it may set aside the\ndirections and issue order for unblocking of such content or information generated, transmitted,\nreceived, stored or hosted in a computer resource.\nExplanation.—For the purpose of this rule, “Review Committee” shall mean the Review\nCommittee constituted under rule 419A of the Indian Telegraph Rules, 1951.\nCHAPTER V\nFURNISHING OF INFORMATION",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-18",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 18 — Furnishing of information.—(1) A publisher of news and current affairs content and a",
+    "text_content": "publisher of online curated content operating in the territory of India, shall inform the Ministry\nabout the details of its entity by furnishing information along with such documents as may be\nspecified, for the purpose of enabling communication and coordination.\n(2) The information referred to in sub-rule (1) shall be furnished within a period of thirty days\nof the publication of these rules, and where such publisher begins operation in the territory of\nIndia or comes into existence after commencement of these rules, within thirty days from the\ndate of start of its operations in the territory of India or its coming into existence, as the case\nmay be.\n(3) The publisher of news and current affairs content and the publisher of online curated content\nshall publish periodic compliance report every month mentioning the details of grievances\nreceived and action taken thereon.\n(4) The Ministry may call for such additional information from the publisher as it may consider\nnecessary for the imp",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-19",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021",
+    "node_type": "rule",
+    "label": "Rule 19 — Disclosure of Information.—(1) A publisher and a self-regulating body, shall make true",
+    "text_content": "and full disclosure of all grievances received by it, the manner in which the grievances are\ndisposed of, the action taken on the grievance, the reply sent to the complainant, the orders or\ndirections received by it under these rules and action taken on such orders or directions.\n(2) The information referred to in sub-rule (1) shall be displayed publicly and updated monthly.\n(3) Subject to any law for the time being in force, the publisher shall preserve records of content\ntransmitted by it for a minimum period of sixty days and make it available to the self-regulating\nbody or the Central Government, or any other Government agency, as may be requisitioned by\nthem for implementation of these rules.\nAPPENDIX\nCODE OF ETHICS\nI News and current affairs:\n(i) Norms of Journalistic Conduct of the Press Council of India under the Press\nCouncil Act, 1978;\n(ii) Programme Code under section 5 of the Cable Television Networks Regulation)\nAct, 1995;\n(iii) Content which is prohibited under any law fo",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-19/CL-I",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-19",
+    "node_type": "clause",
+    "label": "Rule 19, clause (i)",
+    "text_content": "Norms of Journalistic Conduct of the Press Council of India under the Press\nCouncil Act, 1978;",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-19/CL-II",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-19",
+    "node_type": "clause",
+    "label": "Rule 19, clause (ii)",
+    "text_content": "Programme Code under section 5 of the Cable Television Networks Regulation)\nAct, 1995;\n(iii) Content which is prohibited under any law for the time being in force shall not\nbe published or transmitted.\nII Online curated content:\n(A) General Principles:",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-19/CL-A",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-19",
+    "node_type": "clause",
+    "label": "Rule 19, clause (a)",
+    "text_content": "A publisher shall not transmit or publish or exhibit any content which is prohibited\nunder any law for the time being in force or has been prohibited by any court of\ncompetent jurisdiction.",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-19/CL-B",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-19",
+    "node_type": "clause",
+    "label": "Rule 19, clause (b)",
+    "text_content": "A publisher shall take into consideration the following factors, when deciding to\nfeature or transmit or publish or exhibit any content, after duly considering the\nimplications of any content as falling under the following categories, and shall\nexercise due caution and discretion in relation to the same, namely:—",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-19/CL-IV",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-19",
+    "node_type": "clause",
+    "label": "Rule 19, clause (iv)",
+    "text_content": "content which is likely to incite violence or disturb the maintenance of public\norder.",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-19/CL-C",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-19",
+    "node_type": "clause",
+    "label": "Rule 19, clause (c)",
+    "text_content": "A publisher shall take into consideration India’s multi-racial and multi-religious\ncontext and exercise due caution and discretion when featuring the activities,\nbeliefs, practices, or views of any racial or religious group.\n(B) Content Classification:",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  },
+  {
+    "node_id": "IT-RULES-2021/RULE-19/CL-D",
+    "snapshot_id": "IT-RULES-2021_v2021_2026-06-12",
+    "parent_id": "IT-RULES-2021/RULE-19",
+    "node_type": "clause",
+    "label": "Rule 19, clause (d)",
+    "text_content": "Online curated content which is suitable for person",
+    "status": "active",
+    "effective_from": "2021-02-25"
+  }
+]

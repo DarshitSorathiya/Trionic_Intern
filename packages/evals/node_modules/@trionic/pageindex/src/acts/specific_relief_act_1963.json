@@ -1,0 +1,621 @@
+{
+  "act": {
+    "id": "SRA_1963",
+    "short_title": "Specific Relief Act, 1963",
+    "long_title": "An Act to define and amend the law relating to certain kinds of specific relief",
+    "enactment_year": 1963,
+    "amended_years": [2018],
+    "india_code_url": "https://www.indiacode.nic.in/handle/123456789/1577",
+    "total_sections": 42,
+    "parts": [
+      {
+        "id": "PART_I",
+        "title": "Preliminary",
+        "sections": ["1", "2"]
+      },
+      {
+        "id": "PART_II",
+        "title": "Recovery of Possession of Property",
+        "sections": ["5", "6", "7", "8"]
+      },
+      {
+        "id": "PART_III",
+        "title": "Specific Performance of Contracts",
+        "sections": ["10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
+      },
+      {
+        "id": "PART_IV",
+        "title": "Rectification and Cancellation of Instruments",
+        "sections": ["26", "27", "28", "29", "30"]
+      },
+      {
+        "id": "PART_V",
+        "title": "Declaratory Decrees",
+        "sections": ["34", "35"]
+      },
+      {
+        "id": "PART_VI",
+        "title": "Preventive Relief — Injunctions",
+        "sections": ["36", "37", "38", "39", "40", "41", "42"]
+      }
+    ],
+    "nodes": [
+      {
+        "id": "SRA_1963_S1",
+        "section": "1",
+        "title": "Short title, extent and commencement",
+        "part": "PART_I",
+        "summary": "Act extends to whole of India except Jammu & Kashmir (pre-370 abrogation). Commenced on 1 March 1964.",
+        "keywords": ["title", "extent", "commencement"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S2",
+        "section": "2",
+        "title": "Definitions",
+        "part": "PART_I",
+        "summary": "Defines 'obligation', 'settlement', 'trust', 'trustee' for purposes of this Act.",
+        "keywords": ["definitions", "obligation", "settlement", "trust"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S2",
+            "reason": "Obligation under Contract Act underpins the defined term 'obligation' here",
+            "type": "definitional_import"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S5",
+        "section": "5",
+        "title": "Recovery of specific immovable property",
+        "part": "PART_II",
+        "summary": "A person entitled to specific immovable property may recover it in the manner provided by the Code of Civil Procedure, 1908.",
+        "keywords": ["immovable property", "recovery", "possession", "CPC"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S6",
+        "section": "6",
+        "title": "Suit by person dispossessed of immovable property",
+        "part": "PART_II",
+        "summary": "Person dispossessed of immovable property without consent may sue to recover possession within 6 months, regardless of title.",
+        "keywords": ["dispossession", "immovable property", "6 months", "possession suit"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S7",
+        "section": "7",
+        "title": "Recovery of specific movable property",
+        "part": "PART_II",
+        "summary": "Trustee or other person holding movable property in a special capacity may be compelled to deliver it.",
+        "keywords": ["movable property", "trustee", "delivery", "specific"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S8",
+        "section": "8",
+        "title": "Liability of person holding property as agent or trustee",
+        "part": "PART_II",
+        "summary": "When person holds property as agent, trustee or in any other fiduciary capacity and wrongfully transfers it, buyer/transferee with notice is compelled to deliver it.",
+        "keywords": ["agent", "trustee", "fiduciary", "wrongful transfer", "notice"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S182",
+            "reason": "Agent's authority and fiduciary duty defined in Contract Act",
+            "type": "doctrinal_reference"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S10",
+        "section": "10",
+        "title": "Specific performance of contracts enforceable",
+        "part": "PART_III",
+        "summary": "Specific performance of a contract shall be enforced by the court subject to provisions of the Act. Post-2018 amendment: specific performance is now a general rule, not discretionary.",
+        "keywords": ["specific performance", "enforce", "contract", "2018 amendment"],
+        "amendment_note": "Amended by Amendment Act 2018 — changed from discretionary to rule-based enforcement",
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S10",
+            "reason": "Contract must be valid under Contract Act to be specifically enforced here",
+            "type": "prerequisite"
+          },
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Alternative remedy of damages under Contract Act; courts weigh before granting specific performance",
+            "type": "alternative_remedy"
+          }
+        ],
+        "parent": null,
+        "children": ["SRA_1963_S11", "SRA_1963_S12", "SRA_1963_S14", "SRA_1963_S16"]
+      },
+      {
+        "id": "SRA_1963_S11",
+        "section": "11",
+        "title": "Cases in which specific performance of contracts connected with trusts enforceable",
+        "part": "PART_III",
+        "summary": "Specific performance of an act relating to a trust or a contract to create a trust is enforceable.",
+        "keywords": ["trust", "specific performance", "trustee obligation"],
+        "cross_links": [],
+        "parent": "SRA_1963_S10",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S12",
+        "section": "12",
+        "title": "Specific performance of part of contract",
+        "part": "PART_III",
+        "summary": "Court may decree specific performance of part of a contract where the part not performed is small and can be compensated in money, or where performance of rest is not possible.",
+        "keywords": ["part performance", "severable", "compensation", "money"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Monetary compensation for the unperformed part governed by Contract Act §73",
+            "type": "complementary"
+          }
+        ],
+        "parent": "SRA_1963_S10",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S13",
+        "section": "13",
+        "title": "Rights of purchaser or lessee against persons with no title or imperfect title",
+        "part": "PART_III",
+        "summary": "Where vendor/lessor contracts for property they do not own or have imperfect title, purchaser may compel vendor to convey what they can, with compensation.",
+        "keywords": ["vendor", "title", "imperfect title", "purchaser", "lessee"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S14",
+        "section": "14",
+        "title": "Contracts not specifically enforceable",
+        "part": "PART_III",
+        "summary": "Lists contracts not specifically enforceable: (a) compensation in money adequate substitute; (b) contracts running into minute detail; (c) contracts personal in nature; (d) contracts dependent on personal qualifications; (e) determinable contracts.",
+        "keywords": ["non-enforceable", "personal contract", "determinable", "adequate compensation", "exclusions"],
+        "amendment_note": "Substantially amended in 2018 — removed judicial discretion category",
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "When specific performance denied, damages under §73 Contract Act become the remedy",
+            "type": "fallback_remedy"
+          },
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S56",
+            "reason": "Determinable contracts also overlap with frustrated contracts under §56",
+            "type": "doctrinal_reference"
+          }
+        ],
+        "parent": "SRA_1963_S10",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S15",
+        "section": "15",
+        "title": "Who may obtain specific performance",
+        "part": "PART_III",
+        "summary": "Party to contract, their representative in interest, or where contract is made by a company in its pre-incorporation stage — the company after incorporation.",
+        "keywords": ["party", "standing", "representative", "pre-incorporation", "company"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S37",
+            "reason": "Assignability of contractual rights — who steps into shoes of original party",
+            "type": "doctrinal_reference"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S16",
+        "section": "16",
+        "title": "Personal bars to relief",
+        "part": "PART_III",
+        "summary": "Specific performance cannot be granted to plaintiff who: (a) has become incapable of performing the contract, (b) has violated any essential term, (c) acts inequitably, or (d) fails to aver readiness and willingness to perform.",
+        "keywords": ["personal bar", "readiness", "willingness", "breach", "inequitable conduct", "plaintiff"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S39",
+            "reason": "Refusal of party to perform = repudiation under Contract Act §39; bars specific performance here",
+            "type": "prerequisite_breach"
+          },
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S55",
+            "reason": "Performance at specified time — delay by plaintiff bars relief under this section",
+            "type": "complementary"
+          }
+        ],
+        "parent": "SRA_1963_S10",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S17",
+        "section": "17",
+        "title": "Contract to sell or let property by one who has no title",
+        "part": "PART_III",
+        "summary": "Specific performance not granted to vendor with no title at time of suit unless vendor undertakes to procure title before performance.",
+        "keywords": ["vendor", "no title", "property", "title procurement"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S18",
+        "section": "18",
+        "title": "Non-enforcement except with variation",
+        "part": "PART_III",
+        "summary": "Where parties to a contract have erred regarding existence of a fact, court may enforce contract with variation to correct the error.",
+        "keywords": ["variation", "mistake", "error of fact", "enforcement"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S20",
+            "reason": "Mistake of fact under Contract Act — bilateral mistake may affect validity; §18 SRA provides variation remedy",
+            "type": "complementary"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S19",
+        "section": "19",
+        "title": "Relief against parties and persons claiming under them by subsequent title",
+        "part": "PART_III",
+        "summary": "Specific performance may be enforced against party to contract, any other party claiming through them, unless they are bona fide purchasers for value without notice.",
+        "keywords": ["bona fide purchaser", "notice", "subsequent title", "third party"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S20",
+        "section": "20",
+        "title": "Substituted performance of contract",
+        "part": "PART_III",
+        "summary": "Post-2018: Aggrieved party may get contract performed by third party or agency at cost of defaulting party. Must give prior notice of 30 days.",
+        "keywords": ["substituted performance", "third party", "30 days notice", "cost recovery", "2018"],
+        "amendment_note": "New section introduced by 2018 Amendment Act — a significant practical remedy",
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Cost of substituted performance recoverable as damages under §73 Contract Act",
+            "type": "cost_recovery_link"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S21",
+        "section": "21",
+        "title": "Power to award compensation in certain cases",
+        "part": "PART_III",
+        "summary": "Court granting or refusing specific performance may award compensation to plaintiff in addition to or instead of specific performance.",
+        "keywords": ["compensation", "damages", "in addition to", "instead of", "specific performance"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Compensation principles mirror §73 Contract Act — party placed in position as if contract performed",
+            "type": "damages_principle"
+          },
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S74",
+            "reason": "Liquidated damages under §74 may also be awarded in lieu of specific performance",
+            "type": "alternative_remedy"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S22",
+        "section": "22",
+        "title": "Power to grant relief for possession, partition, refund of earnest money, etc.",
+        "part": "PART_III",
+        "summary": "Court may, in addition to specific performance decree, grant possession, partition, or refund of earnest money where contract fails.",
+        "keywords": ["possession", "partition", "earnest money", "refund", "ancillary relief"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S23",
+        "section": "23",
+        "title": "Liquidation of damages not a bar to specific performance",
+        "part": "PART_III",
+        "summary": "Sum named in contract as amount to be paid in case of breach does not per se bar specific performance — merely creates a collateral obligation.",
+        "keywords": ["liquidated damages", "penalty clause", "not a bar", "specific performance", "collateral"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S74",
+            "reason": "Penalty/liquidated damages clause in §74 Contract Act — SRA §23 clarifies it doesn't bar specific relief",
+            "type": "clarificatory_link"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S24",
+        "section": "24",
+        "title": "Bar of suit for compensation for breach after dismissal of suit for specific performance",
+        "part": "PART_III",
+        "summary": "If a suit for specific performance is dismissed, a subsequent suit for compensation for the same breach is barred (res judicata principle).",
+        "keywords": ["res judicata", "bar", "compensation", "breach", "dismissed"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Damages under §73 Contract Act — cannot sue for these after failed specific performance suit on same breach",
+            "type": "procedural_bar"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S25",
+        "section": "25",
+        "title": "Application of preceding sections to instruments and awards",
+        "part": "PART_III",
+        "summary": "Sections 10–24 apply to instruments and awards as they apply to contracts.",
+        "keywords": ["instruments", "awards", "applicability"],
+        "cross_links": [],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S26",
+        "section": "26",
+        "title": "When instrument may be rectified",
+        "part": "PART_IV",
+        "summary": "Instrument may be rectified where, through fraud or mutual mistake, it does not express real intention of the parties.",
+        "keywords": ["rectification", "fraud", "mutual mistake", "real intention", "instrument"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S17",
+            "reason": "Fraud as defined in Contract Act §17 is one of the grounds for rectification under SRA §26",
+            "type": "definitional_import"
+          },
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S20",
+            "reason": "Bilateral mistake under §20 Contract Act is ground for rectification here",
+            "type": "ground_link"
+          }
+        ],
+        "parent": null,
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S27",
+        "section": "27",
+        "title": "When cancellation may be ordered",
+        "part": "PART_IV",
+        "summary": "Any person who apprehends that a written instrument may cause injury if left outstanding may sue for cancellation. Court has discretion.",
+        "keywords": ["cancellation", "written instrument", "injury", "discretion", "void"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S2",
+            "reason": "Void and voidable agreements under Contract Act §2 — voidable contracts eligible for cancellation here",
+            "type": "ground_link"
+          },
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S19",
+            "reason": "Voidability on grounds of coercion/fraud/misrepresentation under §19 Contract Act",
+            "type": "ground_link"
+          }
+        ],
+        "parent": null,
+        "children": ["SRA_1963_S28", "SRA_1963_S29", "SRA_1963_S30"]
+      },
+      {
+        "id": "SRA_1963_S28",
+        "section": "28",
+        "title": "Rescission in certain circumstances of contracts for sale or lease of immovable property",
+        "part": "PART_IV",
+        "summary": "Court may rescind contracts for sale/lease of immovable property on failure of consideration or mutual mistake.",
+        "keywords": ["rescission", "immovable property", "failure of consideration", "sale", "lease"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S65",
+            "reason": "Obligation to restore benefit on rescission — governed by §65 Contract Act",
+            "type": "consequence_link"
+          }
+        ],
+        "parent": "SRA_1963_S27",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S29",
+        "section": "29",
+        "title": "Cancellation of instrument after specific performance decreed",
+        "part": "PART_IV",
+        "summary": "After decree of specific performance, court may cancel any document which has become void or voidable.",
+        "keywords": ["cancellation post-decree", "void", "voidable", "instrument"],
+        "cross_links": [],
+        "parent": "SRA_1963_S27",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S30",
+        "section": "30",
+        "title": "Court may require party rescinding to do equity",
+        "part": "PART_IV",
+        "summary": "On adjudging cancellation court may require party claiming cancellation to restore any benefit received and do equity.",
+        "keywords": ["equity", "restore benefit", "rescission", "restitution"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S65",
+            "reason": "§65 Contract Act — restoration of benefit received under void/voidable contract",
+            "type": "principle_alignment"
+          }
+        ],
+        "parent": "SRA_1963_S27",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S34",
+        "section": "34",
+        "title": "Discretion of court as to declaration of status or right",
+        "part": "PART_V",
+        "summary": "Court may make binding declaration of right where plaintiff is entitled to such declaration — but the declaration alone without consequential relief must be sufficient.",
+        "keywords": ["declaratory decree", "declaration", "status", "rights", "discretion"],
+        "cross_links": [],
+        "parent": null,
+        "children": ["SRA_1963_S35"]
+      },
+      {
+        "id": "SRA_1963_S35",
+        "section": "35",
+        "title": "Effect of declaration",
+        "part": "PART_V",
+        "summary": "Declaration made under §34 is binding only on parties to the suit and persons claiming through them.",
+        "keywords": ["binding effect", "declaration", "parties", "privity"],
+        "cross_links": [],
+        "parent": "SRA_1963_S34",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S36",
+        "section": "36",
+        "title": "Preventive relief how granted",
+        "part": "PART_VI",
+        "summary": "Preventive relief (injunction) granted at discretion of court — either temporary or perpetual.",
+        "keywords": ["preventive relief", "injunction", "temporary", "perpetual", "discretion"],
+        "cross_links": [],
+        "parent": null,
+        "children": ["SRA_1963_S37", "SRA_1963_S38", "SRA_1963_S39", "SRA_1963_S40", "SRA_1963_S41"]
+      },
+      {
+        "id": "SRA_1963_S37",
+        "section": "37",
+        "title": "Temporary and perpetual injunctions",
+        "part": "PART_VI",
+        "summary": "Temporary injunction continues until specified time or further court order; perpetual injunction restrains party forever from asserting a right or doing an act.",
+        "keywords": ["temporary injunction", "perpetual injunction", "interim", "final"],
+        "cross_links": [],
+        "parent": "SRA_1963_S36",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S38",
+        "section": "38",
+        "title": "Perpetual injunction when granted",
+        "part": "PART_VI",
+        "summary": "Perpetual injunction granted to prevent breach of obligation — where obligation arises from contract. Damages must be inadequate.",
+        "keywords": ["perpetual injunction", "breach of obligation", "contract", "inadequate damages"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Inadequacy of damages under Contract Act §73 is the test for granting perpetual injunction",
+            "type": "prerequisite"
+          }
+        ],
+        "parent": "SRA_1963_S36",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S39",
+        "section": "39",
+        "title": "Mandatory injunctions",
+        "part": "PART_VI",
+        "summary": "Court may compel performance of an act by mandatory injunction to prevent breach of obligation or undo breach already committed.",
+        "keywords": ["mandatory injunction", "compel", "performance", "undo breach"],
+        "cross_links": [],
+        "parent": "SRA_1963_S36",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S40",
+        "section": "40",
+        "title": "Damages in lieu of or in addition to injunction",
+        "part": "PART_VI",
+        "summary": "Court may award damages in lieu of or in addition to injunction. Claim for damages does not disentitle plaintiff from injunction.",
+        "keywords": ["damages in lieu", "injunction", "in addition", "compensation"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S73",
+            "reason": "Damages quantified per Contract Act §73 principles even when injunction is the primary relief",
+            "type": "quantification_link"
+          }
+        ],
+        "parent": "SRA_1963_S36",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S41",
+        "section": "41",
+        "title": "Injunction when refused",
+        "part": "PART_VI",
+        "summary": "Injunction cannot be granted: (a) to stay judicial proceedings already started; (b) to prevent legislative acts; (c) for breach of contract not specifically enforceable; (d) to prevent nuisance not clearly established; (e) where plaintiff delayed (laches).",
+        "keywords": ["injunction refused", "laches", "delay", "not specifically enforceable", "restraint of trade"],
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S27",
+            "reason": "Contracts in restraint of trade under §27 Contract Act — injunction to enforce such contracts refused under §41(b) SRA",
+            "type": "bar_link"
+          }
+        ],
+        "parent": "SRA_1963_S36",
+        "children": []
+      },
+      {
+        "id": "SRA_1963_S42",
+        "section": "42",
+        "title": "Injunction to perform negative agreement",
+        "part": "PART_VI",
+        "summary": "Where contract contains positive and negative stipulations, court may grant injunction to enforce the negative covenant even where it cannot decree specific performance of the positive covenant.",
+        "keywords": ["negative covenant", "negative stipulation", "injunction", "restrictive covenant", "positive covenant"],
+        "amendment_note": "Key provision used in employment and NDA contexts for enforcement of non-compete/non-disclosure clauses",
+        "cross_links": [
+          {
+            "target_act": "ICA_1872",
+            "target_section": "ICA_1872_S27",
+            "reason": "Restraint of trade §27 — §42 SRA allows injunction on negative covenants even where §27 makes the positive part unenforceable as restraint of trade",
+            "type": "interplay"
+          }
+        ],
+        "parent": "SRA_1963_S36",
+        "children": []
+      }
+    ]
+  }
+}

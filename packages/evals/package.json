@@ -1,0 +1,22 @@
+{
+    "name": "@trionic/evals",
+    "version": "0.0.1",
+    "private": true,
+    "description": "Eval harness for citation correctness, hallucination, and per-LLM telemetry",
+    "main": "./src/run.ts",
+    "scripts": {
+        "build": "tsc",
+        "typecheck": "tsc --noEmit",
+        "test": "tsx src/run.ts"
+    },
+    "dependencies": {
+        "@trionic/shared": "workspace:*",
+        "@trionic/pageindex": "workspace:*",
+        "@trionic/agents": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/node": "^22.0.0",
+        "tsx": "^4.7.0",
+        "typescript": "^5.6.0"
+    }
+}
