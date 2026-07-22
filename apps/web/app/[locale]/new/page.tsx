@@ -5,14 +5,14 @@ import { Link } from '@/i18n/routing'
 import type { DocumentType, SupportedLanguage } from '@trionic/shared'
 import { LanguagePicker } from '@/components/intake/LanguagePicker'
 import { StreamingIndicator } from '@/components/intake/StreamingIndicator'
-import { ArrowLeft, Sparkles, Scale, FileText } from 'lucide-react'
+import { ArrowLeft, Scale, FileText, Landmark } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 
 export default function NewDraftPage() {
   const t = useTranslations('intake')
   const tCommon = useTranslations('common')
 
-  const [docType, setDocType] = useState<DocumentType | 'ai_decide'>('ai_decide')
+  const [docType, setDocType] = useState<DocumentType>('rti_application')
   const [intakeText, setIntakeText] = useState('')
   const [language, setLanguage] = useState<SupportedLanguage>('en')
   const [error, setError] = useState<string | null>(null)
@@ -23,12 +23,6 @@ export default function NewDraftPage() {
   const [documentId, setDocumentId] = useState<string | null>(null)
 
   const DOC_TYPES = [
-    {
-      value: 'ai_decide',
-      label: t('docTypeOptionAi'),
-      description: t('docTypeOptionAiDesc'),
-      icon: <Sparkles className="size-5 text-indigo-500" />,
-    },
     {
       value: 'rti_application',
       label: t('docTypeOptionRti'),
@@ -42,22 +36,10 @@ export default function NewDraftPage() {
       icon: <Scale className="size-5 text-blue-500" />,
     },
     {
-      value: 'nda',
-      label: t('docTypeOptionNda'),
-      description: t('docTypeOptionNdaDesc'),
-      icon: <FileText className="size-5 text-purple-500" />,
-    },
-    {
-      value: 'consumer_complaint',
-      label: t('docTypeOptionConsumer'),
-      description: t('docTypeOptionConsumerDesc'),
-      icon: <Scale className="size-5 text-orange-500" />,
-    },
-    {
-      value: 'employment_contract',
-      label: t('docTypeOptionEmployment'),
-      description: t('docTypeOptionEmploymentDesc'),
-      icon: <FileText className="size-5 text-rose-500" />,
+      value: 'cheque_bounce_notice',
+      label: t('docTypeOptionCheque'),
+      description: t('docTypeOptionChequeDesc'),
+      icon: <Landmark className="size-5 text-orange-500" />,
     },
   ] as const
 
@@ -79,7 +61,7 @@ export default function NewDraftPage() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          doc_type: docType === 'ai_decide' ? undefined : docType,
+          doc_type: docType,
           language,
           intake_text: intakeText,
         }),
@@ -114,7 +96,7 @@ export default function NewDraftPage() {
           documentId={documentId}
           intakeText={intakeText}
           targetLanguage={language}
-          docType={docType === 'ai_decide' ? undefined : docType}
+          docType={docType}
           onCancel={handleCancelStream}
         />
       </div>

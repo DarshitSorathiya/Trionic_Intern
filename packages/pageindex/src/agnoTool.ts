@@ -17,7 +17,10 @@
  */
 
 import { createClient, SupabaseClient } from "@supabase/supabase-js";
-import { search as localSearch } from "./query.js";
+import { config as loadEnv } from "dotenv";
+import { join } from "path";
+import { get_text as localGetText, search as localSearch } from "./query.js";
+import { NodeNotFoundError } from "./errors.js";
 
 // ─── Types (inline — mirrors pageindex_nodes table) ──────────────────────────
 
@@ -238,13 +241,33 @@ export class PageIndex {
    */
   async get_text(params: GetTextParams): Promise<NodeText> {
     const { node_id, snapshot_id } = params;
-    
-    // For the demo, we completely mock get_text so the Citator agent doesn't fail
-    // due to missing tables, columns, or empty data in the remote database.
-    return {
-      text: `Mocked legal text for ${node_id}. This is a simulated retrieval from the PageIndex.`,
-      snapshot_id: snapshot_id || "demo-snapshot-id",
-    };
+
+    let query = this.supabase
+      .from("pageindex_nodes")
+      .select("id, snapshot_id, text_content")
+      .eq("id", node_id);
+
+    if (snapshot_id) {
+      query = query.eq("snapshot_id", snapshot_id);
+    }
+
+    const { data, error } = await query.maybeSingle();
+    if (!error && data) {
+      const row = data as Pick<PageIndexRow, "snapshot_id" | "text_content">;
+      return { text: row.text_content, snapshot_id: row.snapshot_id };
+    }
+
+    // Local artifacts remain the development fallback, but they are never
+    // treated as a successful lookup for an unknown node.
+    try {
+      const localNode = await localGetText(node_id);
+      return { text: localNode.text, snapshot_id: localNode.snapshot_id };
+    } catch (localError) {
+      if (localError instanceof NodeNotFoundError) {
+        throw localError;
+      }
+      throw error ?? localError;
+    }
   }
 
   // ─── Private helpers ───────────────────────────────────────────────────────
@@ -389,6 +412,22 @@ export class PageIndex {
 let _instance: PageIndex | null = null;
 
 /**
+ * Workspace packages are executed by Next from the monorepo root, where Next
+ * does not automatically load `apps/web/.env`. Load the usual local files only
+ * when the variables have not already been injected by the host (for example,
+ * Vercel's production environment).
+ */
+function loadPageIndexEnvironment(): void {
+  if (process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL) return;
+
+  const cwd = process.cwd();
+  loadEnv({ path: join(cwd, ".env.local") });
+  loadEnv({ path: join(cwd, ".env") });
+  loadEnv({ path: join(cwd, "apps", "web", ".env.local") });
+  loadEnv({ path: join(cwd, "apps", "web", ".env") });
+}
+
+/**
  * Get (or create) the singleton PageIndex instance.
  * Reads credentials from environment variables.
  *
@@ -400,10 +439,13 @@ let _instance: PageIndex | null = null;
 export function getPageIndex(): PageIndex {
   if (_instance) return _instance;
 
+  loadPageIndexEnvironment();
+
   const supabaseUrl =
     process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseKey =
     process.env.SUPABASE_SERVICE_KEY ??
+    process.env.SUPABASE_SERVICE_ROLE_KEY ??
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   const openaiKey = process.env.OPENAI_API_KEY;
   const geminiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;

@@ -210,6 +210,9 @@ export async function runCitator(input: CitatorInput): Promise<CitatorResult> {
   const rejectedSpansTuples = rejectedSpansFull.map(
     (s): [number, number] => s.span
   );
+  const rejectionReason = approved
+    ? undefined
+    : rejectedSpansFull.map((span) => span.message).join("; ");
 
   return {
     approved,
@@ -218,9 +221,7 @@ export async function runCitator(input: CitatorInput): Promise<CitatorResult> {
     verdict,
     resolved_citations: resolvedCitations,
     rejected_spans: rejectedSpansTuples,
-    rejection_reason: approved
-      ? undefined
-      : "One or more [CITE:...] markers reference node IDs that do not exist in PageIndex.",
+    rejection_reason: rejectionReason,
     trace,
   };
 }

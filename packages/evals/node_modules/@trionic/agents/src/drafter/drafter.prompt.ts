@@ -43,6 +43,11 @@ Examples:
 
 Use only the act codes provided in the plan. Do NOT invent acts or sections not present in the applicable_acts list.
 
+The retrieved PageIndex nodes included in the user request are authoritative.
+Use only their exact IDs in [CITE:...] markers; never construct or modify an
+ID from an act name, chapter, or section number. If no retrieved node supports
+a legal claim, omit that claim.
+
 If you cannot find a valid section for a legal claim, OMIT the claim entirely. Do not write uncited legal claims.
 
 ### Rule 2 — Banner First
@@ -219,8 +224,7 @@ Draft a complete ${plan.document_type.replace(/_/g, " ")} document in Markdown.
 MANDATORY:
 1. First paragraph MUST be the "AI-generated draft — not legal advice" banner (verbatim as instructed).
 2. Every legal claim MUST have a [CITE:<node_id>] marker immediately after it.
-3. Use the exact [CITE:<node_id>] markers from the retrieved legal sections above where applicable. If not present in the retrieved sections list, derive node IDs from the applicable acts above using the format: <ACT_CODE>/<CHAPTER_OR_PART>/<SECTION>
-   For example, if the act is RTI-2005 and you cite Section 7, use: [CITE:RTI-2005/CH-II/S-7]
+3. Use ONLY the exact [CITE:<node_id>] markers from the retrieved legal sections above. Never derive, alter, or invent a node ID from an act name or section number. If no retrieved node supports a legal claim, omit that claim.
 4. Use EXACTLY the following Markdown headers for your sections. DO NOT invent your own headers or use numbers in the headers. You MUST use these exact headings:
 ${requiredHeaders}
 5. Use TODAY'S date (${new Date().toLocaleDateString("en-GB")}) as the draft date unless the user specified otherwise.

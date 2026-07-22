@@ -33,7 +33,7 @@ import {
 } from "./drafter.prompt.js";
 import { extractCitations, extractNodeIds } from "./citations.js";
 import type { DrafterInput, DrafterResult } from "./types.js";
-import { getPageIndex, type AgnoSearchResult } from "@trionic/pageindex";
+import { getPageIndex, search as searchLocalPageIndex, type AgnoSearchResult } from "@trionic/pageindex";
 import { ROUTER_CONFIG } from "../router/router.config.js";
 
 // ─── runDrafter ───────────────────────────────────────────────────────────────
@@ -57,8 +57,25 @@ export async function runDrafter(input: DrafterInput): Promise<DrafterResult> {
 
   try {
     // 1. Query PageIndex for each hint query in plan.pageindex_queries
+    let livePageIndex: ReturnType<typeof getPageIndex> | null = null;
+    try {
+      livePageIndex = getPageIndex();
+    } catch (error) {
+      console.warn("[Drafter] Live PageIndex is not configured; using local artifacts:", error);
+    }
+
     const searchPromises = plan.pageindex_queries.map((q) =>
-      getPageIndex().search({ query: q, top_k: 3 }).catch((err: any) => {
+      (livePageIndex
+        ? livePageIndex.search({ query: q, top_k: 3 })
+        : searchLocalPageIndex(q, undefined, 3).then((results) =>
+            results.map((result) => ({
+              node_id: result.node.node_id,
+              snapshot_id: result.node.snapshot_id,
+              snippet: result.node.text.slice(0, 300),
+              score: result.relevance,
+            }))
+          )
+      ).catch((err: any) => {
         console.warn(`[Drafter] PageIndex search failed for query "${q}":`, err);
         return [] as AgnoSearchResult[];
       })

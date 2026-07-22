@@ -1,6 +1,7 @@
 import type { PageIndexNodeId, SnapshotId } from "@trionic/shared";
 import {
   get_text as pageindexGetText,
+  getPageIndex,
   NodeNotFoundError as PageIndexNodeNotFoundError,
 } from "@trionic/pageindex";
 
@@ -32,13 +33,35 @@ async function resolveText(node_id: PageIndexNodeId): Promise<PageIndexNode> {
   try {
     result = await pageindexGetText(node_id);
   } catch (error) {
-    if (
+    const isMissingNode =
       error instanceof PageIndexNodeNotFoundError ||
-      (error as { name?: string })?.name === "NodeNotFoundError"
-    ) {
-      throw new NodeNotFoundError(node_id);
+      (error as { name?: string })?.name === "NodeNotFoundError";
+    if (!isMissingNode) throw error;
+
+    // The local PageIndex artifact set is intentionally small. When a node is
+    // absent from it, validate against the configured live PageIndex before
+    // rejecting a citation that exists in the database.
+    try {
+      const liveNode = await getPageIndex().get_text({ node_id });
+      return {
+        node_id,
+        snapshot_id: liveNode.snapshot_id,
+        text: liveNode.text,
+      };
+    } catch (liveError) {
+      if (
+        liveError instanceof PageIndexNodeNotFoundError ||
+        (liveError as { name?: string })?.name === "NodeNotFoundError"
+      ) {
+        throw new NodeNotFoundError(node_id);
+      }
+      // A missing live PageIndex configuration is equivalent to no additional
+      // authoritative source being available; retain the original 404 result.
+      if ((liveError as Error)?.message?.startsWith("PageIndex:")) {
+        throw new NodeNotFoundError(node_id);
+      }
+      throw liveError;
     }
-    throw error;
   }
 
   return {
