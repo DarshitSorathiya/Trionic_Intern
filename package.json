@@ -11,7 +11,7 @@
     "build": "pnpm -r build",
     "dev": "pnpm --filter web dev",
     "lint": "pnpm -r --parallel lint",
-    "typecheck": "pnpm -r --parallel typecheck",
+    "typecheck": "pnpm -r --filter '!web' build && pnpm -r --parallel typecheck",
     "test": "pnpm -r --parallel test",
     "ingest:crpc": "pnpm --filter @trionic/pageindex ingest:crpc",
     "validate:crpc": "pnpm --filter @trionic/pageindex validate:crpc",

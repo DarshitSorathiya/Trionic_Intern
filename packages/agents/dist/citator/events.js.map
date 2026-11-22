@@ -1,0 +1,1 @@
+{"version":3,"file":"events.js","sourceRoot":"","sources":["../../src/citator/events.ts"],"names":[],"mappings":";;AAeA,oDAEC;AARD;;;;;GAKG;AACH,SAAgB,oBAAoB,CAAC,KAA2B;IAC9D,OAAO,CAAC,IAAI,CAAC,sBAAsB,KAAK,CAAC,IAAI,YAAY,KAAK,CAAC,OAAO,SAAS,KAAK,CAAC,IAAI,CAAC,CAAC,CAAC,IAAI,KAAK,CAAC,IAAI,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC;AACnH,CAAC"}

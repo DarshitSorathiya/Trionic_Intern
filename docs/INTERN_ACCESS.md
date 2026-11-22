@@ -6,17 +6,17 @@ Quick guide to what you have access to, what you don't, and why.
 
 ## 1. Local development (everyone, today)
 
-You can run the full app stack locally **right now** with no special permissions:
+You can start the web app locally without secret credentials:
 
 ```bash
 git clone https://github.com/Trionic-Interns/trionic-ai-adalat.git
 cd trionic-ai-adalat
-cp .env.example .env.local
+cp .env.example apps/web/.env.local
 pnpm install
 pnpm dev
 ```
 
-The `.env.example` file ships with the **public** Supabase URL and anon key already filled in. Those values are safe to share — they're bundled into the client JS in production. You don't need a Supabase login to start coding.
+The app starts without credentials, but authentication and database-backed features need a valid Supabase URL and anon key. See the [local development guide](./LOCAL_DEVELOPMENT.md) for setup details and the exact API keys used by each feature.
 
 ---
 
@@ -61,8 +61,8 @@ If you specifically need Vercel CLI access for your task (likely only DevOps), c
 
 | Value | Where it lives | Can interns see it? | Why |
 |---|---|---|---|
-| `SUPABASE_URL` | `.env.example` + GitHub Secrets + Vercel env | ✅ yes — public | Safe by design |
-| `SUPABASE_ANON_KEY` | `.env.example` + GitHub Secrets + Vercel env | ✅ yes — public | Bundled in client JS in prod |
+| `NEXT_PUBLIC_SUPABASE_URL` | `.env.example` + GitHub Secrets + Vercel env | ✅ yes — public | Project URL |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | `.env.example` + GitHub Secrets + Vercel env | ✅ yes — public | Publishable key; database access remains subject to RLS |
 | `SUPABASE_SERVICE_ROLE_KEY` | GitHub Secrets + Vercel env (server-only) | ❌ no | Bypasses RLS — full DB access |
 | `SUPABASE_DB_PASSWORD` | GitHub Secrets + Vercel env (server-only) | ❌ no | Postgres superuser |
 | `DEEPSEEK_API_KEY` | GitHub Secrets + Vercel env (server-only) | ❌ no | Billable account |
@@ -89,7 +89,7 @@ Don't paste keys in cohort chat. Don't paste them in a public Discord channel. D
 
 ## 6. What CI uses (GitHub Actions secrets)
 
-When your PR runs `pnpm typecheck` / `pnpm test`, GitHub Actions injects all the env vars from **GitHub Repository Secrets**. CI passes because Actions has the same values your local `.env.local` would have, plus the secret ones you don't.
+The lint, typecheck, unit-test, and build checks run in GitHub Actions without API keys. Repository secrets are not needed for those checks. Only repo managers can read or set secret values.
 
 You can see which secrets exist (names only, no values) at:
 https://github.com/Trionic-Interns/trionic-ai-adalat/settings/secrets/actions
@@ -111,7 +111,7 @@ Only repo managers can read or set values.
 
 | You want to... | Path |
 |---|---|
-| Run the app locally | `cp .env.example .env.local && pnpm dev` |
+| Run the app locally | `cp .env.example apps/web/.env.local && pnpm install && pnpm dev` |
 | See the database | Wait for Supabase invite → log in to https://supabase.com/dashboard |
 | See your deploys | Open a PR — the preview URL appears as a GitHub check |
 | Test with real LLMs | Use the deployed preview, or DM repo managers if your task requires local |

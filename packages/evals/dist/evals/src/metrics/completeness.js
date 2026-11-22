@@ -1,0 +1,69 @@
+// Keyword mapping for required sections in RTI applications (W2 + W3)
+const SECTION_KEYWORDS = {
+    address: ["pio", "public information officer", "to,", "to\n", "officer", "address"],
+    pio_address: ["pio", "public information officer", "to,", "to\n", "officer", "address"],
+    subject: ["subject:", "sub:", "subject –", "subject-", "regarding", "re:"],
+    sections_sought: ["information sought", "particulars of information", "information sought:", "information requested"],
+    information_requested: ["information sought", "particulars of information", "information requested:"],
+    "info sought": ["information sought", "particulars of information", "information sought:"],
+    info_sought: ["information sought", "particulars of information", "information sought:"],
+    declaration: ["declare", "i am a citizen", "citizen of india", "fee", "ipo", "postal order", "payment", "rs. 10", "rs 10"],
+    payment_details_declaration: ["declare", "citizen of india", "fee", "ipo", "postal order", "payment"],
+    applicant_details: ["applicant", "name of applicant", "i,"],
+    appeal_grounds: ["appeal", "grounds", "aggrieved", "rejection", "first appeal"],
+    date: ["date:", "date :", "2025", "2026", "dated"],
+    signature: ["signature:", "sincerely", "faithfully", "yours truly", "applicant"],
+};
+/**
+ * Checks if a specific section key is present in the draft text.
+ */
+function isSectionPresent(sectionKey, text) {
+    const lowerText = text.toLowerCase();
+    if (sectionKey === "date+signature" || sectionKey === "date_signature") {
+        return ["date", "signature"].every((part) => SECTION_KEYWORDS[part].some((keyword) => lowerText.includes(keyword)));
+    }
+    // 1. Direct match for header or label (e.g. "### Subject" or "**Subject**" or "Subject:")
+    const cleanKey = sectionKey.replace(/_/g, " ").trim().toLowerCase();
+    const directHeaderRegex = new RegExp(`(#+|\\*\\*|__)\\s*${cleanKey.replace(/[+]/g, "\\+")}\\s*(#+|\\*\\*|__)?`, "i");
+    const directLabelRegex = new RegExp(`^\\s*${cleanKey.replace(/[+]/g, "\\+")}\\s*:`, "mi");
+    if (directHeaderRegex.test(text) || directLabelRegex.test(text)) {
+        return true;
+    }
+    // 2. Keyword/phrase fallback
+    const keywords = SECTION_KEYWORDS[sectionKey] || [cleanKey];
+    return keywords.some((keyword) => lowerText.includes(keyword));
+}
+/**
+ * Evaluates the structural completeness of a draft document in a fixture.
+ * Completeness Rate = (present_sections / required_sections) * 100
+ */
+export async function completeness(fixture) {
+    const text = fixture.draft_output.text;
+    let requiredSections = fixture.ground_truth.required_sections || [];
+    // Fallback to default W3 required sections for RTI applications if empty
+    if (requiredSections.length === 0 && fixture.doc_type === "rti_application") {
+        requiredSections = ["pio_address", "subject", "info_sought", "declaration", "date_signature"];
+    }
+    const missingSections = [];
+    for (const section of requiredSections) {
+        if (!isSectionPresent(section, text)) {
+            missingSections.push(section);
+        }
+    }
+    const totalRequired = requiredSections.length;
+    const presentRequired = totalRequired - missingSections.length;
+    const rate = totalRequired === 0 ? 100 : (presentRequired / totalRequired) * 100;
+    return {
+        metric: "completeness",
+        required_sections: requiredSections,
+        missing_sections: missingSections,
+        completeness_rate: rate,
+        completeness_score: rate,
+        eval_metric: {
+            name: "completeness_rate",
+            value: rate,
+            unit: "percent",
+        },
+        status: rate === 100 ? "pass" : "fail",
+    };
+}

@@ -54,7 +54,7 @@ function resolvePageIndexFile(fileName: string, kind: "artifacts" | "data"): str
   }
 
   throw new Error(
-    `Could not resolve ${kind} file \"${fileName}\" from runtime paths.`,
+    `Could not resolve ${kind} file "${fileName}" from runtime paths.`,
   );
 }
 

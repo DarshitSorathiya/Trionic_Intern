@@ -6,6 +6,7 @@ A multilingual, agentic AI assistant for **Indian legal drafting and research** 
 
 ## Quick links
 
+- **[Run locally & API keys](./docs/LOCAL_DEVELOPMENT.md)** — setup, checks, and feature-specific credentials
 - **[Intern onboarding](./docs/ONBOARDING.md)** ← **start here if you just joined**
 - **[Intern access — Supabase / Vercel / secrets](./docs/INTERN_ACCESS.md)** — what you can see, what you can't, why
 - **[Project brief](./PROJECT_BRIEF.md)** — scope, goals, team ownership, hard constraints
@@ -16,6 +17,11 @@ A multilingual, agentic AI assistant for **Indian legal drafting and research** 
 - **[API contracts](./docs/API_CONTRACTS.md)** — every route, every request/response shape
 - **[Shared types](./packages/shared/src/types.ts)** — locked TypeScript contracts
 - **[Weekly reports](./reports/)** — per-intern progress logs
+
+## Run locally
+
+See the [local development guide](./docs/LOCAL_DEVELOPMENT.md) for prerequisites,
+environment setup, API-key requirements, and workspace verification commands.
 
 ## Repo layout
 

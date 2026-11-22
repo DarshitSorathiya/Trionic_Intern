@@ -82,46 +82,29 @@ async function runEvals(): Promise<void> {
         );
       }
 
-      // Hallucination rate — dynamic import so it doesn't crash if @trionic/agents isn't built
-      try {
-        const { hallucinationRate } =
-          await import("./metrics/hallucinationRate");
-        const hallucResult = await hallucinationRate(fixture);
-        totalHallucinationRate += hallucResult.hallucination_rate;
-        totalClaims += hallucResult.total_claims;
-        uncitedClaims += hallucResult.uncited_claims;
+      const hallucResult = await hallucinationRate(fixture);
+      totalHallucinationRate += hallucResult.hallucination_rate;
+      totalClaims += hallucResult.total_claims;
+      uncitedClaims += hallucResult.uncited_claims;
+      console.log(
+        `  Hallucination: ${hallucResult.hallucination_rate.toFixed(1)}% (${hallucResult.uncited_claims}/${hallucResult.total_claims} uncited claims)`,
+      );
+      if (hallucResult.hallucinated_spans.length > 0) {
         console.log(
-          `  Hallucination: ${hallucResult.hallucination_rate.toFixed(1)}% (${hallucResult.uncited_claims}/${hallucResult.total_claims} uncited claims)`,
-        );
-        if (hallucResult.hallucinated_spans.length > 0) {
-          console.log(
-            `    Uncited:     "${hallucResult.hallucinated_spans.join('", "')}"`,
-          );
-        }
-      } catch {
-        console.log(
-          `  Hallucination: skipped (requires API keys + agents build)`,
+          `    Uncited:     "${hallucResult.hallucinated_spans.join('", "')}"`,
         );
       }
 
-      // Completeness — dynamic import so it doesn't crash if @trionic/agents isn't built
-      try {
-        const { completeness } = await import("./metrics/completeness");
-        const compResult = await completeness(fixture);
-        totalCompletenessScore += compResult.completeness_score;
-        totalRequired += compResult.required_sections.length;
-        totalMissing += compResult.missing_sections.length;
+      const compResult = await completeness(fixture);
+      totalCompletenessScore += compResult.completeness_score;
+      totalRequired += compResult.required_sections.length;
+      totalMissing += compResult.missing_sections.length;
+      console.log(
+        `  Completeness:  ${compResult.completeness_score.toFixed(1)}% (${compResult.required_sections.length - compResult.missing_sections.length}/${compResult.required_sections.length} present)`,
+      );
+      if (compResult.missing_sections.length > 0) {
         console.log(
-          `  Completeness:  ${compResult.completeness_score.toFixed(1)}% (${compResult.required_sections.length - compResult.missing_sections.length}/${compResult.required_sections.length} present)`,
-        );
-        if (compResult.missing_sections.length > 0) {
-          console.log(
-            `    Missing:     ${compResult.missing_sections.join(", ")}`,
-          );
-        }
-      } catch {
-        console.log(
-          `  Completeness:  skipped (requires API keys + agents build)`,
+          `    Missing:     ${compResult.missing_sections.join(", ")}`,
         );
       }
 
@@ -131,9 +114,6 @@ async function runEvals(): Promise<void> {
 
     const overallCiteRate =
       totalCitations === 0 ? 0 : (validCitations / totalCitations) * 100;
-const avgCompleteness = totalCompletenessScore / fixtures.length;
-const avgHallucination = totalHallucinationRate / fixtures.length;
-
 const overallHallucinationRate =
   totalClaims === 0 ? 0 : (uncitedClaims / totalClaims) * 100;
 
@@ -207,7 +187,11 @@ const overallCompletenessRate =
 : ` EVAL FAILED ✗ (Citations: ${overallCiteRate.toFixed(1)}%, Hallucination: ${overallHallucinationRate.toFixed(1)}%, Completeness: ${overallCompletenessRate.toFixed(1)}%)`
     );
     console.log("==============================================");
+    if (!overallPassed) process.exitCode = 1;
   }
 }
 
-runEvals().catch(console.error);
+runEvals().catch((error: unknown) => {
+  console.error("Eval run failed:", error);
+  process.exitCode = 1;
+});

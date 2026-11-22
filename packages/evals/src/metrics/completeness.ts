@@ -26,9 +26,6 @@ const SECTION_KEYWORDS: Record<string, string[]> = {
   appeal_grounds:   ["appeal", "grounds", "aggrieved", "rejection", "first appeal"],
   date:             ["date:", "date :", "2025", "2026", "dated"],
   signature:        ["signature:", "sincerely", "faithfully", "yours truly", "applicant"],
-  // W3 composite field: date AND signature must both be present
-  "date+signature": ["date:", "date :", "2025", "2026", "dated", "signature:", "sincerely", "faithfully"],
-  date_signature:   ["date:", "date :", "2025", "2026", "dated", "signature:", "sincerely", "faithfully", "yours faithfully", "yours sincerely"],
 };
 
 /**
@@ -36,6 +33,12 @@ const SECTION_KEYWORDS: Record<string, string[]> = {
  */
 function isSectionPresent(sectionKey: string, text: string): boolean {
   const lowerText = text.toLowerCase();
+
+  if (sectionKey === "date+signature" || sectionKey === "date_signature") {
+    return ["date", "signature"].every((part) =>
+      SECTION_KEYWORDS[part].some((keyword) => lowerText.includes(keyword)),
+    );
+  }
 
   // 1. Direct match for header or label (e.g. "### Subject" or "**Subject**" or "Subject:")
   const cleanKey = sectionKey.replace(/_/g, " ").trim().toLowerCase();
