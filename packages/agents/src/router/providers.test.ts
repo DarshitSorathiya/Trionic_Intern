@@ -2,7 +2,7 @@
  * router/providers.test.ts
  * Owner: Yug Gandhi (LLM Router)
  *
- * Direct tests for each provider client (Claude, Gemini, GPT, DeepSeek)
+ * Direct tests for each provider client (Claude, Gemini, GPT, DeepSeek, Groq)
  * using mocked SDKs.
  */
 
@@ -10,14 +10,16 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 
 // Set environment variables before importing providers
 process.env.ANTHROPIC_API_KEY = "test-anthropic-key";
-process.env.GEMINI_API_KEY = "test-gemini-key";
+process.env.GOOGLE_API_KEY = "test-gemini-key";
 process.env.OPENAI_API_KEY = "test-openai-key";
 process.env.DEEPSEEK_API_KEY = "test-deepseek-key";
+process.env.GROQ_API_KEY = "test-groq-key";
 
 import { callClaude } from "./providers/claude.js";
 import { callGemini } from "./providers/gemini.js";
 import { callGPT } from "./providers/gpt.js";
 import { callDeepSeek } from "./providers/deepseek.js";
+import { callGroq } from "./providers/groq.js";
 
 // Mock Anthropic
 const mockClaudeMessagesCreate = vi.fn();
@@ -103,7 +105,7 @@ describe("LLM Providers - Direct Mock Tests", () => {
     });
 
     const res = await callGemini({
-      model: "gemini-1.5-flash",
+      model: "gemini-3.8-flash",
       systemPrompt: "System message",
       userPrompt: "User message",
       maxTokens: 100,
@@ -111,7 +113,7 @@ describe("LLM Providers - Direct Mock Tests", () => {
     });
 
     expect(res.text).toBe("Mock Gemini Response");
-    expect(res.model).toBe("gemini-1.5-flash");
+    expect(res.model).toBe("gemini-3.8-flash");
     expect(res.provider).toBe("gemini");
     expect(res.tokens_in).toBe(150);
     expect(res.tokens_out).toBe(300);
@@ -170,6 +172,29 @@ describe("LLM Providers - Direct Mock Tests", () => {
     // (100/1000)*0.00014 + (200/1000)*0.00028 = 0.000014 + 0.000056 = 0.00007
     expect(res.cost_usd).toBeCloseTo(0.00007, 6);
     expect(res.latency_ms).toBeGreaterThanOrEqual(0);
+    expect(res.fallback_used).toBe(false);
+    expect(mockOpenAICreate).toHaveBeenCalledTimes(1);
+  });
+
+  it("callGroq correctly parses Groq OpenAI-compatible response", async () => {
+    mockOpenAICreate.mockResolvedValueOnce({
+      choices: [{ message: { content: "Mock Groq Response" } }],
+      usage: { prompt_tokens: 90, completion_tokens: 180 },
+    });
+
+    const res = await callGroq({
+      model: "openai/gpt-oss-120b",
+      systemPrompt: "System message",
+      userPrompt: "User message",
+      maxTokens: 100,
+      temperature: 0.5,
+    });
+
+    expect(res.text).toBe("Mock Groq Response");
+    expect(res.model).toBe("openai/gpt-oss-120b");
+    expect(res.provider).toBe("groq");
+    expect(res.tokens_in).toBe(90);
+    expect(res.tokens_out).toBe(180);
     expect(res.fallback_used).toBe(false);
     expect(mockOpenAICreate).toHaveBeenCalledTimes(1);
   });

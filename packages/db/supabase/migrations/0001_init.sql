@@ -54,6 +54,22 @@ create trigger users_updated_at
 -- RLS
 alter table public.users enable row level security;
 
+create or replace function public.current_user_role()
+returns public.user_role
+language sql
+stable
+security definer
+set search_path = ''
+set row_security = off
+as $$
+  select u.role
+  from public.users as u
+  where u.id = (select auth.uid())
+$$;
+
+revoke all on function public.current_user_role() from public;
+grant execute on function public.current_user_role() to anon, authenticated, service_role;
+
 create policy "users: self read"
   on public.users for select
   using (auth.uid() = id);
@@ -61,19 +77,11 @@ create policy "users: self read"
 create policy "users: self update"
   on public.users for update
   using (auth.uid() = id)
-  with check (
-    auth.uid() = id
-    and role = (select role from public.users where id = auth.uid())  -- prevent self-escalation
-  );
+  with check (auth.uid() = id and role = public.current_user_role());
 
 create policy "users: admin read all"
   on public.users for select
-  using (
-    exists (
-      select 1 from public.users u
-      where u.id = auth.uid() and u.role = 'admin'
-    )
-  );
+  using (public.current_user_role() = 'admin'::public.user_role);
 
 -- Auto-create user row on Supabase Auth sign-up
 create or replace function public.handle_new_user()
@@ -128,9 +136,7 @@ create policy "documents: owner all"
 
 create policy "documents: admin read"
   on public.documents for select
-  using (
-    exists (select 1 from public.users where id = auth.uid() and role = 'admin')
-  );
+  using (public.current_user_role() = 'admin'::public.user_role);
 
 -- ---------------------------------------------------------------------------
 -- Table: document_versions
@@ -293,9 +299,7 @@ create policy "agent_traces: owner read"
 
 create policy "agent_traces: admin read all"
   on public.agent_traces for select
-  using (
-    exists (select 1 from public.users where id = auth.uid() and role = 'admin')
-  );
+  using (public.current_user_role() = 'admin'::public.user_role);
 
 -- ---------------------------------------------------------------------------
 -- Table: eval_runs

@@ -83,13 +83,13 @@ async function runDrafter(input) {
         const userPrompt = (0, drafter_prompt_js_1.buildDrafterUserPrompt)(plan, intakeText, retrievedNodes);
         // 2. Dynamic maxTokens adjustment for employment_contract
         const originalMaxTokens = router_config_js_1.ROUTER_CONFIG.drafter?.preferred?.maxTokens ?? 4096;
-        const originalFallbackTokens = router_config_js_1.ROUTER_CONFIG.drafter?.fallback?.maxTokens ?? 4096;
+        const originalFallbackTokens = router_config_js_1.ROUTER_CONFIG.drafter?.fallbacks?.map((fallback) => fallback.maxTokens) ?? [];
         if (plan.document_type === "employment_contract") {
             if (router_config_js_1.ROUTER_CONFIG.drafter) {
                 router_config_js_1.ROUTER_CONFIG.drafter.preferred.maxTokens = 8192;
-                if (router_config_js_1.ROUTER_CONFIG.drafter.fallback) {
-                    router_config_js_1.ROUTER_CONFIG.drafter.fallback.maxTokens = 8192;
-                }
+                router_config_js_1.ROUTER_CONFIG.drafter.fallbacks?.forEach((fallback) => {
+                    fallback.maxTokens = 8192;
+                });
             }
         }
         const isRti = plan.document_type === "rti_application";
@@ -97,16 +97,16 @@ async function runDrafter(input) {
         let llmResponse;
         try {
             // Route through LLM Router — see router.config.ts "drafter" entry:
-            //   Claude 3.5 Sonnet, maxTokens: 4096, temperature: 0.3
+            //   DeepSeek with Groq and Gemini fallbacks, temperature: 0.3
             llmResponse = await index_js_1.router.run("drafter", systemPrompt, userPrompt);
         }
         finally {
             // Always restore original maxTokens limits to avoid polluting other runs
             if (router_config_js_1.ROUTER_CONFIG.drafter) {
                 router_config_js_1.ROUTER_CONFIG.drafter.preferred.maxTokens = originalMaxTokens;
-                if (router_config_js_1.ROUTER_CONFIG.drafter.fallback) {
-                    router_config_js_1.ROUTER_CONFIG.drafter.fallback.maxTokens = originalFallbackTokens;
-                }
+                router_config_js_1.ROUTER_CONFIG.drafter.fallbacks?.forEach((fallback, index) => {
+                    fallback.maxTokens = originalFallbackTokens[index] ?? fallback.maxTokens;
+                });
             }
         }
         // Extract all [CITE:<node_id>] markers from the raw LLM output

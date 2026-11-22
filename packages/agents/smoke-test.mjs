@@ -7,10 +7,9 @@
  *   node packages/agents/smoke-test.mjs
  *
  * Required env vars (at least one LLM key must be set):
- *   DEEPSEEK_API_KEY   — used by drafter (preferred)
- *   GOOGLE_API_KEY     — used by classifier + reviewer (preferred)
- *   ANTHROPIC_API_KEY  — fallback for planner + drafter
- *   OPENAI_API_KEY     — fallback for classifier + reviewer
+ *   DEEPSEEK_API_KEY   — preferred provider
+ *   GROQ_API_KEY       — first fallback
+ *   GOOGLE_API_KEY     — second fallback (Gemini)
  *
  * Optional (for Supabase tracing):
  *   NEXT_PUBLIC_SUPABASE_URL
@@ -61,23 +60,21 @@ const canned_req = {
 
 // ─── API Key Diagnostic ────────────────────────────────────────────────────────
 const hasDeepSeek  = !!process.env.DEEPSEEK_API_KEY;
-const hasAnthropic = !!process.env.ANTHROPIC_API_KEY;
 const hasGoogle    = !!process.env.GOOGLE_API_KEY;
-const hasOpenAI    = !!process.env.OPENAI_API_KEY;
+const hasGroq      = !!process.env.GROQ_API_KEY;
 
 console.log("🔑 API Key status:");
-console.log(`   DEEPSEEK_API_KEY  : ${hasDeepSeek  ? "✅ set (drafter preferred)"   : "❌ missing"}`);
-console.log(`   ANTHROPIC_API_KEY : ${hasAnthropic ? "✅ set (drafter fallback)"    : "❌ missing"}`);
-console.log(`   GOOGLE_API_KEY    : ${hasGoogle    ? "✅ set (classifier preferred)" : "❌ missing"}`);
-console.log(`   OPENAI_API_KEY    : ${hasOpenAI    ? "✅ set (fallback)"             : "❌ missing"}`);
+console.log(`   DEEPSEEK_API_KEY  : ${hasDeepSeek ? "✅ set (preferred)"       : "❌ missing"}`);
+console.log(`   GROQ_API_KEY      : ${hasGroq     ? "✅ set (first fallback)"  : "❌ missing"}`);
+console.log(`   GOOGLE_API_KEY    : ${hasGoogle   ? "✅ set (Gemini fallback)" : "❌ missing"}`);
 
-if (!hasDeepSeek && !hasAnthropic && !hasGoogle && !hasOpenAI) {
+if (!hasDeepSeek && !hasGroq && !hasGoogle) {
   console.warn(`
 ⚠️  WARNING: No API keys found! The chain will run with stub fallbacks only.
-   Real LLM calls require at least:
-     - DEEPSEEK_API_KEY  → for drafter (primary)
-     - ANTHROPIC_API_KEY → for drafter fallback  
-     - GOOGLE_API_KEY    → for classifier & reviewer
+   Real LLM calls require at least one of:
+     - DEEPSEEK_API_KEY
+     - GROQ_API_KEY
+     - GOOGLE_API_KEY
    Set these in .env.local at the repo root before running.
 `);
 }

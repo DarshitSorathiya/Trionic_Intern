@@ -313,12 +313,12 @@ export function getPageIndex() {
         process.env.SUPABASE_SERVICE_ROLE_KEY ??
         process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
     const openaiKey = process.env.OPENAI_API_KEY;
-    const geminiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
+    const geminiKey = process.env.GOOGLE_API_KEY || process.env.GOOGLE_API_KEY;
     if (!supabaseUrl || !supabaseKey) {
         throw new Error("PageIndex: SUPABASE_URL (or NEXT_PUBLIC_SUPABASE_URL) and SUPABASE_SERVICE_KEY (or NEXT_PUBLIC_SUPABASE_ANON_KEY) must be set.");
     }
     if (!openaiKey && !geminiKey) {
-        console.warn("PageIndex: OPENAI_API_KEY/GEMINI_API_KEY not set. Vector search may fall back to local search.");
+        console.warn("PageIndex: OPENAI_API_KEY/GOOGLE_API_KEY not set. Vector search may fall back to local search.");
     }
     const embeddingApiKey = openaiKey
         ? `openai:${openaiKey}`

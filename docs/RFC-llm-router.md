@@ -283,7 +283,7 @@ This allows Team F (Evals & Telemetry) to query the database and generate real-t
 
 1. **How do we handle rate-limiting headers?** Should the Anthropic fallback trigger immediately upon detecting `429 Too Many Requests`, or should we perform an exponential backoff retry first?
 2. **What if the fallback model also fails?** Should there be a tertiary "ultra-cheap/always-up" fallback (like `gemini-1.5-flash` or `gpt-4o-mini` for all steps)?
-3. **API Key Security:** Do we restrict key access to the router modules, ensuring no other codebase part can read `process.env.ANTHROPIC_API_KEY`, `process.env.GEMINI_API_KEY`, or `process.env.OPENAI_API_KEY`?
+3. **API Key Security:** Do we restrict key access to the router modules, ensuring no other codebase part can read `process.env.ANTHROPIC_API_KEY`, `process.env.GOOGLE_API_KEY`, or `process.env.OPENAI_API_KEY`?
 
 ---
 

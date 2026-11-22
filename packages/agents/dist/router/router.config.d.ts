@@ -6,7 +6,7 @@
  * Change the values here to reroute any agent to a different model —
  * no code changes required in the agents themselves.
  */
-export type ModelProvider = "claude" | "gemini" | "gpt" | "deepseek";
+export type ModelProvider = "claude" | "gemini" | "gpt" | "deepseek" | "groq";
 export interface ModelConfig {
     /** Which provider to use. */
     provider: ModelProvider;
@@ -20,8 +20,8 @@ export interface ModelConfig {
 export interface StepRouteConfig {
     /** The primary model that should handle this step under normal circumstances. */
     preferred: ModelConfig;
-    /** The backup model to call if the primary model fails. */
-    fallback?: ModelConfig;
+    /** Backup models to try in order if the preferred model fails. */
+    fallbacks?: ModelConfig[];
 }
 export declare const ROUTER_CONFIG: Record<string, StepRouteConfig>;
 /** Default config used if a step is not found in ROUTER_CONFIG. */

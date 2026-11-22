@@ -4,7 +4,7 @@
  * Owner: Yug Gandhi (LLM Router)
  *
  * Gemini (Google) provider — FUNCTIONAL in Week 2.
- * Requires GEMINI_API_KEY in environment.
+ * Requires GOOGLE_API_KEY in environment.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.callGemini = callGemini;
@@ -12,9 +12,9 @@ const generative_ai_1 = require("@google/generative-ai");
 let client = null;
 function getClient() {
     if (!client) {
-        const apiKey = process.env.GEMINI_API_KEY;
+        const apiKey = process.env.GOOGLE_API_KEY;
         if (!apiKey) {
-            throw new Error("[GeminiProvider] GEMINI_API_KEY is not set in environment.");
+            throw new Error("[GeminiProvider] GOOGLE_API_KEY is not set in environment.");
         }
         client = new generative_ai_1.GoogleGenerativeAI(apiKey);
     }

@@ -3,7 +3,7 @@
  * Owner: Yug Gandhi (LLM Router)
  *
  * Gemini (Google) provider — FUNCTIONAL in Week 2.
- * Requires GEMINI_API_KEY in environment.
+ * Requires GOOGLE_API_KEY in environment.
  */
 import type { LLMRequest, LLMResponse } from "../index.js";
 /**

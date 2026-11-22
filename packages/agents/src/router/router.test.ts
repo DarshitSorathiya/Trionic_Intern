@@ -8,15 +8,11 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { LLMRouter } from "./index.js";
 import { ROUTER_CONFIG } from "./router.config.js";
-import { callClaude } from "./providers/claude.js";
 import { callGemini } from "./providers/gemini.js";
 import { callGPT } from "./providers/gpt.js";
 import { callDeepSeek } from "./providers/deepseek.js";
+import { callGroq } from "./providers/groq.js";
 import { CostCapTracker } from "./costCapTracker.js";
-
-vi.mock("./providers/claude.js", () => ({
-  callClaude: vi.fn(),
-}));
 
 vi.mock("./providers/gemini.js", () => ({
   callGemini: vi.fn(),
@@ -28,6 +24,10 @@ vi.mock("./providers/gpt.js", () => ({
 
 vi.mock("./providers/deepseek.js", () => ({
   callDeepSeek: vi.fn(),
+}));
+
+vi.mock("./providers/groq.js", () => ({
+  callGroq: vi.fn(),
 }));
 
 describe("LLMRouter.resolve()", () => {
@@ -49,11 +49,11 @@ describe("LLMRouter.resolve()", () => {
   });
 
   it("all configured steps have a valid provider", () => {
-    const validProviders = ["claude", "gemini", "gpt", "deepseek"];
+    const validProviders = ["claude", "gemini", "gpt", "deepseek", "groq"];
     for (const [_, cfg] of Object.entries(ROUTER_CONFIG)) {
       expect(validProviders).toContain(cfg.preferred.provider);
-      if (cfg.fallback) {
-        expect(validProviders).toContain(cfg.fallback.provider);
+      for (const fallback of cfg.fallbacks ?? []) {
+        expect(validProviders).toContain(fallback.provider);
       }
     }
   });
@@ -83,17 +83,16 @@ describe("LLMRouter.run() with mock providers", () => {
     expect(res.provider).toBe("deepseek");
     expect(res.fallback_used).toBe(false);
     expect(callDeepSeek).toHaveBeenCalledTimes(1);
-    expect(callClaude).not.toHaveBeenCalled();
+    expect(callGroq).not.toHaveBeenCalled();
+    expect(callGemini).not.toHaveBeenCalled();
   });
 
-  it("fails over to the fallback model if preferred fails", async () => {
-    // Preferred (deepseek) fails
+  it("fails over to Groq if the preferred provider fails", async () => {
     vi.mocked(callDeepSeek).mockRejectedValueOnce(new Error("DeepSeek quota exceeded"));
-    // Fallback (claude) succeeds
-    vi.mocked(callClaude).mockResolvedValueOnce({
-      text: "claude success",
-      model: "claude-3-5-sonnet-20241022",
-      provider: "claude",
+    vi.mocked(callGroq).mockResolvedValueOnce({
+      text: "groq success",
+      model: "openai/gpt-oss-120b",
+      provider: "groq",
       tokens_in: 15,
       tokens_out: 25,
       cost_usd: 0.0002,
@@ -102,20 +101,41 @@ describe("LLMRouter.run() with mock providers", () => {
     });
 
     const res = await router.run("reviewer", "You are reviewer", "Review draft");
-    expect(res.text).toBe("claude success");
-    expect(res.provider).toBe("claude");
+    expect(res.text).toBe("groq success");
+    expect(res.provider).toBe("groq");
     expect(res.fallback_used).toBe(true);
     expect(callDeepSeek).toHaveBeenCalledTimes(1);
-    expect(callClaude).toHaveBeenCalledTimes(1);
+    expect(callGroq).toHaveBeenCalledTimes(1);
   });
 
-  it("throws a cumulative error if both preferred and fallback fail", async () => {
+  it("tries Gemini if both DeepSeek and Groq fail", async () => {
     vi.mocked(callDeepSeek).mockRejectedValueOnce(new Error("DeepSeek quota exceeded"));
-    vi.mocked(callClaude).mockRejectedValueOnce(new Error("Claude rate limit"));
+    vi.mocked(callGroq).mockRejectedValueOnce(new Error("Groq rate limit"));
+    vi.mocked(callGemini).mockResolvedValueOnce({
+      text: "gemini success",
+      model: "gemini-3.8-flash",
+      provider: "gemini",
+      tokens_in: 15,
+      tokens_out: 25,
+      cost_usd: 0,
+      latency_ms: 150,
+      fallback_used: false,
+    });
 
+    const res = await router.run("reviewer", "You are reviewer", "Review draft");
+    expect(res.text).toBe("gemini success");
+    expect(res.provider).toBe("gemini");
+    expect(res.fallback_used).toBe(true);
+    expect(callGemini).toHaveBeenCalledTimes(1);
+  });
+
+  it("throws an error containing each provider failure", async () => {
+    vi.mocked(callDeepSeek).mockRejectedValueOnce(new Error("DeepSeek quota exceeded"));
+    vi.mocked(callGroq).mockRejectedValueOnce(new Error("Groq rate limit"));
+    vi.mocked(callGemini).mockRejectedValueOnce(new Error("Gemini unavailable"));
     await expect(
       router.run("reviewer", "You are reviewer", "Review draft")
-    ).rejects.toThrow("Both preferred and fallback models failed for step \"reviewer\"");
+    ).rejects.toThrow("Preferred and all fallback models failed for step \"reviewer\"");
   });
 });
 
@@ -165,12 +185,12 @@ describe("LLMRouter.run() with DeepSeek & Cost Cap", () => {
     expect(CostCapTracker.getDailyCost()).toBe(startCost + 0.00007);
   });
 
-  it("transparently retries with fallback (Claude) if DeepSeek fails", async () => {
+  it("transparently retries with Groq if DeepSeek fails", async () => {
     vi.mocked(callDeepSeek).mockRejectedValueOnce(new Error("DeepSeek 503 Service Unavailable"));
-    vi.mocked(callClaude).mockResolvedValueOnce({
-      text: "claude fallback draft successfully",
-      model: "claude-3-5-sonnet-20241022",
-      provider: "claude",
+    vi.mocked(callGroq).mockResolvedValueOnce({
+      text: "groq fallback draft successfully",
+      model: "openai/gpt-oss-120b",
+      provider: "groq",
       tokens_in: 100,
       tokens_out: 200,
       cost_usd: 0.003,
@@ -180,21 +200,21 @@ describe("LLMRouter.run() with DeepSeek & Cost Cap", () => {
 
     const res = await router.run("drafter", "System prompt", "User prompt");
 
-    expect(res.text).toBe("claude fallback draft successfully");
-    expect(res.provider).toBe("claude");
+    expect(res.text).toBe("groq fallback draft successfully");
+    expect(res.provider).toBe("groq");
     expect(res.fallback_used).toBe(true);
     expect(callDeepSeek).toHaveBeenCalledTimes(1);
-    expect(callClaude).toHaveBeenCalledTimes(1);
+    expect(callGroq).toHaveBeenCalledTimes(1);
   });
 
   it("transparently retries with fallback if DeepSeek cost cap is exceeded", async () => {
     CostCapTracker.setLimit(0.00001);
     CostCapTracker.addCost(0.00005);
 
-    vi.mocked(callClaude).mockResolvedValueOnce({
-      text: "claude fallback draft successfully due to cost cap",
-      model: "claude-3-5-sonnet-20241022",
-      provider: "claude",
+    vi.mocked(callGroq).mockResolvedValueOnce({
+      text: "groq fallback draft successfully due to cost cap",
+      model: "openai/gpt-oss-120b",
+      provider: "groq",
       tokens_in: 100,
       tokens_out: 200,
       cost_usd: 0.003,
@@ -204,10 +224,10 @@ describe("LLMRouter.run() with DeepSeek & Cost Cap", () => {
 
     const res = await router.run("drafter", "System prompt", "User prompt");
 
-    expect(res.text).toBe("claude fallback draft successfully due to cost cap");
-    expect(res.provider).toBe("claude");
+    expect(res.text).toBe("groq fallback draft successfully due to cost cap");
+    expect(res.provider).toBe("groq");
     expect(res.fallback_used).toBe(true);
     expect(callDeepSeek).not.toHaveBeenCalled();
-    expect(callClaude).toHaveBeenCalledTimes(1);
+    expect(callGroq).toHaveBeenCalledTimes(1);
   });
 });

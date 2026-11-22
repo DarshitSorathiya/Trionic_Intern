@@ -7,7 +7,7 @@
  * no code changes required in the agents themselves.
  */
 
-export type ModelProvider = "claude" | "gemini" | "gpt" | "deepseek";
+export type ModelProvider = "claude" | "gemini" | "gpt" | "deepseek" | "groq";
 
 export interface ModelConfig {
   /** Which provider to use. */
@@ -23,8 +23,8 @@ export interface ModelConfig {
 export interface StepRouteConfig {
   /** The primary model that should handle this step under normal circumstances. */
   preferred: ModelConfig;
-  /** The backup model to call if the primary model fails. */
-  fallback?: ModelConfig;
+  /** Backup models to try in order if the preferred model fails. */
+  fallbacks?: ModelConfig[];
 }
 
 /**
@@ -32,8 +32,22 @@ export interface StepRouteConfig {
  * Key = agent step name (matches agent.ts export names).
  * Value = step route config for that step (preferred + fallback).
  */
-/** Shared Claude fallback model string. */
-const CLAUDE_MODEL = "claude-3-5-sonnet-20241022";
+function fallbackChain(maxTokens: number, temperature: number): ModelConfig[] {
+  return [
+    {
+      provider: "groq",
+      model: "openai/gpt-oss-120b",
+      maxTokens,
+      temperature,
+    },
+    {
+      provider: "gemini",
+      model: "gemini-3.8-flash",
+      maxTokens,
+      temperature,
+    },
+  ];
+}
 
 export const ROUTER_CONFIG: Record<string, StepRouteConfig> = {
   classifier: {
@@ -43,28 +57,16 @@ export const ROUTER_CONFIG: Record<string, StepRouteConfig> = {
       maxTokens: 512,
       temperature: 0.1,
     },
-    fallback: {
-      provider: "claude",
-      model: CLAUDE_MODEL,
-      maxTokens: 512,
-      temperature: 0.1,
-    },
+    fallbacks: fallbackChain(512, 0.1),
   },
   planner: {
-    // DeepSeek is the only provider we run in practice; Claude stays as a
-    // documented resilience fallback for when a key is available.
     preferred: {
       provider: "deepseek",
       model: "deepseek-chat",
       maxTokens: 1024,
       temperature: 0.2,
     },
-    fallback: {
-      provider: "claude",
-      model: CLAUDE_MODEL,
-      maxTokens: 1024,
-      temperature: 0.2,
-    },
+    fallbacks: fallbackChain(1024, 0.2),
   },
   drafter: {
     preferred: {
@@ -73,12 +75,7 @@ export const ROUTER_CONFIG: Record<string, StepRouteConfig> = {
       maxTokens: 4096,
       temperature: 0.3,
     },
-    fallback: {
-      provider: "claude",
-      model: CLAUDE_MODEL,
-      maxTokens: 4096,
-      temperature: 0.3,
-    },
+    fallbacks: fallbackChain(4096, 0.3),
   },
   citator: {
     preferred: {
@@ -87,12 +84,7 @@ export const ROUTER_CONFIG: Record<string, StepRouteConfig> = {
       maxTokens: 512,
       temperature: 0.0,
     },
-    fallback: {
-      provider: "claude",
-      model: CLAUDE_MODEL,
-      maxTokens: 512,
-      temperature: 0.0,
-    },
+    fallbacks: fallbackChain(512, 0.0),
   },
   reviewer: {
     preferred: {
@@ -101,12 +93,7 @@ export const ROUTER_CONFIG: Record<string, StepRouteConfig> = {
       maxTokens: 1024,
       temperature: 0.2,
     },
-    fallback: {
-      provider: "claude",
-      model: CLAUDE_MODEL,
-      maxTokens: 1024,
-      temperature: 0.2,
-    },
+    fallbacks: fallbackChain(1024, 0.2),
   },
   translator: {
     preferred: {
@@ -115,12 +102,7 @@ export const ROUTER_CONFIG: Record<string, StepRouteConfig> = {
       maxTokens: 2048,
       temperature: 0.1,
     },
-    fallback: {
-      provider: "claude",
-      model: CLAUDE_MODEL,
-      maxTokens: 2048,
-      temperature: 0.1,
-    },
+    fallbacks: fallbackChain(2048, 0.1),
   },
 };
 
@@ -132,11 +114,6 @@ export const DEFAULT_ROUTE_CONFIG: StepRouteConfig = {
     maxTokens: 1024,
     temperature: 0.2,
   },
-  fallback: {
-    provider: "claude",
-    model: CLAUDE_MODEL,
-    maxTokens: 1024,
-    temperature: 0.2,
-  },
+  fallbacks: fallbackChain(1024, 0.2),
 };
 

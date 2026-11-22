@@ -289,7 +289,7 @@ reviewer: {
 | Provider | File | Status | Env Key |
 |---------|------|--------|---------|
 | Claude (Anthropic) | `providers/claude.ts` | ✅ LIVE | `ANTHROPIC_API_KEY` |
-| Gemini (Google) | `providers/gemini.ts` | 🔲 Stub | `GEMINI_API_KEY` (Week 2) |
+| Gemini (Google) | `providers/gemini.ts` | 🔲 Stub | `GOOGLE_API_KEY` (Week 2) |
 | GPT (OpenAI) | `providers/gpt.ts` | 🔲 Stub | `OPENAI_API_KEY` (Week 2) |
 
 ### Interfaces
@@ -372,7 +372,7 @@ interface PipelineResult {
 | Variable | Required By | Notes |
 |---------|------------|-------|
 | `ANTHROPIC_API_KEY` | Claude provider | Required in Week 1 for live calls |
-| `GEMINI_API_KEY` | Gemini provider | Needed in Week 2 when Gemini is un-stubbed |
+| `GOOGLE_API_KEY` | Gemini provider | Needed in Week 2 when Gemini is un-stubbed |
 | `OPENAI_API_KEY` | GPT provider | Needed in Week 2 when GPT is un-stubbed |
 
 ---

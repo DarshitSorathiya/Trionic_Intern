@@ -97,14 +97,16 @@ export async function runDrafter(input: DrafterInput): Promise<DrafterResult> {
 
     // 2. Dynamic maxTokens adjustment for employment_contract
     const originalMaxTokens = ROUTER_CONFIG.drafter?.preferred?.maxTokens ?? 4096;
-    const originalFallbackTokens = ROUTER_CONFIG.drafter?.fallback?.maxTokens ?? 4096;
+    const originalFallbackTokens = ROUTER_CONFIG.drafter?.fallbacks?.map(
+      (fallback) => fallback.maxTokens
+    ) ?? [];
 
     if ((plan.document_type as string) === "employment_contract") {
       if (ROUTER_CONFIG.drafter) {
         ROUTER_CONFIG.drafter.preferred.maxTokens = 8192;
-        if (ROUTER_CONFIG.drafter.fallback) {
-          ROUTER_CONFIG.drafter.fallback.maxTokens = 8192;
-        }
+        ROUTER_CONFIG.drafter.fallbacks?.forEach((fallback) => {
+          fallback.maxTokens = 8192;
+        });
       }
     }
 
@@ -114,7 +116,7 @@ export async function runDrafter(input: DrafterInput): Promise<DrafterResult> {
     let llmResponse;
     try {
       // Route through LLM Router — see router.config.ts "drafter" entry:
-      //   Claude 3.5 Sonnet, maxTokens: 4096, temperature: 0.3
+      //   DeepSeek with Groq and Gemini fallbacks, temperature: 0.3
       llmResponse = await router.run(
         "drafter",
         systemPrompt,
@@ -124,9 +126,9 @@ export async function runDrafter(input: DrafterInput): Promise<DrafterResult> {
       // Always restore original maxTokens limits to avoid polluting other runs
       if (ROUTER_CONFIG.drafter) {
         ROUTER_CONFIG.drafter.preferred.maxTokens = originalMaxTokens;
-        if (ROUTER_CONFIG.drafter.fallback) {
-          ROUTER_CONFIG.drafter.fallback.maxTokens = originalFallbackTokens;
-        }
+        ROUTER_CONFIG.drafter.fallbacks?.forEach((fallback, index) => {
+          fallback.maxTokens = originalFallbackTokens[index] ?? fallback.maxTokens;
+        });
       }
     }
 

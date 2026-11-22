@@ -76,14 +76,15 @@ paste secret values into source control, chat, or issue comments.
 | `NEXT_PUBLIC_SUPABASE_URL` | Supabase auth and app data | Project URL; public configuration, not a credential. |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase auth and app data | Public/publishable key. Database access remains subject to RLS policies. |
 | `DEEPSEEK_API_KEY` | Default AI drafting/agent chain | Primary provider for the configured agent steps. |
-| `ANTHROPIC_API_KEY` | Claude fallback provider | Optional unless you want fallback calls to work when DeepSeek is unavailable. |
-| `OPENAI_API_KEY` | OpenAI provider or OpenAI embeddings | Optional; PageIndex can use it for vector search. |
-| `GEMINI_API_KEY` | Gemini provider or Gemini embeddings | Optional. `GOOGLE_API_KEY` is also accepted by PageIndex for embeddings, but the agent Gemini provider expects `GEMINI_API_KEY`. |
+| `GROQ_API_KEY` | Groq fallback provider | Required for the first fallback when DeepSeek is unavailable. |
+| `GOOGLE_API_KEY` | Gemini provider or Gemini embeddings | Optional. `GOOGLE_API_KEY` is also accepted by PageIndex for embeddings, but the agent Gemini provider expects `GOOGLE_API_KEY`. |
 | `SUPABASE_SERVICE_ROLE_KEY` or `SUPABASE_SERVICE_KEY` | Server-side PageIndex/admin operations that need elevated access | Privileged and server-only; never use either in a `NEXT_PUBLIC_` variable or browser code. Prefer the anon key when RLS is sufficient. |
 | `SUPABASE_DB_PASSWORD` | Direct database administration | Not needed to run the web app. Keep it secret. |
 | `SENTRY_DSN` | Error reporting | Optional. |
 
 `NEXT_PUBLIC_APP_URL` is optional and defaults to `http://localhost:3000`.
+The standalone PageIndex batch embedding script still uses OpenAI embeddings and
+requires `OPENAI_API_KEY`; that script is separate from the web app's LLM routes.
 PageIndex also accepts `SUPABASE_URL` as an alias for
 `NEXT_PUBLIC_SUPABASE_URL`. The service-role key aliases above are accepted for
 PageIndex; do not treat those privileged keys as interchangeable with the anon

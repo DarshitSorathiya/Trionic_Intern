@@ -18,6 +18,7 @@ const claude_js_1 = require("./providers/claude.js");
 const gemini_js_1 = require("./providers/gemini.js");
 const gpt_js_1 = require("./providers/gpt.js");
 const deepseek_js_1 = require("./providers/deepseek.js");
+const groq_js_1 = require("./providers/groq.js");
 const costCapTracker_js_1 = require("./costCapTracker.js");
 // Helper to wrap a promise with a timeout
 function withTimeout(promise, ms, errMsg) {
@@ -62,25 +63,24 @@ class LLMRouter {
         }
         catch (primaryErr) {
             console.warn(`[LLMRouter] Preferred model (${routeConfig.preferred.provider}/${routeConfig.preferred.model}) failed for step "${step}": ${primaryErr.message || primaryErr}.`);
-            if (routeConfig.fallback) {
-                console.warn(`[LLMRouter] Attempting fallback to model (${routeConfig.fallback.provider}/${routeConfig.fallback.model}) for step "${step}"...`);
+            const failures = [`Primary error: ${primaryErr.message || primaryErr}`];
+            for (const fallback of routeConfig.fallbacks ?? []) {
+                console.warn(`[LLMRouter] Attempting fallback to model (${fallback.provider}/${fallback.model}) for step "${step}"...`);
                 try {
-                    const response = await this.executeCall(routeConfig.fallback, systemPrompt, userPrompt, timeoutMs);
+                    const response = await this.executeCall(fallback, systemPrompt, userPrompt, timeoutMs);
                     return {
                         ...response,
-                        provider: routeConfig.fallback.provider,
+                        provider: fallback.provider,
                         fallback_used: true,
                     };
                 }
                 catch (fallbackErr) {
-                    throw new Error(`[LLMRouter] Both preferred and fallback models failed for step "${step}". ` +
-                        `Primary error: ${primaryErr.message || primaryErr}. ` +
-                        `Fallback error: ${fallbackErr.message || fallbackErr}.`);
+                    failures.push(`${fallback.provider} error: ${fallbackErr.message || fallbackErr}`);
                 }
             }
-            else {
+            if (!routeConfig.fallbacks?.length)
                 throw primaryErr;
-            }
+            throw new Error(`[LLMRouter] Preferred and all fallback models failed for step "${step}". ${failures.join(". ")}.`);
         }
     }
     async executeCall(config, systemPrompt, userPrompt, timeoutMs) {
@@ -105,6 +105,8 @@ class LLMRouter {
                         costCapTracker_js_1.CostCapTracker.addCost(res.cost_usd);
                         return res;
                     });
+                case "groq":
+                    return (0, groq_js_1.callGroq)(req);
                 default:
                     throw new Error(`[LLMRouter] Unknown provider: ${config.provider}`);
             }
