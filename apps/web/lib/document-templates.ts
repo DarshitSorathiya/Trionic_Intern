@@ -96,6 +96,27 @@ const TEMPLATES: Record<string, DocumentTemplate> = {
       { id: "demand", title: "Demand", required: true },
     ],
   },
+  employment_contract: {
+    docType: "employment_contract",
+    allowedSections: [
+      { id: "parties", title: "Parties", required: true },
+      { id: "role", title: "Role and Responsibilities", required: true },
+      { id: "compensation", title: "Compensation", required: true },
+      { id: "term", title: "Term and Termination", required: true },
+      { id: "confidentiality", title: "Confidentiality", required: false },
+      { id: "governing_law", title: "Governing Law", required: false },
+      { id: "signatures", title: "Signatures", required: true },
+    ],
+    defaultSections: [
+      { id: "parties", title: "Parties", required: true },
+      { id: "role", title: "Role and Responsibilities", required: true },
+      { id: "compensation", title: "Compensation", required: true },
+      { id: "term", title: "Term and Termination", required: true },
+      { id: "confidentiality", title: "Confidentiality", required: false },
+      { id: "governing_law", title: "Governing Law", required: false },
+      { id: "signatures", title: "Signatures", required: true },
+    ],
+  },
   other: {
     docType: "other",
     allowedSections: [

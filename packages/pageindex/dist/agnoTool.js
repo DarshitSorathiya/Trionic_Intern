@@ -18,17 +18,25 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PageIndex = void 0;
+exports.resolvePageIndexSupabaseCredentials = resolvePageIndexSupabaseCredentials;
 exports.getPageIndex = getPageIndex;
 const supabase_js_1 = require("@supabase/supabase-js");
 const dotenv_1 = require("dotenv");
 const path_1 = require("path");
 const query_js_1 = require("./query.js");
 const errors_js_1 = require("./errors.js");
+function resolvePageIndexSupabaseCredentials(env = process.env) {
+    const firstNonEmpty = (...values) => values.find((value) => typeof value === "string" && value.trim().length > 0)?.trim();
+    return {
+        supabaseUrl: firstNonEmpty(env.SUPABASE_URL, env.NEXT_PUBLIC_SUPABASE_URL),
+        supabaseKey: firstNonEmpty(env.SUPABASE_SERVICE_KEY, env.SUPABASE_SERVICE_ROLE_KEY, env.NEXT_PUBLIC_SUPABASE_ANON_KEY),
+    };
+}
 // ─── PageIndex class ─────────────────────────────────────────────────────────
 class PageIndex {
     supabase;
     embeddingApiKey;
-    latestSnapshotId = null;
+    latestSnapshotIds = new Map();
     constructor(supabaseUrl, supabaseKey, embeddingApiKey) {
         this.supabase = (0, supabase_js_1.createClient)(supabaseUrl, supabaseKey);
         this.embeddingApiKey = embeddingApiKey;
@@ -48,10 +56,16 @@ class PageIndex {
     async search(params) {
         const { query, scope, top_k = 5, snapshot_id } = params;
         const k = Math.min(top_k, 20);
-        const snapshotId = snapshot_id ?? (await this.getLatestSnapshotId());
+        const actScope = scope ? (0, query_js_1.getPageIndexActScopeFromNodePrefix)(scope) : undefined;
+        if (scope && !actScope) {
+            console.warn(`PageIndex scope "${scope}" is not mapped to a local Act index.`);
+            return [];
+        }
+        const localScope = actScope ? { act_code: actScope.act_code } : undefined;
+        const snapshotId = snapshot_id ?? (await this.getLatestSnapshotId(actScope?.act_code));
         if (!snapshotId) {
             // Graceful fallback for local/dev environments where DB snapshots are not seeded.
-            const fallback = await (0, query_js_1.search)(query, undefined, k);
+            const fallback = await (0, query_js_1.search)(query, localScope, k);
             return fallback.map((item) => ({
                 node_id: item.node.node_id,
                 snapshot_id: item.node.snapshot_id,
@@ -81,7 +95,7 @@ class PageIndex {
         }
         catch (err) {
             console.warn("PageIndex vector search failed; using local search fallback:", err);
-            const fallback = await (0, query_js_1.search)(query, undefined, k);
+            const fallback = await (0, query_js_1.search)(query, localScope, k);
             return fallback.map((item) => ({
                 node_id: item.node.node_id,
                 snapshot_id: item.node.snapshot_id,
@@ -168,20 +182,24 @@ class PageIndex {
         }
     }
     // ─── Private helpers ───────────────────────────────────────────────────────
-    async getLatestSnapshotId() {
-        if (this.latestSnapshotId)
-            return this.latestSnapshotId;
+    async getLatestSnapshotId(actCode) {
+        if (!actCode)
+            return null;
+        const cachedSnapshotId = this.latestSnapshotIds.get(actCode);
+        if (cachedSnapshotId)
+            return cachedSnapshotId;
         const { data, error } = await this.supabase
             .from("pageindex_snapshots")
             .select("id")
-            .eq("act_code", "COI-1950")
+            .eq("act_code", actCode)
             .order("id", { ascending: false })
             .limit(1)
             .maybeSingle();
         if (error || !data)
             return null;
-        this.latestSnapshotId = data.id;
-        return this.latestSnapshotId;
+        const snapshotId = data.id;
+        this.latestSnapshotIds.set(actCode, snapshotId);
+        return snapshotId;
     }
     async embed(text) {
         if (this.embeddingApiKey === "dummy-key") {
@@ -315,10 +333,7 @@ function getPageIndex() {
     if (_instance)
         return _instance;
     loadPageIndexEnvironment();
-    const supabaseUrl = process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const supabaseKey = process.env.SUPABASE_SERVICE_KEY ??
-        process.env.SUPABASE_SERVICE_ROLE_KEY ??
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+    const { supabaseUrl, supabaseKey } = resolvePageIndexSupabaseCredentials();
     const openaiKey = process.env.OPENAI_API_KEY;
     const geminiKey = process.env.GOOGLE_API_KEY || process.env.GOOGLE_API_KEY;
     if (!supabaseUrl || !supabaseKey) {

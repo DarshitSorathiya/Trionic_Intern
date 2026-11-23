@@ -33,7 +33,12 @@ import {
 } from "./drafter.prompt.js";
 import { extractCitations, extractNodeIds } from "./citations.js";
 import type { DrafterInput, DrafterResult } from "./types.js";
-import { getPageIndex, search as searchLocalPageIndex, type AgnoSearchResult } from "@trionic/pageindex";
+import {
+  getPageIndex,
+  getPageIndexActScope,
+  search as searchLocalPageIndex,
+  type AgnoSearchResult,
+} from "@trionic/pageindex";
 import { ROUTER_CONFIG } from "../router/router.config.js";
 
 // ─── runDrafter ───────────────────────────────────────────────────────────────
@@ -64,22 +69,45 @@ export async function runDrafter(input: DrafterInput): Promise<DrafterResult> {
       console.warn("[Drafter] Live PageIndex is not configured; using local artifacts:", error);
     }
 
-    const searchPromises = plan.pageindex_queries.map((q) =>
-      (livePageIndex
-        ? livePageIndex.search({ query: q, top_k: 3 })
-        : searchLocalPageIndex(q, undefined, 3).then((results) =>
-            results.map((result) => ({
-              node_id: result.node.node_id,
-              snapshot_id: result.node.snapshot_id,
-              snippet: result.node.text.slice(0, 300),
-              score: result.relevance,
-            }))
-          )
-      ).catch((err: any) => {
-        console.warn(`[Drafter] PageIndex search failed for query "${q}":`, err);
+    const searchPromises = plan.pageindex_queries.map(async (q) => {
+      const explicitActs = plan.applicable_acts.filter((act) =>
+        q.toLowerCase().includes(act.toLowerCase())
+      );
+      const queryActs = explicitActs.length > 0 ? explicitActs : plan.applicable_acts;
+      const scopes = queryActs
+        .map((act) => getPageIndexActScope(act))
+        .filter((scope) => scope !== undefined);
+
+      if (scopes.length === 0) {
+        console.warn(`[Drafter] No PageIndex scope is configured for query "${q}".`);
         return [] as AgnoSearchResult[];
-      })
-    );
+      }
+
+      const scopedResults = await Promise.all(scopes.map(async (scope) => {
+        try {
+          if (livePageIndex) {
+            return await livePageIndex.search({
+              query: q,
+              scope: scope.node_prefix,
+              top_k: 3,
+            });
+          }
+
+          const results = await searchLocalPageIndex(q, { act_code: scope.act_code }, 3);
+          return results.map((result) => ({
+            node_id: result.node.node_id,
+            snapshot_id: result.node.snapshot_id,
+            snippet: result.node.text.slice(0, 300),
+            score: result.relevance,
+          }));
+        } catch (err) {
+          console.warn(`[Drafter] PageIndex search failed for query "${q}":`, err);
+          return [] as AgnoSearchResult[];
+        }
+      }));
+
+      return scopedResults.flat();
+    });
     const searchResults = await Promise.all(searchPromises);
     const flatResults = searchResults.flat();
 

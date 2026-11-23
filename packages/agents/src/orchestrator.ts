@@ -85,6 +85,7 @@ function stubClassifierOutput(req: DraftRequest): ClassifierOutput {
     nda:                  "contract",
     consumer_complaint:   "consumer",
     cheque_bounce_notice: "criminal",
+    employment_contract:  "contract",
   };
 
   const domain = req.doc_type
@@ -191,6 +192,7 @@ export async function* runAgentChain(
       const result = await runClassifier({
         intakeText: req.intake_text,
         language:   req.target_language,
+        documentType: req.doc_type,
         session_id,
       });
       classifierOutput = result.classification;

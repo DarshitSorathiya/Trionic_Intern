@@ -57,7 +57,8 @@ alter table public.documents
     'legal_notice',
     'nda',
     'consumer_complaint',
-    'cheque_bounce_notice'
+    'cheque_bounce_notice',
+    'employment_contract'
   ));
 
 -- 4. Restore NOT NULL with a sensible default for new rows.
@@ -71,6 +72,6 @@ drop type public.document_type;
 -- 6. Document the column.
 comment on column public.documents.doc_type is
   'Document type — one of @trionic/shared DocumentType. '
-  'CHECK constraint enforces the union; do not reintroduce a PG enum here.';
+  'CHECK constraint enforces @trionic/shared DocumentType; do not reintroduce a PG enum here.';
 
 commit;

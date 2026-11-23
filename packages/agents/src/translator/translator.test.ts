@@ -296,6 +296,32 @@ describe("runTranslator()", () => {
     expect(Array.isArray(result.output.glossary_hits)).toBe(true);
   });
 
+  it.each(["hi", "gu", "mr", "ta"] as const)(
+    "preserves language metadata and citations for %s",
+    async (language) => {
+      const { router } = await import("../router/index.js");
+      const { lookupGlossary } = await import("@trionic/translation");
+      const placeholderDraft = stripCitations(RTI_DRAFT_EN).cleaned;
+      vi.mocked(router.run).mockResolvedValue({
+        ...MOCK_LLM_RESPONSE,
+        text: `Translation fixture (${language})\n${placeholderDraft}`,
+      });
+      vi.mocked(lookupGlossary).mockResolvedValue({
+        entries: [],
+        missing_node_ids: [],
+        missing_terms: [],
+        glossary_available: true,
+      });
+
+      const result = await runTranslator({ ...mockHiInput, target_language: language });
+      const markers = result.output.translated_markdown.match(/\[CITE:[^\]]+\]/g) ?? [];
+
+      expect(result.output.target_language).toBe(language);
+      expect(markers).toHaveLength(5);
+      expect(new Set(markers).size).toBe(5);
+    }
+  );
+
   it("[CITE MARKERS SURVIVE] all [CITE:<node_id>] markers present in translated output", async () => {
     const { router } = await import("../router/index.js");
     const { lookupGlossary } = await import("@trionic/translation");

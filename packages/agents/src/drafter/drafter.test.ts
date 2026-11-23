@@ -76,7 +76,18 @@ vi.mock("@trionic/pageindex", () => {
     }
   }
   return {
-    getPageIndex: () => instance,
+    getPageIndex: vi.fn(() => instance),
+    getPageIndexActScope: (actCode: string) => {
+      const scopes: Record<string, { act_code: string; node_prefix: string }> = {
+        "RTI-2005": { act_code: "RTI-2005", node_prefix: "RTI-2005" },
+        "ICA-1872": { act_code: "ICA-1872", node_prefix: "contract-act:" },
+        "CPC-1908": { act_code: "CPC-1908", node_prefix: "CPC-1908" },
+        "NI-1881": { act_code: "NI-1881", node_prefix: "NI-1881" },
+        "CPA-2019": { act_code: "CPA-2019", node_prefix: "CPA-2019" },
+        "IT-2000": { act_code: "ITA-2000", node_prefix: "ITA-2000" },
+      };
+      return scopes[actCode];
+    },
     NodeNotFoundError,
     get_text: vi.fn(async (node_id: string) => ({
       node_id,
@@ -89,6 +100,7 @@ vi.mock("@trionic/pageindex", () => {
 // ─── Imports (after mocks) ────────────────────────────────────────────────────
 
 import { runDrafter, reviseDraft, DrafterAgent } from "./drafter.agent.js";
+import { getPageIndex } from "@trionic/pageindex";
 import { extractCitations, extractNodeIds } from "./citations.js";
 import type { DrafterInput } from "./types.js";
 import type { DocumentDraft } from "@trionic/shared";
@@ -237,6 +249,78 @@ describe("runDrafter()", () => {
     const result = await runDrafter(mockInput);
     expect(result).toHaveProperty("draft");
     expect(result).toHaveProperty("trace");
+  });
+
+  it("scopes PageIndex requests to the planned Act", async () => {
+    const { router } = await import("../router/index.js");
+    vi.mocked(router.run).mockResolvedValue(makeMockLLMResponse(MOCK_DRAFT_CONTENT));
+
+    await runDrafter({
+      ...mockInput,
+      plan: {
+        ...mockInput.plan,
+        document_type: "rti_application",
+        applicable_acts: ["RTI-2005"],
+        pageindex_queries: ["RTI-2005 Section 6"],
+      },
+    });
+
+    const pageIndex = getPageIndex();
+    expect(pageIndex.search).toHaveBeenCalledWith({
+      query: "RTI-2005 Section 6",
+      scope: "RTI-2005",
+      top_k: 3,
+    });
+  });
+
+  it.each([
+    {
+      docType: "legal_notice" as const,
+      acts: ["ICA-1872", "CPC-1908"],
+      queries: [
+        ["ICA-1872 Section 73", "contract-act:"],
+        ["CPC-1908 Section 80", "CPC-1908"],
+      ],
+    },
+    {
+      docType: "cheque_bounce_notice" as const,
+      acts: ["NI-1881"],
+      queries: [["NI-1881 Section 138", "NI-1881"]],
+    },
+  ])("uses the expected legal indexes for $docType", async ({ docType, acts, queries }) => {
+    const { router } = await import("../router/index.js");
+    vi.mocked(router.run).mockResolvedValue(makeMockLLMResponse(MOCK_DRAFT_CONTENT));
+
+    await runDrafter({
+      ...mockInput,
+      plan: {
+        ...mockInput.plan,
+        document_type: docType,
+        applicable_acts: acts,
+        pageindex_queries: queries.map(([query]) => query),
+      },
+    });
+
+    const pageIndex = getPageIndex();
+    for (const [query, scope] of queries) {
+      expect(pageIndex.search).toHaveBeenCalledWith({ query, scope, top_k: 3 });
+    }
+  });
+
+  it("does not run an unscoped search for an Act without a verified index", async () => {
+    const { router } = await import("../router/index.js");
+    vi.mocked(router.run).mockResolvedValue(makeMockLLMResponse(MOCK_DRAFT_CONTENT));
+
+    await runDrafter({
+      ...mockInput,
+      plan: {
+        ...mockInput.plan,
+        applicable_acts: ["UNINDEXED-2020"],
+        pageindex_queries: ["UNINDEXED-2020 Section 1"],
+      },
+    });
+
+    expect(getPageIndex().search).not.toHaveBeenCalled();
   });
 
   it("draft has correct document_type from plan", async () => {

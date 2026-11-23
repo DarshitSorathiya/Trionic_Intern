@@ -8,6 +8,7 @@ const ALLOWED_DOC_TYPES: DocumentType[] = [
   "nda",
   "consumer_complaint",
   "cheque_bounce_notice",
+  "employment_contract",
 ];
 
 export async function GET(req: Request) {

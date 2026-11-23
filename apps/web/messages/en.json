@@ -114,6 +114,9 @@
   "dashboard": {
     "title": "Your drafts",
     "subtitle": "Manage your legal drafts, generate new documents, and review citations.",
+    "deleteDraft": "Delete draft",
+    "deleteConfirm": "Permanently delete \"{title}\" and its versions and exports? This cannot be undone.",
+    "deleteFailed": "The draft could not be deleted. Please try again.",
     "searchPlaceholder": "Search...",
     "emptyState": "No drafts yet — start one with [+ New draft]",
     "emptyStateTitle": "No drafts found",
@@ -166,7 +169,7 @@
     "docTypeOptionConsumer": "Consumer complaint",
     "docTypeOptionConsumerDesc": "Consumer Protection Act filings for deficient goods/services.",
     "docTypeOptionEmployment": "Employment contract",
-    "docTypeOptionEmploymentDesc": "Standard employment agreements under Indian Labour Laws.",
+    "docTypeOptionEmploymentDesc": "Record agreed employment terms; have statutory requirements reviewed by a qualified professional.",
     "docTypeOptionCheque": "Cheque-bounce notice",
     "docTypeOptionChequeDesc": "Formal demand under Section 138 of Negotiable Instruments Act.",
     "situationQuestion": "What's the situation?",

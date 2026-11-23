@@ -59,7 +59,7 @@ export type AgentTrace = {
     error_message?: string;
 };
 /** Supported legal document types (Goal G2). */
-export type DocumentType = "rti_application" | "legal_notice" | "nda" | "consumer_complaint" | "employment_contract";
+export type DocumentType = "rti_application" | "legal_notice" | "nda" | "consumer_complaint" | "cheque_bounce_notice" | "employment_contract";
 /** Supported output languages (Goal G3). */
 export type SupportedLanguage = "en" | "hi" | "gu" | "mr" | "ta";
 /**

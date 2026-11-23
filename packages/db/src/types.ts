@@ -15,7 +15,7 @@
 // ---------------------------------------------------------------------------
 
 export type DocumentStatus   = 'draft' | 'review' | 'final' | 'archived' | 'failed';
-export type DocumentType     = 'petition' | 'affidavit' | 'notice' | 'agreement' | 'complaint' | 'reply' | 'other';
+export type DocumentType     = 'rti_application' | 'legal_notice' | 'nda' | 'consumer_complaint' | 'cheque_bounce_notice' | 'employment_contract';
 export type SupportedLanguage = 'en' | 'hi' | 'gu' | 'mr' | 'ta' | 'te' | 'kn' | 'bn' | 'pa' | 'ur';
 export type AgentName        = 'planner' | 'classifier' | 'drafter' | 'citator' | 'reviewer' | 'translator';
 export type TraceStatus      = 'ok' | 'error' | 'timeout';

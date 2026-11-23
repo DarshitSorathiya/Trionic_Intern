@@ -29,16 +29,18 @@ const DOC_TYPE_LABELS: Record<DocumentType, string> = {
   nda: "NDA",
   consumer_complaint: "Consumer Complaint",
   cheque_bounce_notice: "Cheque Bounce Notice",
+  employment_contract: "Employment Contract",
 };
 
 // ─── Mock Data ────────────────────────────────────────────────────────────────
 
 const MOCK_DOC_TYPES: DocTypeCount[] = [
-  { type: "rti_application", count: 42, pct: "31.3" },
-  { type: "legal_notice", count: 31, pct: "23.1" },
-  { type: "consumer_complaint", count: 27, pct: "20.1" },
-  { type: "nda", count: 18, pct: "13.4" },
-  { type: "cheque_bounce_notice", count: 16, pct: "11.9" },
+  { type: "rti_application", count: 42, pct: "29.6" },
+  { type: "legal_notice", count: 31, pct: "21.8" },
+  { type: "consumer_complaint", count: 27, pct: "19.0" },
+  { type: "nda", count: 18, pct: "12.7" },
+  { type: "cheque_bounce_notice", count: 16, pct: "11.3" },
+  { type: "employment_contract", count: 8, pct: "5.6" },
 ];
 
 const MOCK_LANGUAGES: LanguageCount[] = [

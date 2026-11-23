@@ -11,6 +11,8 @@ export interface ClassifierInput {
     intakeText: string;
     /** Language the user wants the output document in. */
     language: SupportedLanguage;
+    /** Explicit document type selected by the user, when available. */
+    documentType?: string;
     /** Optional session ID for trace attribution. */
     session_id?: string;
 }

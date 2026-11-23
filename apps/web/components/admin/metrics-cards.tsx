@@ -34,6 +34,7 @@ export function mapDbDocTypeToLabel(type: string): string {
     nda: "NDA",
     consumer_complaint: "Consumer Complaint",
     cheque_bounce_notice: "Cheque Bounce Notice",
+    employment_contract: "Employment Contract",
   };
   return mapping[type] || type.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }

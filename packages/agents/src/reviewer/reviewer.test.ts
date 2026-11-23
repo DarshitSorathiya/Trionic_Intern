@@ -269,6 +269,7 @@ describe("requiredSections()", () => {
     expect(requiredSections("nda")).toEqual(["Parties", "Definitions", "Confidential Information", "Obligations", "Term and Termination", "Governing Law", "Signatures"]);
     expect(requiredSections("consumer_complaint")).toEqual(["Complainant Details", "Opposite Party", "Facts of Transaction", "Deficiency of Service", "Relief Sought", "Jurisdiction"]);
     expect(requiredSections("cheque_bounce_notice")).toEqual(["Drawer Details", "Payee Details", "Cheque Details", "Dishonour Details", "Demand for Payment", "Legal Warning"]);
+    expect(requiredSections("employment_contract")).toEqual(["Parties", "Role and Responsibilities", "Compensation", "Term and Termination", "Signatures"]);
   });
 });
 

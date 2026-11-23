@@ -52,6 +52,8 @@ const CANNED_INTAKES: Record<DocumentType, string> = {
     "I bought a refrigerator worth ₹45,000 from an online retailer. It arrived with a damaged compressor and stopped cooling within a week. The seller refuses to replace it or refund my money despite repeated emails.",
   cheque_bounce_notice:
     "A business partner issued me a cheque of ₹2,50,000 dated 1 May 2025 towards repayment of a loan. When I deposited it, my bank returned it on 10 May 2025 marked 'funds insufficient'. I want to send a statutory notice under Section 138.",
+  employment_contract:
+    "I am hiring a full-time designer and want a written agreement covering the role, compensation, start date, term, confidentiality, and termination terms.",
 };
 
 // ─── Arg parsing ──────────────────────────────────────────────────────────────

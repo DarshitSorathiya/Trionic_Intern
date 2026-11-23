@@ -12,7 +12,10 @@ const openai = process.env.OPENAI_API_KEY ? new OpenAI({ apiKey: process.env.OPE
 
 const missingFileWarnings = new Set<string>();
 
-function resolvePageIndexFile(fileName: string, kind: "artifacts" | "data"): string {
+function resolvePageIndexFile(
+  fileName: string,
+  kind: "artifacts" | "data" | "corpus"
+): string {
   const candidates: string[] = [];
 
   const envRoot = process.env.PAGEINDEX_ROOT_DIR;
@@ -22,7 +25,7 @@ function resolvePageIndexFile(fileName: string, kind: "artifacts" | "data"): str
   if (kind === "artifacts") {
     if (envArtifactsDir) candidates.push(join(envArtifactsDir, fileName));
     if (envRoot) candidates.push(join(envRoot, "artifacts", fileName));
-  } else {
+  } else if (kind === "data") {
     if (envDataDir) candidates.push(join(envDataDir, fileName));
     if (envRoot) candidates.push(join(envRoot, "data", fileName));
   }
@@ -40,10 +43,12 @@ function resolvePageIndexFile(fileName: string, kind: "artifacts" | "data"): str
     if (kind === "artifacts") {
       candidates.push(join(base, "artifacts", fileName));
       candidates.push(join(base, "packages", "pageindex", "artifacts", fileName));
-    } else {
+    } else if (kind === "data") {
       candidates.push(join(base, "data", fileName));
       candidates.push(join(base, "packages", "pageindex", "data", fileName));
       candidates.push(join(base, "packages", "pageindex", "artifacts", fileName));
+    } else {
+      candidates.push(join(base, "corpus", "acts", fileName));
     }
   }
 
@@ -58,7 +63,7 @@ function resolvePageIndexFile(fileName: string, kind: "artifacts" | "data"): str
   );
 }
 
-function readJsonFromPageIndex(fileName: string, kind: "artifacts" | "data") {
+function readJsonFromPageIndex(fileName: string, kind: "artifacts" | "data" | "corpus") {
   const filePath = resolvePageIndexFile(fileName, kind);
   const fileData = readFileSync(filePath, "utf-8");
   return JSON.parse(fileData);
@@ -95,6 +100,41 @@ export interface SearchScope {
   snapshot_id?: string;
 }
 
+export interface PageIndexActScope {
+  act_code: string;
+  node_prefix: string;
+}
+
+export const PAGEINDEX_ACT_SCOPES: Record<string, PageIndexActScope> = {
+  "RTI-2005": { act_code: "RTI-2005", node_prefix: "RTI-2005" },
+  "ICA-1872": { act_code: "ICA-1872", node_prefix: "contract-act:" },
+  "CPC-1908": { act_code: "CPC-1908", node_prefix: "CPC-1908" },
+  "CRPC-1973": { act_code: "CRPC-1973", node_prefix: "CRPC-1973" },
+  "IPC-1860": { act_code: "IPC-1860", node_prefix: "IPC-1860" },
+  "NI-1881": { act_code: "NI-1881", node_prefix: "NI-1881" },
+  "CPA-2019": { act_code: "CPA-2019", node_prefix: "CPA-2019" },
+  "IT-2000": { act_code: "ITA-2000", node_prefix: "ITA-2000" },
+  "ITA-2000": { act_code: "ITA-2000", node_prefix: "ITA-2000" },
+  "IT-RULES-2021": { act_code: "IT-RULES-2021", node_prefix: "IT-RULES-2021" },
+  "PublicRecords-1993": { act_code: "PublicRecords-1993", node_prefix: "PublicRecords-1993" },
+  "Whistleblower-2014": { act_code: "Whistleblower-2014", node_prefix: "Whistleblower-2014" },
+  "COI-1950": { act_code: "COI-1950", node_prefix: "COI-1950" },
+};
+
+export function getPageIndexActScope(actCode: string): PageIndexActScope | undefined {
+  return PAGEINDEX_ACT_SCOPES[actCode];
+}
+
+export function getPageIndexActScopeFromNodePrefix(
+  nodePrefix: string
+): PageIndexActScope | undefined {
+  return Object.values(PAGEINDEX_ACT_SCOPES).find(({ node_prefix }) =>
+    nodePrefix === node_prefix
+      || nodePrefix.startsWith(`${node_prefix}/`)
+      || node_prefix.endsWith(":") && nodePrefix.startsWith(node_prefix)
+  );
+}
+
 export interface SearchResult {
   node: PageIndexNode;
   relevance: number; // 0.0 - 1.0
@@ -102,6 +142,90 @@ export interface SearchResult {
 }
 
 let allNodesMap: Map<string, PageIndexNode> = new Map();
+
+function loadCanonicalTree(
+  fileName: string,
+  kind: "data" | "corpus",
+  actCode: string,
+  actName: string,
+  sourceUrl: string
+): void {
+  const tree = readJsonFromPageIndex(fileName, kind);
+  const rawNodes = new Map<string, Record<string, any>>();
+
+  const collect = (node: Record<string, any>, inheritedParentId: string | null = null) => {
+    const nodeId = node.node_id || node.id;
+    if (!nodeId) return;
+    rawNodes.set(nodeId, { ...node, parent_id: node.parent_id ?? inheritedParentId });
+    for (const child of node.children ?? []) {
+      collect(child, nodeId);
+    }
+  };
+
+  if (Array.isArray(tree)) {
+    for (const node of tree) collect(node);
+  } else {
+    collect(tree);
+  }
+
+  const childrenByParent = new Map<string, string[]>();
+  for (const [nodeId, node] of rawNodes) {
+    if (node.parent_id) {
+      const children = childrenByParent.get(node.parent_id) ?? [];
+      children.push(nodeId);
+      childrenByParent.set(node.parent_id, children);
+    }
+  }
+
+  const pathCache = new Map<string, string[]>();
+  const getPath = (nodeId: string, seen = new Set<string>()): string[] => {
+    const cached = pathCache.get(nodeId);
+    if (cached) return cached;
+    if (seen.has(nodeId)) return [nodeId];
+    seen.add(nodeId);
+    const node = rawNodes.get(nodeId);
+    const path = node?.parent_id && rawNodes.has(node.parent_id)
+      ? [...getPath(node.parent_id, seen), nodeId]
+      : [nodeId];
+    pathCache.set(nodeId, path);
+    return path;
+  };
+
+  for (const [nodeId, node] of rawNodes) {
+    const rawLevel = String(node.node_type ?? node.level ?? "section").toLowerCase();
+    const level: NodeLevel = rawLevel === "root" || rawLevel === "act"
+      ? "act"
+      : rawLevel === "part"
+        ? "part"
+        : rawLevel === "chapter"
+          ? "chapter"
+          : rawLevel === "subsection" || rawLevel === "sub_section"
+            ? "sub_section"
+            : rawLevel === "clause"
+              ? "clause"
+              : "section";
+    const lastSegment = nodeId.split("/").at(-1) ?? "";
+    const number = node.section_number
+      ?? node.rule_number
+      ?? node.number
+      ?? lastSegment.replace(/^(S-|RULE-|CH-|CL-)/i, "");
+
+    allNodesMap.set(nodeId, {
+      node_id: nodeId,
+      snapshot_id: node.snapshot_id ?? "",
+      act_code: actCode,
+      act_name: actName,
+      level,
+      number: String(number),
+      title: node.title ?? node.label ?? "",
+      text: node.text ?? node.text_content ?? "",
+      parent_id: node.parent_id ?? null,
+      children_ids: childrenByParent.get(nodeId) ?? [],
+      path: Array.isArray(node.path) ? node.path : getPath(nodeId),
+      source_url: node.source_url ?? sourceUrl,
+    });
+  }
+}
 
 function loadNodes() {
   if (allNodesMap.size > 0) return;
@@ -351,6 +475,52 @@ function loadNodes() {
     flattenNiNode(niTree);
   } catch (err) {
     warnLoadFailure("ni-act-tree.json", err);
+  }
+
+  const additionalTrees = [
+    {
+      file: "consumer-protection-act/tree.json",
+      kind: "corpus" as const,
+      actCode: "CPA-2019",
+      actName: "Consumer Protection Act, 2019",
+      sourceUrl: "https://www.indiacode.nic.in/bitstream/123456789/16939/1/a2019-35.pdf",
+    },
+    {
+      file: "it-act/tree.json",
+      kind: "corpus" as const,
+      actCode: "ITA-2000",
+      actName: "Information Technology Act, 2000",
+      sourceUrl: "https://www.indiacode.nic.in/bitstream/123456789/13116/1/it_act_2000_updated.pdf",
+    },
+    {
+      file: "it-intermediary-rules-2021/tree.json",
+      kind: "corpus" as const,
+      actCode: "IT-RULES-2021",
+      actName: "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+      sourceUrl: "https://www.meity.gov.in/",
+    },
+    {
+      file: "public-records-1993.json",
+      kind: "data" as const,
+      actCode: "PublicRecords-1993",
+      actName: "The Public Records Act, 1993",
+      sourceUrl: "https://www.indiacode.nic.in/",
+    },
+    {
+      file: "whistleblower-protection-2014.json",
+      kind: "data" as const,
+      actCode: "Whistleblower-2014",
+      actName: "The Whistle Blowers Protection Act, 2014",
+      sourceUrl: "https://www.indiacode.nic.in/",
+    },
+  ];
+
+  for (const tree of additionalTrees) {
+    try {
+      loadCanonicalTree(tree.file, tree.kind, tree.actCode, tree.actName, tree.sourceUrl);
+    } catch (err) {
+      warnLoadFailure(tree.file, err);
+    }
   }
 }
 

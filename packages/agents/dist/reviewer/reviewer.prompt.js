@@ -52,6 +52,7 @@ exports.TONE_RULES = {
     nda: "Formal-precise, contract language, no ambiguity",
     consumer_complaint: "Firm-but-respectful, factual grievance, no threats",
     cheque_bounce_notice: "Statutory-formal, cite NI Act § 138 language, strict demand tone",
+    employment_contract: "Neutral, precise, and limited to the parties' stated terms",
 };
 /**
  * Build the user prompt for tone analysis.

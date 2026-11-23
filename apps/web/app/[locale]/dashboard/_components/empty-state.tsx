@@ -1,4 +1,4 @@
-import { FileText, RefreshCw, SearchX, Scale, FileSignature, ShieldCheck, ShoppingCart, Banknote } from "lucide-react";
+import { FileText, FileSignature, RefreshCw, SearchX, Scale, ShieldCheck, ShoppingCart, Banknote, Briefcase } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
 import type { DocumentType } from "@trionic/shared";
@@ -35,6 +35,12 @@ const DOC_TYPE_CARDS: { type: DocumentType; label: string; description: string; 
     label: "Cheque Bounce Notice",
     description: "Legal notice under NI Act § 138",
     icon: Banknote,
+  },
+  {
+    type: "employment_contract",
+    label: "Employment Contract",
+    description: "Record agreed employment terms for review",
+    icon: Briefcase,
   },
 ];
 

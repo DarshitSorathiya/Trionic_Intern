@@ -60,10 +60,14 @@ export interface GetTextParams {
     /** Snapshot to query. Defaults to latest. */
     snapshot_id?: SnapshotId;
 }
+export declare function resolvePageIndexSupabaseCredentials(env?: Record<string, string | undefined>): {
+    supabaseUrl?: string;
+    supabaseKey?: string;
+};
 export declare class PageIndex {
     private supabase;
     private embeddingApiKey;
-    private latestSnapshotId;
+    private readonly latestSnapshotIds;
     constructor(supabaseUrl: string, supabaseKey: string, embeddingApiKey: string);
     /**
      * Semantic search over Constitution text.

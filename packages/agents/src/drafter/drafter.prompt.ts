@@ -75,7 +75,7 @@ Draft the document appropriate to the plan's document_type:
 - legal_notice: Parties, Cause of Action, Demand/Relief, Timeline, Governing Law (cited), Signature
 - nda: Parties, Definitions, Confidential Information, Obligations, Term, Exceptions, Governing Law (cited), Signatures
 - consumer_complaint: Complainant, Opposite Party, Transaction Facts, Deficiency of Service (cited), Relief Sought, Jurisdiction (cited)
-- employment_contract: Parties, Role, Compensation, Term, Termination, Confidentiality, Governing Law (cited), Signatures
+- employment_contract: Parties, Role and Responsibilities, Compensation, Term and Termination, Signatures; add confidentiality or governing-law terms only when supplied by the parties
 
 This is a drafting aid — NOT legal advice. Write in this spirit at all times.`;
 
@@ -193,6 +193,9 @@ export function buildDrafterUserPrompt(
       break;
     case "cheque_bounce_notice":
       requiredHeaders = "  - ## Drawer\n  - ## Drawee\n  - ## Cheque Details\n  - ## Section 138 Invocation\n  - ## Demand";
+      break;
+    case "employment_contract":
+      requiredHeaders = "  - ## Parties\n  - ## Role and Responsibilities\n  - ## Compensation\n  - ## Term and Termination\n  - ## Signatures";
       break;
     default:
       requiredHeaders = "  - ## General Details";

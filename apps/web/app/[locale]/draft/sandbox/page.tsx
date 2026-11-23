@@ -93,7 +93,7 @@ export default function CitationSandboxPage() {
         </div>
 
         {/* Tab Toggle in navbar */}
-        <div className="flex items-center bg-slate-100 dark:bg-slate-850 p-1 rounded-lg border border-slate-200 dark:border-slate-800">
+        {/* <div className="flex items-center bg-slate-100 dark:bg-slate-850 p-1 rounded-lg border border-slate-200 dark:border-slate-800">
           <button
             onClick={() => {
               setDocType("rti");
@@ -122,15 +122,15 @@ export default function CitationSandboxPage() {
           >
             Mutual NDA
           </button>
-        </div>
+        </div> */}
 
         <div className="flex items-center gap-2">
-          <button 
+          {/* <button 
             onClick={() => triggerToast("Translation triggered")}
             className="h-8 text-[12.5px] border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 font-medium px-3 rounded-lg flex items-center gap-1.5 transition-colors cursor-pointer"
           >
             <Languages className="size-4" /> Translate
-          </button>
+          </button> */}
           
           <button 
             onClick={() => triggerToast("PDF export triggered")}

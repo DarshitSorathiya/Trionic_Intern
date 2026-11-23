@@ -19,6 +19,13 @@ export interface SearchScope {
     level?: NodeLevel;
     snapshot_id?: string;
 }
+export interface PageIndexActScope {
+    act_code: string;
+    node_prefix: string;
+}
+export declare const PAGEINDEX_ACT_SCOPES: Record<string, PageIndexActScope>;
+export declare function getPageIndexActScope(actCode: string): PageIndexActScope | undefined;
+export declare function getPageIndexActScopeFromNodePrefix(nodePrefix: string): PageIndexActScope | undefined;
 export interface SearchResult {
     node: PageIndexNode;
     relevance: number;

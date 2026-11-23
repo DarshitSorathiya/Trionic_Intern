@@ -25,7 +25,7 @@ Most Indians navigating routine legal situations (filing an RTI, sending a legal
 | # | Goal | Measurable target |
 |---|---|---|
 | G1 | Live deployed web app | Reachable at a Trionic subdomain, sign-in works |
-| G2 | Document drafting | **5 document types** end-to-end: RTI application, legal notice, NDA, consumer complaint, employment contract |
+| G2 | Document drafting | **6 document types** end-to-end: RTI application, legal notice, NDA, consumer complaint, cheque-bounce notice, employment contract |
 | G3 | Multilingual support | **5 language pairs**: English baseline + Hindi, Gujarati, Marathi, Tamil round-trip |
 | G4 | Grounded retrieval | **15+ Indian acts** indexed via PageIndex (IPC, CrPC, Constitution, Indian Contract Act, Consumer Protection Act 2019, IT Act, RTI Act, etc.) |
 | G5 | Citation integrity | **100% citation validity** — every legal claim resolves to a real PageIndex node. Reviewer agent rejects un-grounded claims. |
@@ -200,7 +200,7 @@ See [`docs/TIMELINE.md`](./docs/TIMELINE.md) for the full timeline.
 | 1 | Architect & scaffold |
 | 2 | Module skeletons |
 | 3 | First real vertical slice (RTI, English) |
-| 4 | Breadth (5 doc types, Citator-gatekeeper on) |
+| 4 | Breadth (6 doc types, Citator-gatekeeper on) |
 | 5 | Indic + evals + polish |
 | 6 | Demo & handover |
 

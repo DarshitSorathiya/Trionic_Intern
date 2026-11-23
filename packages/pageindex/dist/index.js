@@ -14,11 +14,14 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PageIndex = exports.getPageIndex = exports.get_text = exports.descend = exports.search = void 0;
+exports.PageIndex = exports.getPageIndex = exports.PAGEINDEX_ACT_SCOPES = exports.getPageIndexActScopeFromNodePrefix = exports.getPageIndexActScope = exports.get_text = exports.descend = exports.search = void 0;
 var query_js_1 = require("./query.js");
 Object.defineProperty(exports, "search", { enumerable: true, get: function () { return query_js_1.search; } });
 Object.defineProperty(exports, "descend", { enumerable: true, get: function () { return query_js_1.descend; } });
 Object.defineProperty(exports, "get_text", { enumerable: true, get: function () { return query_js_1.get_text; } });
+Object.defineProperty(exports, "getPageIndexActScope", { enumerable: true, get: function () { return query_js_1.getPageIndexActScope; } });
+Object.defineProperty(exports, "getPageIndexActScopeFromNodePrefix", { enumerable: true, get: function () { return query_js_1.getPageIndexActScopeFromNodePrefix; } });
+Object.defineProperty(exports, "PAGEINDEX_ACT_SCOPES", { enumerable: true, get: function () { return query_js_1.PAGEINDEX_ACT_SCOPES; } });
 __exportStar(require("./errors.js"), exports);
 var agnoTool_js_1 = require("./agnoTool.js");
 Object.defineProperty(exports, "getPageIndex", { enumerable: true, get: function () { return agnoTool_js_1.getPageIndex; } });

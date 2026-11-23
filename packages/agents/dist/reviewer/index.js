@@ -42,7 +42,7 @@ exports.LEGAL_DISCLAIMER_BANNER = `---\n**AI-generated draft — not legal advic
 const BANNER_EXACT = "AI-generated draft \u2014 not legal advice";
 /**
  * Per-doc-type required sections.
- * Week 4 (#277): all 5 doc types now have required sections.
+ * Week 4 (#277): supported doc types have required sections.
  * Exported for sharing with Sohil's editor.
  */
 exports.REQUIRED_SECTIONS = {
@@ -51,6 +51,7 @@ exports.REQUIRED_SECTIONS = {
     nda: ["Parties", "Definitions", "Confidential Information", "Obligations", "Term and Termination", "Governing Law", "Signatures"],
     consumer_complaint: ["Complainant Details", "Opposite Party", "Facts of Transaction", "Deficiency of Service", "Relief Sought", "Jurisdiction"],
     cheque_bounce_notice: ["Drawer Details", "Payee Details", "Cheque Details", "Dishonour Details", "Demand for Payment", "Legal Warning"],
+    employment_contract: ["Parties", "Role and Responsibilities", "Compensation", "Term and Termination", "Signatures"],
 };
 // ─── Public API ───────────────────────────────────────────────────────────────
 /**

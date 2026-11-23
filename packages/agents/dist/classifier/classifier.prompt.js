@@ -35,7 +35,7 @@ RULES:
 7. If "is_legal" is false, set domain to "other" and relevant_acts to [].
 8. Set "severity" to "low", "medium", or "high" based on urgency (e.g., cheque bounce or criminal notice are high; routine NDA is low).
 9. Set "confidence" to a decimal score between 0.0 and 1.0.
-10. Summarize your reasoning in the "reasoning" field.`;
+10. Keep "reasoning" to one short sentence of no more than 18 words so the JSON stays compact.`;
 /**
  * Build the user prompt for the classifier.
  */

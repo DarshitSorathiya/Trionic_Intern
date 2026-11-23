@@ -49,7 +49,7 @@ function validateDraftRequest(body: unknown): { error?: string; validatedData?: 
     if (typeof req.doc_type !== "string") {
       return { error: "doc_type must be a string" };
     }
-    const allowedDocTypes = ["rti_application", "legal_notice", "nda", "consumer_complaint", "cheque_bounce_notice"];
+    const allowedDocTypes = ["rti_application", "legal_notice", "nda", "consumer_complaint", "cheque_bounce_notice", "employment_contract"];
     if (!allowedDocTypes.includes(req.doc_type)) {
       return { error: `doc_type must be one of: ${allowedDocTypes.join(", ")}` };
     }

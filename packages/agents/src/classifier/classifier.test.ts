@@ -91,6 +91,63 @@ describe("ClassifierAgent", () => {
     expect(result.trace.status).toBe("ok");
   });
 
+  it("extracts wrapped JSON and normalizes known Act-code aliases", async () => {
+    vi.mocked(router.run).mockResolvedValueOnce({
+      text: `Classification:\n\`\`\`json\n${JSON.stringify({
+        is_legal: true,
+        domain: "criminal",
+        sub_domain: "cheque-bounce",
+        relevant_acts: ["NIA-1881", "IPC-1860"],
+        severity: "high",
+        confidence: 0.97,
+        reasoning: "Cheque dishonour request.",
+      })}\n\`\`\``,
+      model: "openai/gpt-oss-120b",
+      provider: "groq",
+      tokens_in: 50,
+      tokens_out: 100,
+      cost_usd: 0,
+      latency_ms: 120,
+      fallback_used: true,
+    });
+
+    const result = await runClassifier({
+      intakeText: "Two cheques issued to me were dishonoured.",
+      language: "en",
+    });
+
+    expect(result.classification.relevant_acts).toEqual(["NI-1881", "IPC-1860"]);
+    expect(result.classification.sub_domain).toBe("cheque-bounce");
+  });
+
+  it("uses the explicitly selected document type when model JSON is truncated", async () => {
+    vi.mocked(router.run).mockResolvedValueOnce({
+      text: '{"is_legal":true,"domain":"criminal","sub_domain":"cheque-bounce"',
+      model: "openai/gpt-oss-120b",
+      provider: "groq",
+      tokens_in: 50,
+      tokens_out: 100,
+      cost_usd: 0,
+      latency_ms: 120,
+      fallback_used: true,
+    });
+
+    const result = await runClassifier({
+      intakeText: "Two cheques issued to me were dishonoured.",
+      language: "en",
+      documentType: "cheque_bounce_notice",
+    });
+
+    expect(result.classification).toMatchObject({
+      is_legal: true,
+      domain: "criminal",
+      sub_domain: "cheque-bounce",
+      relevant_acts: ["NI-1881"],
+      severity: "high",
+    });
+    expect(result.trace.status).toBe("ok");
+  });
+
   it("fails and records error trace if LLM returns invalid JSON", async () => {
     vi.mocked(router.run).mockResolvedValueOnce({
       text: "Not a JSON string at all",

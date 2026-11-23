@@ -121,6 +121,7 @@ export function DraftHeader({ saveStatus }: DraftHeaderProps) {
               <SelectItem value="nda">NDA</SelectItem>
               <SelectItem value="consumer_complaint">Consumer Complaint</SelectItem>
               <SelectItem value="cheque_bounce_notice">Cheque Bounce Notice</SelectItem>
+              <SelectItem value="employment_contract">Employment Contract</SelectItem>
             </SelectContent>
           </Select>
         )}

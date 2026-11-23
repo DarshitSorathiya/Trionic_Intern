@@ -36,6 +36,7 @@ const DOC_TYPE_OPTIONS: { value: DocumentType; label: string }[] = [
   { value: "nda",                 label: "NDA" },
   { value: "consumer_complaint",  label: "Consumer Complaint" },
   { value: "cheque_bounce_notice",label: "Cheque Bounce Notice" },
+  { value: "employment_contract", label: "Employment Contract" },
 ];
 
 const STATUS_KEYS: Record<DocumentStatus, string> = {
@@ -53,6 +54,7 @@ const DOC_TYPE_KEYS: Record<DocumentType, string> = {
   nda: "docTypeOptionNda",
   consumer_complaint: "docTypeOptionConsumer",
   cheque_bounce_notice: "docTypeOptionCheque",
+  employment_contract: "docTypeOptionEmployment",
 };
 
 export type FilterState = {

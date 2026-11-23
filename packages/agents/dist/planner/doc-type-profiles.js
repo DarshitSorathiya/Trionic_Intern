@@ -22,6 +22,7 @@
  *   nda                   — Contract Act + IT Act
  *   consumer_complaint    — Consumer Protection Act 2019
  *   cheque_bounce_notice  — Negotiable Instruments Act § 138
+ *   employment_contract   — Contract Act provisions for general agreements
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DOC_TYPE_PROFILES = void 0;
@@ -104,6 +105,18 @@ exports.DOC_TYPE_PROFILES = {
         ],
         notes: "State drawer, drawee, and cheque details (number, date, amount, bank). Invoke Section 138 expressly, demand payment within 15 days of receipt, and warn that prosecution follows non-payment. The notice MUST issue within 30 days of the bank's return memo.",
     },
+    employment_contract: {
+        document_type: "employment_contract",
+        label: "Employment contract (general agreement terms)",
+        template_id: "employment-contract-v1",
+        applicable_acts: ["ICA-1872"],
+        pageindex_queries: [
+            "ICA-1872 Section 10 — agreements are contracts when made by free consent, competent parties, lawful consideration and lawful object",
+            "ICA-1872 Section 23 — lawful consideration and objects of agreements",
+            "ICA-1872 Section 73 — compensation for loss caused by breach of contract",
+        ],
+        notes: "Draft only terms supplied by the parties and general contract provisions supported by retrieved text. Do not assert statutory compliance for wages, hours, leave, benefits, or termination without an applicable indexed labour law; flag those terms for qualified review.",
+    },
 };
 /**
  * Map a classifier sub-domain string (free-form) to a DocumentType.
@@ -129,6 +142,9 @@ const SUB_DOMAIN_TO_DOC_TYPE = {
     "cheque-bounce-notice": "cheque_bounce_notice",
     cheque_bounce_notice: "cheque_bounce_notice",
     cheque: "cheque_bounce_notice",
+    "employment-contract": "employment_contract",
+    employment_contract: "employment_contract",
+    employment: "employment_contract",
 };
 /** Act-code hints for resolving a doc type when the sub-domain is ambiguous. */
 const ACT_TO_DOC_TYPE = {

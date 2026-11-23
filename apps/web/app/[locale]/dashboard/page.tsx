@@ -22,6 +22,8 @@ export default function DashboardPage() {
   const [fetchState, setFetchState]   = useState<FetchState>("idle");
   const [nextCursor, setNextCursor]   = useState<string | null>(null);
   const [loadingMore, setLoadingMore] = useState(false);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [deleteError, setDeleteError] = useState<string | null>(null);
 
   const router   = useRouter();
   const supabase = createClient();
@@ -30,6 +32,25 @@ export default function DashboardPage() {
     await supabase.auth.signOut();
     router.push("/auth/sign-in");
     router.refresh();
+  }
+
+  async function handleDeleteDocument(id: string, title: string) {
+    if (deletingId || !window.confirm(t("deleteConfirm", { title }))) return;
+
+    setDeletingId(id);
+    setDeleteError(null);
+    try {
+      const response = await fetch(`/api/documents/${id}`, { method: "DELETE" });
+      if (!response.ok) {
+        const data = await response.json().catch(() => ({}));
+        throw new Error(data.message || t("deleteFailed"));
+      }
+      setDocuments((current) => current.filter((document) => document.id !== id));
+    } catch (error) {
+      setDeleteError(error instanceof Error ? error.message : t("deleteFailed"));
+    } finally {
+      setDeletingId(null);
+    }
   }
 
   const [filters, setFilters] = useState<FilterState>({
@@ -166,7 +187,16 @@ export default function DashboardPage() {
 
       {fetchState === "done" && visibleDocuments.length > 0 && (
         <>
-          <DocumentTable documents={visibleDocuments} />
+          {deleteError && (
+            <p role="alert" className="text-sm text-red-700" aria-live="polite">
+              {deleteError}
+            </p>
+          )}
+          <DocumentTable
+            documents={visibleDocuments}
+            deletingId={deletingId}
+            onDelete={handleDeleteDocument}
+          />
 
           {/* Pagination */}
           {nextCursor && (

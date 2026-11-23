@@ -5,7 +5,7 @@ import { Link } from '@/i18n/routing'
 import type { DocumentType, SupportedLanguage } from '@trionic/shared'
 import { LanguagePicker } from '@/components/intake/LanguagePicker'
 import { StreamingIndicator } from '@/components/intake/StreamingIndicator'
-import { ArrowLeft, Scale, FileText, Landmark } from 'lucide-react'
+import { ArrowLeft, Briefcase, FileText, Landmark, Scale, ShieldCheck, ShoppingCart } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 
 export default function NewDraftPage() {
@@ -36,10 +36,28 @@ export default function NewDraftPage() {
       icon: <Scale className="size-5 text-blue-500" />,
     },
     {
+      value: 'nda',
+      label: t('docTypeOptionNda'),
+      description: t('docTypeOptionNdaDesc'),
+      icon: <ShieldCheck className="size-5 text-violet-500" />,
+    },
+    {
+      value: 'consumer_complaint',
+      label: t('docTypeOptionConsumer'),
+      description: t('docTypeOptionConsumerDesc'),
+      icon: <ShoppingCart className="size-5 text-rose-500" />,
+    },
+    {
       value: 'cheque_bounce_notice',
       label: t('docTypeOptionCheque'),
       description: t('docTypeOptionChequeDesc'),
       icon: <Landmark className="size-5 text-orange-500" />,
+    },
+    {
+      value: 'employment_contract',
+      label: t('docTypeOptionEmployment'),
+      description: t('docTypeOptionEmploymentDesc'),
+      icon: <Briefcase className="size-5 text-sky-600" />,
     },
   ] as const
 

@@ -71,7 +71,7 @@ export type AgentTrace = {
    *  e.g. Drafter's child PageIndex calls set this to the Drafter's trace ID. */
   parent_trace_id?: string;
   /** Optional: document type this trace belongs to. */
-  doc_type?: "rti_application" | "legal_notice" | "nda" | "consumer_complaint" | "cheque_bounce_notice";
+  doc_type?: DocumentType;
 };
 
 // ─── Document Draft ───────────────────────────────────────────────────────────
@@ -82,7 +82,8 @@ export type DocumentType =
   | "legal_notice"
   | "nda"
   | "consumer_complaint"
-  | "cheque_bounce_notice";
+  | "cheque_bounce_notice"
+  | "employment_contract";
 
 /** Supported output languages (Goal G3). */
 export type SupportedLanguage =

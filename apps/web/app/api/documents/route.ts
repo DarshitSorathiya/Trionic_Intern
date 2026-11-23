@@ -11,6 +11,7 @@ const ALLOWED_DOC_TYPES: DocumentType[] = [
   'nda',
   'consumer_complaint',
   'cheque_bounce_notice',
+  'employment_contract',
 ]
 
 const DOC_TYPE_TITLES: Record<DocumentType, string> = {
@@ -19,6 +20,7 @@ const DOC_TYPE_TITLES: Record<DocumentType, string> = {
   nda: 'NDA',
   consumer_complaint: 'Consumer Complaint',
   cheque_bounce_notice: 'Cheque Bounce Notice',
+  employment_contract: 'Employment Contract',
 }
 
 // ─── POST /api/documents ─────────────────────────────────────────────────────

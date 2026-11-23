@@ -72,10 +72,11 @@ The very first paragraph of every document MUST be the following disclaimer, ver
 ### Rule 5 — Document Types
 Draft the document appropriate to the plan's document_type:
 - rti_application: Header, Applicant Details, Public Authority, Information Sought, Fee/Exemption, Signature block
-- legal_notice: Parties, Cause of Action, Demand/Relief, Timeline, Governing Law (cited), Signature
-- nda: Parties, Definitions, Confidential Information, Obligations, Term, Exceptions, Governing Law (cited), Signatures
-- consumer_complaint: Complainant, Opposite Party, Transaction Facts, Deficiency of Service (cited), Relief Sought, Jurisdiction (cited)
-- employment_contract: Parties, Role, Compensation, Term, Termination, Confidentiality, Governing Law (cited), Signatures
+- legal_notice: Parties, Cause of Action, Demand and Relief, Timeline, Governing Law (cited)
+- nda: Parties, Definitions, Confidential Information, Obligations, Term and Termination, Governing Law (cited), Signatures
+- consumer_complaint: Complainant Details, Opposite Party, Facts of Transaction, Deficiency of Service (cited), Relief Sought, Jurisdiction (cited)
+- cheque_bounce_notice: Drawer Details, Payee Details, Cheque Details, Dishonour Details, Demand for Payment, Legal Warning
+- employment_contract: Parties, Role and Responsibilities, Compensation, Term and Termination, Signatures; add confidentiality or governing-law terms only when supplied by the parties
 
 This is a drafting aid — NOT legal advice. Write in this spirit at all times.`;
 exports.RTI_DRAFTER_SYSTEM_PROMPT = `You are the specialized RTI Drafter agent for Trionic Adalat — an AI-assisted Indian legal document drafting system.
@@ -164,19 +165,22 @@ function buildDrafterUserPrompt(plan, intakeText, retrievedNodes = []) {
     let requiredHeaders = "";
     switch (plan.document_type) {
         case "rti_application":
-            requiredHeaders = "  - ## Address\n  - ## Subject\n  - ## Information Sought\n  - ## Declaration";
+            requiredHeaders = "  - ## Address\n  - ## Subject\n  - ## Information Sought\n  - ## Declaration\n  - ## Date and Signature";
             break;
         case "legal_notice":
-            requiredHeaders = "  - ## Sender\n  - ## Recipient\n  - ## Cause\n  - ## Demand\n  - ## Deadline";
+            requiredHeaders = "  - ## Parties\n  - ## Cause of Action\n  - ## Demand and Relief\n  - ## Timeline\n  - ## Governing Law";
             break;
         case "nda":
-            requiredHeaders = "  - ## Parties\n  - ## Purpose\n  - ## Confidential Info\n  - ## Term\n  - ## Remedies";
+            requiredHeaders = "  - ## Parties\n  - ## Definitions\n  - ## Confidential Information\n  - ## Obligations\n  - ## Term and Termination\n  - ## Governing Law\n  - ## Signatures";
             break;
         case "consumer_complaint":
-            requiredHeaders = "  - ## Complainant\n  - ## Opposite Party\n  - ## Goods/Service\n  - ## Deficiency\n  - ## Relief";
+            requiredHeaders = "  - ## Complainant Details\n  - ## Opposite Party\n  - ## Facts of Transaction\n  - ## Deficiency of Service\n  - ## Relief Sought\n  - ## Jurisdiction";
             break;
         case "cheque_bounce_notice":
-            requiredHeaders = "  - ## Drawer\n  - ## Drawee\n  - ## Cheque Details\n  - ## Section 138 Invocation\n  - ## Demand";
+            requiredHeaders = "  - ## Drawer Details\n  - ## Payee Details\n  - ## Cheque Details\n  - ## Dishonour Details\n  - ## Demand for Payment\n  - ## Legal Warning";
+            break;
+        case "employment_contract":
+            requiredHeaders = "  - ## Parties\n  - ## Role and Responsibilities\n  - ## Compensation\n  - ## Term and Termination\n  - ## Signatures";
             break;
         default:
             requiredHeaders = "  - ## General Details";

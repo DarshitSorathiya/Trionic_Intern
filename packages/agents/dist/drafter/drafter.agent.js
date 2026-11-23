@@ -58,17 +58,40 @@ async function runDrafter(input) {
         catch (error) {
             console.warn("[Drafter] Live PageIndex is not configured; using local artifacts:", error);
         }
-        const searchPromises = plan.pageindex_queries.map((q) => (livePageIndex
-            ? livePageIndex.search({ query: q, top_k: 3 })
-            : (0, pageindex_1.search)(q, undefined, 3).then((results) => results.map((result) => ({
-                node_id: result.node.node_id,
-                snapshot_id: result.node.snapshot_id,
-                snippet: result.node.text.slice(0, 300),
-                score: result.relevance,
-            })))).catch((err) => {
-            console.warn(`[Drafter] PageIndex search failed for query "${q}":`, err);
-            return [];
-        }));
+        const searchPromises = plan.pageindex_queries.map(async (q) => {
+            const explicitActs = plan.applicable_acts.filter((act) => q.toLowerCase().includes(act.toLowerCase()));
+            const queryActs = explicitActs.length > 0 ? explicitActs : plan.applicable_acts;
+            const scopes = queryActs
+                .map((act) => (0, pageindex_1.getPageIndexActScope)(act))
+                .filter((scope) => scope !== undefined);
+            if (scopes.length === 0) {
+                console.warn(`[Drafter] No PageIndex scope is configured for query "${q}".`);
+                return [];
+            }
+            const scopedResults = await Promise.all(scopes.map(async (scope) => {
+                try {
+                    if (livePageIndex) {
+                        return await livePageIndex.search({
+                            query: q,
+                            scope: scope.node_prefix,
+                            top_k: 3,
+                        });
+                    }
+                    const results = await (0, pageindex_1.search)(q, { act_code: scope.act_code }, 3);
+                    return results.map((result) => ({
+                        node_id: result.node.node_id,
+                        snapshot_id: result.node.snapshot_id,
+                        snippet: result.node.text.slice(0, 300),
+                        score: result.relevance,
+                    }));
+                }
+                catch (err) {
+                    console.warn(`[Drafter] PageIndex search failed for query "${q}":`, err);
+                    return [];
+                }
+            }));
+            return scopedResults.flat();
+        });
         const searchResults = await Promise.all(searchPromises);
         const flatResults = searchResults.flat();
         // Deduplicate retrieved nodes by node_id

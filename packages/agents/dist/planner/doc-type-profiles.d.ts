@@ -21,6 +21,7 @@
  *   nda                   — Contract Act + IT Act
  *   consumer_complaint    — Consumer Protection Act 2019
  *   cheque_bounce_notice  — Negotiable Instruments Act § 138
+ *   employment_contract   — Contract Act provisions for general agreements
  */
 import type { DocumentType, PlannerOutput } from "@trionic/shared";
 /** A doc-type-specific baseline the Planner LLM is grounded against. */

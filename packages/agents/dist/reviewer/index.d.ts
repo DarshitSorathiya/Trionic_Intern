@@ -23,7 +23,7 @@ import type { AgentTrace, DocumentDraft, DocumentType, ReviewerOutput, Supported
 export declare const LEGAL_DISCLAIMER_BANNER: string;
 /**
  * Per-doc-type required sections.
- * Week 4 (#277): all 5 doc types now have required sections.
+ * Week 4 (#277): supported doc types have required sections.
  * Exported for sharing with Sohil's editor.
  */
 export declare const REQUIRED_SECTIONS: Record<DocumentType, string[]>;

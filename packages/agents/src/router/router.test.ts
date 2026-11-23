@@ -43,6 +43,15 @@ describe("LLMRouter.resolve()", () => {
     expect(config.preferred.provider).toBe("deepseek");
   });
 
+  it("routes translation through DeepSeek, Groq, then current Gemini", () => {
+    const config = router.resolve("translator");
+    expect(config.preferred).toMatchObject({ provider: "deepseek", model: "deepseek-chat" });
+    expect(config.fallbacks).toEqual([
+      expect.objectContaining({ provider: "groq", model: "openai/gpt-oss-120b" }),
+      expect.objectContaining({ provider: "gemini", model: "gemini-3.8-flash" }),
+    ]);
+  });
+
   it("falls back to default config for unknown steps", () => {
     const config = router.resolve("unknown_step_xyz");
     expect(config.preferred.provider).toBe("deepseek");

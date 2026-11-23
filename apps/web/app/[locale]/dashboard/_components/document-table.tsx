@@ -12,6 +12,7 @@ import {
 import { useRouter } from "@/i18n/routing";
 import { StatusBadge } from "./status-badge";
 import { useTranslations } from "next-intl";
+import { Loader2, Trash2 } from "lucide-react";
 
 const DOC_TYPE_KEYS: Record<DocumentType, string> = {
   rti_application: "docTypeOptionRti",
@@ -19,6 +20,7 @@ const DOC_TYPE_KEYS: Record<DocumentType, string> = {
   nda: "docTypeOptionNda",
   consumer_complaint: "docTypeOptionConsumer",
   cheque_bounce_notice: "docTypeOptionCheque",
+  employment_contract: "docTypeOptionEmployment",
 };
 
 const MOCK_TITLE_KEYS: Record<string, string> = {
@@ -49,9 +51,11 @@ function formatDate(iso: string, tTable: any): string {
 
 interface DocumentTableProps {
   documents: Document[];
+  deletingId: string | null;
+  onDelete: (id: string, title: string) => void;
 }
 
-export function DocumentTable({ documents }: DocumentTableProps) {
+export function DocumentTable({ documents, deletingId, onDelete }: DocumentTableProps) {
   const router = useRouter();
   const t = useTranslations("dashboard");
   const tLang = useTranslations("languages");
@@ -68,6 +72,7 @@ export function DocumentTable({ documents }: DocumentTableProps) {
             <TableHead className="font-semibold text-zinc-700">{tTable("language")}</TableHead>
             <TableHead className="font-semibold text-zinc-700">{tTable("status")}</TableHead>
             <TableHead className="font-semibold text-zinc-700 text-right">{tTable("lastModified")}</TableHead>
+            <TableHead className="w-12" />
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -91,6 +96,23 @@ export function DocumentTable({ documents }: DocumentTableProps) {
               </TableCell>
               <TableCell className="text-zinc-500 text-sm text-right">
                 {formatDate(doc.updated_at, tTable)}
+              </TableCell>
+              <TableCell className="w-12 text-right">
+                <button
+                  type="button"
+                  title={t("deleteDraft")}
+                  aria-label={t("deleteDraft")}
+                  disabled={deletingId !== null}
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    onDelete(doc.id, doc.title || "Untitled");
+                  }}
+                  className="inline-flex size-8 items-center justify-center rounded-md text-zinc-500 hover:bg-red-50 hover:text-red-700 disabled:opacity-50"
+                >
+                  {deletingId === doc.id
+                    ? <Loader2 className="size-4 animate-spin" />
+                    : <Trash2 className="size-4" />}
+                </button>
               </TableCell>
             </TableRow>
           ))}

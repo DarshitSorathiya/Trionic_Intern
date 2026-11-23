@@ -160,9 +160,23 @@ const FIXTURES: Fixture[] = [
     expectActs: ["NI-1881"],
     expectQuerySubstr: "NI-1881",
   },
+  {
+    docType: "employment_contract",
+    intake: "I am hiring a designer and need a written agreement covering role, pay, term, and confidentiality.",
+    classifier: classifierFor("contract", "employment-contract", ["ICA-1872"]),
+    llmPlan: {
+      document_type: "employment_contract",
+      template_id: "employment-contract-v1",
+      pageindex_queries: ["ICA-1872 Section 10 — agreements are contracts"],
+      applicable_acts: ["ICA-1872"],
+      notes: "Use only agreed terms; flag statutory employment conditions for review.",
+    },
+    expectActs: ["ICA-1872"],
+    expectQuerySubstr: "ICA-1872",
+  },
 ];
 
-describe("runPlanner() — 5 doc-type fixtures", () => {
+describe("runPlanner() — supported doc-type fixtures", () => {
   for (const fx of FIXTURES) {
     it(`emits a ${fx.docType} plan with the correct template, acts, and queries`, async () => {
       routerRun.mockResolvedValueOnce(mockLLM(fx.llmPlan));

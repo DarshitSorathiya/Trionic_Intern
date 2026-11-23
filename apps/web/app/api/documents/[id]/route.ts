@@ -268,3 +268,79 @@ export async function GET(
     current_version: currentVersionDetails
   }, { status: 200 })
 }
+
+// ─── DELETE /api/documents/{id} ──────────────────────────────────────────────
+
+export async function DELETE(
+  _request: Request,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id: documentId } = await params
+  const supabase = await createClient()
+
+  const {
+    data: { user },
+    error: authError,
+  } = await supabase.auth.getUser()
+
+  if (authError || !user) {
+    return errorResponse('unauthorized', 'Authentication required', 401)
+  }
+
+  const { data: document, error: documentError } = await supabase
+    .from('documents')
+    .select('id, owner_id, status')
+    .eq('id', documentId)
+    .maybeSingle()
+
+  if (documentError || !document || document.owner_id !== user.id) {
+    return errorResponse('not_found', 'Document not found', 404)
+  }
+
+  if (document.status === 'generating') {
+    return errorResponse('conflict', 'A document cannot be deleted while it is generating', 409)
+  }
+
+  const storage = supabase.storage.from('exports')
+  const pageSize = 100
+
+  while (true) {
+    const { data: files, error: listError } = await storage.list(documentId, {
+      limit: pageSize,
+      offset: 0,
+    })
+
+    if (listError) {
+      if (/bucket.*not found/i.test(listError.message)) break
+      console.error('[DELETE /api/documents/:id] export listing failed:', listError)
+      return errorResponse('storage_unavailable', 'Could not verify or remove document exports', 503)
+    }
+
+    const fileNames = (files ?? [])
+      .filter((file) => file.id)
+      .map((file) => `${documentId}/${file.name}`)
+
+    if (fileNames.length > 0) {
+      const { error: removeError } = await storage.remove(fileNames)
+      if (removeError) {
+        console.error('[DELETE /api/documents/:id] export removal failed:', removeError)
+        return errorResponse('storage_unavailable', 'Could not remove document exports', 503)
+      }
+    }
+
+    if (!files || files.length < pageSize || fileNames.length === 0) break
+  }
+
+  const { error: deleteError } = await supabase
+    .from('documents')
+    .delete()
+    .eq('id', documentId)
+    .eq('owner_id', user.id)
+
+  if (deleteError) {
+    console.error('[DELETE /api/documents/:id] database delete failed:', deleteError)
+    return errorResponse('internal', 'Exports were removed, but the document could not be deleted', 500)
+  }
+
+  return NextResponse.json({ deleted: true }, { status: 200 })
+}

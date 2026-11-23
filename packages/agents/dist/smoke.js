@@ -45,6 +45,7 @@ const CANNED_INTAKES = {
     nda: "My software startup is about to share its proprietary source code and customer database with an outsourcing vendor for a 6-month engagement. I need a mutual non-disclosure agreement to protect our confidential information and personal data.",
     consumer_complaint: "I bought a refrigerator worth ₹45,000 from an online retailer. It arrived with a damaged compressor and stopped cooling within a week. The seller refuses to replace it or refund my money despite repeated emails.",
     cheque_bounce_notice: "A business partner issued me a cheque of ₹2,50,000 dated 1 May 2025 towards repayment of a loan. When I deposited it, my bank returned it on 10 May 2025 marked 'funds insufficient'. I want to send a statutory notice under Section 138.",
+    employment_contract: "I am hiring a full-time designer and want a written agreement covering the role, compensation, start date, term, confidentiality, and termination terms.",
 };
 // ─── Arg parsing ──────────────────────────────────────────────────────────────
 function parseDocTypeArg() {

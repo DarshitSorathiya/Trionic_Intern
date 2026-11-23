@@ -87,7 +87,7 @@ ${JSON.stringify(baseline, null, 2)}
 
 Produce a JSON plan with this exact shape:
 {
-  "document_type": "<rti_application | legal_notice | nda | consumer_complaint | cheque_bounce_notice>",
+  "document_type": "<rti_application | legal_notice | nda | consumer_complaint | cheque_bounce_notice | employment_contract>",
   "template_id": "<string>",
   "pageindex_queries": ["<specific query 1>", "<specific query 2>", ...],
   "applicable_acts": ["<ACT_CODE_1>", "<ACT_CODE_2>", ...],

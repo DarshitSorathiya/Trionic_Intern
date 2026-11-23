@@ -165,6 +165,7 @@ async function* runAgentChain(input, options = {}) {
             const result = await (0, index_js_1.runClassifier)({
                 intakeText: intake_text, // PII: intake text sent ONLY here
                 language: target_language,
+                documentType: input.doc_type,
                 session_id,
             });
             classifierOutput = result.classification;
